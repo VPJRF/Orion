@@ -3,7 +3,7 @@
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
-Datum (test nieuwe aanpassing door eaverdeg)
+12/12/2024(test VSC)
 
 ## Samenvatting
 Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
