@@ -82,53 +82,56 @@ Definieer de belangrijkste designbeslissingen
 -  Een lange batterijduur of aansluiting op het net is een vereiste.
 -  De functionaliteiten van de prototypes moeten worden afgestemd op de context (thuiszorg vs. woonzorgcentrum).
 -  De doelgroep bestaat (hoofdzakelijk) uit ouderen wiens mentaal model van gelijkaardige producten beperkt is, waardoor de interactie intuïtief moet zijn.
-| ID      | Design Requirement                                                                                                     | MoSCoW | Source                   | Date       |
-| ------- | ---------------------------------------------------------------------------------------------------------------------- | ------ | ------------------------ | ---------- |
-| **1**   | **Doel**                                                                                                               |        |                          |            |
-| **1.1** | **Value promise**                                                                                                      |        |                          |            |
-|         | Ontlast de mantelzorger                                                                                                | M      |                          |            |
-|         | Ontlast de professionele zorgverlener                                                                                  | S      |                          |            |
-|         | Geeft PD meer zelfstandigheid en eigenwaarde                                                                           | S      |                          |            |
-|         | Reist mee met de PD doorheen het verloop van de ziekte als vertrouwelijk element                                       | S      |                          |            |
-| **1.2** | **Doelgroepsegment**                                                                                                   |        |                          |            |
-|         | Voor PD met verstoorde oriëntatie in tijd                                                                              | M      |                          |            |
-|         | Voor PD met verstoorde oriëntatie in ruimte                                                                            | C      |                          |            |
-|         | Voor PD met doolgedrag                                                                                                 | S      |                          |            |
-| **2**   | **Karakteristieken**                                                                                                   |        |                          |            |
-| **2.1** | **Verschijning**                                                                                                       |        |                          |            |
-|         | Gaat op in de omgeving                                                                                                 | M      |                          |            |
-|         | Doet de omgeving vertrouwelijk, herkenbaar en veilig aanvoelen voor de PD                                              | S      |                          |            |
-|         | Is accepteerbaar door een oudere doelgroep                                                                             | M      |                          |            |
-| **2.2** | **Instelbaarheid**                                                                                                     |        |                          |            |
-|         | Basisfunctionaliteiten als kloksturing zijn instelbaar                                                                 | M      |                          |            |
-|         | Detailfunctionaliteiten als spraak en geluid zijn presonaliseerbaar                                                    | C      |                          |            |
-|         |                                                                                                                        |        |                          |            |
-|         | **NOG IN TE DELEN**                                                                                                    |        |                          |            |
-|         | Feedback voor de MZ, IZ, PZ over hoe lang (indien te lang) de PD wegblijft                                             | S      |                          |            |
-|         | Instelbare vertraging van tijdsgevoelige waarschuwingen                                                                | S      |                          |            |
-|         | Personaliseerbare spraakberichten                                                                                      | S      | Prototypes expert review | 13/12/2024 |
-|         | Communicatie met DECT                                                                                                  | C      | Prototypes expert review | 13/12/2024 |
-|         | Communicatie met app (inwonende) MZ & familie                                                                          | S      | Prototypes expert review | 13/12/2024 |
-|         | Detectie van route en bijhorende tijdsindicatie van de PD                                                              | M      | Prototypes expert review | 13/12/2024 |
-|         | Personaliseerbaar snoezelprogramma met hulp voor inspraak van de PD                                                    | S      | Prototypes expert review | 13/12/2024 |
-|         | Lange batterijlevensduur en/of aansluiting op netstroom                                                                | M      | Cognitive walkthrough    | 13/12/2024 |
-|         | Buiten direct handbereik van PD                                                                                        | M      | Prototypes think aloud   | 13/12/2024 |
-|         | De aan/uit-knop is moeilijk te gebruiken door de PD, doch voldoende eenvoudig te gebruiken door de MZ, PZ en IZ        | M      | Prototypes think aloud   | 13/12/2024 |
-|         | Koppeling met wearable (hartslagsensor)                                                                                | W      | State of the Art         | 16/12/2024 |
-|         | Koppeling met geavanceerde detectiesystemen (Mintt)                                                                    | W      | State of the Art         | 16/12/2024 |
-|         | Activiteit monitoring                                                                                                  | C      | State of the Art         | 16/12/2024 |
-|         | Kost minder dan €800                                                                                                   | M      |                          |            |
-|         | Meeneembaar op verplaatsing                                                                                            |        |                          |            |
-|         | Dringt geen onnodige functies op                                                                                       | M      |                          |            |
-|         | Veroorzaak geen gevoel van schaamte of onaangename confrontatie met de gevolgen van de ziekte                          | M      |                          |            |
-|         | De positionering vermijd de kans op verblinding                                                                        | M      |                          |            |
-|         | De zintuigelijke prikkels veroorzaken geen agitatie door hun zeer geleidelijke in- en uittrede                         | M      |                          |            |
-|         | De detectie is failsafe en werkt wanneer deuren worden opengelaten                                                     | S      |                          |            |
-|         | De mantelzorger kan het product zelf installeren, mits de eventuele hulp van een familielid i.g.v. beperkte mobiliteit | S      |                          |            |
-|         | Deurtype-onafhankelijke werking en installatie                                                                         | M      |                          |            |
-|         | Gaat op in zijn omgeving                                                                                               | S      |                          |            |
-|         | Emotioneel/nostalgische waarde                                                                                         | C      |                          |            |
-|         | Functies worden gradueel geïntroduceerd op tempo van de gebruiker                                                      | S      |                          |            |
+
+(test kopie tabel Obsidian)
+
+| ID | Design Requirement | MoSCoW | Source | Date |
+| -- | -- | -- | -- | -- |
+| **1** | **Doel** | | | |
+| **1.1** | **Value promise** | | | |
+| | Ontlast de mantelzorger | M | | |
+| | Ontlast de professionele zorgverlener | S | | |
+| | Geeft PD meer zelfstandigheid en eigenwaarde | S | | |
+| | Reist mee met de PD doorheen het verloop van de ziekte als vertrouwelijk element | S | | |
+| **1.2** | **Doelgroepsegment** | | | |
+| | Voor PD met verstoorde oriëntatie in tijd | M | | |
+| | Voor PD met verstoorde oriëntatie in ruimte | C | | |
+| | Voor PD met doolgedrag | S | | |
+| **2** | **Karakteristieken** | | | |
+| **2.1** | **Verschijning** | | | |
+| | Gaat op in de omgeving | M | | |
+| | Doet de omgeving vertrouwelijk, herkenbaar en veilig aanvoelen voor de PD | S | | |
+| | Is accepteerbaar door een oudere doelgroep | M | | |
+| **2.2** | **Instelbaarheid** | | | |
+| | Basisfunctionaliteiten als kloksturing zijn instelbaar | M | | |
+| | Detailfunctionaliteiten als spraak en geluid zijn presonaliseerbaar | C | | |
+| | | | | |
+| | **NOG IN TE DELEN** | | | |
+| | Feedback voor de MZ, IZ, PZ over hoe lang (indien te lang) de PD wegblijft | S | | |
+| | Instelbare vertraging van tijdsgevoelige waarschuwingen | S | | |
+| | Personaliseerbare spraakberichten | S | Prototypes expert review | 13/12/2024 |
+| | Communicatie met DECT | C | Prototypes expert review | 13/12/2024 |
+| | Communicatie met app (inwonende) MZ & familie | S | Prototypes expert review | 13/12/2024 |
+| | Detectie van route en bijhorende tijdsindicatie van de PD | M | Prototypes expert review | 13/12/2024 |
+| | Personaliseerbaar snoezelprogramma met hulp voor inspraak van de PD | S | Prototypes expert review | 13/12/2024 |
+| | Lange batterijlevensduur en/of aansluiting op netstroom | M | Cognitive walkthrough | 13/12/2024 |
+| | Buiten direct handbereik van PD | M | Prototypes think aloud | 13/12/2024 |
+| | De aan/uit-knop is moeilijk te gebruiken door de PD, doch voldoende eenvoudig te gebruiken door de MZ, PZ en IZ | M | Prototypes think aloud | 13/12/2024 |
+| | Koppeling met wearable (hartslagsensor) | W | State of the Art | 16/12/2024 |
+| | Koppeling met geavanceerde detectiesystemen (Mintt) | W | State of the Art | 16/12/2024 |
+| | Activiteit monitoring | C | State of the Art | 16/12/2024 |
+| | Kost minder dan €800 | M | | |
+| | Meeneembaar op verplaatsing | | | |
+| | Dringt geen onnodige functies op | M | | |
+| | Veroorzaak geen gevoel van schaamte of onaangename confrontatie met de gevolgen van de ziekte | M | | |
+| | De positionering vermijd de kans op verblinding | M | | |
+| | De zintuigelijke prikkels veroorzaken geen agitatie door hun zeer geleidelijke in- en uittrede | M | | |
+| | De detectie is failsafe en werkt wanneer deuren worden opengelaten | S | | |
+| | De mantelzorger kan het product zelf installeren, mits de eventuele hulp van een familielid i.g.v. beperkte mobiliteit | S | | |
+| | Deurtype-onafhankelijke werking en installatie | M | | |
+| | Gaat op in zijn omgeving | S | | |
+| | Emotioneel/nostalgische waarde | C | | |
+| | Functies worden gradueel geïntroduceerd op tempo van de gebruiker | S | | |
 
 ## Bill of materials
 - Welk
