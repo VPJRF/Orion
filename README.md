@@ -159,6 +159,31 @@ Breadcrumb:
 -Microcontroller
 -Voeding
 
+#### Breadcrumb (x2)
+- Processor (Arduino)
+- Aan/uit-klop
+- Zigbee zender en ontvanger
+- Acceleratiemeter
+- RGB LEDs
+- Voeding (5V) & circuits
+- Behuizingscomponenten (te ontwerpen)
+#### Beacon (x1)
+- Processoren (Arduino)
+- Aan/uit-knop
+- Zigbee zender en ontvanger
+- IR-camera module (AMG8833)
+- Klokmodule (RTC)
+- Lichtsensor
+- Ultrasone aroma verstuiver (x2)
+- RGB LEDs (x2)
+- Luidspreker (versterker, MP3-module, Micro-SD geheugenkaart)
+- Voeding (5V) & circuits
+- behuizingscomponenten (te ontwerpen)
+#### Overige
+- Code voor sturing timing & communicatie
+- App voor instellen & personaliseren
+- Biosensors voor product evaluation testing
+
 ## Kritische reflectie
 Max. 500 woorden
 
