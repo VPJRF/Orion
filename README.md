@@ -1,17 +1,21 @@
-# Projecttitel -Hulpmiddel voor mantelzorgers van personen met dementie (werktitel)
-*Omschrijving van je concept in 1 zin* 
-Een multi-sensorieel hulpmiddel dat de nachtrust van zowel de persoon met dementie als de mantelzorger bevordert, door een verstoord dag-nachtritme te adresseren met behulp van licht en geluid, en tegelijkertijd zelfstandige nachtelijke oriëntatie ondersteunt.
+# Projecttitel -Hulpmiddel voor mantelzorgers van personen met dementie -Orion-
+*Een smart-home device om slaap en gemoedsrust van de manterlzorger te garanderen door zelfstandigheid van personen met dementie te verhogen * 
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
 06/01/2025
 
-## Samenvatting
-- Hero sketch/render/image
-  
-Dit project onderzoekt de problematiek van verstoorde dag-nachtritmes bij personen met dementie en de impact hiervan op mantelzorgers. Door middel van literatuuronderzoek, interviews, observaties en prototype testen is de noodzaak voor een hulpmiddel geïdentificeerd dat de nachtrust verbetert en mantelzorgers ontlast. De voorgestelde oplossing bestaat uit twee prototypes: de Breadcrumb (een reeks lichtjes die een pad vormen) en de Beacon (een multi-sensoriele lamp). Deze prototypes zijn gericht op het reduceren van onrust, het bevorderen van oriëntatie tijdens de nacht, en het verlagen van de belasting van de mantelzorger, met als doel thuiszorg langer mogelijk te maken.
-![image](https://github.com/user-attachments/assets/1bc277f8-803a-4f7f-b774-983aeba85a83)
-![image](https://github.com/user-attachments/assets/ff86eb54-93d0-483a-b74e-2c397e394a67)
+## Samenvatting  
+
+Elke vier seconden krijgt iemand wereldwijd de diagnose dementie, wat de druk op mantelzorgers en de zorgsector vergroot. Dit project richt zich op het probleem van verstoorde dag-nachtritmes bij mensen met dementie, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort.
+
+Uit onderzoek, interviews en prototype testen bleek de behoefte aan hulpmiddelen die nachtelijke onrust verminderen en mantelzorgers ondersteunen. De oplossing bestaat uit twee prototypes: de Breadcrumb, een serie lichtjes die een pad vormen om oriëntatie te bieden, en de Beacon, een multi-sensoriele lamp die rust en veiligheid creëert.
+
+Deze prototypes zijn ontworpen om de zelfstandigheid van mensen met dementie ’s nachts te bevorderen, onrust te verminderen en de belasting voor mantelzorgers te verlichten. Zo kunnen mantelzorgers langer zorg bieden zonder in te boeten op hun eigen nachtrust.
+
+Dit project toont de kracht van technologie om de zorg thuis duurzamer en aangenamer te maken voor zowel mensen met dementie als hun verzorgers.
+![image](https://github.com/user-attachments/assets/1bc277f8-803a-4f7f-b774-983aeba85a83 | width=100)
+![image](https://github.com/user-attachments/assets/ff86eb54-93d0-483a-b74e-2c397e394a67 | width=100)
 
 
 
@@ -20,7 +24,9 @@ Max 300 woorden.
 Kader je project. Introduceer het probleem en jouw doelstellingen (inclusief boundary conditions).
 Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/category/apa-stijl/)).
 
-Personen met dementie ervaren vaak een verstoord dag-nachtritme, wat leidt tot onrust en dwaalgedrag gedurende de nacht. Dit heeft een aanzienlijke impact op de mantelzorgers, die hierdoor een slechte nachtrust ervaren en overbelast raken. De toenemende vergrijzing en het personeelstekort in de professionele zorg verhogen de druk op mantelzorgers. Het doel van dit project is het ontwikkelen van een hulpmiddel dat de nachtrust van zowel de persoon met dementie als de mantelzorger verbetert, en zo de thuiszorg langer mogelijk maakt. De focus ligt op het verminderen van de last voor de mantelzorger door het verstoren van het dag-nachtritme te reduceren. Er wordt rekening gehouden met de randvoorwaarde dat het product mee moet kunnen verhuizen naar een woonzorgcentrum indien opname noodzakelijk wordt. De Breadcrumb en Beacon zijn ontworpen om te integreren in de leefwereld van de oudere en op een intuïtieve manier te werken.
+Elke vier seconden krijgt iemand de diagnose van dementie, en met de opkomst van deze ziekte en de crisis in de zorg, worden mantelzorgers fundamenteel om personen met dementie te ondersteunen. Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen.
+Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt tot nachtelijke onrust en dwalen. Dit verstoort niet alleen de nachtrust van de persoon met dementie zelf, maar ook die van hun mantelzorgers, vaak de partner. Deze aanhoudende belasting kan leiden tot fysieke en emotionele uitputting van de mantelzorger, wat de beslissing tot een vaste opname in een woonzorgcentrum kan bespoedigen.
+Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van personen met dementie en hun mantelzorgers bevordert, zodat thuiszorg langer mogelijk blijft. Daarbij is het cruciaal om de autonomie van de zorgbehoevende te ondersteunen en de druk op mantelzorgers te verlagen. Dit vereist oplossingen die rekening houden met de uiteenlopende en veranderende cognitieve en zintuiglijke capaciteiten van personen met dementie. De focus ligt op het minimaliseren van nachtelijke interventies en het ondersteunen van een zelfstandig dag-nachtritme. De ontwikkelde oplossing moet bovendien flexibel zijn en ook in een woonzorgcentrum gebruikt kunnen worden om de professionele zorgverleners te ontlasten
 
 ## Methodologie
 Max 400 woorden. Beschrijf je methodologie (enkel SEM1, zie les methodologie). Maak hierbij gebruik van een afbeelding om je tijdlijn weer te geven. Op deze tijdlijn moeten minimaal een tijdsincatie te zien zijn, moeten fasen te zien zijn en moeten activiteiten te zien zijn.
