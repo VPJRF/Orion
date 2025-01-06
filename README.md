@@ -7,14 +7,13 @@ Een multi-sensorieel hulpmiddel dat de nachtrust van zowel de persoon met dement
 06/01/2025
 
 ## Samenvatting
-Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
-- Wat is het probleem?
-- Hoe heb je dit onderzocht?
-- Wat is jouw oplossing?
-- Hoe lost jouw oplossing het probleem op?
 - Hero sketch/render/image
   
 Dit project onderzoekt de problematiek van verstoorde dag-nachtritmes bij personen met dementie en de impact hiervan op mantelzorgers. Door middel van literatuuronderzoek, interviews, observaties en prototype testen is de noodzaak voor een hulpmiddel geïdentificeerd dat de nachtrust verbetert en mantelzorgers ontlast. De voorgestelde oplossing bestaat uit twee prototypes: de Breadcrumb (een reeks lichtjes die een pad vormen) en de Beacon (een multi-sensoriele lamp). Deze prototypes zijn gericht op het reduceren van onrust, het bevorderen van oriëntatie tijdens de nacht, en het verlagen van de belasting van de mantelzorger, met als doel thuiszorg langer mogelijk te maken.
+![image](https://github.com/user-attachments/assets/1bc277f8-803a-4f7f-b774-983aeba85a83)
+![image](https://github.com/user-attachments/assets/ff86eb54-93d0-483a-b74e-2c397e394a67)
+
+
 
 ## Introductie
 Max 300 woorden.
