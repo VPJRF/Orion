@@ -24,6 +24,7 @@ Personen met dementie ervaren vaak een verstoord dag-nachtritme, wat leidt tot o
 
 ## Methodologie
 Max 400 woorden. Beschrijf je methodologie (enkel SEM1, zie les methodologie). Maak hierbij gebruik van een afbeelding om je tijdlijn weer te geven. Op deze tijdlijn moeten minimaal een tijdsincatie te zien zijn, moeten fasen te zien zijn en moeten activiteiten te zien zijn.
+![image](https://github.com/user-attachments/assets/3584e5c7-0d1a-4001-9f66-f06c78a631b2)
 
 Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase. De discovery fase omvatte een literatuurstudie om een breed en helder beeld te krijgen van dementie, de sociale context en de bestaande oplossingen. Daarnaast werden er etnografische observaties in een dagcentrum uitgevoerd om de problematiek in de praktijk te observeren. In deze fase werden ook interviews afgenomen met mantelzorgers en zorgprofessionals om hun ervaringen en noden te begrijpen. De definitiefase richt zich op het prototypen en testen van oplossingen. Deze fase bestaat uit minimaal twee iteraties waarin verschillende prototypes ontwikkeld, getest en geëvalueerd worden om de meest effectieve oplossing te vinden. Hierbij wordt het 'Think Aloud Protocol' gehanteerd. De nadruk ligt op concept testing en in mindere mate usability testing.
 
