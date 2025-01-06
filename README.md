@@ -4,7 +4,7 @@ Een multi-sensorieel hulpmiddel dat de nachtrust van zowel de persoon met dement
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
-12/12/2024(test VSC)
+06/01/2025
 
 ## Samenvatting
 Max 200 woorden. Beschrijf je project in het kort, waarbij je deze vragen zeker beantwoordt:
@@ -70,7 +70,7 @@ Hoe onderzocht je dit? Wees volledig.
 -  Prototype ontwikkeling: Ontwikkeling van de Breadcrumb (lichtjes die een pad vormen) en de Beacon (een multi-sensorieel kussen/lamp) gericht op het verbeteren van de nachtrust en zelfstandige nachtelijke oriëntatie.
 -  Testprotocollen: Opstellen van testprotocollen om de prototypes systematisch te evalueren met focus op concept testing.
 -  Gebruikerstesten: Uitvoeren van gebruikerstesten met mantelzorgers en zorgprofessionals, waarbij de prototypes in realistische scenario's worden uitgeprobeerd. Er wordt gelet op zowel verbaal als non-verbaal gedrag (grime) bij het gebruik van de prototypes.
--  
+
 ### Resultaten
 Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
 ### Conclusies & implicaties
@@ -83,82 +83,62 @@ Definieer de belangrijkste designbeslissingen
 -  De functionaliteiten van de prototypes moeten worden afgestemd op de context (thuiszorg vs. woonzorgcentrum).
 -  De doelgroep bestaat (hoofdzakelijk) uit ouderen wiens mentaal model van gelijkaardige producten beperkt is, waardoor de interactie intuïtief moet zijn.
 
-(test kopie tabel Obsidian)
-
 | ID | Design Requirement | MoSCoW | Source | Date |
-| -- | -- | -- | -- | -- |
-| **1** | **Doel** | | | |
-| **1.1** | **Value promise** | | | |
-| | Ontlast de mantelzorger | M | | |
-| | Ontlast de professionele zorgverlener | S | | |
-| | Geeft PD meer zelfstandigheid en eigenwaarde | S | | |
-| | Reist mee met de PD doorheen het verloop van de ziekte als vertrouwelijk element | S | | |
-| **1.2** | **Doelgroepsegment** | | | |
-| | Voor PD met verstoorde oriëntatie in tijd | M | | |
-| | Voor PD met verstoorde oriëntatie in ruimte | C | | |
-| | Voor PD met doolgedrag | S | | |
-| **2** | **Karakteristieken** | | | |
-| **2.1** | **Verschijning** | | | |
-| | Gaat op in de omgeving | M | | |
-| | Doet de omgeving vertrouwelijk, herkenbaar en veilig aanvoelen voor de PD | S | | |
-| | Is accepteerbaar door een oudere doelgroep | M | | |
-| **2.2** | **Instelbaarheid** | | | |
-| | Basisfunctionaliteiten als kloksturing zijn instelbaar | M | | |
-| | Detailfunctionaliteiten als spraak en geluid zijn presonaliseerbaar | C | | |
-| | | | | |
-| | **NOG IN TE DELEN** | | | |
-| | Feedback voor de MZ, IZ, PZ over hoe lang (indien te lang) de PD wegblijft | S | | |
-| | Instelbare vertraging van tijdsgevoelige waarschuwingen | S | | |
-| | Personaliseerbare spraakberichten | S | Prototypes expert review | 13/12/2024 |
-| | Communicatie met DECT | C | Prototypes expert review | 13/12/2024 |
-| | Communicatie met app (inwonende) MZ & familie | S | Prototypes expert review | 13/12/2024 |
-| | Detectie van route en bijhorende tijdsindicatie van de PD | M | Prototypes expert review | 13/12/2024 |
-| | Personaliseerbaar snoezelprogramma met hulp voor inspraak van de PD | S | Prototypes expert review | 13/12/2024 |
-| | Lange batterijlevensduur en/of aansluiting op netstroom | M | Cognitive walkthrough | 13/12/2024 |
-| | Buiten direct handbereik van PD | M | Prototypes think aloud | 13/12/2024 |
-| | De aan/uit-knop is moeilijk te gebruiken door de PD, doch voldoende eenvoudig te gebruiken door de MZ, PZ en IZ | M | Prototypes think aloud | 13/12/2024 |
-| | Koppeling met wearable (hartslagsensor) | W | State of the Art | 16/12/2024 |
-| | Koppeling met geavanceerde detectiesystemen (Mintt) | W | State of the Art | 16/12/2024 |
-| | Activiteit monitoring | C | State of the Art | 16/12/2024 |
-| | Kost minder dan €800 | M | | |
-| | Meeneembaar op verplaatsing | | | |
-| | Dringt geen onnodige functies op | M | | |
-| | Veroorzaak geen gevoel van schaamte of onaangename confrontatie met de gevolgen van de ziekte | M | | |
-| | De positionering vermijd de kans op verblinding | M | | |
-| | De zintuigelijke prikkels veroorzaken geen agitatie door hun zeer geleidelijke in- en uittrede | M | | |
-| | De detectie is failsafe en werkt wanneer deuren worden opengelaten | S | | |
-| | De mantelzorger kan het product zelf installeren, mits de eventuele hulp van een familielid i.g.v. beperkte mobiliteit | S | | |
-| | Deurtype-onafhankelijke werking en installatie | M | | |
-| | Gaat op in zijn omgeving | S | | |
-| | Emotioneel/nostalgische waarde | C | | |
-| | Functies worden gradueel geïntroduceerd op tempo van de gebruiker | S | | |
+| - | - | - | - | - |
+| **1** | **ONTLAST DE NABIJE ZORGVERLENERS** | M | User interview | 13/10/2024 |
+| **1.1** | **Ontlast de mantelzorger (MZ) door minder verstoorde nachtrust**<br>en biedt geruststelling ook wanneer de DP niet in de onmiddellijke nabijheid is | M | User interview | 13/10/2024 |
+| 1.1.1 | Geeft feedback voor de MZ, IZ, PZ over hoe lang (indien te lang) de PD wegblijft | S | Expert review | 13/12/2024 |
+| 1.1.2 | Detectie van route en bijhorende tijdsindicatie van de PD | M | Expert review | 13/12/2024 |
+| 1.1.3 | De detectie is failsafe en werkt wanneer deuren worden opengelaten | S | Cognitive walkthrough | 25/11/2024 |
+| 1.1.4 | Communiceert met een smartphone app (inwonende) MZ & familie | S | Expert review | 13/12/2024 |
+| 1.1.5 | Waarschuwingsgevoelidheid is instelbaar | S | Expert review | 13/12/2024 |
+| **1.2** | **Ontlast de professionele zorgverlener (PZ) door minder verstoorde nachtshift** | S | Ethnography | 15/10/2024 |
+| 1.2.1 | Personaliseerbare spraakberichten minimaliseren interventies door PZ | S | Expert review | 13/12/2024 |
+| 1.2.2 | Communiceert met DECT | C | Expert review | 13/12/2024 |
+| 1.2.3 | Waarschuwingsgevoeligheid is instelbaar | M | Expert review | 13/12/2024 |
+| **2** | **EMPOWERT EEN BREED SPECTRUM AAN PERONEN MET DEMENTIE (PD)** | M | Literature review | 20/11/2024 |
+| **2.1** | **Geeft PD meer zelfstandigheid en eigenwaarde en biedt een cognitieve en geruststellende ondersteuning** | M | Think aloud | 13/12/2024 |
+| 2.1.1 | Begeleid de PD bij een nachtelijk toiletbezoek | M | User interview | 13/10/2024 |
+| 2.1.2 | Oriënteert de PD in de tijd (dag-nacht-onderscheid) | S | User interview | 13/10/2024 |
+| 2.1.3 | Beperkt de PD niet in zijn (bewegings)vrijheid | M | Ethnography | 15/10/2024 |
+| 2.1.4 | Respecteert de privacy van de DP en de MZ | M | State of the Art | 16/12/2024 |
+| 2.1.5 | De interacties zijn intiütief | M | Think aloud | 13/12/2024 |
+| **2.2** | **Biedt een meerwaarde voor >50% van de varianten en gradaties van de ziekte** | M | Literature review | 12/10/2024 |
+| 2.2.1 | [...] verstoorde oriëntatie in tijd | M | Literature review | 12/10/2024 |
+| 2.2.2 | [...] verstoorde oriëntatie in ruimte | C | Literature review | 12/10/2024 |
+| 2.2.3 | [...] doolgedrag | S | Literature review | 12/10/2024 |
+| **2.3** | **Bevordert het circadiaans ritme van de PD** | C | Literature review | 20/11/2024 |
+| 2.3.1 | Bevat enkel functies waarvan de doeltreffendheid in de praktijk werd aangetoond | M | Expert review | 13/12/2024 |
+| 2.3.2 | Multisenoriële snoezelfuncties bevorderen het inslapen | S | Expert review | 13/12/2024 |
+| 3.1.3 | Dringt geen onnodige of ongewenste functies op | M | Think aloud | 13/12/2024 |
+| 2.3.4 | Snoezelfuncties en kloksturing zijn personaliseerbaar door de MZ | M | Think aloud | 13/12/2024 |
+| 2.3.4.1 | PD wordt actief betrokken bij de configuratie van het toestel | C | Think aloud | 13/12/2024 |
+| **2.4** | **Evolueert mee met de PD** | M | Ethnography | 15/10/2024 |
+| 2.4.1 | Reist mee met de PD doorheen het verloop van de ziekte als vertrouwelijk element | S | Ethnography | 15/10/2024 |
+| 2.4.2 | Kan eenvoudig geïnstalleerd worden ongeacht de omgeving | M | Think aloud | 13/12/2024 |
+| **3** | **VOORKOMT BIJKOMENDE EMOTIONELE, COGNITIEVE OF FYSIEKE BELASTING** | M | Think aloud | 13/12/2024 |
+| **3.1** | **Voorkomt agitatie en verwarring van de PD** | M | Think aloud | 13/12/2024 |
+| 3.1.1 | Veroorzaak geen gevoel van schaamte of confrontatie | M | Think aloud | 13/12/2024 |
+| 3.1.2 | Doet de omgeving vertrouwelijk, herkenbaar en veilig aanvoelen voor de PD | S | Think aloud | 12/12/2024 |
+| 3.1.3 | Trekt enkel de aandacht van de PD wanneer functioneel relevant | M | Think aloud | 13/12/2024 |
+| 3.1.4 | Kan om met foutieve interacties en heeft een beveiligde bediening waar nodig | M | Expert review | 13/12/2024 |
+| 3.1.5 | Belichting veroorzaakt geen verblinding of agitatie | M | Think aloud | 13/12/2024 |
+| 3.1.6 | Prikkelintensiteit is afgesteld op het beoogde doel en is contextueel | M | Think aloud | 13/12/2024 |
+| **3.2** | **Voorkomt bijkomende belasting van de zorgverlener(s)** | M | Cognitive walkthrough | 25/11/2024 |
+| 3.2.1 | Vermijdt prikkels die de nachtrust van de meeslapende verstoren | M | Cognitive walkthrough | 25/11/2024 |
+| 3.2.2 | Heeft een batterijlevensduur van minimaal 1 jaar of is aansluiting op netstroom | M | Cognitive walkthrough | 13/12/2024 |
+| **4** | **OPTIMALISEERT HET ADOPTIEPOTENTIEEL** | M | Think aloud | 13/12/2024 |
+| 4.1 | Kost minder dan €800 | M | State of the Art | 16/12/2024 |
+| 4.2 | Een IZ (MZ of familie) kan het product zelf installeren en configureren via een app | S | Cognitive walkthrough | 25/11/2024 |
+| 4.3 | Functies worden gradueel geïntroduceerd op tempo van de gebruiker | S | Think aloud | 13/12/2024 |
+| 4.4 | Heeft een emotionele en of nostalgische waarde voor de gebruiker(s) | C | Think aloud | 13/12/2024 |
+| **5** | **NOT HAVES / NICE TO HAVES** | | | |
+| 5.1 | Koppeling met wearable (hartslagsensor) | C | State of the Art | 16/12/2024 |
+| 5.2 | Koppeling met geavanceerde detectiesystemen (Mintt) | C | State of the Art | 16/12/2024 |
+| 5.3 | Activiteit monitoring | C | State of the Art | 16/12/2024 |
+| 5.4 | Meeneembaar op verplaatsing | C | User interview | 13/10/2024 |
 
 ## Bill of materials
-- Welk
-- Materiaal
-- Heb
-- Je
-- Nu
-- Nodig
-- Voor
-- Je
-- Prototype
-
-Beacon:
--Kussen of lamp
--LED-verlichting met instelbare kleuren
--Speaker voor geluidsweergave (pink noise, muziek, luisterverhaal, herkenbare stem)
--Microcontroller
--Voeding
--Aroma diffuser
--Optioneel: Projector voor snoezelprojecties
-
-Breadcrumb:
--Lichtjes
--Afstandssensor
--Microcontroller
--Voeding
-
 #### Breadcrumb (x2)
 - Processor (Arduino)
 - Aan/uit-klop
