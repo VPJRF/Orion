@@ -14,8 +14,8 @@ Uit onderzoek, interviews en prototype testen bleek de behoefte aan hulpmiddelen
 Deze prototypes zijn ontworpen om de zelfstandigheid van mensen met dementie ’s nachts te bevorderen, onrust te verminderen en de belasting voor mantelzorgers te verlichten. Zo kunnen mantelzorgers langer zorg bieden zonder in te boeten op hun eigen nachtrust.
 
 Dit project toont de kracht van technologie om de zorg thuis duurzamer en aangenamer te maken voor zowel mensen met dementie als hun verzorgers.
-![image](https://github.com/user-attachments/assets/1bc277f8-803a-4f7f-b774-983aeba85a83 | width=100)
-![image](https://github.com/user-attachments/assets/ff86eb54-93d0-483a-b74e-2c397e394a67 | width=100)
+![image](https://github.com/user-attachments/assets/1bc277f8-803a-4f7f-b774-983aeba85a83
+![image](https://github.com/user-attachments/assets/ff86eb54-93d0-483a-b74e-2c397e394a67
 
 
 
@@ -40,27 +40,61 @@ Max. 1000 woorden
 ### Doestellingen
 Wat wilde je bereiken?
 
+-  Een begrip krijgen van wat de ziekte inhoud.
 -  Een diepgaand begrip krijgen van de problematiek rond dementie en de impact op mantelzorgers.
 -  Het identificeren van de belangrijkste noden en behoeften van mantelzorgers en personen met dementie.
+-  Hoe de personen met dementie en mantelzorger dagopvang ervaren.
 -  Het in kaart brengen van bestaande technologieën en oplossingen, en het identificeren van onderbelichte thema’s.
   
 ### Materiaal & methoden
 Hoe onderzocht je dit? Wees volledig.
-
--  Literatuurstudie: Analyse van wetenschappelijke artikelen, rapporten en andere relevante documenten over dementie, mantelzorg en technologische hulpmiddelen.
--  Etnografie: Observaties in een dagcentrum om de dagelijkse realiteit van personen met dementie en zorgverleners te ervaren.
--  Gebruikersinterviews: Semigestructureerde interviews met mantelzorgers, zorgprofessionals en andere stakeholders om hun ervaringen, behoeften en meningen te verzamelen.
+Een antwoord op de vorige vragen werd verkregen via een 
+1:  literatuurstudie, hierin gefocust op een onderbouwd begrip vormen van de ziekte, de problematieken die ermee gepaard gaan, de effecten op de
+    persoon met dementie en zijn omgeving en de bestaande technologieën die hierin hulp trachten te bieden. Dit aan de hand van analyse van wetenschappelijke artikelen, rapporten en andere relevante documenten       over dementie, mantelzorg en technologische hulpmiddelen.
+2:  Ethnografisch onderzoek, dit in de vorm van A Day in the Life. We trachten de positieve en negatieve effecten van dagopvang in kaart te brengen en de doelgroep van dichtbij te observeren om ons begrip van de     ziekte scherper te stellen. Dit waren observaties, field notes en contextual inquiries binnen een dagcentrum.
+3:  Groepsgesprekken, dit waren semigestructureerde groepsgesprekken met mantelzorgers en dagverzorgingsmedewerkers in twee woonzorgcentra om ervaringen. Deze groepen werden gebruikt om behoeften, noden,             ideëen en meningen over het project te verkrijgen.
 
 ### Resultaten
-Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
+Literatuurstudie: 
+Dementie is een complexe ziekte met uiteenlopende symptomen, dewelke uiteenlopende lasten met zich
+meebrengen voor zowel de persoon zelf, als de (informele) zorgverleners. Er is veel onderzoek en innovatie
+gaande en vernieuwingen spitsen zich toe op uiteenlopende problematieken.
+-  Communicatie en sociale interactie
+-  Fysieke veiligheid en bewegingsvrijheid
+-  Cognitieve stimulatie en geheugenondersteuning
+-  Ondersteuning voor dagelijkse zorgactiviteiten en zelfredzaamheid
+Hoewel de meeste technologieën zijn gericht op de patiënt, zijn er weinig toepassingen specifiek gericht op de
+emotionele ondersteuning en stressreductie voor mantelzorgers zelf.
+Artificiële intelligentie is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en
+de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe
+technologieën enkele belangrijke complexiteiten met zich mee.
+
+
+Ethnography: Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie.
+Dagcentra of een uitstap met een vrijwilliger of 2de lijn mantelzorger bieden een moment van decompressie.
+Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing
+die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de
+druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van
+leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de
+benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende.
+Hieronder nog een fishbone diagram met de belangrijkste zaken m.b.t de belasting van mantelzorgers.
+![image](https://github.com/user-attachments/assets/f7cf4470-464d-4ac2-993c-3a9524c696bc)
+
+Gebruiksinterviews: Pwd hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te 
+dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te 
+hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de 
+MZs dan ook wakker, dit wederzijds om de PwD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat 
+zowel de MZ als PwD pas gerust zijn wanneer deze weten dat de PwD terug in bed ligt. Vaak wanneer de nachten té zwaar 
+worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum 
+ook. De angst voor een nieuwe woonomgeving van de PwD geeft angst voor een versnellende ziekte. Maar een MZ zonder 
+slaap gaat er hoe dan ook aan onderdoor.
+"Een verstoorde nachtrust van personen met dementie is vaak het duwtje van dagopvang naar vaste opvang." -Joris Cappon
+
+
+
 ### Conclusies & implicaties
 Definieer de belangrijkste designbeslissingen
-
--  Mantelzorgers ervaren een enorme last door de zorg voor personen met dementie, vooral door verstoorde dag-nachtritmes.
--  Communicatie en informatie-uitwisseling tussen mantelzorgers en zorgverleners is belangrijk.
--  Er is nood aan technologieën die de zelfstandigheid van personen met dementie ondersteunen en de last van mantelzorgers verminderen.
--  Bestaande oplossingen zijn vaak niet toereikend of niet afgestemd op de specifieke behoeften van de doelgroep.
--  Belang van het betrekken van de persoon met dementie in het ontwerpproces en het creëren van oplossingen die inspelen op hun zintuigen.
+De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstandigheid van de pwd moet garanderen. De drempel voor gebruik moet ook laag blijven, het moet zo intuitief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geimplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeert worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit, het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze wakker komt.
 
 ## Definition
 Max. 1000 woorden
