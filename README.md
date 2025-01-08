@@ -1,32 +1,42 @@
-# Projecttitel -Hulpmiddel voor mantelzorgers van personen met dementie -Orion-
-*Een smart-home device om slaap en gemoedsrust van de manterlzorger te garanderen door zelfstandigheid van personen met dementie te verhogen * 
+# Orion
+*Een multi-sensorieel hulpmiddel dat de nachtrust en de nachtelijke gemoedsrust van de mantelzorger van een persoon met dementie bevordert, door het circadiaans ritme, de nachtelijke oriëntatie in ruimte en tijd en bijgevolg de slaapkwaliteit van de persoon met dementie te ondersteunen.*
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
 06/01/2025
 
-## Samenvatting  
+`PD` persoon met dementie <br>
+`MZ` mantelzorger (bv. partner) <br>
+`PZ` professionele zorgverlener <br>
+`IZ` informele zorgverlener (bv. familielid)
 
-Elke vier seconden krijgt iemand wereldwijd de diagnose dementie, wat de druk op mantelzorgers en de zorgsector vergroot. Dit project richt zich op het probleem van verstoorde dag-nachtritmes bij mensen met dementie, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort.
+## Samenvatting
+Dit project richt zich op het probleem van verstoorde dag-nachtritmes bij mensen met dementie, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort.
 
-Uit onderzoek, interviews en prototype testen bleek de behoefte aan hulpmiddelen die nachtelijke onrust verminderen en mantelzorgers ondersteunen. De oplossing bestaat uit twee prototypes: de Breadcrumb, een serie lichtjes die een pad vormen om oriëntatie te bieden, en de Beacon, een multi-sensoriele lamp die rust en veiligheid creëert.
+Aan de hand van een _literature review_ (N=16), _user interviews_ (N=4), _ethnography_ (N=1) en _concept prototype testing_ (N=10) en _usability prototype testing_ (N=3) gingen we op zoek naar het werkelijke probleem – in al zijn varianten en gradaties – en in welke mate het zintuigelijke spectrum maximaal kan worden ingezet om met van de juiste prikkel op het juiste moment en op de juiste positie de nachtelijke onrust bij zowel de MZ als de PD te verminderen.
 
-Deze prototypes zijn ontworpen om de zelfstandigheid van mensen met dementie ’s nachts te bevorderen, onrust te verminderen en de belasting voor mantelzorgers te verlichten. Zo kunnen mantelzorgers langer zorg bieden zonder in te boeten op hun eigen nachtrust.
+De oplossing is tweedelig: <br>
+**_Breadcrumbs_**, een serie lichtjes met sensoren buiten de kamer die een pad vormen om de PD oriëntatie te bieden en de zijn/haar positie met de mantelzorger te communiceren. <br>
+**_Beacon_**, een multi-sensoriele nachtlamp naast het bed die rust, veiligheid creëert en een het primaire oriëntatiepunt vormt.
 
-Dit project toont de kracht van technologie om de zorg thuis duurzamer en aangenamer te maken voor zowel mensen met dementie als hun verzorgers.
-![image](https://github.com/user-attachments/assets/1bc277f8-803a-4f7f-b774-983aeba85a83
-![image](https://github.com/user-attachments/assets/ff86eb54-93d0-483a-b74e-2c397e394a67
+Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten. Orion maakt zo thuiszorg aangenamer en duurzamer.
 
-
+<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
+  <img src="/images/1.jpg" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/2.jpg" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/3.jpg" style="flex: 1; height: auto; object-fit: cover;">
+</p>
 
 ## Introductie
-Max 300 woorden.
-Kader je project. Introduceer het probleem en jouw doelstellingen (inclusief boundary conditions).
-Maak gebruik van bronverwijzingen ([zie APA stijl](https://www.scribbr.nl/category/apa-stijl/)).
+> _Elke 4 seconden krijgt iemand ergens ter wereld dementie._
 
-Elke vier seconden krijgt iemand de diagnose van dementie, en met de opkomst van deze ziekte en de crisis in de zorg, worden mantelzorgers fundamenteel om personen met dementie te ondersteunen. Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen.
-Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt tot nachtelijke onrust en dwalen. Dit verstoort niet alleen de nachtrust van de persoon met dementie zelf, maar ook die van hun mantelzorgers, vaak de partner. Deze aanhoudende belasting kan leiden tot fysieke en emotionele uitputting van de mantelzorger, wat de beslissing tot een vaste opname in een woonzorgcentrum kan bespoedigen.
-Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van personen met dementie en hun mantelzorgers bevordert, zodat thuiszorg langer mogelijk blijft. Daarbij is het cruciaal om de autonomie van de zorgbehoevende te ondersteunen en de druk op mantelzorgers te verlagen. Dit vereist oplossingen die rekening houden met de uiteenlopende en veranderende cognitieve en zintuiglijke capaciteiten van personen met dementie. De focus ligt op het minimaliseren van nachtelijke interventies en het ondersteunen van een zelfstandig dag-nachtritme. De ontwikkelde oplossing moet bovendien flexibel zijn en ook in een woonzorgcentrum gebruikt kunnen worden om de professionele zorgverleners te ontlasten
+Mensen worden steeds ouder. In 2023 gemiddeld 82,5 in België (PwC, 2024) [^1]. De keerzijde van de medaille is dat hierdoor chronische ouderdomsziektes zoals Altzheimer's vaker voorkomen. Op vandaag krijgt ongeveer 1 op 5 in de loop van zijn of haar leven een vorm van dementie. Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen. (Exptertisecentrum Dementie, 2021) [^2]. In het toekomstige value based healthcare (VBHC) model (PwC, 2024) [^1] wordt de zorgverlening verder richting de eerstelijns- en nuldelijnszorg verschoven. Dit moet onder andere een oplossing bieden aan het groeiende personeeltekort in de gezondheidssector. Deze evolutie onderstreept het belang van de informele zorgverlener en in het bijzonder de mantelzorger in het geval van zorg voor mensen met dementie.
+
+Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt tot nachtelijke onrust en dwalen. (Thomas & Ritter, 2022) [^3] Dit verstoort niet alleen de nachtrust van de persoon met dementie zelf, maar ook die van hun mantelzorgers, vaak de partner. Deze aanhoudende belasting kan leiden tot fysieke en emotionele uitputting van de mantelzorger, wat de beslissing tot een vaste opname in een woonzorgcentrum kan bespoedigen.
+
+> _“Een verstoorde nachtrust is vaak het duwtje van dagopvang naar vaste opvang.”_ – Jorick Cappon, centrumleider in Huize Ter Walle
+
+Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van PD en hun MZ bevordert, zodat thuiszorg langer mogelijk blijft. Daarbij is het cruciaal om de autonomie van de zorgbehoevende te ondersteunen en de druk op MZ te verlagen. Dit vereist oplossingen die rekening houden met de uiteenlopende en veranderende cognitieve en zintuiglijke capaciteiten van PD. De focus ligt op het minimaliseren van nachtelijke interventies en het ondersteunen van een zelfstandig dag-nachtritme. De ontwikkelde oplossing moet bovendien flexibel zijn en ook in een woonzorgcentrum gebruikt kunnen worden om de professionele zorgverleners te ontlasten.
 
 ## Methodologie
 Max 400 woorden. Beschrijf je methodologie (enkel SEM1, zie les methodologie). Maak hierbij gebruik van een afbeelding om je tijdlijn weer te geven. Op deze tijdlijn moeten minimaal een tijdsincatie te zien zijn, moeten fasen te zien zijn en moeten activiteiten te zien zijn.
@@ -38,14 +48,13 @@ Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase
 ## Discovery
 Max. 1000 woorden
 ### Doestellingen
-Wat wilde je bereiken?
 
 -  Een begrip krijgen van wat de ziekte inhoud.
 -  Een diepgaand begrip krijgen van de problematiek rond dementie en de impact op mantelzorgers.
 -  Het identificeren van de belangrijkste noden en behoeften van mantelzorgers en personen met dementie.
 -  Hoe de personen met dementie en mantelzorger dagopvang ervaren.
 -  Het in kaart brengen van bestaande technologieën en oplossingen, en het identificeren van onderbelichte thema’s.
-  
+
 ### Materiaal & methoden
 Hoe onderzocht je dit? Wees volledig.
 Een antwoord op de vorige vragen werd verkregen via een 
@@ -96,14 +105,32 @@ slaap gaat er hoe dan ook aan onderdoor.
 Definieer de belangrijkste designbeslissingen
 De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstandigheid van de pwd moet garanderen. De drempel voor gebruik moet ook laag blijven, het moet zo intuitief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geimplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeert worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit, het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze wakker komt.
 
+> [!NOTE]
+> **Design requirements**
+> - 1.1 Ontlast de mantelzorger door een minder verstoorde nachtrust
+> - 2.1 Geeft PD meer zelfstandigheid en eigenwaarde en werkt geruststellend en ondersteunend
+> - 2.1.2 Oriënteert de PD bij een nachtelijk toiletbezoek
+> - 2.1.2 Oriënteert de PD in de tijd (dag-nacht-onderscheid)
+> - 2.4.1 Reist mee met de PD doorheen het verloop van de ziekte als vertrouwd element
+
 ## Definition
 Max. 1000 woorden
 ### Doestellingen
-Wat wilde je bereiken?
 
 -  Het ontwikkelen van concrete prototypes (Breadcrumb en Beacon) die de geïdentificeerde problemen adresseren.
 -  Het testen en evalueren van deze prototypes in realistische scenario's.
 -  Het verzamelen van feedback van gebruikers en stakeholders om de prototypes te verbeteren
+
+> [!IMPORTANT]
+> **_Welke prikkels, op welk moment, op welke positie?_**
+> - Verstoort niet de nachtrust?
+> - Veroorzaakt geen agitatie?
+> - Is voldoende intuïtief?
+
+> [!IMPORTANT]
+> **_Kunnen we de achterliggende oorzaak aanpakken?_**
+> - Wat houdt de MZ nu precies wakker?
+> - Waarom is de nachtrust van de PD zo slecht?
 
 ### Materiaal & methoden
 Hoe onderzocht je dit? Wees volledig.
@@ -113,7 +140,42 @@ Hoe onderzocht je dit? Wees volledig.
 -  Gebruikerstesten: Uitvoeren van gebruikerstesten met mantelzorgers en zorgprofessionals, waarbij de prototypes in realistische scenario's worden uitgeprobeerd. Er wordt gelet op zowel verbaal als non-verbaal gedrag (grime) bij het gebruik van de prototypes.
 
 ### Resultaten
-Rapporteer over de resultaten (incl. foto's, quotes, analyseframeworks, ...)
+
+> [!NOTE]
+> **Design requirements**
+> - 1.1 … en biedt geruststelling, ook wanneer de DP niet in de onmiddellijke nabijheid is
+> - 2.1.4 Respecteert de privacy van de DP en de MZ
+> - 3.1.3 Trekt enkel de aandacht wanneer functioneel relevant
+> - 3.1 Voorkomt agitatie en verwarring van de PD
+> - 3.2.1 Verstoort niet de nachtrust van de mee-slapende
+
+> [!NOTE]
+> **Design requirements**
+> - 2.2 Biedt een meerwaarde voor minimaal 50% van de varianten en gradaties van de ziekte
+> - 2.3 Bevordert het circadiaans ritme van de PD
+> - 2.3.2 Multi-sensoriële snoezelfuncties bevorderen het inslapen
+
+> [!NOTE]
+> **Design requirements**
+> - 1.1.1 Detectie van de route van de PD met bijhorende tijdsindicatie
+> - 1.1.2 Geeft hierover feedback aan de MZ, IZ, PZ
+> - 1.1.4 Communiceert met een smartphone app (inwonende) MZ & familie
+> - 1.2.2 Communiceert met DECT
+> - 1.2.1 Personaliseerbare spraakberichten minimaliseren interventies door PZ
+> - 1.2.3 Waarschuwingsgevoeligheid is instelbaar
+> - 2.3.1 Bevat enkel slaaphulp waarvan de doeltreffendheid in de praktijk werd aangetoond
+> - 4.1 Kost minder dan €800
+
+> [!NOTE]
+> **Design requirements**
+> - 2.1.5	De interacties zijn intuïtief
+> - 2.4.2 Kan eenvoudig geïnstalleerd worden ongeacht de omgeving
+> - 3.1.1 Veroorzaak geen gevoel van schaamte of confrontatie
+> - 3.1.2 Doet de omgeving vertrouwelijk, herkenbaar en veilig aanvoelen voor de PD
+> - 3.1.3 Dringt geen onnodige of ongewenste hulp op
+> - 4.2 Hulpmiddelen worden gradueel geïntroduceerd op tempo van de PD en o.b.v. context
+
+
 ### Conclusies & implicaties
 Definieer de belangrijkste designbeslissingen
 
@@ -124,7 +186,9 @@ Definieer de belangrijkste designbeslissingen
 -  De functionaliteiten van de prototypes moeten worden afgestemd op de context (thuiszorg vs. woonzorgcentrum).
 -  De doelgroep bestaat (hoofdzakelijk) uit ouderen wiens mentaal model van gelijkaardige producten beperkt is, waardoor de interactie intuïtief moet zijn.
 
-| ID | Design Requirement | MoSCoW | Source | Date |
+#### Overzicht design requirements
+
+| ID | Design Requirement | * | Source | Date |
 | - | - | - | - | - |
 | **1** | **ONTLAST DE NABIJE ZORGVERLENERS** | M | User interview | 13/10/2024 |
 | **1.1** | **Ontlast de mantelzorger (MZ) door minder verstoorde nachtrust**<br>en biedt geruststelling ook wanneer de DP niet in de onmiddellijke nabijheid is | M | User interview | 13/10/2024 |
@@ -179,8 +243,10 @@ Definieer de belangrijkste designbeslissingen
 | 5.3 | Activiteit monitoring | C | State of the Art | 16/12/2024 |
 | 5.4 | Meeneembaar op verplaatsing | C | User interview | 13/10/2024 |
 
+`*` MoSCoW priorisatie
+
 ## Bill of materials
-#### Breadcrumb (x2)
+### Breadcrumb (x2)
 - Processor (Arduino)
 - Aan/uit-klop
 - Zigbee zender en ontvanger
@@ -188,7 +254,7 @@ Definieer de belangrijkste designbeslissingen
 - RGB LEDs
 - Voeding (5V) & circuits
 - Behuizingscomponenten (te ontwerpen)
-#### Beacon (x1)
+### Beacon (x1)
 - Processoren (Arduino)
 - Aan/uit-knop
 - Zigbee zender en ontvanger
@@ -200,15 +266,38 @@ Definieer de belangrijkste designbeslissingen
 - Luidspreker (versterker, MP3-module, Micro-SD geheugenkaart)
 - Voeding (5V) & circuits
 - behuizingscomponenten (te ontwerpen)
-#### Overige
+### Overige
 - Code voor sturing timing & communicatie
 - App voor instellen & personaliseren
 - Biosensors voor product evaluation testing
 
 ## Kritische reflectie
-Max. 500 woorden
+Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeen komen. Mantelzorgers lijken zijn veel kritischer en personen met dementie op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er nog niet in geslaagd hen te overtuigen. De status quo bias speelt hier ongetwijfeld een rol in, doch zijn er voldoende voorbeelden van mantelzorgers die bestaande hulpmiddelen die hun nut al hebben bewezen omarmen. Een tweede aspect is de ogenschijnlijke noodzaak om de ecologische validiteit van onze testen nog te verhogen om werkelijke feedback te krijgen. Hierbij is het van groot belang dat er zo min mogelijk verwarring bij de PD veroorzaakt wordt, aangezien dit in een potentiële emotionele asleep kan resulteren. Een derde aspect is het enorme belang van het menselijke aspect. De nachtelijke interacties tussen MZ en DP dienen om zowel de PD als de MZ gerust te stellen. De achterliggende redenen zijn zo verschillend per individu en per voorval dat wat verlichting en een vooraf opgenomen boodschap onmogelijk hetzelfde kunnen bereiken dan een complex menselijk contact.
 
-## Bronnen
-Voeg je volledige bibliografie toe van bronnen naarwaar je verwees.
+Eigenlijk moet je een hulpmiddel maken dat iedereen zou kunnen gebruiken en niet duidelijk voor een PD bedoeld is. Enkel in een ver stadium van de ziekte  is dit niet langer confronterend.
 
 ## Bijlagen
+### Discover
+- Literature review
+	- [Protocol]()
+	- [Rapport]()
+- User interviews
+	- [Protocol]()
+	- [Rapport]()
+- Ethnography
+	- [Protocol]()
+	- [Rapport]()
+### Define
+- [Testimonials]()
+- Prototypes wave 1
+	- [Protocol]() - [enquête]()
+	- [Rapport]() - [resultaten enquête]()
+- [Matrix evaluation]()
+- Prototypes wave 2
+	- [Protocol]()
+	- [Rapport]()
+- [User Flow]()
+
+[^1]: A New Era in Belgian Healthcare
+[^2]: [Expertisecentrum Dementie Vlaanderen](https://www.dementie.be/home/wat-is-dementie/prevalentie/#:~:text=Onze%20nieuwe%20schatting%20is%20dat,n%201.800%20een%20formele%20diagnose.&text=De%20kans%20is%201%20op,in%20zijn%20leven%20dementie%20krijgt.&text=Leeftijd%20is%20de%20belangrijkste%20risicofactor%20voor%20dementie.)
+[^3]: Wandering Sundowning
