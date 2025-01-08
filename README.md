@@ -185,7 +185,7 @@ De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanne
 De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de DP zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
 
 <p align="left">
-  <img src="/img/Prototypes enquete.png" width=700px>
+  <img src="/img/Prototypes radiochart.png" width=500px>
 </p>
 
 > [!NOTE]
