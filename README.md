@@ -23,7 +23,7 @@ De oplossing is tweedelig.
 
 Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten. Orion maakt zo thuiszorg aangenamer en duurzamer.
 
-<p align="center">
+<p align="left">
   <img src="/img/Hero%20beacon.png" width="32%">
   <img src="/img/Hero%20breadcrumb.png" width="32%">
   <img src="/img/Hero%20widget.png" width="33%">
@@ -75,7 +75,7 @@ De verwarring zet zich door naar de nachten.
 Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang mogelijk uitstellen. Uit schrik om gescheiden te zijn, maar ook uit schaamte om te moeten toegeven dat ze het niet meer aankunnen.
 > _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
 
-<p align="center">
+<p align="left">
   <img src="/img/User interviews Andre.png" width="32%">
   <img src="/img/User interviews Leana.png" width="32%">
   <img src="/img/User interviews empathy mapping.png" width="32%">
@@ -92,7 +92,7 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 > _“Soms kruipen ze bij een ander in bed.”_ – professionele zorgverlener
 > _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes.Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
-<p align="center">
+<p align="left">
   <img src="/img/Ethnography ochtend.png" width="45%">
   <img src="/img/Ethnography de boeren.png" width="24%">
   <img src="/img/Ethnography creme au beurre.png" width="25.5%">
@@ -110,7 +110,7 @@ De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstan
 
 De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
 
-<p align="center">
+<p align="left">
   <img src="/img/Design sprint innovatrix.png" width=700px>
 </p>
 
@@ -118,26 +118,26 @@ Als houvast voor de volgende fase vertalen we het probleem en de mogelijke oplos
 
 Huidige situatie
 
-<p align="center">
-  <img src="/img/Storyboard huidige situatie.png" width=700px>
+<p align="left">
+  <img src="/img/Storyboard huidige situatie.png" width=100%>
 </p>
 
 Oriëntatie in tijd (dag-nacht-onderscheid)
 
-<p align="center">
-  <img src="/img/Storyboard dag-nacht.png" width=700px>
+<p align="left">
+  <img src="/img/Storyboard dag-nacht.png" width=100%>
 </p>
 
 Oriëntatie in ruimte (nachtelijke wayfinding)
 
-<p align="center">
-  <img src="/img/Storyboard orientatie.png" width=700px>
+<p align="left">
+  <img src="/img/Storyboard orientatie.png" width=100%>
 </p>
 
 En een mockup van hoe dit product er uit zou kunnen zien.
-<p align="center">
-  <img src="/img/Klinkklok dag-nacht.png" width="49%">
-  <img src="/img/Klinkklok orientatie.png" width="49%">
+<p align="left">
+  <img src="/img/Klinkklok dag-nacht.png" width="45%">
+  <img src="/img/Klinkklok orientatie.png" width="45%">
 </p>
 
 ## Definition
@@ -172,7 +172,7 @@ Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbedienin
 > - Veroorzaakt geen agitatie?
 > - Is voldoende intuïtief?
 
-<p align="center">
+<p align="left">
   <img src="/img/Prototypes mantelzorgers.jpg" width=700px>
 </p>
 
@@ -184,7 +184,7 @@ De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanne
 
 De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de DP zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
 
-<p align="center">
+<p align="left">
   <img src="/img/Prototypes enquete.png" width=700px>
 </p>
 
@@ -235,14 +235,14 @@ Vreemde geluiden in de omgeving wekken nieuwsgierigheid naar hun herkomst, wat e
 
 Deze inzichten onderstrepen het belang van een intuïtieve en eenvoudig te installeren interactie met de hulpmiddelen. Het systeem moet schaamte of confrontatie vermijden en een vertrouwde, veilige omgeving creëren die herkenbaar is voor de PD. Ongewenste of onnodige hulp wordt daarbij vermeden, en hulpmiddelen worden geleidelijk geïntroduceerd, afgestemd op de context en het tempo van de gebruiker.
 
-<p align="center">
+<p align="left">
   <img src="/img/GIF Sky.gif" width="24%">
   <img src="/img/GIF Breathing.gif" width="24%">
   <img src="/img/GIF Sunrise.gif" width="24%">
   <img src="/img/GIF Alarm.gif" width="24%">
 </p>
 
-<p align="center">
+<p align="left">
   <img src="/img/Wizard of Oz bed.png" width="25%">
   <img src="/img/Wizard of Oz toilet.png" width="44.5%">
   <img src="/img/Wizard of Oz gang.png" width="25%">
