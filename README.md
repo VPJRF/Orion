@@ -211,6 +211,13 @@ In de literatuur lezen we dat onrust, angst, waanbeelden, denken te moeten gaan 
 > - 2.3 Bevordert het circadiaans ritme van de PD
 > - 2.3.2 Multi-sensoriële snoezelfuncties bevorderen het inslapen
 
+<p align="left">
+  <img src="/img/GIF Sky.gif" width="24%">
+  <img src="/img/GIF Breathing.gif" width="24%">
+  <img src="/img/GIF Sunrise.gif" width="24%">
+  <img src="/img/GIF Alarm.gif" width="24%">
+</p>
+
 #### Expert review (N=2)
 
 Beacon: In de nieuwe prototypes wordt geluid beperkt tot 's avonds en 's ochtends om de slaap van de MZ niet te verstoren. Er is echter onmiddellijk de opmerking dat een spraakbericht "Het is nog nacht", die een PD aanspoort zelfstandig terug in bed te kruipen, voor veel bewoners van het woonzorgcentrum een hulp zou kunnen betekenen. Meestal is de PD al op dool wanneer de PZ aan de kamer toekomt. Wat de geur betreft, kunnen ze bevestigen dat dit in de praktijk vaak en effectief gebruikt wordt bij het snoezelen.
@@ -229,14 +236,9 @@ Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP u
 
 #### User testing prototypes (N=3)
 
-Tijdens het opzetten van de tests waren weinig problemen ondervonden. De moeilijkheid was wel dat sommige testpersonen de nood niet als hoog achten, of misschien wat opstandig konden overkomen. De producten werkten naar behoren, maar de ecologischa validiteit kon niet altijd even veel worden gewaarborgt, er waren meer prikkels dan in een ideaal testscenario. ER werd ook erg opgemerkt dat elk scenario zeer individueel is. Ieder heeft zijn eigen gangen en gewoonten, zeker in de nacht. Hoewel de omgeving veel meer prikkels bevatte dan het beoogde scenario kregen we toch een hoop feedback weer.
+Tijdens het opzetten van de tests waren weinig problemen ondervonden. De moeilijkheid was wel dat sommige testpersonen de nood niet als hoog achten, of misschien wat opstandig konden overkomen. De producten werkten naar behoren, maar de ecologische validiteit kon niet altijd worden gewaarborgd. Er waren meer prikkels dan in een ideaal testscenario. We merken nogmaals op dat de ziekte bij elke testpersoon zeer verschillend is. Ieder heeft zijn eigen gangen en gewoonten, zeker in de nacht.
 
-<p align="left">
-  <img src="/img/GIF Sky.gif" width="24%">
-  <img src="/img/GIF Breathing.gif" width="24%">
-  <img src="/img/GIF Sunrise.gif" width="24%">
-  <img src="/img/GIF Alarm.gif" width="24%">
-</p>
+Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scenario, kregen we toch een hoop feedback.
 
 <p align="left">
   <img src="/img/Wizard of Oz bed.png" width="25%">
@@ -362,24 +364,27 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
 ## Bijlagen
 ### Discover
 - Literature review
-	- [Protocol]()
-	- [Rapport]()
+	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EdiS3hkiKK1MplGdmVTWungBmxVn0FbBp6aX2gbiq4Yjcw?e=3pP9zS)
+	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVpkX9X-c-hKqZcMqP5W1E4BfmoQJAslg8WdfgcqIlADtQ?e=OeRcE2)
 - User interviews
-	- [Protocol]()
-	- [Rapport]()
+	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EcmzMGjfi_pDri7_CiFLg6sBVcVGTVBcUN_csnUy3V1scA?e=q4lqXB)
+	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUxWuQ6OHRBBsqC9CrPRgI8ByjO5FftoaaS89HSN1k0SQQ?e=l8HrYT)
 - Ethnography
-	- [Protocol]()
-	- [Rapport]()
+	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbZtCITc4uJAq0ycfyGaPi8BeBhuUqo_bVPuqhUFXoU3WQ?e=zYbrPR)
+	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUZXoSR17MNIq53AvzIOdvEBZ89_BWPycliHvZ6ZHHcRLg?e=TfPVYO)
 ### Define
-- [Testimonials]()
+- [Testimonials](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EWyvy-P7P6lCo79PSqwTZOcBr3zRq12eMHFV4EmILDvBsg?e=ta0Xfr)
+- [Literature review](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVuqMEwuGKBKsmLIZl0oRTYBc0NNRPol8vBCxzsqA2-cCg?e=Nf0qWs)
 - Prototypes wave 1
-	- [Protocol]() - [enquête]()
-	- [Rapport]() - [resultaten enquête]()
-- [Matrix evaluation]()
+	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUDGs_sZqw1Cu-SNZ_Z4MUYB4EUygZoMUpzzzmrSuLFlzA?e=GaHmqu) - [enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef0tJbKGW_dAtwJForc6fqsBGBC1jhmTAPsUzSV54qDXcQ?e=y3iexh)
+	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYPAxhtVcARDhyRcBSE5QyAB_7105NtN1UUdGcgKd0noVQ?e=lRj64M) - [resultaten enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/ETZRhIU3ZTpDvh90dmZtsAcBM5H1ob_vPhDzmzgHq2v9hA?e=dr1w6v)
+- [Matrix evaluation](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
 - Prototypes wave 2
-	- [Protocol]()
-	- [Rapport]()
-- [User Flow]()
+	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVgxVO37P6NCvh-ebd2gSRIBjbLRaMpq6a8uFbEiW7BVhg?e=qOb3VR)
+	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
+        - [Arduino code Beacon](/files/Beacon.ino)
+        - [Arduino code Breadcrumb](files/Breadcrumb.ino)
+- [User Flow](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUmTUIAKd8ZKhQMbT16yuzMBDt6p4VjeiizfwWYc89rwLw?e=mRQy1Y)
 
 [^1]: A New Era in Belgian Healthcare
 [^2]: [Expertisecentrum Dementie Vlaanderen](https://www.dementie.be/home/wat-is-dementie/prevalentie/#:~:text=Onze%20nieuwe%20schatting%20is%20dat,n%201.800%20een%20formele%20diagnose.&text=De%20kans%20is%201%20op,in%20zijn%20leven%20dementie%20krijgt.&text=Leeftijd%20is%20de%20belangrijkste%20risicofactor%20voor%20dementie.)
