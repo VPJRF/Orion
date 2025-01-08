@@ -229,7 +229,7 @@ Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP u
 
 #### User testing prototypes (N=3)
 
-Tijdens het opzetten van de tests waren weinig problemen ondervonden. De moeilijkheid was wel dat sommige testpersonen de nood niet als hoog achten, of misschien wat opstandig konden overkomen. De producten werkten naar behoren, maar de ecologischa validiteit kon niet altijd even veel worden gewaarborgt, er waren meer prikkels dan in een ideaal testscenario. ER werd ook erg opgemerkt dat elk scenario zeer individueel is. Ieder heeft zijn eigen gangen en gewoonten, zeker in de nacht. Hoewel de omgeving veel meer prikkels bevatte dan het beoogde scenario kregen we toch een hoop feedabck weer.
+Tijdens het opzetten van de tests waren weinig problemen ondervonden. De moeilijkheid was wel dat sommige testpersonen de nood niet als hoog achten, of misschien wat opstandig konden overkomen. De producten werkten naar behoren, maar de ecologischa validiteit kon niet altijd even veel worden gewaarborgt, er waren meer prikkels dan in een ideaal testscenario. ER werd ook erg opgemerkt dat elk scenario zeer individueel is. Ieder heeft zijn eigen gangen en gewoonten, zeker in de nacht. Hoewel de omgeving veel meer prikkels bevatte dan het beoogde scenario kregen we toch een hoop feedback weer.
 
 <p align="left">
   <img src="/img/GIF Sky.gif" width="24%">
