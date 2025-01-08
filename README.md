@@ -24,9 +24,9 @@ De oplossing is tweedelig.
 Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten. Orion maakt zo thuiszorg aangenamer en duurzamer.
 
 <p align="center">
-  <img src="/img/Hero%20beacon.png" width="30%">
-  <img src="/img/Hero%20breadcrumb.png" width="30%">
-  <img src="/img/Hero%20widget.png" width="30%">
+  <img src="/img/Hero%20beacon.png" width="32%">
+  <img src="/img/Hero%20breadcrumb.png" width="32%">
+  <img src="/img/Hero%20widget.png" width="33%">
 </p>
 
 ## Introductie
@@ -76,9 +76,9 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 > _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
 
 <p align="center">
-  <img src="/img/User interviews Andre.png" width="30%">
-  <img src="/img/User interviews Leana.png" width="30%">
-  <img src="/img/User interviews empathy mapping.png" width="30%">
+  <img src="/img/User interviews Andre.png" width="32%">
+  <img src="/img/User interviews Leana.png" width="32%">
+  <img src="/img/User interviews empathy mapping.png" width="32%">
 </p>
 
 #### Ethnography (N=1)
@@ -86,16 +86,16 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 
 Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie. Dagcentra of een uitstap met een vrijwilliger of 2de lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. Hieronder een fishbone diagram met de belangrijkste zaken m.b.t de belasting van mantelzorgers.
 
-![image](https://github.com/user-attachments/assets/f7cf4470-464d-4ac2-993c-3a9524c696bc)
+<img src="https://github.com/user-attachments/assets/f7cf4470-464d-4ac2-993c-3a9524c696bc" width=500px>
 
 Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 > _“Soms kruipen ze bij een ander in bed.”_ – professionele zorgverlener
 > _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes.Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
 <p align="center">
-  <img src="/img/Ethnography ochtend.png" width="30%">
-  <img src="/img/Ethnography de boeren.png" width="30%">
-  <img src="/img/Ethnography creme au beurre.png" width="30%">
+  <img src="/img/Ethnography ochtend.png" width="45%">
+  <img src="/img/Ethnography de boeren.png" width="24%">
+  <img src="/img/Ethnography creme au beurre.png" width="25.5%">
 </p>
 
 ### Conclusies & implicaties
@@ -110,26 +110,34 @@ De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstan
 
 De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
 
-<img src="/img/Design sprint innovatrix.png">
+<p align="center">
+  <img src="/img/Design sprint innovatrix.png" width=700px>
+</p>
 
 Als houvast voor de volgende fase vertalen we het probleem en de mogelijke oplossing in storyboards.
 
 Huidige situatie
 
-<img src="/img/Storyboard huidige situatie.png">
+<p align="center">
+  <img src="/img/Storyboard huidige situatie.png" width=700px>
+</p>
 
 Oriëntatie in tijd (dag-nacht-onderscheid)
 
-<img src="/img/Storyboard dag-nacht.png">
+<p align="center">
+  <img src="/img/Storyboard dag-nacht.png" width=700px>
+</p>
 
 Oriëntatie in ruimte (nachtelijke wayfinding)
 
-<img src="/img/Storyboard orientatie.png">
+<p align="center">
+  <img src="/img/Storyboard orientatie.png" width=700px>
+</p>
 
 En een mockup van hoe dit product er uit zou kunnen zien.
 <p align="center">
-  <img src="/img/Klinkklok dag-nacht.png" width="50%">
-  <img src="/img/Klinkklok orientatie.png" width="50%">
+  <img src="/img/Klinkklok dag-nacht.png" width="49%">
+  <img src="/img/Klinkklok orientatie.png" width="49%">
 </p>
 
 ## Definition
@@ -164,7 +172,9 @@ Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbedienin
 > - Veroorzaakt geen agitatie?
 > - Is voldoende intuïtief?
 
-<img src="/img/Prototypes mantelzorgers.jpg">
+<p align="center">
+  <img src="/img/Prototypes mantelzorgers.jpg" width=700px>
+</p>
 
 PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een ersnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
 
@@ -173,7 +183,10 @@ PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker
 De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanneer je licht op de kamerdeur of onder het bed voorziet, zal dit net de aandacht trekken. Prikkel naar het hoofddoel, aan het bed. Op de geluiden wordt stek wisselend gereageerd. De een vindt het storend, de andere ziet er potentieel in, cfr. het snoezelen.
 
 De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de DP zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
-<img src="/img/Prototypes enquete.png">
+
+<p align="center">
+  <img src="/img/Prototypes enquete.png" width=700px>
+</p>
 
 > [!NOTE]
 > - 1.1 … en biedt geruststelling, ook wanneer de DP niet in de onmiddellijke nabijheid is
@@ -221,16 +234,17 @@ Uit de testen met de prototypes blijkt dat de snoezelhemel door gebruikers eerde
 Vreemde geluiden in de omgeving wekken nieuwsgierigheid naar hun herkomst, wat erop wijst dat dergelijke prikkels eerder stimulerend dan storend werken. Aangename geuren hebben een subtiel positief effect op het gemoed, wat bevestigt dat geurprikkels een waardevolle toevoeging kunnen zijn voor het bevorderen van comfort en welzijn.  
 
 Deze inzichten onderstrepen het belang van een intuïtieve en eenvoudig te installeren interactie met de hulpmiddelen. Het systeem moet schaamte of confrontatie vermijden en een vertrouwde, veilige omgeving creëren die herkenbaar is voor de PD. Ongewenste of onnodige hulp wordt daarbij vermeden, en hulpmiddelen worden geleidelijk geïntroduceerd, afgestemd op de context en het tempo van de gebruiker.
+
 <p align="center">
-  <img src="/img/GIF Sky.gif" width="25%">
-  <img src="/img/GIF Breathing.gif" width="25%">
-  <img src="/img/GIF Sunrise.gif" width="25%">
-  <img src="/img/GIF Alarm.gif" width="25%">
+  <img src="/img/GIF Sky.gif" width="24%">
+  <img src="/img/GIF Breathing.gif" width="24%">
+  <img src="/img/GIF Sunrise.gif" width="24%">
+  <img src="/img/GIF Alarm.gif" width="24%">
 </p>
 
 <p align="center">
   <img src="/img/Wizard of Oz bed.png" width="25%">
-  <img src="/img/Wizard of Oz toilet.png" width="25%">
+  <img src="/img/Wizard of Oz toilet.png" width="44.5%">
   <img src="/img/Wizard of Oz gang.png" width="25%">
 </p>
 
@@ -250,7 +264,7 @@ Deze inzichten onderstrepen het belang van een intuïtieve en eenvoudig te insta
 -  De functionaliteiten van de prototypes moeten worden afgestemd op de context (thuiszorg vs. woonzorgcentrum).
 -  De doelgroep bestaat (hoofdzakelijk) uit ouderen wiens mentaal model van gelijkaardige producten beperkt is, waardoor de interactie intuïtief moet zijn.
 
-<img src="images/Storyboard locaties.png">
+<img src="img/Storyboard locaties.png">
 
 #### Overzicht design requirements
 
