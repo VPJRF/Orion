@@ -23,10 +23,10 @@ De oplossing is tweedelig.
 
 Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten. Orion maakt zo thuiszorg aangenamer en duurzamer.
 
-<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/img/Hero beacon.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/Hero breadcrumb.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/Hero widget.png" style="flex: 1; height: auto; object-fit: cover;">
+<p align="center">
+  <img src="/img/Hero%20beacon.png" width="30%">
+  <img src="/img/Hero%20breadcrumb.png" width="30%">
+  <img src="/img/Hero%20widget.png" width="30%">
 </p>
 
 ## Introductie
@@ -76,10 +76,10 @@ De verwarring zet zich door naar de nachten.
 Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang mogelijk uitstellen. Uit schrik om gescheiden te zijn, maar ook uit schaamte om te moeten toegeven dat ze het niet meer aankunnen.
 > _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
 
-<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/img/User interviews Andre.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/User interviews Leana.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/User interviews empathy mapping.png" style="flex: 1; height: auto; object-fit: cover;">
+<p align="center">
+  <img src="/img/User interviews Andre.png" width="30%">
+  <img src="/img/User interviews Leana.png" width="30%">
+  <img src="/img/User interviews empathy mapping.png" width="30%">
 </p>
 
 #### Ethnography (N=1)
@@ -93,10 +93,10 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 > _“Soms kruipen ze bij een ander in bed.”_ – professionele zorgverlener
 > _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes.Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
-<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/img/Ethnography ochtend.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/Ethnography de boeren.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/Ethnography creme au beurre.png" style="flex: 1; height: auto; object-fit: cover;">
+<p align="center">
+  <img src="/img/Ethnography ochtend.png" width="30%">
+  <img src="/img/Ethnography de boeren.png" width="30%">
+  <img src="/img/Ethnography creme au beurre.png" width="30%">
 </p>
 
 ### Conclusies & implicaties
@@ -128,9 +128,9 @@ Oriëntatie in ruimte (nachtelijke wayfinding)
 <img src="/img/Storyboard orientatie.png">
 
 En een mockup van hoe dit product er uit zou kunnen zien.
-<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/img/Klinkklok dag-nacht.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/Klinkklok orientatie.png" style="flex: 1; height: auto; object-fit: cover;">
+<p align="center">
+  <img src="/img/Klinkklok dag-nacht.png" width="50%">
+  <img src="/img/Klinkklok orientatie.png" width="50%">
 </p>
 
 ## Definition
@@ -217,17 +217,17 @@ Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP u
 
 #### Concept testing
 
-<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/img/GIF Sky.gif" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/GIF Breathing.gif" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/GIF Sunrise.gif" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/GIF Alarm.gif" style="flex: 1; height: auto; object-fit: cover;">
+<p align="center">
+  <img src="/img/GIF Sky.gif" width="25%">
+  <img src="/img/GIF Breathing.gif" width="25%">
+  <img src="/img/GIF Sunrise.gif" width="25%">
+  <img src="/img/GIF Alarm.gif" width="25%">
 </p>
 
-<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/img/Wizard of Oz bed.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/Wizard of Oz toilet.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/img/Wizard of Oz gang.png" style="flex: 1; height: auto; object-fit: cover;">
+<p align="center">
+  <img src="/img/Wizard of Oz bed.png" width="25%">
+  <img src="/img/Wizard of Oz toilet.png" width="25%">
+  <img src="/img/Wizard of Oz gang.png" width="25%">
 </p>
 
 > [!NOTE]
