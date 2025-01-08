@@ -160,14 +160,7 @@ Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad v
 
 <img src="/images/Prototypes wave 1.png">
 
-PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te 
-dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te 
-hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de 
-MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat 
-zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar 
-worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum 
-ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een versnellende ziekte. Maar een MZ zonder 
-slaap gaat er hoe dan ook aan onderdoor.
+PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een ersnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
 
 Hieronder de resultaten van de enquête:
 <img src="/images/Prototypes enquete.png">
@@ -316,7 +309,11 @@ Op basis van onze eerste testen merken we op dat we slechts een deel beperkt dee
 - Biosensors voor product evaluation testing
 
 ## Kritische reflectie
-Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeenkomen. MZ zijn kritische en PD op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er nog niet in geslaagd hen te overtuigen. De status quo bias kan hier mogelijks een rol in spelen, doch zijn er voldoende MZs die bestaande hulpmiddelen omarmen. Een tweede aspect is de ogenschijnlijke noodzaak om de ecologische validiteit van onze testen nog te verhogen om werkelijke feedback te krijgen. Hierbij is het van groot belang dat er zo min mogelijk verwarring bij de PD veroorzaakt wordt, aangezien dit in een potentiële emotionele nasleep kan resulteren. Een derde aspect is het enorme belang van het menselijke aspect. De nachtelijke interacties tussen MZ en DP dienen om zowel de PD als de MZ gerust te stellen. De achterliggende redenen zijn zo verschillend per individu en per voorval dat technologie onmogelijk hetzelfde kan bereiken dan een complex menselijk contact.
+Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeenkomen. MZ zijn kritische en PD op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er klaarblijkelijk nog niet in geslaagd om hen te overtuigen. 
+- In de eerste plaat zou de status quo bias hierin een rol kunnen spelen, doch zijn er voldoende MZs die bestaande hulpmiddelen omarmen. 
+- Een tweede aspect is de ogenschijnlijke noodzaak om de ecologische validiteit van onze testen nog te verhogen om werkelijke feedback te krijgen. Hierbij is het van groot belang dat er zo min mogelijk verwarring bij de PD veroorzaakt wordt, aangezien dit in een potentiële emotionele nasleep kan resulteren. 
+- Een derde aspect is het enorme belang van het menselijke aspect. De nachtelijke interacties tussen MZ en DP dienen om zowel de PD als de MZ gerust te stellen. De achterliggende redenen zijn zo verschillend per individu en per voorval dat technologie onmogelijk hetzelfde kan bereiken dan een complex menselijk contact.
+
 Er zijn 2 strategieën denkbaar om dit project verder te zetten.
 1. We vernauwen opnieuw de doelgroep en spilten ons toe op een specifiek, doch vaak voorkomend probleem en werken toe naar een gespecialiseerde oplossing.
 2. We maken een een product dat in zijn basis voor iedereen bruikbaar is, maar achterliggend een reeks aan opties heeft die op maat van de gebruiker geactiveerd kunnen worden.
