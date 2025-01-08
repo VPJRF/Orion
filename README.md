@@ -215,7 +215,7 @@ Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP u
 > - 2.3.1 Bevat enkel slaaphulp waarvan de doeltreffendheid in de praktijk werd aangetoond
 > - 4.1 Kost minder dan €800
 
-#### Concept testing
+#### User testing prototypes (N=3)
 
 Uit de testen met de prototypes blijkt dat de snoezelhemel door gebruikers eerder neutraal wordt ervaren, zonder uitgesproken positieve of negatieve reacties. De wekker met licht en geluid roept daarentegen een nostalgisch effect op, wat duidt op een emotionele connectie met vertrouwde elementen. Het alarmlicht, dat bedoeld is om een waarschuwende functie te vervullen, werd echter als rustgevend geïnterpreteerd in plaats van alarmerend.  
 
