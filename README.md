@@ -13,13 +13,13 @@
 ## Samenvatting
 Dit project richt zich op het probleem van verstoorde dag-nachtritmes bij mensen met dementie, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort.
 
-Aan de hand van een _literature review_ (N=16), _user interviews_ (N=4), _ethnography_ (N=1) en _concept prototype testing_ (N=10) en _usability prototype testing_ (N=3) gingen we op zoek naar het werkelijke probleem – in al zijn varianten en gradaties – en in welke mate het zintuigelijke spectrum maximaal kan worden ingezet om met van de juiste prikkel op het juiste moment en op de juiste positie de nachtelijke onrust bij zowel de MZ als de PD te verminderen.
+Aan de hand van een _literature review_ (N=16), _user interviews_ (N=4), _ethnography_ (N=1) en _concept prototype testing_ (N=10) en _usability prototype testing_ (N=3) gingen we op zoek naar het werkelijke probleem – in al zijn varianten en gradaties – en in welke mate het zintuigelijke spectrum maximaal kan worden ingezet om met de juiste prikkel op het juiste moment en op de juiste positie de nachtelijke onrust bij zowel de MZ als de PD te verminderen.
 
 De oplossing is tweedelig.
 
-**_Breadcrumbs_**, een serie lichtjes met sensoren buiten de kamer die een pad vormen om de PD oriëntatie te bieden en de zijn/haar positie met de mantelzorger te communiceren.
+**_Breadcrumbs_**, een serie lichtjes met sensoren buiten de kamer die een pad vormen om de PD oriëntatie te bieden en zijn/haar positie met de mantelzorger te communiceren.
 
-**_Beacon_**, een multi-sensoriele nachtlamp naast het bed die rust, veiligheid creëert en een het primaire oriëntatiepunt vormt.
+**_Beacon_**, een multi-sensoriele nachtlamp naast het bed die rust, veiligheid creëert en het primaire oriëntatiepunt vormt.
 
 Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten. Orion maakt zo thuiszorg aangenamer en duurzamer.
 
@@ -32,9 +32,9 @@ Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onru
 ## Introductie
 > _Elke 4 seconden krijgt iemand ergens ter wereld dementie._
 
-Mensen worden steeds ouder. In 2023 gemiddeld 82,5 in België (PwC, 2024) [^1]. De keerzijde van de medaille is dat hierdoor chronische ouderdomsziektes zoals Altzheimer's vaker voorkomen. Op vandaag krijgt ongeveer 1 op 5 in de loop van zijn of haar leven een vorm van dementie. Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen. (Exptertisecentrum Dementie, 2021) [^2]. In het toekomstige value based healthcare (VBHC) model (PwC, 2024) [^1] wordt de zorgverlening verder richting de eerstelijns- en nuldelijnszorg verschoven. Dit moet onder andere een oplossing bieden aan het groeiende personeeltekort in de gezondheidssector. Deze evolutie onderstreept het belang van de informele zorgverlener en in het bijzonder de mantelzorger in het geval van zorg voor mensen met dementie.
+Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) [^1]. De keerzijde van de medaille is dat hierdoor chronische ouderdomsziektes zoals Alzheimer's vaker voorkomen. Op vandaag krijgt ongeveer 1 op 5 in de loop van zijn of haar leven een vorm van dementie. Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen (Exptertisecentrum Dementie, 2021) [^2]. In het toekomstige value based healthcare (VBHC) model (PwC, 2024) [^1] wordt de zorgverlening verder richting de eerstelijns- en nuldelijnszorg verschoven. Dit moet onder andere een oplossing bieden aan het groeiende personeeltekort in de gezondheidssector. Deze evolutie onderstreept het belang van de informele zorgverlener en in het bijzonder de mantelzorger in het geval van zorg voor mensen met dementie.
 
-Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt tot nachtelijke onrust en dwalen. (Thomas & Ritter, 2022) [^3] Dit verstoort niet alleen de nachtrust van de persoon met dementie zelf, maar ook die van hun mantelzorgers, vaak de partner. Deze aanhoudende belasting kan leiden tot fysieke en emotionele uitputting van de mantelzorger, wat de beslissing tot een vaste opname in een woonzorgcentrum kan bespoedigen.
+Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt tot nachtelijke onrust en dwalen (Thomas & Ritter, 2022) [^3]. Dit verstoort niet alleen de nachtrust van de persoon met dementie zelf, maar ook die van hun mantelzorgers, vaak de partner. Deze aanhoudende belasting kan leiden tot fysieke en emotionele uitputting van de mantelzorger, wat de beslissing tot een vaste opname in een woonzorgcentrum kan bespoedigen.
 
 Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van PD en hun MZ bevordert, zodat thuiszorg langer mogelijk blijft. Daarbij is het cruciaal om de autonomie van de zorgbehoevende te ondersteunen en de druk op MZ te verlagen. Dit vereist oplossingen die rekening houden met de uiteenlopende en veranderende cognitieve en zintuiglijke capaciteiten van PD. De focus ligt op het minimaliseren van nachtelijke interventies en het ondersteunen van een zelfstandig dag-nachtritme. De ontwikkelde oplossing moet bovendien flexibel zijn en ook in een woonzorgcentrum gebruikt kunnen worden om de professionele zorgverleners te ontlasten.
 
@@ -46,15 +46,15 @@ Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase
 
 ## Discovery
 
-### Doestellingen
--  Een begrip krijgen van wat de ziekte inhoud.
+### Doelstellingen
+-  Een begrip krijgen van wat de ziekte inhoudt.
 -  Een diepgaand begrip krijgen van de problematiek rond dementie en de impact op mantelzorgers.
 -  Het identificeren van de belangrijkste noden en behoeften van mantelzorgers en personen met dementie.
 -  Hoe de personen met dementie en mantelzorger dagopvang ervaren.
 -  Het in kaart brengen van bestaande technologieën en oplossingen, en het identificeren van onderbelichte thema’s.
 
 ### Materiaal & methoden
-1. Literatuurstudie: Hierin gefocust op een onderbouwd begrip vormen van de ziekte, de problematieken die ermee gepaard gaan, de effecten op de persoon met dementie en zijn omgeving en de bestaande technologieën die hierin hulp trachten te bieden. Dit aan de hand van analyse van wetenschappelijke artikelen, rapporten en andere relevante documenten over dementie, mantelzorg en technologische hulpmiddelen.
+1. Literatuurstudie: Hierin wordt gefocust op een onderbouwd begrip vormen van de ziekte, de problematieken die ermee gepaard gaan, de effecten op de persoon met dementie en zijn omgeving en de bestaande technologieën die hierin hulp trachten te bieden. Dit doos middel van analyse van wetenschappelijke artikelen, rapporten en andere relevante documenten over dementie, mantelzorg en technologische hulpmiddelen.
 2. Gebruikersinterviews: Door in gesprek te gaan met mantelzorgers trachten we pijnpunten en lichtpunten doorheen de dag bloot te leggen.
 3. Ethnografisch onderzoek: Dit in de vorm van A Day in the Life. We trachten de positieve en negatieve effecten van dagopvang in kaart te brengen en de doelgroep van dichtbij te observeren om ons begrip van de ziekte scherper te stellen. Dit waren observaties, field notes en contextual inquiries binnen een dagcentrum.
 
@@ -84,7 +84,7 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 #### Ethnography (N=1)
 > “Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.” – professionele zorgverlener
 
-Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie. Dagcentra of een uitstap met een vrijwilliger of 2de lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. Hieronder een fishbone diagram met de belangrijkste zaken m.b.t de belasting van mantelzorgers.
+Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie. Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. Hieronder een fishbone diagram met de belangrijkste zaken m.b.t de belasting van mantelzorgers.
 
 <img src="https://github.com/user-attachments/assets/f7cf4470-464d-4ac2-993c-3a9524c696bc" width=500px>
 
@@ -99,7 +99,7 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 </p>
 
 ### Conclusies & implicaties
-De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstandigheid van de PD moet garanderen. De drempel voor gebruik moet ook laag blijven, het moet zo intuitief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geimplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeert worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit, het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze wakker komt.
+De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstandigheid van de PD moet garanderen. De drempel voor gebruik moet ook laag blijven, het moet zo intuïtief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geïmplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeerd worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit. Het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze ontwaakt.
 
 > [!NOTE]
 > - 1.1 Ontlast de mantelzorger door een minder verstoorde nachtrust
@@ -148,18 +148,18 @@ En een mockup van hoe dit product er uit zou kunnen zien.
 -  Het verzamelen van feedback van gebruikers en stakeholders om de prototypes te verbeteren
 
 ### Materiaal & methoden
-1. User reviews: dit waren semigestructureerde groepsgesprekken met mantelzorgers en dagverzorgingsmedewerkers in twee woonzorgcentra om ervaringen. Deze groepen werden gebruikt om behoeften, noden, ideëen en meningen over het project te verkrijgen. We lieten hen een enquête invullen om hun oordeel de kunnen kwantificeren.
+1. User reviews: Dit waren semigestructureerde groepsgesprekken met mantelzorgers en dagverzorgingsmedewerkers in twee woonzorgcentra om ervaringen. Deze groepen werden gebruikt om behoeften, noden, ideëen en meningen over het project te verkrijgen. We lieten hen een enquête invullen om hun oordeel de kunnen kwantificeren.
 2. Literature review: Een beter begrip vormen over de achterliggende oorzaak van het doolgedrag.
 3. Expert review: Vooraf aan de user testen doorlopen we hypothetisch de scenario's om eventuele risico's vooraf uit te sluiten.
 4. User testing (Wizard of Oz): Uitvoeren van gebruikerstesten met mantelzorgers en zorgprofessionals, waarbij de prototypes in realistische scenario's worden uitgeprobeerd. Er wordt gelet op zowel verbaal als non-verbaal gedrag (grime) bij het gebruik van de prototypes.
 
 Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad vormen) en de Beacon (een multi-sensorieel kussen/lamp) gemaakt om de validiteit van de testen te optimaliseren.
 
-Wave 1: De lichten worden handmatig bedoeld. Geluiden worden via bluetooth van op afstand bediend.
+Wave 1: De lichten worden handmatig bediend. Geluiden worden via bluetooth van op afstand bediend.
 
 <img src="/img/Prototypes wave 1.png">
 
-Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluethooth speaker ([Spotify playlist](https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b)) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
+Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluetooth speaker ([Spotify playlist](https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b)) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
 
 <img src="/img/Prototypes wave 2.png">
 
@@ -176,11 +176,11 @@ Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbedienin
   <img src="/img/Prototypes mantelzorgers.jpg" width=700px>
 </p>
 
-PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een ersnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
+PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een versnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
 
 > _“Een verstoorde nachtrust is vaak het duwtje van dagopvang naar vaste opvang.”_ – Jorick Cappon, centrumleider in Huize Ter Walle
 
-De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanneer je licht op de kamerdeur of onder het bed voorziet, zal dit net de aandacht trekken. Prikkel naar het hoofddoel, aan het bed. Op de geluiden wordt stek wisselend gereageerd. De een vindt het storend, de andere ziet er potentieel in, cfr. het snoezelen.
+De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanneer je licht op de kamerdeur of onder het bed voorziet, zal dit net de aandacht trekken. Prikkel naar het hoofddoel, aan het bed. Op de geluiden wordt sterk wisselend gereageerd. De een vindt het storend, de andere ziet er potentieel in, cfr. het snoezelen.
 
 De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de DP zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
 
