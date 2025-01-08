@@ -24,9 +24,9 @@ De oplossing is tweedelig.
 Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten. Orion maakt zo thuiszorg aangenamer en duurzamer.
 
 <p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/images/Hero beacon.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/Hero breadcrumb.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/Hero widget.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Hero beacon.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Hero breadcrumb.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Hero widget.png" style="flex: 1; height: auto; object-fit: cover;">
 </p>
 
 ## Introductie
@@ -41,7 +41,7 @@ Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van
 ## Methodologie
 ![image](https://github.com/user-attachments/assets/5f2fc1e0-1f93-46c3-b1e4-1c7ee48e801c)
 
-<img src="/images/timeline.svg">
+<img src="/img/timeline.svg">
 
 Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase. De discovery fase omvatte een literatuurstudie om een breed en helder beeld te krijgen van dementie, de sociale context en de bestaande oplossingen. Daarnaast werden er etnografische observaties in een dagcentrum uitgevoerd om de problematiek in de praktijk te observeren. In deze fase werden ook interviews afgenomen met mantelzorgers en zorgprofessionals om hun ervaringen en noden te begrijpen. De definitiefase richt zich op het prototypen en testen van oplossingen. Deze fase bestaat uit minimaal twee iteraties waarin verschillende prototypes ontwikkeld, getest en geëvalueerd worden om de meest effectieve oplossing te vinden. Hierbij wordt het 'Think Aloud Protocol' gehanteerd. De nadruk ligt op concept testing en in mindere mate usability testing.
 
@@ -77,9 +77,9 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 > _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
 
 <p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/images/User interviews Andre.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/User interviews Leana.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/User interviews empathy mapping.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/User interviews Andre.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/User interviews Leana.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/User interviews empathy mapping.png" style="flex: 1; height: auto; object-fit: cover;">
 </p>
 
 #### Ethnography (N=1)
@@ -94,9 +94,9 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 > _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes.Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
 <p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/images/Ethnography ochtend.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/Ethnography de boeren.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/Ethnography creme au beurre.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Ethnography ochtend.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Ethnography de boeren.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Ethnography creme au beurre.png" style="flex: 1; height: auto; object-fit: cover;">
 </p>
 
 ### Conclusies & implicaties
@@ -111,26 +111,26 @@ De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstan
 
 De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
 
-<img src="/images/Design sprint innovatrix.png">
+<img src="/img/Design sprint innovatrix.png">
 
 Als houvast voor de volgende fase vertalen we het probleem en de mogelijke oplossing in storyboards.
 
 Huidige situatie
 
-<img src="/images/Storyboard huidige situatie.png">
+<img src="/img/Storyboard huidige situatie.png">
 
 Oriëntatie in tijd (dag-nacht-onderscheid)
 
-<img src="/images/Storyboard dag-nacht.png">
+<img src="/img/Storyboard dag-nacht.png">
 
 Oriëntatie in ruimte (nachtelijke wayfinding)
 
-<img src="/images/Storyboard orientatie.png">
+<img src="/img/Storyboard orientatie.png">
 
 En een mockup van hoe dit product er uit zou kunnen zien.
 <p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/images/Klinkklok dag-nacht.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/Klinkklok orientatie.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Klinkklok dag-nacht.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Klinkklok orientatie.png" style="flex: 1; height: auto; object-fit: cover;">
 </p>
 
 ## Definition
@@ -150,11 +150,11 @@ Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad v
 
 Wave 1: De lichten worden handmatig bedoeld. Geluiden worden via bluetooth van op afstand bediend.
 
-<img src="/images/Prototypes wave 1.png">
+<img src="/img/Prototypes wave 1.png">
 
 Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluethooth speaker ([Spotify playlist](https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b)) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
 
-<img src="/images/Prototypes wave 2.png">
+<img src="/img/Prototypes wave 2.png">
 
 ### Resultaten
 #### User review prototypes (N=10)
@@ -165,7 +165,7 @@ Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbedienin
 > - Veroorzaakt geen agitatie?
 > - Is voldoende intuïtief?
 
-<img src="/images/Prototypes mantelzorgers.jpg">
+<img src="/img/Prototypes mantelzorgers.jpg">
 
 PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een ersnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
 
@@ -174,7 +174,7 @@ PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker
 De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanneer je licht op de kamerdeur of onder het bed voorziet, zal dit net de aandacht trekken. Prikkel naar het hoofddoel, aan het bed. Op de geluiden wordt stek wisselend gereageerd. De een vindt het storend, de andere ziet er potentieel in, cfr. het snoezelen.
 
 De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de DP zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
-<img src="/images/Prototypes enquete.png">
+<img src="/img/Prototypes enquete.png">
 
 > [!NOTE]
 > - 1.1 … en biedt geruststelling, ook wanneer de DP niet in de onmiddellijke nabijheid is
@@ -218,16 +218,16 @@ Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP u
 #### Concept testing
 
 <p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/images/GIF Sky.gif" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/GIF Breathing.gif" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/GIF Sunrise.gif" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/GIF Alarm.gif" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/GIF Sky.gif" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/GIF Breathing.gif" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/GIF Sunrise.gif" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/GIF Alarm.gif" style="flex: 1; height: auto; object-fit: cover;">
 </p>
 
 <p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/images/Wizard of Oz bed.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/Wizard of Oz toilet.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/Wizard of Oz gang.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Wizard of Oz bed.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Wizard of Oz toilet.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/img/Wizard of Oz gang.png" style="flex: 1; height: auto; object-fit: cover;">
 </p>
 
 > [!NOTE]
