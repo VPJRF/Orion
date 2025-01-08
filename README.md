@@ -15,16 +15,18 @@ Dit project richt zich op het probleem van verstoorde dag-nachtritmes bij mensen
 
 Aan de hand van een _literature review_ (N=16), _user interviews_ (N=4), _ethnography_ (N=1) en _concept prototype testing_ (N=10) en _usability prototype testing_ (N=3) gingen we op zoek naar het werkelijke probleem – in al zijn varianten en gradaties – en in welke mate het zintuigelijke spectrum maximaal kan worden ingezet om met van de juiste prikkel op het juiste moment en op de juiste positie de nachtelijke onrust bij zowel de MZ als de PD te verminderen.
 
-De oplossing is tweedelig: <br>
-**_Breadcrumbs_**, een serie lichtjes met sensoren buiten de kamer die een pad vormen om de PD oriëntatie te bieden en de zijn/haar positie met de mantelzorger te communiceren. <br>
+De oplossing is tweedelig.
+
+**_Breadcrumbs_**, een serie lichtjes met sensoren buiten de kamer die een pad vormen om de PD oriëntatie te bieden en de zijn/haar positie met de mantelzorger te communiceren.
+
 **_Beacon_**, een multi-sensoriele nachtlamp naast het bed die rust, veiligheid creëert en een het primaire oriëntatiepunt vormt.
 
 Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten. Orion maakt zo thuiszorg aangenamer en duurzamer.
 
 <p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/images/1.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/2.png" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/3.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/Hero beacon.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/Hero breadcrumb.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/Hero widget.png" style="flex: 1; height: auto; object-fit: cover;">
 </p>
 
 ## Introductie
@@ -108,14 +110,21 @@ De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstan
 > - 2.4.1 Reist mee met de PD doorheen het verloop van de ziekte als vertrouwd element
 
 De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
+
 <img src="/images/Design sprint innovatrix.png">
 
 Als houvast voor de volgende fase vertalen we het probleem en de mogelijke oplossing in storyboards.
+
 Huidige situatie
+
 <img src="/images/Storyboard huidige situatie.png">
+
 Oriëntatie in tijd (dag-nacht-onderscheid)
+
 <img src="/images/Storyboard dag-nacht.png">
+
 Oriëntatie in ruimte (nachtelijke wayfinding)
+
 <img src="/images/Storyboard orientatie.png">
 
 En een mockup van hoe dit product er uit zou kunnen zien.
@@ -140,9 +149,11 @@ En een mockup van hoe dit product er uit zou kunnen zien.
 Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad vormen) en de Beacon (een multi-sensorieel kussen/lamp) gemaakt om de validiteit van de testen te optimaliseren.
 
 Wave 1: De lichten worden handmatig bedoeld. Geluiden worden via bluetooth van op afstand bediend.
+
 <img src="/images/Prototypes wave 1.png">
 
-Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluethooth speaker (Spotify playlist) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
+Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluethooth speaker ([Spotify playlist](https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b)) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
+
 <img src="/images/Prototypes wave 2.png">
 
 ### Resultaten
@@ -190,7 +201,7 @@ In de literatuur lezen we dat onrust, angst, waanbeelden, denken te moeten gaan 
 
 #### Expert review (N=2)
 
-Beacon: In de nieuwe prototypes wordt geluid beperkt tot 's avonds en 's ochtends om de slaap van de MZ niet te verstoren. Er is echter onmiddellijk de opmerking dat een spraakbericht "Het is nog nacht", die een PD aanspoort zelfstandig terug in bed te kruipen, voor veel bewoners van het woonzorgcentrum een hulp zou kunnen betekenen. Meestal is de PD al op dool wanneer de PZ aan de kamer toekomt.
+Beacon: In de nieuwe prototypes wordt geluid beperkt tot 's avonds en 's ochtends om de slaap van de MZ niet te verstoren. Er is echter onmiddellijk de opmerking dat een spraakbericht "Het is nog nacht", die een PD aanspoort zelfstandig terug in bed te kruipen, voor veel bewoners van het woonzorgcentrum een hulp zou kunnen betekenen. Meestal is de PD al op dool wanneer de PZ aan de kamer toekomt. Wat de geur betreft, kunnen ze bevestigen dat dit in de praktijk vaak en effectief gebruikt wordt bij het snoezelen.
 
 Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP uit bed, uit de kamer, in de toilet komt, gecombineerd met een tijdgebonden waarschuwing, zou beter werken dan een courant gebruikt IR-detectiesystemen (Mintt). Het biedt meerdere checkpoints waardoor de noodzaak voor een interventie beter kan worden ingeschat. Tegenwoordig hebben zo goed als alle mantelzorgers een smartphone, dus een dergelijk systeem zou ook via deze weg een melding kunnen geven aan de mee-slapende of familieleden.
 
@@ -206,9 +217,18 @@ Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP u
 
 #### Concept testing
 
-<gifs>
+<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
+  <img src="/images/GIF Sky.gif" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/GIF Breathing.gif" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/GIF Sunrise.gif" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/GIF Alarm.gif" style="flex: 1; height: auto; object-fit: cover;">
+</p>
 
-<foto's testen>
+<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
+  <img src="/images/Wizard of Oz bed.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/Wizard of Oz toilet.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/Wizard of Oz gang.png" style="flex: 1; height: auto; object-fit: cover;">
+</p>
 
 > [!NOTE]
 > - 2.1.5 De interacties zijn intuïtief
@@ -219,7 +239,7 @@ Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP u
 > - 4.2 Hulpmiddelen worden gradueel geïntroduceerd op tempo van de PD en o.b.v. context
 
 ### Conclusies & implicaties
--  De Breadcrumb (lichtjes doorheen het huis, gelinkt aan RFID) werd positief ontvangen door mantelzorgers, omdat het een veilige manier biedt om de PD terug naar de kamer te leiden.
+-  De Breadcrumb (lichtjes doorheen het huis, met monitoringfunctie) werd positief ontvangen door mantelzorgers, omdat het een veilige manier biedt om de PD terug naar de kamer te leiden.
 -  De Beacon biedt multi-sensorische prikkels (licht, geluid) die kunnen helpen bij het reguleren van het dag-nachtritme, en kan gepersonaliseerd worden in functie van de behoeftes.
 -  Het product moet interventiearm werken en makkelijk te integreren zijn in een thuisomgeving.
 -  Een lange batterijduur of aansluiting op het net is een vereiste.
