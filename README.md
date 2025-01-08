@@ -55,7 +55,6 @@ Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase
 -  Het in kaart brengen van bestaande technologieën en oplossingen, en het identificeren van onderbelichte thema’s.
 
 ### Materiaal & methoden
-Een antwoord op de vorige vragen werd verkregen via een 
 1. Literatuurstudie: Hierin gefocust op een onderbouwd begrip vormen van de ziekte, de problematieken die ermee gepaard gaan, de effecten op de persoon met dementie en zijn omgeving en de bestaande technologieën die hierin hulp trachten te bieden. Dit aan de hand van analyse van wetenschappelijke artikelen, rapporten en andere relevante documenten over dementie, mantelzorg en technologische hulpmiddelen.
 2. Gebruikersinterviews: Door in gesprek te gaan met mantelzorgers trachten we pijnpunten en lichtpunten doorheen de dag bloot te leggen.
 3. Ethnografisch onderzoek: Dit in de vorm van A Day in the Life. We trachten de positieve en negatieve effecten van dagopvang in kaart te brengen en de doelgroep van dichtbij te observeren om ons begrip van de ziekte scherper te stellen. Dit waren observaties, field notes en contextual inquiries binnen een dagcentrum.
@@ -67,6 +66,7 @@ Dementie is een complexe ziekte met uiteenlopende symptomen, dewelke uiteenlopen
 -  Fysieke veiligheid en bewegingsvrijheid
 -  Cognitieve stimulatie en geheugenondersteuning
 -  Ondersteuning voor dagelijkse zorgactiviteiten en zelfredzaamheid
+
 Hoewel de meeste technologieën zijn gericht op de patiënt, zijn er weinig toepassingen specifiek gericht op de emotionele ondersteuning en stressreductie voor mantelzorgers zelf. Artificiële intelligentie is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe technologieën enkele belangrijke complexiteiten met zich mee.
 
 #### User interviews (N=3)
@@ -141,28 +141,26 @@ En een mockup van hoe dit product er uit zou kunnen zien.
 -  Het testen en evalueren van deze prototypes in realistische scenario's.
 -  Het verzamelen van feedback van gebruikers en stakeholders om de prototypes te verbeteren
 
+### Materiaal & methoden
+1. User reviews: dit waren semigestructureerde groepsgesprekken met mantelzorgers en dagverzorgingsmedewerkers in twee woonzorgcentra om ervaringen. Deze groepen werden gebruikt om behoeften, noden, ideëen en meningen over het project te verkrijgen. We lieten hen een enquête invullen om hun oordeel de kunnen kwantificeren.
+2. Literature review: Een beter begrip vormen over de achterliggende oorzaak van het doolgedrag.
+3. Expert review: Vooraf aan de user testen doorlopen we hypothetisch de scenario's om eventuele risico's vooraf uit te sluiten.
+4. User testing (Wizard of Oz): Uitvoeren van gebruikerstesten met mantelzorgers en zorgprofessionals, waarbij de prototypes in realistische scenario's worden uitgeprobeerd. Er wordt gelet op zowel verbaal als non-verbaal gedrag (grime) bij het gebruik van de prototypes.
+
+Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad vormen) en de Beacon (een multi-sensorieel kussen/lamp) gemaakt om de validiteit van de testen te optimaliseren.
+
+### Resultaten
+#### User review prototypes (N=10)
+
 > [!IMPORTANT]
 > **_Welke prikkels, op welk moment, op welke positie?_**
 > - Verstoort niet de nachtrust?
 > - Veroorzaakt geen agitatie?
 > - Is voldoende intuïtief?
 
-> [!IMPORTANT]
-> **_Kunnen we de achterliggende oorzaak aanpakken?_**
-> - Wat houdt de MZ nu precies wakker?
-> - Waarom is de nachtrust van de PD zo slecht?
+<img src="/images/Prototypes wave 1.png">
 
-### Materiaal & methoden
-Hoe onderzocht je dit? Wees volledig.
-
-3:  Groepsgesprekken, dit waren semigestructureerde groepsgesprekken met mantelzorgers en dagverzorgingsmedewerkers in twee woonzorgcentra om ervaringen. Deze groepen werden gebruikt om behoeften, noden,             ideëen en meningen over het project te verkrijgen.
--  Prototype ontwikkeling: Ontwikkeling van de Breadcrumb (lichtjes die een pad vormen) en de Beacon (een multi-sensorieel kussen/lamp) gericht op het verbeteren van de nachtrust en zelfstandige nachtelijke oriëntatie.
--  Testprotocollen: Opstellen van testprotocollen om de prototypes systematisch te evalueren met focus op concept testing.
--  Gebruikerstesten: Uitvoeren van gebruikerstesten met mantelzorgers en zorgprofessionals, waarbij de prototypes in realistische scenario's worden uitgeprobeerd. Er wordt gelet op zowel verbaal als non-verbaal gedrag (grime) bij het gebruik van de prototypes.
-
-### Resultaten
-
-Gebruiksinterviews: PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te 
+PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te 
 dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te 
 hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de 
 MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat 
@@ -170,7 +168,9 @@ zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed lig
 worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum 
 ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een versnellende ziekte. Maar een MZ zonder 
 slaap gaat er hoe dan ook aan onderdoor.
-"Een verstoorde nachtrust van personen met dementie is vaak het duwtje van dagopvang naar vaste opvang." -Joris Cappon
+
+Hieronder de resultaten van de enquête:
+<img src="/images/Prototypes enquete.png">
 
 > [!NOTE]
 > **Design requirements**
@@ -180,11 +180,25 @@ slaap gaat er hoe dan ook aan onderdoor.
 > - 3.1 Voorkomt agitatie en verwarring van de PD
 > - 3.2.1 Verstoort niet de nachtrust van de mee-slapende
 
+#### Literature review (N=1)
+Op basis van onze eerste testen merken we op dat we slechts een deel beperkt deel van het probleem aanpakken. Veel van de mantelzorgers lijken het product wel aan te raden aan anderen, maar stellen vast dat het voor hen geen oplossing zou bieden. We kwamen intussen in aanraking met de term _sundowning_ en duiken opnieuw even in de literatuur om ons begrip over het probleem nog verder bij te schaven.
+
+> [!IMPORTANT]
+> **_Kunnen we de achterliggende oorzaak aanpakken?_**
+> - Wat houdt de MZ nu precies wakker?
+> - Waarom is de nachtrust van de PD zo slecht?
+
+...
+
 > [!NOTE]
 > **Design requirements**
 > - 2.2 Biedt een meerwaarde voor minimaal 50% van de varianten en gradaties van de ziekte
 > - 2.3 Bevordert het circadiaans ritme van de PD
 > - 2.3.2 Multi-sensoriële snoezelfuncties bevorderen het inslapen
+> - 
+#### Expert review (N=2)
+
+<img src="/images/Prototypes wave 2.png">
 
 > [!NOTE]
 > **Design requirements**
@@ -197,19 +211,18 @@ slaap gaat er hoe dan ook aan onderdoor.
 > - 2.3.1 Bevat enkel slaaphulp waarvan de doeltreffendheid in de praktijk werd aangetoond
 > - 4.1 Kost minder dan €800
 
+#### Concept testing
+
 > [!NOTE]
 > **Design requirements**
-> - 2.1.5	De interacties zijn intuïtief
+> - 2.1.5 De interacties zijn intuïtief
 > - 2.4.2 Kan eenvoudig geïnstalleerd worden ongeacht de omgeving
 > - 3.1.1 Veroorzaak geen gevoel van schaamte of confrontatie
 > - 3.1.2 Doet de omgeving vertrouwelijk, herkenbaar en veilig aanvoelen voor de PD
 > - 3.1.3 Dringt geen onnodige of ongewenste hulp op
 > - 4.2 Hulpmiddelen worden gradueel geïntroduceerd op tempo van de PD en o.b.v. context
 
-
 ### Conclusies & implicaties
-Definieer de belangrijkste designbeslissingen
-
 -  De Breadcrumb (lichtjes doorheen het huis, gelinkt aan RFID) werd positief ontvangen door mantelzorgers, omdat het een veilige manier biedt om de PD terug naar de kamer te leiden.
 -  De Beacon biedt multi-sensorische prikkels (licht, geluid) die kunnen helpen bij het reguleren van het dag-nachtritme, en kan gepersonaliseerd worden in functie van de behoeftes.
 -  Het product moet interventiearm werken en makkelijk te integreren zijn in een thuisomgeving.
@@ -303,9 +316,12 @@ Definieer de belangrijkste designbeslissingen
 - Biosensors voor product evaluation testing
 
 ## Kritische reflectie
-Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeen komen. Mantelzorgers lijken zijn veel kritischer en personen met dementie op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er nog niet in geslaagd hen te overtuigen. De status quo bias speelt hier ongetwijfeld een rol in, doch zijn er voldoende voorbeelden van mantelzorgers die bestaande hulpmiddelen die hun nut al hebben bewezen omarmen. Een tweede aspect is de ogenschijnlijke noodzaak om de ecologische validiteit van onze testen nog te verhogen om werkelijke feedback te krijgen. Hierbij is het van groot belang dat er zo min mogelijk verwarring bij de PD veroorzaakt wordt, aangezien dit in een potentiële emotionele asleep kan resulteren. Een derde aspect is het enorme belang van het menselijke aspect. De nachtelijke interacties tussen MZ en DP dienen om zowel de PD als de MZ gerust te stellen. De achterliggende redenen zijn zo verschillend per individu en per voorval dat wat verlichting en een vooraf opgenomen boodschap onmogelijk hetzelfde kunnen bereiken dan een complex menselijk contact.
+Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeenkomen. MZ zijn kritische en PD op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er nog niet in geslaagd hen te overtuigen. De status quo bias kan hier mogelijks een rol in spelen, doch zijn er voldoende MZs die bestaande hulpmiddelen omarmen. Een tweede aspect is de ogenschijnlijke noodzaak om de ecologische validiteit van onze testen nog te verhogen om werkelijke feedback te krijgen. Hierbij is het van groot belang dat er zo min mogelijk verwarring bij de PD veroorzaakt wordt, aangezien dit in een potentiële emotionele nasleep kan resulteren. Een derde aspect is het enorme belang van het menselijke aspect. De nachtelijke interacties tussen MZ en DP dienen om zowel de PD als de MZ gerust te stellen. De achterliggende redenen zijn zo verschillend per individu en per voorval dat technologie onmogelijk hetzelfde kan bereiken dan een complex menselijk contact.
+Er zijn 2 strategieën denkbaar om dit project verder te zetten.
+1. We vernauwen opnieuw de doelgroep en spilten ons toe op een specifiek, doch vaak voorkomend probleem en werken toe naar een gespecialiseerde oplossing.
+2. We maken een een product dat in zijn basis voor iedereen bruikbaar is, maar achterliggend een reeks aan opties heeft die op maat van de gebruiker geactiveerd kunnen worden.
 
-Eigenlijk moet je een hulpmiddel maken dat iedereen zou kunnen gebruiken en niet duidelijk voor een PD bedoeld is. Enkel in een ver stadium van de ziekte  is dit niet langer confronterend.
+Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het interessanter om in het tweede semester op het eerste in te zetten. Dit zal het moeilijker maken om de geschikte testpersonen te verzamelen, maar zal tot concretere resultaten leiden. Het is nadien nog steeds mogelijk om in een latere fase op de tweede strategie terug te vallen. Maar dan is er wel de zekerheid dat het op zijn minst voor een klein deel een échte oplossing biedt.
 
 ## Bijlagen
 ### Discover
