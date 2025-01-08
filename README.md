@@ -34,8 +34,6 @@ Mensen worden steeds ouder. In 2023 gemiddeld 82,5 in België (PwC, 2024) [^1]. 
 
 Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt tot nachtelijke onrust en dwalen. (Thomas & Ritter, 2022) [^3] Dit verstoort niet alleen de nachtrust van de persoon met dementie zelf, maar ook die van hun mantelzorgers, vaak de partner. Deze aanhoudende belasting kan leiden tot fysieke en emotionele uitputting van de mantelzorger, wat de beslissing tot een vaste opname in een woonzorgcentrum kan bespoedigen.
 
-> _“Een verstoorde nachtrust is vaak het duwtje van dagopvang naar vaste opvang.”_ – Jorick Cappon, centrumleider in Huize Ter Walle
-
 Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van PD en hun MZ bevordert, zodat thuiszorg langer mogelijk blijft. Daarbij is het cruciaal om de autonomie van de zorgbehoevende te ondersteunen en de druk op MZ te verlagen. Dit vereist oplossingen die rekening houden met de uiteenlopende en veranderende cognitieve en zintuiglijke capaciteiten van PD. De focus ligt op het minimaliseren van nachtelijke interventies en het ondersteunen van een zelfstandig dag-nachtritme. De ontwikkelde oplossing moet bovendien flexibel zijn en ook in een woonzorgcentrum gebruikt kunnen worden om de professionele zorgverleners te ontlasten.
 
 ## Methodologie
@@ -85,14 +83,7 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 #### Ethnography (N=1)
 > “Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.” – professionele zorgverlener
 
-Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie.
-Dagcentra of een uitstap met een vrijwilliger of 2de lijn mantelzorger bieden een moment van decompressie.
-Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing
-die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de
-druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van
-leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de
-benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende.
-Hieronder een fishbone diagram met de belangrijkste zaken m.b.t de belasting van mantelzorgers.
+Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie. Dagcentra of een uitstap met een vrijwilliger of 2de lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. Hieronder een fishbone diagram met de belangrijkste zaken m.b.t de belasting van mantelzorgers.
 
 ![image](https://github.com/user-attachments/assets/f7cf4470-464d-4ac2-993c-3a9524c696bc)
 
@@ -110,7 +101,6 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstandigheid van de PD moet garanderen. De drempel voor gebruik moet ook laag blijven, het moet zo intuitief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geimplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeert worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit, het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze wakker komt.
 
 > [!NOTE]
-> **Design requirements**
 > - 1.1 Ontlast de mantelzorger door een minder verstoorde nachtrust
 > - 2.1 Geeft PD meer zelfstandigheid en eigenwaarde en werkt geruststellend en ondersteunend
 > - 2.1.2 Oriënteert de PD bij een nachtelijk toiletbezoek
@@ -149,6 +139,12 @@ En een mockup van hoe dit product er uit zou kunnen zien.
 
 Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad vormen) en de Beacon (een multi-sensorieel kussen/lamp) gemaakt om de validiteit van de testen te optimaliseren.
 
+Wave 1: De lichten worden handmatig bedoeld. Geluiden worden via bluetooth van op afstand bediend.
+<img src="/images/Prototypes wave 1.png">
+
+Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluethooth speaker (Spotify playlist) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
+<img src="/images/Prototypes wave 2.png">
+
 ### Resultaten
 #### User review prototypes (N=10)
 
@@ -158,15 +154,18 @@ Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad v
 > - Veroorzaakt geen agitatie?
 > - Is voldoende intuïtief?
 
-<img src="/images/Prototypes wave 1.png">
+<img src="/images/Prototypes mantelzorgers.jpg">
 
 PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een ersnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
 
-Hieronder de resultaten van de enquête:
+> _“Een verstoorde nachtrust is vaak het duwtje van dagopvang naar vaste opvang.”_ – Jorick Cappon, centrumleider in Huize Ter Walle
+
+De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanneer je licht op de kamerdeur of onder het bed voorziet, zal dit net de aandacht trekken. Prikkel naar het hoofddoel, aan het bed. Op de geluiden wordt stek wisselend gereageerd. De een vindt het storend, de andere ziet er potentieel in, cfr. het snoezelen.
+
+De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de DP zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
 <img src="/images/Prototypes enquete.png">
 
 > [!NOTE]
-> **Design requirements**
 > - 1.1 … en biedt geruststelling, ook wanneer de DP niet in de onmiddellijke nabijheid is
 > - 2.1.4 Respecteert de privacy van de DP en de MZ
 > - 3.1.3 Trekt enkel de aandacht wanneer functioneel relevant
@@ -181,20 +180,21 @@ Op basis van onze eerste testen merken we op dat we slechts een deel beperkt dee
 > - Wat houdt de MZ nu precies wakker?
 > - Waarom is de nachtrust van de PD zo slecht?
 
-...
+Uit onze gesprekken kwam naar voor dat het nachtelijk opstaan veelal omwille van een toiletbezoek plaatsvindt en dit vervolgens de aanleiding kan zijn voor dolen.
+In de literatuur lezen we dat onrust, angst, waanbeelden, denken te moeten gaan werken mee aan de oorzaak liggen. Deze verklaren beter het gedrag dat laten in de woonzorgcentra wordt waargenomen. Deze symptomen verergeren 's avonds en is gekend als _sundowning_. Behalve opdrijven van medicatie en het opsluiten of plaatsen in ernstige gevallen, kunnen rustgevende therapieën tegen de avond dit fenomeen verminderen.
 
 > [!NOTE]
-> **Design requirements**
 > - 2.2 Biedt een meerwaarde voor minimaal 50% van de varianten en gradaties van de ziekte
 > - 2.3 Bevordert het circadiaans ritme van de PD
 > - 2.3.2 Multi-sensoriële snoezelfuncties bevorderen het inslapen
-> - 
+
 #### Expert review (N=2)
 
-<img src="/images/Prototypes wave 2.png">
+Beacon: In de nieuwe prototypes wordt geluid beperkt tot 's avonds en 's ochtends om de slaap van de MZ niet te verstoren. Er is echter onmiddellijk de opmerking dat een spraakbericht "Het is nog nacht", die een PD aanspoort zelfstandig terug in bed te kruipen, voor veel bewoners van het woonzorgcentrum een hulp zou kunnen betekenen. Meestal is de PD al op dool wanneer de PZ aan de kamer toekomt.
+
+Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP uit bed, uit de kamer, in de toilet komt, gecombineerd met een tijdgebonden waarschuwing, zou beter werken dan een courant gebruikt IR-detectiesystemen (Mintt). Het biedt meerdere checkpoints waardoor de noodzaak voor een interventie beter kan worden ingeschat. Tegenwoordig hebben zo goed als alle mantelzorgers een smartphone, dus een dergelijk systeem zou ook via deze weg een melding kunnen geven aan de mee-slapende of familieleden.
 
 > [!NOTE]
-> **Design requirements**
 > - 1.1.1 Detectie van de route van de PD met bijhorende tijdsindicatie
 > - 1.1.2 Geeft hierover feedback aan de MZ, IZ, PZ
 > - 1.1.4 Communiceert met een smartphone app (inwonende) MZ & familie
@@ -206,8 +206,11 @@ Op basis van onze eerste testen merken we op dat we slechts een deel beperkt dee
 
 #### Concept testing
 
+<gifs>
+
+<foto's testen>
+
 > [!NOTE]
-> **Design requirements**
 > - 2.1.5 De interacties zijn intuïtief
 > - 2.4.2 Kan eenvoudig geïnstalleerd worden ongeacht de omgeving
 > - 3.1.1 Veroorzaak geen gevoel van schaamte of confrontatie
@@ -222,6 +225,8 @@ Op basis van onze eerste testen merken we op dat we slechts een deel beperkt dee
 -  Een lange batterijduur of aansluiting op het net is een vereiste.
 -  De functionaliteiten van de prototypes moeten worden afgestemd op de context (thuiszorg vs. woonzorgcentrum).
 -  De doelgroep bestaat (hoofdzakelijk) uit ouderen wiens mentaal model van gelijkaardige producten beperkt is, waardoor de interactie intuïtief moet zijn.
+
+<img src="images/Storyboard locaties.png">
 
 #### Overzicht design requirements
 
