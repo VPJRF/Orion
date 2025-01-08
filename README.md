@@ -217,6 +217,11 @@ Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP u
 
 #### Concept testing
 
+Uit de testen met de prototypes blijkt dat de snoezelhemel door gebruikers eerder neutraal wordt ervaren, zonder uitgesproken positieve of negatieve reacties. De wekker met licht en geluid roept daarentegen een nostalgisch effect op, wat duidt op een emotionele connectie met vertrouwde elementen. Het alarmlicht, dat bedoeld is om een waarschuwende functie te vervullen, werd echter als rustgevend geïnterpreteerd in plaats van alarmerend.  
+
+Vreemde geluiden in de omgeving wekken nieuwsgierigheid naar hun herkomst, wat erop wijst dat dergelijke prikkels eerder stimulerend dan storend werken. Aangename geuren hebben een subtiel positief effect op het gemoed, wat bevestigt dat geurprikkels een waardevolle toevoeging kunnen zijn voor het bevorderen van comfort en welzijn.  
+
+Deze inzichten onderstrepen het belang van een intuïtieve en eenvoudig te installeren interactie met de hulpmiddelen. Het systeem moet schaamte of confrontatie vermijden en een vertrouwde, veilige omgeving creëren die herkenbaar is voor de PD. Ongewenste of onnodige hulp wordt daarbij vermeden, en hulpmiddelen worden geleidelijk geïntroduceerd, afgestemd op de context en het tempo van de gebruiker.
 <p align="center">
   <img src="/img/GIF Sky.gif" width="25%">
   <img src="/img/GIF Breathing.gif" width="25%">
