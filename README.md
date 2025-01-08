@@ -17,11 +17,11 @@ Aan de hand van een _literature review_ (N=16), _user interviews_ (N=4), _ethnog
 
 De oplossing is tweedelig.
 
-**_Breadcrumbs_**, een serie lichtjes met sensoren buiten de kamer die een pad vormen om de PD oriëntatie te bieden en zijn/haar positie met de mantelzorger te communiceren.
-
 **_Beacon_**, een multi-sensoriele nachtlamp naast het bed die rust, veiligheid creëert en het primaire oriëntatiepunt vormt.
 
-Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten. Orion maakt zo thuiszorg aangenamer en duurzamer.
+**_Breadcrumbs_**, een serie lichtjes met sensoren buiten de kamer die een pad vormen om de PD oriëntatie te bieden en zijn/haar positie met de mantelzorger te communiceren.
+
+Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten en maakt zo thuiszorg aangenamer en duurzamer.
 
 <p align="left">
   <img src="/img/Hero%20beacon.png" width="32%">
@@ -42,7 +42,7 @@ Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van
 
 <img src="/img/Timeline.svg">
 
-Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase. De discovery fase omvatte een literatuurstudie om een breed en helder beeld te krijgen van dementie, de sociale context en de bestaande oplossingen. Daarnaast werden er etnografische observaties in een dagcentrum uitgevoerd om de problematiek in de praktijk te observeren. In deze fase werden ook interviews afgenomen met mantelzorgers en zorgprofessionals om hun ervaringen en noden te begrijpen. De definitiefase richt zich op het prototypen en testen van oplossingen. Deze fase bestaat uit minimaal twee iteraties waarin verschillende prototypes ontwikkeld, getest en geëvalueerd worden om de meest effectieve oplossing te vinden. Hierbij wordt het 'Think Aloud Protocol' gehanteerd. De nadruk ligt op concept testing en in mindere mate usability testing.
+Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase. De discovery fase omvatte een literatuurstudie om een breed en helder beeld te krijgen van dementie, de sociale context en de bestaande oplossingen. Daarnaast werden er etnografische observaties in een dagcentrum uitgevoerd om de problematiek in de praktijk te observeren. In deze fase werden ook interviews afgenomen met mantelzorgers en zorgprofessionals om hun ervaringen en noden te begrijpen. De definitiefase richt zich op het prototypen en testen van oplossingen. Deze fase bestond uit twee iteraties waarin verschillende prototypes ontwikkeld, getest en geëvalueerd werden om de meest effectieve oplossing te vinden. Hierbij wordt het 'Think Aloud Protocol' gehanteerd. De nadruk ligt op concept testing en in mindere mate usability testing.
 
 ## Discovery
 
@@ -50,7 +50,6 @@ Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase
 -  Een begrip krijgen van wat de ziekte inhoudt.
 -  Een diepgaand begrip krijgen van de problematiek rond dementie en de impact op mantelzorgers.
 -  Het identificeren van de belangrijkste noden en behoeften van mantelzorgers en personen met dementie.
--  Hoe de personen met dementie en mantelzorger dagopvang ervaren.
 -  Het in kaart brengen van bestaande technologieën en oplossingen, en het identificeren van onderbelichte thema’s.
 
 ### Materiaal & methoden
@@ -69,10 +68,12 @@ Dementie is een complexe ziekte met uiteenlopende symptomen, dewelke uiteenlopen
 Hoewel de meeste technologieën zijn gericht op de patiënt, zijn er weinig toepassingen specifiek gericht op de emotionele ondersteuning en stressreductie voor mantelzorgers zelf. Artificiële intelligentie is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe technologieën enkele belangrijke complexiteiten met zich mee.
 
 #### User interviews (N=3)
-De verwarring zet zich door naar de nachten.
+Wat in de literatuurstudie nog onderbelicht was, maar in de praktrijk sterk naar voor komt, zijn de moeilijke nachten.
+
 > _“Zit hij daar midden in de nacht aan de keukentafel, volledig gekleed, z’n krant aan ‘t lezen.”_ – mantelzorger en partner
 
 Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang mogelijk uitstellen. Uit schrik om gescheiden te zijn, maar ook uit schaamte om te moeten toegeven dat ze het niet meer aankunnen.
+
 > _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
 
 <p align="left">
@@ -82,15 +83,22 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 </p>
 
 #### Ethnography (N=1)
+
+Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie.
+
 > “Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.” – professionele zorgverlener
 
-Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie. Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. Hieronder een fishbone diagram met de belangrijkste zaken m.b.t de belasting van mantelzorgers.
+Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. 
+
+De voornaamste factoren zijn weergegeven in onderstaande fishbone diagram.
 
 <img src="https://github.com/user-attachments/assets/f7cf4470-464d-4ac2-993c-3a9524c696bc" width=500px>
 
 Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
+
 > _“Soms kruipen ze bij een ander in bed.”_ – professionele zorgverlener
-> _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes.Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
+
+> _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes. Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
 <p align="left">
   <img src="/img/Ethnography ochtend.png" width="45%">
@@ -99,7 +107,8 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 </p>
 
 ### Conclusies & implicaties
-De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstandigheid van de PD moet garanderen. De drempel voor gebruik moet ook laag blijven, het moet zo intuïtief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geïmplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeerd worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit. Het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze ontwaakt.
+
+Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfstandigheid van de PD te verbeteren gedurende de nacht. De drempel voor gebruik moet ook laag blijven, het moet zo intuïtief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geïmplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeerd worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit. Het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze ontwaakt.
 
 > [!NOTE]
 > - 1.1 Ontlast de mantelzorger door een minder verstoorde nachtrust
