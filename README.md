@@ -22,9 +22,9 @@ De oplossing is tweedelig: <br>
 Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten. Orion maakt zo thuiszorg aangenamer en duurzamer.
 
 <p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
-  <img src="/images/1.jpg" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/2.jpg" style="flex: 1; height: auto; object-fit: cover;">
-  <img src="/images/3.jpg" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/1.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/2.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/3.png" style="flex: 1; height: auto; object-fit: cover;">
 </p>
 
 ## Introductie
@@ -39,16 +39,15 @@ Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt to
 Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van PD en hun MZ bevordert, zodat thuiszorg langer mogelijk blijft. Daarbij is het cruciaal om de autonomie van de zorgbehoevende te ondersteunen en de druk op MZ te verlagen. Dit vereist oplossingen die rekening houden met de uiteenlopende en veranderende cognitieve en zintuiglijke capaciteiten van PD. De focus ligt op het minimaliseren van nachtelijke interventies en het ondersteunen van een zelfstandig dag-nachtritme. De ontwikkelde oplossing moet bovendien flexibel zijn en ook in een woonzorgcentrum gebruikt kunnen worden om de professionele zorgverleners te ontlasten.
 
 ## Methodologie
-Max 400 woorden. Beschrijf je methodologie (enkel SEM1, zie les methodologie). Maak hierbij gebruik van een afbeelding om je tijdlijn weer te geven. Op deze tijdlijn moeten minimaal een tijdsincatie te zien zijn, moeten fasen te zien zijn en moeten activiteiten te zien zijn.
 ![image](https://github.com/user-attachments/assets/5f2fc1e0-1f93-46c3-b1e4-1c7ee48e801c)
 
+<img src="/images/timeline.svg">
 
 Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase. De discovery fase omvatte een literatuurstudie om een breed en helder beeld te krijgen van dementie, de sociale context en de bestaande oplossingen. Daarnaast werden er etnografische observaties in een dagcentrum uitgevoerd om de problematiek in de praktijk te observeren. In deze fase werden ook interviews afgenomen met mantelzorgers en zorgprofessionals om hun ervaringen en noden te begrijpen. De definitiefase richt zich op het prototypen en testen van oplossingen. Deze fase bestaat uit minimaal twee iteraties waarin verschillende prototypes ontwikkeld, getest en geëvalueerd worden om de meest effectieve oplossing te vinden. Hierbij wordt het 'Think Aloud Protocol' gehanteerd. De nadruk ligt op concept testing en in mindere mate usability testing.
 
 ## Discovery
-Max. 1000 woorden
-### Doestellingen
 
+### Doestellingen
 -  Een begrip krijgen van wat de ziekte inhoud.
 -  Een diepgaand begrip krijgen van de problematiek rond dementie en de impact op mantelzorgers.
 -  Het identificeren van de belangrijkste noden en behoeften van mantelzorgers en personen met dementie.
@@ -56,54 +55,59 @@ Max. 1000 woorden
 -  Het in kaart brengen van bestaande technologieën en oplossingen, en het identificeren van onderbelichte thema’s.
 
 ### Materiaal & methoden
-Hoe onderzocht je dit? Wees volledig.
 Een antwoord op de vorige vragen werd verkregen via een 
-1:  literatuurstudie, hierin gefocust op een onderbouwd begrip vormen van de ziekte, de problematieken die ermee gepaard gaan, de effecten op de
-    persoon met dementie en zijn omgeving en de bestaande technologieën die hierin hulp trachten te bieden. Dit aan de hand van analyse van wetenschappelijke artikelen, rapporten en andere relevante documenten       over dementie, mantelzorg en technologische hulpmiddelen.
-2:  Ethnografisch onderzoek, dit in de vorm van A Day in the Life. We trachten de positieve en negatieve effecten van dagopvang in kaart te brengen en de doelgroep van dichtbij te observeren om ons begrip van de     ziekte scherper te stellen. Dit waren observaties, field notes en contextual inquiries binnen een dagcentrum.
-3:  Groepsgesprekken, dit waren semigestructureerde groepsgesprekken met mantelzorgers en dagverzorgingsmedewerkers in twee woonzorgcentra om ervaringen. Deze groepen werden gebruikt om behoeften, noden,             ideëen en meningen over het project te verkrijgen.
+1. Literatuurstudie: Hierin gefocust op een onderbouwd begrip vormen van de ziekte, de problematieken die ermee gepaard gaan, de effecten op de persoon met dementie en zijn omgeving en de bestaande technologieën die hierin hulp trachten te bieden. Dit aan de hand van analyse van wetenschappelijke artikelen, rapporten en andere relevante documenten over dementie, mantelzorg en technologische hulpmiddelen.
+2. Gebruikersinterviews: Door in gesprek te gaan met mantelzorgers trachten we pijnpunten en lichtpunten doorheen de dag bloot te leggen.
+3. Ethnografisch onderzoek: Dit in de vorm van A Day in the Life. We trachten de positieve en negatieve effecten van dagopvang in kaart te brengen en de doelgroep van dichtbij te observeren om ons begrip van de ziekte scherper te stellen. Dit waren observaties, field notes en contextual inquiries binnen een dagcentrum.
 
 ### Resultaten
-Literatuurstudie: 
-Dementie is een complexe ziekte met uiteenlopende symptomen, dewelke uiteenlopende lasten met zich
-meebrengen voor zowel de persoon zelf, als de (informele) zorgverleners. Er is veel onderzoek en innovatie
-gaande en vernieuwingen spitsen zich toe op uiteenlopende problematieken.
+#### Literature review (N=16)
+Dementie is een complexe ziekte met uiteenlopende symptomen, dewelke uiteenlopende lasten met zich meebrengen voor zowel de persoon zelf, als de (informele) zorgverleners. Er is veel onderzoek en innovatie gaande en vernieuwingen spitsen zich toe op uiteenlopende problematieken.
 -  Communicatie en sociale interactie
 -  Fysieke veiligheid en bewegingsvrijheid
 -  Cognitieve stimulatie en geheugenondersteuning
 -  Ondersteuning voor dagelijkse zorgactiviteiten en zelfredzaamheid
-Hoewel de meeste technologieën zijn gericht op de patiënt, zijn er weinig toepassingen specifiek gericht op de
-emotionele ondersteuning en stressreductie voor mantelzorgers zelf.
-Artificiële intelligentie is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en
-de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe
-technologieën enkele belangrijke complexiteiten met zich mee.
+Hoewel de meeste technologieën zijn gericht op de patiënt, zijn er weinig toepassingen specifiek gericht op de emotionele ondersteuning en stressreductie voor mantelzorgers zelf. Artificiële intelligentie is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe technologieën enkele belangrijke complexiteiten met zich mee.
 
+#### User interviews (N=3)
+De verwarring zet zich door naar de nachten.
+> _“Zit hij daar midden in de nacht aan de keukentafel, volledig gekleed, z’n krant aan ‘t lezen.”_ – mantelzorger en partner
 
-Ethnography: Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie.
+Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang mogelijk uitstellen. Uit schrik om gescheiden te zijn, maar ook uit schaamte om te moeten toegeven dat ze het niet meer aankunnen.
+> _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
+
+<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
+  <img src="/images/User interviews Andre.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/User interviews Leana.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/User interviews empathy mapping.png" style="flex: 1; height: auto; object-fit: cover;">
+</p>
+
+#### Ethnography (N=1)
+> “Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.” – professionele zorgverlener
+
+Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie.
 Dagcentra of een uitstap met een vrijwilliger of 2de lijn mantelzorger bieden een moment van decompressie.
 Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing
 die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de
 druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van
 leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de
 benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende.
-Hieronder nog een fishbone diagram met de belangrijkste zaken m.b.t de belasting van mantelzorgers.
+Hieronder een fishbone diagram met de belangrijkste zaken m.b.t de belasting van mantelzorgers.
+
 ![image](https://github.com/user-attachments/assets/f7cf4470-464d-4ac2-993c-3a9524c696bc)
 
-Gebruiksinterviews: Pwd hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te 
-dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te 
-hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de 
-MZs dan ook wakker, dit wederzijds om de PwD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat 
-zowel de MZ als PwD pas gerust zijn wanneer deze weten dat de PwD terug in bed ligt. Vaak wanneer de nachten té zwaar 
-worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum 
-ook. De angst voor een nieuwe woonomgeving van de PwD geeft angst voor een versnellende ziekte. Maar een MZ zonder 
-slaap gaat er hoe dan ook aan onderdoor.
-"Een verstoorde nachtrust van personen met dementie is vaak het duwtje van dagopvang naar vaste opvang." -Joris Cappon
+Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
+> _“Soms kruipen ze bij een ander in bed.”_ – professionele zorgverlener
+> _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes.Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
-
+<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
+  <img src="/images/Ethnography ochtend.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/Ethnography de boeren.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/Ethnography creme au beurre.png" style="flex: 1; height: auto; object-fit: cover;">
+</p>
 
 ### Conclusies & implicaties
-Definieer de belangrijkste designbeslissingen
-De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstandigheid van de pwd moet garanderen. De drempel voor gebruik moet ook laag blijven, het moet zo intuitief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geimplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeert worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit, het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze wakker komt.
+De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstandigheid van de PD moet garanderen. De drempel voor gebruik moet ook laag blijven, het moet zo intuitief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geimplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeert worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit, het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze wakker komt.
 
 > [!NOTE]
 > **Design requirements**
@@ -113,10 +117,26 @@ De belangrijkste designbeslissingen die we kregen waren dat het echt de zelfstan
 > - 2.1.2 Oriënteert de PD in de tijd (dag-nacht-onderscheid)
 > - 2.4.1 Reist mee met de PD doorheen het verloop van de ziekte als vertrouwd element
 
-## Definition
-Max. 1000 woorden
-### Doestellingen
+De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
+<img src="/images/Design sprint innovatrix.png">
 
+Als houvast voor de volgende fase vertalen we het probleem en de mogelijke oplossing in storyboards.
+Huidige situatie
+<img src="/images/Storyboard huidige situatie.png">
+Oriëntatie in tijd (dag-nacht-onderscheid)
+<img src="/images/Storyboard dag-nacht.png">
+Oriëntatie in ruimte (nachtelijke wayfinding)
+<img src="/images/Storyboard orientatie.png">
+
+En een mockup van hoe dit product er uit zou kunnen zien.
+<p style="display: flex; justify-content: space-between; gap: 5px; width: 100%;">
+  <img src="/images/Klinkklok dag-nacht.png" style="flex: 1; height: auto; object-fit: cover;">
+  <img src="/images/Klinkklok orientatie.png" style="flex: 1; height: auto; object-fit: cover;">
+</p>
+
+## Definition
+
+### Doestellingen
 -  Het ontwikkelen van concrete prototypes (Breadcrumb en Beacon) die de geïdentificeerde problemen adresseren.
 -  Het testen en evalueren van deze prototypes in realistische scenario's.
 -  Het verzamelen van feedback van gebruikers en stakeholders om de prototypes te verbeteren
@@ -135,11 +155,22 @@ Max. 1000 woorden
 ### Materiaal & methoden
 Hoe onderzocht je dit? Wees volledig.
 
+3:  Groepsgesprekken, dit waren semigestructureerde groepsgesprekken met mantelzorgers en dagverzorgingsmedewerkers in twee woonzorgcentra om ervaringen. Deze groepen werden gebruikt om behoeften, noden,             ideëen en meningen over het project te verkrijgen.
 -  Prototype ontwikkeling: Ontwikkeling van de Breadcrumb (lichtjes die een pad vormen) en de Beacon (een multi-sensorieel kussen/lamp) gericht op het verbeteren van de nachtrust en zelfstandige nachtelijke oriëntatie.
 -  Testprotocollen: Opstellen van testprotocollen om de prototypes systematisch te evalueren met focus op concept testing.
 -  Gebruikerstesten: Uitvoeren van gebruikerstesten met mantelzorgers en zorgprofessionals, waarbij de prototypes in realistische scenario's worden uitgeprobeerd. Er wordt gelet op zowel verbaal als non-verbaal gedrag (grime) bij het gebruik van de prototypes.
 
 ### Resultaten
+
+Gebruiksinterviews: PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te 
+dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te 
+hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de 
+MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat 
+zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar 
+worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum 
+ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een versnellende ziekte. Maar een MZ zonder 
+slaap gaat er hoe dan ook aan onderdoor.
+"Een verstoorde nachtrust van personen met dementie is vaak het duwtje van dagopvang naar vaste opvang." -Joris Cappon
 
 > [!NOTE]
 > **Design requirements**
@@ -179,7 +210,7 @@ Hoe onderzocht je dit? Wees volledig.
 ### Conclusies & implicaties
 Definieer de belangrijkste designbeslissingen
 
--  De Breadcrumb (lichtjes doorheen het huis, gelinkt aan RFID) werd positief ontvangen door mantelzorgers, omdat het een veilige manier biedt om de PwD terug naar de kamer te leiden.
+-  De Breadcrumb (lichtjes doorheen het huis, gelinkt aan RFID) werd positief ontvangen door mantelzorgers, omdat het een veilige manier biedt om de PD terug naar de kamer te leiden.
 -  De Beacon biedt multi-sensorische prikkels (licht, geluid) die kunnen helpen bij het reguleren van het dag-nachtritme, en kan gepersonaliseerd worden in functie van de behoeftes.
 -  Het product moet interventiearm werken en makkelijk te integreren zijn in een thuisomgeving.
 -  Een lange batterijduur of aansluiting op het net is een vereiste.
