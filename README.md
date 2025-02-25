@@ -391,8 +391,8 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
 - Prototypes wave 2
 	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVgxVO37P6NCvh-ebd2gSRIBjbLRaMpq6a8uFbEiW7BVhg?e=qOb3VR)
 	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
-        - [Arduino code Beacon](/files/Beacon.ino)
-        - [Arduino code Breadcrumb](files/Breadcrumb.ino)
+        - [Arduino code Beacon](/tests/Beacon.ino)
+        - [Arduino code Breadcrumb](tests/Breadcrumb.ino)
 - [User Flow](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUmTUIAKd8ZKhQMbT16yuzMBDt6p4VjeiizfwWYc89rwLw?e=mRQy1Y)
 
 [^1]: A New Era in Belgian Healthcare
