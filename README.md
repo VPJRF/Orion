@@ -24,9 +24,9 @@ De oplossing is tweedelig.
 Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten en maakt zo thuiszorg aangenamer en duurzamer.
 
 <p align="left">
-  <img src="/img/Hero%20beacon.png" width="32%">
-  <img src="/img/Hero%20breadcrumb.png" width="32%">
-  <img src="/img/Hero%20widget.png" width="33%">
+  <img src="img/Hero%20beacon.png" width="32%">
+  <img src="img/Hero%20breadcrumb.png" width="32%">
+  <img src="img/Hero%20widget.png" width="33%">
 </p>
 
 ## Introductie
@@ -40,7 +40,7 @@ Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van
 
 ## Methodologie
 
-<img src="/img/Timeline.svg">
+<img src="img/Timeline.svg">
 
 Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase. De discovery fase omvatte een literatuurstudie om een breed en helder beeld te krijgen van dementie, de sociale context en de bestaande oplossingen. Daarnaast werden er etnografische observaties in een dagcentrum uitgevoerd om de problematiek in de praktijk te observeren. In deze fase werden ook interviews afgenomen met mantelzorgers en zorgprofessionals om hun ervaringen en noden te begrijpen. De definitiefase richt zich op het prototypen en testen van oplossingen. Deze fase bestond uit twee iteraties waarin verschillende prototypes ontwikkeld, getest en geëvalueerd werden om de meest effectieve oplossing te vinden. Hierbij wordt het 'Think Aloud Protocol' gehanteerd. De nadruk ligt op concept testing en in mindere mate usability testing.
 
@@ -77,9 +77,9 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 > _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
 
 <p align="left">
-  <img src="/img/User interviews Andre.png" width="32%">
-  <img src="/img/User interviews Leana.png" width="32%">
-  <img src="/img/User interviews empathy mapping.png" width="32%">
+  <img src="img/User interviews Andre.png" width="32%">
+  <img src="img/User interviews Leana.png" width="32%">
+  <img src="img/User interviews empathy mapping.png" width="32%">
 </p>
 
 #### Ethnography (N=1)
@@ -101,9 +101,9 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 > _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes. Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
 <p align="left">
-  <img src="/img/Ethnography ochtend.png" width="45%">
-  <img src="/img/Ethnography de boeren.png" width="24%">
-  <img src="/img/Ethnography creme au beurre.png" width="25.5%">
+  <img src="img/Ethnography ochtend.png" width="45%">
+  <img src="img/Ethnography de boeren.png" width="24%">
+  <img src="img/Ethnography creme au beurre.png" width="25.5%">
 </p>
 
 ### Conclusies & implicaties
@@ -120,7 +120,7 @@ Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfst
 De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
 
 <p align="left">
-  <img src="/img/Design sprint innovatrix.png" width=700px>
+  <img src="img/Design sprint innovatrix.png" width=700px>
 </p>
 
 Als houvast voor de volgende fase vertalen we het probleem en de mogelijke oplossing in storyboards.
@@ -128,25 +128,25 @@ Als houvast voor de volgende fase vertalen we het probleem en de mogelijke oplos
 Huidige situatie
 
 <p align="left">
-  <img src="/img/Storyboard huidige situatie.png" width=100%>
+  <img src="img/Storyboard huidige situatie.png" width=100%>
 </p>
 
 Oriëntatie in tijd (dag-nacht-onderscheid)
 
 <p align="left">
-  <img src="/img/Storyboard dag-nacht.png" width=100%>
+  <img src="img/Storyboard dag-nacht.png" width=100%>
 </p>
 
 Oriëntatie in ruimte (nachtelijke wayfinding)
 
 <p align="left">
-  <img src="/img/Storyboard orientatie.png" width=100%>
+  <img src="img/Storyboard orientatie.png" width=100%>
 </p>
 
 En een mockup van hoe dit product er uit zou kunnen zien.
 <p align="left">
-  <img src="/img/Klinkklok dag-nacht.png" width="45%">
-  <img src="/img/Klinkklok orientatie.png" width="45%">
+  <img src="img/Klinkklok dag-nacht.png" width="45%">
+  <img src="img/Klinkklok orientatie.png" width="45%">
 </p>
 
 ## Definition
@@ -166,11 +166,11 @@ Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad v
 
 Wave 1: De lichten worden handmatig bediend. Geluiden worden via bluetooth van op afstand bediend.
 
-<img src="/img/Prototypes wave 1.png">
+<img src="img/Prototypes wave 1.png">
 
 Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluetooth speaker ([Spotify playlist](https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b)) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
 
-<img src="/img/Prototypes wave 2.png">
+<img src="img/Prototypes wave 2.png">
 
 ### Resultaten
 #### User review prototypes (N=10)
@@ -182,7 +182,7 @@ Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbedienin
 > - Is voldoende intuïtief?
 
 <p align="left">
-  <img src="/img/Prototypes mantelzorgers.jpg" width=700px>
+  <img src="img/Prototypes mantelzorgers.jpg" width=700px>
 </p>
 
 PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een versnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
@@ -194,7 +194,7 @@ De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanne
 De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de DP zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
 
 <p align="left">
-  <img src="/img/Prototypes radiochart.png" width=500px>
+  <img src="img/Prototypes radiochart.png" width=500px>
 </p>
 
 > [!NOTE]
@@ -221,10 +221,10 @@ In de literatuur lezen we dat onrust, angst, waanbeelden, denken te moeten gaan 
 > - 2.3.2 Multi-sensoriële snoezelfuncties bevorderen het inslapen
 
 <p align="left">
-  <img src="/img/GIF Sky.gif" width="24%">
-  <img src="/img/GIF Breathing.gif" width="24%">
-  <img src="/img/GIF Sunrise.gif" width="24%">
-  <img src="/img/GIF Alarm.gif" width="24%">
+  <img src="img/GIF Sky.gif" width="24%">
+  <img src="img/GIF Breathing.gif" width="24%">
+  <img src="img/GIF Sunrise.gif" width="24%">
+  <img src="img/GIF Alarm.gif" width="24%">
 </p>
 
 #### Expert review (N=2)
@@ -250,9 +250,9 @@ Tijdens het opzetten van de tests waren weinig problemen ondervonden. De moeilij
 Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scenario, kregen we toch een hoop feedback.
 
 <p align="left">
-  <img src="/img/Wizard of Oz bed.png" width="25%">
-  <img src="/img/Wizard of Oz toilet.png" width="44.5%">
-  <img src="/img/Wizard of Oz gang.png" width="25%">
+  <img src="img/Wizard of Oz bed.png" width="25%">
+  <img src="img/Wizard of Oz toilet.png" width="44.5%">
+  <img src="img/Wizard of Oz gang.png" width="25%">
 </p>
 
 > [!NOTE]
@@ -305,7 +305,7 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 ### Resultaten
 
 #### Bert-testing
-<img src="img/Prototypes wave 3 bert.svg">
+<img src="img/Prototypes wave 3 bert.svg" width="350">
 
 ## Design requirements
 
@@ -407,30 +407,30 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
 ## Bijlagen
 ### Discover
 - Literature review
- - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EdiS3hkiKK1MplGdmVTWungBmxVn0FbBp6aX2gbiq4Yjcw?e=3pP9zS)
- - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVpkX9X-c-hKqZcMqP5W1E4BfmoQJAslg8WdfgcqIlADtQ?e=OeRcE2)
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EdiS3hkiKK1MplGdmVTWungBmxVn0FbBp6aX2gbiq4Yjcw?e=3pP9zS)
+  - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVpkX9X-c-hKqZcMqP5W1E4BfmoQJAslg8WdfgcqIlADtQ?e=OeRcE2)
 - User interviews
- - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EcmzMGjfi_pDri7_CiFLg6sBVcVGTVBcUN_csnUy3V1scA?e=q4lqXB)
- - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUxWuQ6OHRBBsqC9CrPRgI8ByjO5FftoaaS89HSN1k0SQQ?e=l8HrYT)
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EcmzMGjfi_pDri7_CiFLg6sBVcVGTVBcUN_csnUy3V1scA?e=q4lqXB)
+  - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUxWuQ6OHRBBsqC9CrPRgI8ByjO5FftoaaS89HSN1k0SQQ?e=l8HrYT)
 - Ethnography
- - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbZtCITc4uJAq0ycfyGaPi8BeBhuUqo_bVPuqhUFXoU3WQ?e=zYbrPR)
- - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUZXoSR17MNIq53AvzIOdvEBZ89_BWPycliHvZ6ZHHcRLg?e=TfPVYO)
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbZtCITc4uJAq0ycfyGaPi8BeBhuUqo_bVPuqhUFXoU3WQ?e=zYbrPR)
+  - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUZXoSR17MNIq53AvzIOdvEBZ89_BWPycliHvZ6ZHHcRLg?e=TfPVYO)
 ### Define
 - [Testimonials](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EWyvy-P7P6lCo79PSqwTZOcBr3zRq12eMHFV4EmILDvBsg?e=ta0Xfr)
 - [Literature review](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVuqMEwuGKBKsmLIZl0oRTYBc0NNRPol8vBCxzsqA2-cCg?e=Nf0qWs)
 - Prototypes wave 1
- - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUDGs_sZqw1Cu-SNZ_Z4MUYB4EUygZoMUpzzzmrSuLFlzA?e=GaHmqu) - [enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef0tJbKGW_dAtwJForc6fqsBGBC1jhmTAPsUzSV54qDXcQ?e=y3iexh)
- - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYPAxhtVcARDhyRcBSE5QyAB_7105NtN1UUdGcgKd0noVQ?e=lRj64M) - [resultaten enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/ETZRhIU3ZTpDvh90dmZtsAcBM5H1ob_vPhDzmzgHq2v9hA?e=dr1w6v)
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUDGs_sZqw1Cu-SNZ_Z4MUYB4EUygZoMUpzzzmrSuLFlzA?e=GaHmqu) - [enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef0tJbKGW_dAtwJForc6fqsBGBC1jhmTAPsUzSV54qDXcQ?e=y3iexh)
+  - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYPAxhtVcARDhyRcBSE5QyAB_7105NtN1UUdGcgKd0noVQ?e=lRj64M) - [resultaten enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/ETZRhIU3ZTpDvh90dmZtsAcBM5H1ob_vPhDzmzgHq2v9hA?e=dr1w6v)
 - [Matrix evaluation](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
 - Prototypes wave 2
- - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVgxVO37P6NCvh-ebd2gSRIBjbLRaMpq6a8uFbEiW7BVhg?e=qOb3VR)
- - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
- - [Arduino code Beacon](/tests/Beacon.ino)
- - [Arduino code Breadcrumb](tests/Breadcrumb.ino)
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVgxVO37P6NCvh-ebd2gSRIBjbLRaMpq6a8uFbEiW7BVhg?e=qOb3VR)
+  - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
+  - [Arduino code Beacon](/tests/Beacon.ino)
+  - [Arduino code Breadcrumb](tests/Breadcrumb.ino)
 - [User Flow](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUmTUIAKd8ZKhQMbT16yuzMBDt6p4VjeiizfwWYc89rwLw?e=mRQy1Y)
 - Prototypes wave 3
- - [Protocol]()
- - [Rapport]()
+  - [Protocol]()
+  - [Rapport]()
 
 [^1]: A New Era in Belgian Healthcare
 [^2]: [Expertisecentrum Dementie Vlaanderen](https://www.dementie.be/home/wat-is-dementie/prevalentie/#:~:text=Onze%20nieuwe%20schatting%20is%20dat,n%201.800%20een%20formele%20diagnose.&text=De%20kans%20is%201%20op,in%20zijn%20leven%20dementie%20krijgt.&text=Leeftijd%20is%20de%20belangrijkste%20risicofactor%20voor%20dementie.)
