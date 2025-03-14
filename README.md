@@ -294,13 +294,13 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 
 #### Prototypes
 
-| Metafoor | Symboliek | C | M | F | Typologie | Affordance | Signifier |
-| - | - | - | - | - | - | - | - |
-| 1. Boek <br> <img src="img/Prototypes boek.png"> | Kennis <br> Rust | Aardetinten <br> Donker | Ruw | Mat <br> Onbehandeld | (Recht)hoekig | Draaien of richten | Vorm en massa suggereren handeling |
-| 2. Vlinder <br> <img src="img/Prototypes vlinder.png"> | Lichtheid <br> Speelsheid <br> Zachtheid | Zachte grijstinten | Vilt | Lichtdoorlatend <br> Zacht | Ronde vorm <br> Verticale asymmetrie | Stekker inpluggen <br> Tuimelschakelaar | Rechte rand als oriëntatie boven/onder <br> Zichtbare stekker en schakelaar op kabel |
-| 3. Discobal <br> <img src="img/Prototypes discobal.png"> | Futuristisch <br> Opvallend <br> Energiek | Felle kleuren <br> Color blocking | Textiel en metaal | Reflecterend | Samengesteld uit primaire volumes | Aandrukken van knop | Contrasterende drukknop direct zichtbaar |
-| 4. Schelp <br> <img src="img/Prototypes schelp.png"> | Veiligheid <br> Clinisch | Monochroom | Metaal en plastic | Glad <br> Clean | Organisch <br> Vloeiende overgangen <br> Afgerond | Openen/sluiten om licht te activeren | Omgeplooide rand toont sluiting en gebruiksrichting |
-| 5. Pacman <br> <img src="img/Prototypes pacman.png"> | Retro <br> Herkenbaar | Natuurlijk <br> Houtkleurig | Hout | Natuurlijk <br> Vernist | Samengesteld uit cirkels <br> Compact | Schuiven om licht aan/uit te zetten | Spleet/gleuf als subtiele richtinggever |
+| | <div style="width:200px;"> </div> | Metafoor | Symboliek | C | M | F | Typologie | Affordance | Signifier |
+| - | - | - | - | - | - | - | - | - | - |
+| 1 | <img src="img/Prototypes boek.png"> | Boek | Kennis <br> Rust | Aardetinten <br> Donker | Ruw | Mat <br> Onbehandeld | (Recht)hoekig | Draaien of richten | Vorm en massa suggereren handeling |
+| 2 | <img src="img/Prototypes vlinder.png"> | Vlinder | Lichtheid <br> Speelsheid <br> Zachtheid | Zachte grijstinten | Vilt | Lichtdoorlatend <br> Zacht | Ronde vorm <br> Verticale asymmetrie | Stekker inpluggen <br> Tuimelschakelaar | Rechte rand als oriëntatie boven/onder <br> Zichtbare stekker en schakelaar op kabel |
+| 3 | <img src="img/Prototypes discobal.png"> | Discobal | Futuristisch <br> Opvallend <br> Energiek | Felle kleuren <br> Color blocking | Textiel en metaal | Reflecterend | Samengesteld uit primaire volumes | Aandrukken van knop | Contrasterende drukknop direct zichtbaar |
+| 4 | <img src="img/Prototypes schelp.png"> | Schelp | Veiligheid <br> Clinisch | Monochroom | Metaal en plastic | Glad <br> Clean | Organisch <br> Vloeiende overgangen <br> Afgerond | Openen/sluiten om licht te activeren | Omgeplooide rand toont sluiting en gebruiksrichting |
+| 5 | <img src="img/Prototypes pacman.png"> | Pacman | Retro <br> Herkenbaar | Natuurlijk <br> Houtkleurig | Hout | Natuurlijk <br> Vernist | Samengesteld uit cirkels <br> Compact | Schuiven om licht aan/uit te zetten | Spleet/gleuf als subtiele richtinggever |
 
 ### Resultaten
 
