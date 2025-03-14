@@ -294,16 +294,16 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 
 | Metafoor | Symboliek | C | M | F | Typologie | Affordance | Signifier |
 | - | - | - | - | - | - | - | - |
-| 1. Boek <br> <img src="img/boek.png"> | Kennis <br> Rust | Aardetinten <br> Donker | Ruw | Mat <br> Onbehandeld | (Recht)hoekig | Draaien of richten | Vorm en massa suggereren handeling |
-| 2. Vlinder <br> <img src="img/vlinder.png"> | Lichtheid <br> Speelsheid <br> Zachtheid | Zachte grijstinten | Vilt | Lichtdoorlatend <br> Zacht | Ronde vorm <br> Verticale asymmetrie | Stekker inpluggen <br> Tuimelschakelaar | Rechte rand als oriëntatie boven/onder <br> Zichtbare stekker en schakelaar op kabel |
-| 3. Discobal <br> <img src="img/discobal.png"> | Futuristisch <br> Opvallend <br> Energiek | Felle kleuren <br> Color blocking | Textiel en metaal | Reflecterend | Samengesteld uit primaire volumes | Aandrukken van knop | Contrasterende drukknop direct zichtbaar |
-| 4. Schelp <br> <img src="img/schelp.png"> | Veiligheid <br> Clinisch | Monochroom | Metaal en plastic | Glad <br> Clean | Organisch <br> Vloeiende overgangen <br> Afgerond | Openen/sluiten om licht te activeren | Omgeplooide rand toont sluiting en gebruiksrichting |
-| 5. Pacman <br> <img src="img/pacman.png"> | Retro <br> Herkenbaar | Natuurlijk <br> Houtkleurig | Hout | Natuurlijk <br> Vernist | Samengesteld uit cirkels <br> Compact | Schuiven om licht aan/uit te zetten | Spleet/gleuf als subtiele richtinggever |
+| 1. Boek <br> <img src="img/Prototypes boek.png"> | Kennis <br> Rust | Aardetinten <br> Donker | Ruw | Mat <br> Onbehandeld | (Recht)hoekig | Draaien of richten | Vorm en massa suggereren handeling |
+| 2. Vlinder <br> <img src="img/Prototypes vlinder.png"> | Lichtheid <br> Speelsheid <br> Zachtheid | Zachte grijstinten | Vilt | Lichtdoorlatend <br> Zacht | Ronde vorm <br> Verticale asymmetrie | Stekker inpluggen <br> Tuimelschakelaar | Rechte rand als oriëntatie boven/onder <br> Zichtbare stekker en schakelaar op kabel |
+| 3. Discobal <br> <img src="img/Prototypes discobal.png"> | Futuristisch <br> Opvallend <br> Energiek | Felle kleuren <br> Color blocking | Textiel en metaal | Reflecterend | Samengesteld uit primaire volumes | Aandrukken van knop | Contrasterende drukknop direct zichtbaar |
+| 4. Schelp <br> <img src="img/Prototypes schelp.png"> | Veiligheid <br> Clinisch | Monochroom | Metaal en plastic | Glad <br> Clean | Organisch <br> Vloeiende overgangen <br> Afgerond | Openen/sluiten om licht te activeren | Omgeplooide rand toont sluiting en gebruiksrichting |
+| 5. Pacman <br> <img src="img/Prototypes pacman.png"> | Retro <br> Herkenbaar | Natuurlijk <br> Houtkleurig | Hout | Natuurlijk <br> Vernist | Samengesteld uit cirkels <br> Compact | Schuiven om licht aan/uit te zetten | Spleet/gleuf als subtiele richtinggever |
 
 ### Resultaten
 
 #### Bert-testing
-<img src="img/bert-testing.png">
+<img src="img/Prototypes bert-testing.png">
 
 ## Design requirements
 
@@ -391,8 +391,8 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 - Biosensors voor product evaluation testing
 
 ## Kritische reflectie
-Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeenkomen. MZ zijn kritische en PD op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er klaarblijkelijk nog niet in geslaagd om hen te overtuigen. 
-- In de eerste plaat zou de status quo bias hierin een rol kunnen spelen, doch zijn er voldoende MZs die bestaande hulpmiddelen omarmen. 
+Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeenkomen. MZ zijn kritische en PD op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er nog niet in geslaagd om een antwoord op hun werkelijke vragen te bieden. 
+- In de eerste plaats zou de status quo bias hierin een rol kunnen spelen, doch zijn er voldoende MZs die bestaande hulpmiddelen omarmen. 
 - Een tweede aspect is de ogenschijnlijke noodzaak om de ecologische validiteit van onze testen nog te verhogen om werkelijke feedback te krijgen. Hierbij is het van groot belang dat er zo min mogelijk verwarring bij de PD veroorzaakt wordt, aangezien dit in een potentiële emotionele nasleep kan resulteren. 
 - Een derde aspect is het enorme belang van het menselijke aspect. De nachtelijke interacties tussen MZ en DP dienen om zowel de PD als de MZ gerust te stellen. De achterliggende redenen zijn zo verschillend per individu en per voorval dat technologie onmogelijk hetzelfde kan bereiken dan een complex menselijk contact.
 
