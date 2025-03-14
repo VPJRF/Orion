@@ -290,6 +290,8 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 - Semi-structured interviews
 - Think aloud protocol
 
+<img src="img/Prototypes wave 3 CMF.png">
+
 #### Prototypes
 
 | Metafoor | Symboliek | C | M | F | Typologie | Affordance | Signifier |
@@ -303,7 +305,7 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 ### Resultaten
 
 #### Bert-testing
-<img src="img/Prototypes bert-testing.png">
+<img src="img/Prototypes wave 3 bert.svg">
 
 ## Design requirements
 
