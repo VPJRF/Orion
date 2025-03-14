@@ -276,68 +276,91 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 ## Develop
 
 ### Doelstellingen
+#### 5 varianten van vlinderlamp
+- Uitbreidbaarheid van de doelgroep onderzoeken
+ - ouders met jonge kinderen
+ - personen rond de pensioenleeftijd
+ - ouderen 75+ (met & zonder dementie)
+- Usability & UX
+- Cognitieve & sensoriele aspecten
+- Emotionele impact van CMF
 
+### Materialen en methoden
+- BERT-testing
+- Semi-structured interviews
+- Think aloud protocol
 
+#### Prototypes
 
+| Metafoor | Symboliek | C | M | F | Typologie | Affordance | Signifier |
+| - | - | - | - | - | - | - | - |
+| 1. Boek <br> <img src="img/boek.png"> | Kennis <br> Rust | Aardetinten <br> Donker | Ruw | Mat <br> Onbehandeld | (Recht)hoekig | Draaien of richten | Vorm en massa suggereren handeling |
+| 2. Vlinder <br> <img src="img/vlinder.png"> | Lichtheid <br> Speelsheid <br> Zachtheid | Zachte grijstinten | Vilt | Lichtdoorlatend <br> Zacht | Ronde vorm <br> Verticale asymmetrie | Stekker inpluggen <br> Tuimelschakelaar | Rechte rand als oriëntatie boven/onder <br> Zichtbare stekker en schakelaar op kabel |
+| 3. Discobal <br> <img src="img/discobal.png"> | Futuristisch <br> Opvallend <br> Energiek | Felle kleuren <br> Color blocking | Textiel en metaal | Reflecterend | Samengesteld uit primaire volumes | Aandrukken van knop | Contrasterende drukknop direct zichtbaar |
+| 4. Schelp <br> <img src="img/schelp.png"> | Veiligheid <br> Clinisch | Monochroom | Metaal en plastic | Glad <br> Clean | Organisch <br> Vloeiende overgangen <br> Afgerond | Openen/sluiten om licht te activeren | Omgeplooide rand toont sluiting en gebruiksrichting |
+| 5. Pacman <br> <img src="img/pacman.png"> | Retro <br> Herkenbaar | Natuurlijk <br> Houtkleurig | Hout | Natuurlijk <br> Vernist | Samengesteld uit cirkels <br> Compact | Schuiven om licht aan/uit te zetten | Spleet/gleuf als subtiele richtinggever |
 
+### Resultaten
 
+#### Bert-testing
+<img src="img/bert-testing.png">
 
-#### Overzicht design requirements
+## Design requirements
 
 | ID | Design Requirement | * | Source | Date |
 | - | - | - | - | - |
-| **1** | **ONTLAST DE NABIJE ZORGVERLENERS** | M | User interview | 13/10/2024 |
-| **1.1** | **Ontlast de mantelzorger (MZ) door minder verstoorde nachtrust**<br>en biedt geruststelling ook wanneer de DP niet in de onmiddellijke nabijheid is | M | User interview | 13/10/2024 |
-| 1.1.1 | Geeft feedback voor de MZ, IZ, PZ over hoe lang (indien te lang) de PD wegblijft | S | Expert review | 13/12/2024 |
-| 1.1.2 | Detectie van route en bijhorende tijdsindicatie van de PD | M | Expert review | 13/12/2024 |
-| 1.1.3 | De detectie is failsafe en werkt wanneer deuren worden opengelaten | S | Cognitive walkthrough | 25/11/2024 |
-| 1.1.4 | Communiceert met een smartphone app (inwonende) MZ & familie | S | Expert review | 13/12/2024 |
-| 1.1.5 | Waarschuwingsgevoelidheid is instelbaar | S | Expert review | 13/12/2024 |
-| **1.2** | **Ontlast de professionele zorgverlener (PZ) door minder verstoorde nachtshift** | S | Ethnography | 15/10/2024 |
-| 1.2.1 | Personaliseerbare spraakberichten minimaliseren interventies door PZ | S | Expert review | 13/12/2024 |
-| 1.2.2 | Communiceert met DECT | C | Expert review | 13/12/2024 |
-| 1.2.3 | Waarschuwingsgevoeligheid is instelbaar | M | Expert review | 13/12/2024 |
-| **2** | **EMPOWERT EEN BREED SPECTRUM AAN PERONEN MET DEMENTIE (PD)** | M | Literature review | 20/11/2024 |
-| **2.1** | **Geeft PD meer zelfstandigheid en eigenwaarde en biedt een cognitieve en geruststellende ondersteuning** | M | Think aloud | 13/12/2024 |
-| 2.1.1 | Begeleid de PD bij een nachtelijk toiletbezoek | M | User interview | 13/10/2024 |
-| 2.1.2 | Oriënteert de PD in de tijd (dag-nacht-onderscheid) | S | User interview | 13/10/2024 |
-| 2.1.3 | Beperkt de PD niet in zijn (bewegings)vrijheid | M | Ethnography | 15/10/2024 |
-| 2.1.4 | Respecteert de privacy van de DP en de MZ | M | State of the Art | 16/12/2024 |
-| 2.1.5 | De interacties zijn intiütief | M | Think aloud | 13/12/2024 |
-| **2.2** | **Biedt een meerwaarde voor >50% van de varianten en gradaties van de ziekte** | M | Literature review | 12/10/2024 |
-| 2.2.1 | [...] verstoorde oriëntatie in tijd | M | Literature review | 12/10/2024 |
-| 2.2.2 | [...] verstoorde oriëntatie in ruimte | C | Literature review | 12/10/2024 |
-| 2.2.3 | [...] doolgedrag | S | Literature review | 12/10/2024 |
-| **2.3** | **Bevordert het circadiaans ritme van de PD** | C | Literature review | 20/11/2024 |
-| 2.3.1 | Bevat enkel functies waarvan de doeltreffendheid in de praktijk werd aangetoond | M | Expert review | 13/12/2024 |
-| 2.3.2 | Multisenoriële snoezelfuncties bevorderen het inslapen | S | Expert review | 13/12/2024 |
-| 3.1.3 | Dringt geen onnodige of ongewenste functies op | M | Think aloud | 13/12/2024 |
-| 2.3.4 | Snoezelfuncties en kloksturing zijn personaliseerbaar door de MZ | M | Think aloud | 13/12/2024 |
-| 2.3.4.1 | PD wordt actief betrokken bij de configuratie van het toestel | C | Think aloud | 13/12/2024 |
-| **2.4** | **Evolueert mee met de PD** | M | Ethnography | 15/10/2024 |
-| 2.4.1 | Reist mee met de PD doorheen het verloop van de ziekte als vertrouwelijk element | S | Ethnography | 15/10/2024 |
-| 2.4.2 | Kan eenvoudig geïnstalleerd worden ongeacht de omgeving | M | Think aloud | 13/12/2024 |
-| **3** | **VOORKOMT BIJKOMENDE EMOTIONELE, COGNITIEVE OF FYSIEKE BELASTING** | M | Think aloud | 13/12/2024 |
-| **3.1** | **Voorkomt agitatie en verwarring van de PD** | M | Think aloud | 13/12/2024 |
-| 3.1.1 | Veroorzaak geen gevoel van schaamte of confrontatie | M | Think aloud | 13/12/2024 |
-| 3.1.2 | Doet de omgeving vertrouwelijk, herkenbaar en veilig aanvoelen voor de PD | S | Think aloud | 12/12/2024 |
-| 3.1.3 | Trekt enkel de aandacht van de PD wanneer functioneel relevant | M | Think aloud | 13/12/2024 |
-| 3.1.4 | Kan om met foutieve interacties en heeft een beveiligde bediening waar nodig | M | Expert review | 13/12/2024 |
-| 3.1.5 | Belichting veroorzaakt geen verblinding of agitatie | M | Think aloud | 13/12/2024 |
-| 3.1.6 | Prikkelintensiteit is afgesteld op het beoogde doel en is contextueel | M | Think aloud | 13/12/2024 |
-| **3.2** | **Voorkomt bijkomende belasting van de zorgverlener(s)** | M | Cognitive walkthrough | 25/11/2024 |
-| 3.2.1 | Vermijdt prikkels die de nachtrust van de meeslapende verstoren | M | Cognitive walkthrough | 25/11/2024 |
-| 3.2.2 | Heeft een batterijlevensduur van minimaal 1 jaar of is aansluiting op netstroom | M | Cognitive walkthrough | 13/12/2024 |
-| **4** | **OPTIMALISEERT HET ADOPTIEPOTENTIEEL** | M | Think aloud | 13/12/2024 |
-| 4.1 | Kost minder dan €800 | M | State of the Art | 16/12/2024 |
-| 4.2 | Een IZ (MZ of familie) kan het product zelf installeren en configureren via een app | S | Cognitive walkthrough | 25/11/2024 |
-| 4.3 | Functies worden gradueel geïntroduceerd op tempo van de gebruiker | S | Think aloud | 13/12/2024 |
-| 4.4 | Heeft een emotionele en of nostalgische waarde voor de gebruiker(s) | C | Think aloud | 13/12/2024 |
-| **5** | **NOT HAVES / NICE TO HAVES** | | | |
-| 5.1 | Koppeling met wearable (hartslagsensor) | C | State of the Art | 16/12/2024 |
-| 5.2 | Koppeling met geavanceerde detectiesystemen (Mintt) | C | State of the Art | 16/12/2024 |
-| 5.3 | Activiteit monitoring | C | State of the Art | 16/12/2024 |
-| 5.4 | Meeneembaar op verplaatsing | C | User interview | 13/10/2024 |
+| **1** | **Zorgt voor minder belasting bij nabije zorgverleners** | M | User interview | 13/10/2024 |
+| **1.1** | Het systeem voorkomt dat de mantelzorger 's nachts onnodig gewekt wordt door dwaalgedrag van de PD. | M | User interview | 13/10/2024 |
+| 1.1.1 | Het systeem geeft een melding wanneer de PD langer dan een ingestelde tijd afwezig is uit de slaapkamer. | S | Expert review | 13/12/2024 |
+| 1.1.2 | Het systeem registreert de route en bijhorende tijdsduur van nachtelijke verplaatsingen van de PD. | M | Expert review | 13/12/2024 |
+| 1.1.3 | De detectie blijft betrouwbaar functioneren, ook bij openstaande deuren. | S | Cognitive walkthrough | 25/11/2024 |
+| 1.1.4 | Het systeem synchroniseert met een smartphone app voor MZ en familieleden. | S | Expert review | 13/12/2024 |
+| 1.1.5 | De gevoeligheid van meldingen kan worden ingesteld via de app. | S | Expert review | 13/12/2024 |
+| **1.2** | Het systeem voorkomt onnodige nachtelijke interventies door professionele zorgverleners. | S | Ethnography | 15/10/2024 |
+| 1.2.1 | Personaliseerbare spraakberichten worden automatisch afgespeeld bij detectie van nachtactiviteit. | S | Expert review | 13/12/2024 |
+| 1.2.2 | Het systeem stuurt meldingen via compatibele DECT-systemen. | C | Expert review | 13/12/2024 |
+| 1.2.3 | De gevoeligheid van meldingen kan worden afgestemd op de nachtroutine van de instelling. | M | Expert review | 13/12/2024 |
+| **2** | **Verhoogt de zelfstandigheid en het welzijn van personen met dementie** | M | Literature review | 20/11/2024 |
+| **2.1** | Het systeem ondersteunt de PD bij nachtelijke routines en biedt herkenbare structuur. | M | Think aloud | 13/12/2024 |
+| 2.1.1 | Het systeem begeleidt de PD automatisch tijdens nachtelijke toiletbezoeken via licht en/of geluid. | M | User interview | 13/10/2024 |
+| 2.1.2 | Het systeem toont visuele feedback over dag- of nachtstatus. | S | User interview | 13/10/2024 |
+| 2.1.3 | Het systeem beperkt de bewegingsvrijheid van de PD niet. | M | Ethnography | 15/10/2024 |
+| 2.1.4 | Het systeem verwerkt geen audio- of videobeelden en beschermt de privacy van de gebruiker. | M | State of the Art | 16/12/2024 |
+| 2.1.5 | Alle interacties met het systeem zijn intuïtief en begrijpelijk zonder instructie. | M | Think aloud | 13/12/2024 |
+| **2.2** | Het systeem is inzetbaar voor meer dan 50% van de PD-varianten en -gradaties. | M | Literature review | 12/10/2024 |
+| 2.2.1 | Het systeem biedt oriëntatieondersteuning bij tijdsverwarring. | M | Literature review | 12/10/2024 |
+| 2.2.2 | Het systeem ondersteunt herkenning van ruimtes binnen de woning. | C | Literature review | 12/10/2024 |
+| 2.2.3 | Het systeem reageert adequaat op doolgedrag zonder alarmerend over te komen. | S | Literature review | 12/10/2024 |
+| **2.3** | Het systeem bevordert een gezond slaap-waakritme bij de PD. | C | Literature review | 20/11/2024 |
+| 2.3.1 | Enkel functies met aantoonbare doeltreffendheid worden toegepast. | M | Expert review | 13/12/2024 |
+| 2.3.2 | Multisensoriële functies bevorderen het inslapen (bv. snoezellicht, geluid). | S | Expert review | 13/12/2024 |
+| 2.3.3 | Niet-functionele of afleidende functies zijn standaard uitgeschakeld. | M | Think aloud | 13/12/2024 |
+| 2.3.4 | Familieleden kunnen instellingen aanpassen aan de noden van de PD. | M | Think aloud | 13/12/2024 |
+| 2.3.4.1 | Indien mogelijk, configureert de PD mee tijdens vroege fasen van de aandoening. | C | Think aloud | 13/12/2024 |
+| **2.4** | Het systeem past zich aan aan de evolutie van de aandoening. | M | Ethnography | 15/10/2024 |
+| 2.4.1 | Het product reist mee met de PD als vertrouwd element doorheen de ziekte. | S | Ethnography | 15/10/2024 |
+| 2.4.2 | Het product is eenvoudig installeerbaar in verschillende woonomgevingen. | M | Think aloud | 13/12/2024 |
+| **3** | **Voorkomt extra emotionele, cognitieve of fysieke belasting** | M | Think aloud | 13/12/2024 |
+| **3.1** | Het systeem voorkomt agitatie en verwarring bij de PD. | M | Think aloud | 13/12/2024 |
+| 3.1.1 | Het systeem voorkomt situaties die schaamte of confrontatie kunnen oproepen. | M | Think aloud | 13/12/2024 |
+| 3.1.2 | De omgeving oogt herkenbaar en veilig, versterkt door het productdesign. | S | Think aloud | 12/12/2024 |
+| 3.1.3 | Het systeem geeft enkel prikkels wanneer functioneel nodig. | M | Think aloud | 13/12/2024 |
+| 3.1.4 | De bediening is beveiligd en voorkomt foutieve interacties. | M | Expert review | 13/12/2024 |
+| 3.1.5 | Lichtintensiteit is afgestemd om verblinding en agitatie te vermijden. | M | Think aloud | 13/12/2024 |
+| 3.1.6 | De intensiteit van prikkels is aanpasbaar aan context en situatie. | M | Think aloud | 13/12/2024 |
+| **3.2** | Het systeem voorkomt onnodige belasting bij zorgverleners. | M | Cognitive walkthrough | 25/11/2024 |
+| 3.2.1 | Er worden geen prikkels gegeven die de nachtrust van anderen in de kamer verstoren. | M | Cognitive walkthrough | 25/11/2024 |
+| 3.2.2 | Het systeem heeft ofwel een batterijlevensduur van min. 1 jaar, of werkt op netstroom. | M | Cognitive walkthrough | 13/12/2024 |
+| **4** | **Verhoogt de kans op succesvolle adoptie door gebruikers** | M | Think aloud | 13/12/2024 |
+| 4.1 | De verkoopprijs bedraagt maximaal €800. | M | State of the Art | 16/12/2024 |
+| 4.2 | Het product kan zelfstandig worden geïnstalleerd en geconfigureerd via een app. | S | Cognitive walkthrough | 25/11/2024 |
+| 4.3 | Functionaliteiten worden gradueel geïntroduceerd op het tempo van de gebruiker. | S | Think aloud | 13/12/2024 |
+| 4.4 | Het systeem biedt de mogelijkheid om persoonlijke/nostalgische elementen toe te voegen. | C | Think aloud | 13/12/2024 |
+| **5** | **Nice to haves** |   |   |   |
+| 5.1 | Optionele koppeling met wearables zoals hartslagmonitoren. | C | State of the Art | 16/12/2024 |
+| 5.2 | Optionele koppeling met geavanceerde detectiesystemen (bv. Mintt). | C | State of the Art | 16/12/2024 |
+| 5.3 | Activiteitenmonitoring voor langere termijninzichten. | C | State of the Art | 16/12/2024 |
+| 5.4 | Het systeem is gemakkelijk mee te nemen op verplaatsing. | C | User interview | 13/10/2024 |
 
 `*` MoSCoW priorisatie
 
@@ -382,27 +405,30 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
 ## Bijlagen
 ### Discover
 - Literature review
-	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EdiS3hkiKK1MplGdmVTWungBmxVn0FbBp6aX2gbiq4Yjcw?e=3pP9zS)
-	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVpkX9X-c-hKqZcMqP5W1E4BfmoQJAslg8WdfgcqIlADtQ?e=OeRcE2)
+ - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EdiS3hkiKK1MplGdmVTWungBmxVn0FbBp6aX2gbiq4Yjcw?e=3pP9zS)
+ - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVpkX9X-c-hKqZcMqP5W1E4BfmoQJAslg8WdfgcqIlADtQ?e=OeRcE2)
 - User interviews
-	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EcmzMGjfi_pDri7_CiFLg6sBVcVGTVBcUN_csnUy3V1scA?e=q4lqXB)
-	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUxWuQ6OHRBBsqC9CrPRgI8ByjO5FftoaaS89HSN1k0SQQ?e=l8HrYT)
+ - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EcmzMGjfi_pDri7_CiFLg6sBVcVGTVBcUN_csnUy3V1scA?e=q4lqXB)
+ - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUxWuQ6OHRBBsqC9CrPRgI8ByjO5FftoaaS89HSN1k0SQQ?e=l8HrYT)
 - Ethnography
-	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbZtCITc4uJAq0ycfyGaPi8BeBhuUqo_bVPuqhUFXoU3WQ?e=zYbrPR)
-	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUZXoSR17MNIq53AvzIOdvEBZ89_BWPycliHvZ6ZHHcRLg?e=TfPVYO)
+ - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbZtCITc4uJAq0ycfyGaPi8BeBhuUqo_bVPuqhUFXoU3WQ?e=zYbrPR)
+ - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUZXoSR17MNIq53AvzIOdvEBZ89_BWPycliHvZ6ZHHcRLg?e=TfPVYO)
 ### Define
 - [Testimonials](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EWyvy-P7P6lCo79PSqwTZOcBr3zRq12eMHFV4EmILDvBsg?e=ta0Xfr)
 - [Literature review](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVuqMEwuGKBKsmLIZl0oRTYBc0NNRPol8vBCxzsqA2-cCg?e=Nf0qWs)
 - Prototypes wave 1
-	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUDGs_sZqw1Cu-SNZ_Z4MUYB4EUygZoMUpzzzmrSuLFlzA?e=GaHmqu) - [enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef0tJbKGW_dAtwJForc6fqsBGBC1jhmTAPsUzSV54qDXcQ?e=y3iexh)
-	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYPAxhtVcARDhyRcBSE5QyAB_7105NtN1UUdGcgKd0noVQ?e=lRj64M) - [resultaten enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/ETZRhIU3ZTpDvh90dmZtsAcBM5H1ob_vPhDzmzgHq2v9hA?e=dr1w6v)
+ - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUDGs_sZqw1Cu-SNZ_Z4MUYB4EUygZoMUpzzzmrSuLFlzA?e=GaHmqu) - [enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef0tJbKGW_dAtwJForc6fqsBGBC1jhmTAPsUzSV54qDXcQ?e=y3iexh)
+ - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYPAxhtVcARDhyRcBSE5QyAB_7105NtN1UUdGcgKd0noVQ?e=lRj64M) - [resultaten enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/ETZRhIU3ZTpDvh90dmZtsAcBM5H1ob_vPhDzmzgHq2v9hA?e=dr1w6v)
 - [Matrix evaluation](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
 - Prototypes wave 2
-	- [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVgxVO37P6NCvh-ebd2gSRIBjbLRaMpq6a8uFbEiW7BVhg?e=qOb3VR)
-	- [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
-        - [Arduino code Beacon](/tests/Beacon.ino)
-        - [Arduino code Breadcrumb](tests/Breadcrumb.ino)
+ - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVgxVO37P6NCvh-ebd2gSRIBjbLRaMpq6a8uFbEiW7BVhg?e=qOb3VR)
+ - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
+ - [Arduino code Beacon](/tests/Beacon.ino)
+ - [Arduino code Breadcrumb](tests/Breadcrumb.ino)
 - [User Flow](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUmTUIAKd8ZKhQMbT16yuzMBDt6p4VjeiizfwWYc89rwLw?e=mRQy1Y)
+- Prototypes wave 3
+ - [Protocol]()
+ - [Rapport]()
 
 [^1]: A New Era in Belgian Healthcare
 [^2]: [Expertisecentrum Dementie Vlaanderen](https://www.dementie.be/home/wat-is-dementie/prevalentie/#:~:text=Onze%20nieuwe%20schatting%20is%20dat,n%201.800%20een%20formele%20diagnose.&text=De%20kans%20is%201%20op,in%20zijn%20leven%20dementie%20krijgt.&text=Leeftijd%20is%20de%20belangrijkste%20risicofactor%20voor%20dementie.)
