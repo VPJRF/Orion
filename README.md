@@ -273,6 +273,15 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 
 <img src="img/Storyboard locaties.png">
 
+## Develop
+
+### Doelstellingen
+
+
+
+
+
+
 #### Overzicht design requirements
 
 | ID | Design Requirement | * | Source | Date |
