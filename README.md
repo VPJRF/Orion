@@ -294,7 +294,7 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 
 #### Prototypes
 
-| | Prototypethumbnail | Metafoor | Symboliek | C | M | F | Typologie | Affordance | Signifier |
+| | Prototypethumbnail | Metafoor | Symboliek | Kleur | Materiaal | Afwerking | Typologie | Affordance | Signifier |
 | - | - | - | - | - | - | - | - | - | - |
 | 1 | <img src="img/Prototypes boek.png"> | Boek | Kennis <br> Rust | Aardetinten <br> Donker | Ruw | Mat <br> Onbehandeld | (Recht)hoekig | Draaien of richten | Vorm en massa suggereren handeling |
 | 2 | <img src="img/Prototypes vlinder.png"> | Vlinder | Lichtheid <br> Speelsheid <br> Zachtheid | Zachte grijstinten | Vilt | Lichtdoorlatend <br> Zacht | Ronde vorm <br> Verticale asymmetrie | Stekker inpluggen <br> Tuimelschakelaar | Rechte rand als oriëntatie boven/onder <br> Zichtbare stekker en schakelaar op kabel |
