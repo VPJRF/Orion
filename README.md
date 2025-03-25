@@ -294,7 +294,7 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 
 #### Morfologische matrix
 
-<img src="Prototypes morfologische matrix.png" width="500">
+<img src="img/Prototypes morfologische matrix.png" width="500">
 
 #### Prototypes
 
