@@ -292,6 +292,10 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 
 <img src="img/Prototypes wave 3 CMF.png">
 
+#### Morfologische matrix
+
+<img src="Prototypes morfologische matrix.png" width="500">
+
 #### Prototypes
 
 | | Prototypethumbnail | Metafoor | Symboliek | Kleur | Materiaal | Afwerking | Typologie | Affordance | Signifier |
