@@ -306,6 +306,12 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 ### Materialen en methoden
 
+#### Morfologische matrix
+
+<img src="img/Prototypes morfologische matrix.png" width="500">
+
+#### Moodboard
+
 <img src="img/Prototypes wave 3 CMF.png">
 
 #### 🌊 Prototypes wave 3 – look & feel
@@ -315,7 +321,7 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 - Semi-structured interviews
 - Think aloud protocol
 
-| | <div style="width:200px;"> </div> | Metafoor | Symboliek | C | M | F | Typologie | Affordance | Signifier |
+| | Prototypethumbnail | Metafoor | Symboliek | Kleur | Materiaal | Afwerking | Typologie | Affordance | Signifier |
 | - | - | - | - | - | - | - | - | - | - |
 | 1 | <img src="img/Prototypes boek.png"> | Boek | Kennis <br> Rust | Aardetinten <br> Donker | Ruw | Mat <br> Onbehandeld | (Recht)hoekig | Draaien of richten | Vorm en massa suggereren handeling |
 | 2 | <img src="img/Prototypes vlinder.png"> | Vlinder | Lichtheid <br> Speelsheid <br> Zachtheid | Zachte grijstinten | Vilt | Lichtdoorlatend <br> Zacht | Ronde vorm <br> Verticale asymmetrie | Stekker inpluggen <br> Tuimelschakelaar | Rechte rand als oriëntatie boven/onder <br> Zichtbare stekker en schakelaar op kabel |
