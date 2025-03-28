@@ -423,16 +423,17 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 ### Electronica
 Lichtarmatuur (x3)
 - [Arduino Nano IoT](https://www.gotron.be/arduino-nano-33-iot-zonder-headers.html)
-- Led-ring ([NeoPixel 24 led ring](https://www.otronic.nl/nl/24-bit-rgb-leds-ws2812b-cirkel-rond-neopixel.html?source=googlebase&gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1GCSt1FU_-lqwhs-2C0fQgxupHfj0l1B38h1cv5iahTJv1isrumIbcaAt71EALw_wcB#gad_source_1))
+- [Led-ring](https://www.otronic.nl/nl/24-bit-rgb-leds-ws2812b-cirkel-rond-neopixel.html?source=googlebase&gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1GCSt1FU_-lqwhs-2C0fQgxupHfj0l1B38h1cv5iahTJv1isrumIbcaAt71EALw_wcB#gad_source_1)
 - [PIR sensor](https://www.gotron.be/pir-motion-sensor.html)
 - [Potentiometer](https://www.gotron.be/potentiometer-mono-10-kohm-logaritmisch.html)
-- AA [batterijhouders](https://www.gotron.be/energie/batterijen/batterijhouder/batterijhouder-voor-1-x-aa-cel-met-draden.html) (x3)
+- [AA batterijhouders](https://www.gotron.be/energie/batterijen/batterijhouder/batterijhouder-voor-1-x-aa-cel-met-draden.html) (x3)
 - AA batterijen (x3)
 - [Schakelaar](https://www.gotron.be/enkelpolige-schakelaar-rond-on-off-10a-250vac-spst.html)
 
 Luidspreker (x1)
-- MP3-module ([DFPlayer Pro](https://www.gotron.be/dfplayer-pro-een-mini-mp3-speler-met-128mb-geheugen-onboard.html))
-- Luidspreker ([Minituur 4cm 8 ohm](https://www.gotron.be/4-0cm-miniatuur-luidsprelker-8-ohm.html))
+- [MP3-module](https://www.gotron.be/dfplayer-pro-een-mini-mp3-speler-met-128mb-geheugen-onboard.html)
+- [Versterker](https://www.gotron.be/projects/projects/velleman/shields/zeer-kleine-digitale-versterker-board.html)
+- [Luidspreker](https://www.gotron.be/miniatuurluidspreker-66mm-2w-8ohm.html)
 
 Circuit (kabels, connectoren, weerstanden, etc.)
 
