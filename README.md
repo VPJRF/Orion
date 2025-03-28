@@ -3,7 +3,7 @@
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
-06/01/2025
+28/03/2025 `TODO❗️update datum`
 
 `PD` persoon met dementie <br>
 `MZ` mantelzorger (bv. partner) <br>
@@ -11,6 +11,9 @@
 `IZ` informele zorgverlener (bv. familielid)
 
 ## Samenvatting
+
+`TODO❗️updaten na wave 5`
+
 Dit project richt zich op het probleem van verstoorde dag-nachtritmes bij mensen met dementie, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort.
 
 Aan de hand van een _literature review_ (N=16), _user interviews_ (N=4), _ethnography_ (N=1) en _concept prototype testing_ (N=10) en _usability prototype testing_ (N=3) gingen we op zoek naar het werkelijke probleem – in al zijn varianten en gradaties – en in welke mate het zintuigelijke spectrum maximaal kan worden ingezet om met de juiste prikkel op het juiste moment en op de juiste positie de nachtelijke onrust bij zowel de MZ als de PD te verminderen.
@@ -22,6 +25,10 @@ De oplossing is tweedelig.
 **_Breadcrumbs_**, een serie lichtjes met sensoren buiten de kamer die een pad vormen om de PD oriëntatie te bieden en zijn/haar positie met de mantelzorger te communiceren.
 
 Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten en maakt zo thuiszorg aangenamer en duurzamer.
+
+`TODO❗️update hero image`
+
+`TODO❗️insert explainer video`
 
 <p align="left">
   <img src="img/Hero%20beacon.png" width="32%">
@@ -39,6 +46,8 @@ Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt to
 Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van PD en hun MZ bevordert, zodat thuiszorg langer mogelijk blijft. Daarbij is het cruciaal om de autonomie van de zorgbehoevende te ondersteunen en de druk op MZ te verlagen. Dit vereist oplossingen die rekening houden met de uiteenlopende en veranderende cognitieve en zintuiglijke capaciteiten van PD. De focus ligt op het minimaliseren van nachtelijke interventies en het ondersteunen van een zelfstandig dag-nachtritme. De ontwikkelde oplossing moet bovendien flexibel zijn en ook in een woonzorgcentrum gebruikt kunnen worden om de professionele zorgverleners te ontlasten.
 
 ## Methodologie
+
+`TODO❗️timeline aanvullen (aparte 2de helft)`
 
 <img src="img/Timeline.svg">
 
@@ -108,6 +117,8 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 
 ### Conclusies & implicaties
 
+`TODO❗️herschrijf, meer gebald en theoretisch onderbouwd`
+
 Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfstandigheid van de PD te verbeteren gedurende de nacht. De drempel voor gebruik moet ook laag blijven, het moet zo intuïtief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geïmplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeerd worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit. Het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze ontwaakt.
 
 > [!NOTE]
@@ -152,9 +163,9 @@ En een mockup van hoe dit product er uit zou kunnen zien.
 ## Definition
 
 ### Doestellingen
--  Het ontwikkelen van concrete prototypes (Breadcrumb en Beacon) die de geïdentificeerde problemen adresseren.
--  Het testen en evalueren van deze prototypes in realistische scenario's.
--  Het verzamelen van feedback van gebruikers en stakeholders om de prototypes te verbeteren
+- Meer gedetailleerd definiëren welk technologisch hulpmiddel op welke manier en in welke contexten een verschil maken t.o.v. de huidige situatie m.b.t. het geïdentificeerde probleem.
+- De doeltreffendeheid en acceptie van deze technologie nagaan bij de doelgroep in uiteenlopende, realistische contexten.
+-  Het opstellen van een volledige en specifieke PRD.
 
 ### Materiaal & methoden
 1. User reviews: Dit waren semigestructureerde groepsgesprekken met mantelzorgers en dagverzorgingsmedewerkers in twee woonzorgcentra om ervaringen. Deze groepen werden gebruikt om behoeften, noden, ideëen en meningen over het project te verkrijgen. We lieten hen een enquête invullen om hun oordeel de kunnen kwantificeren.
@@ -164,11 +175,13 @@ En een mockup van hoe dit product er uit zou kunnen zien.
 
 Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad vormen) en de Beacon (een multi-sensorieel kussen/lamp) gemaakt om de validiteit van de testen te optimaliseren.
 
-Wave 1: De lichten worden handmatig bediend. Geluiden worden via bluetooth van op afstand bediend.
+#### 🌊 Prototypes wave 1 – stimuli
+De lichten worden handmatig bediend. Geluiden worden via bluetooth van op afstand bediend.
 
 <img src="img/Prototypes wave 1.png">
 
-Wave 2: De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluetooth speaker ([Spotify playlist](https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b)) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
+#### 🌊 Prototypes wave 2 – feature set
+De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluetooth speaker ([Spotify playlist](https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b)) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
 
 <img src="img/Prototypes wave 2.png">
 
@@ -264,6 +277,9 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 > - 4.2 Hulpmiddelen worden gradueel geïntroduceerd op tempo van de PD en o.b.v. context
 
 ### Conclusies & implicaties
+
+`TODO❗️herschrijf, meer gebald en theoretisch onderbouwd en volgend uit doelstelling`
+
 -  De Breadcrumb (lichtjes doorheen het huis, met monitoringfunctie) werd positief ontvangen door mantelzorgers, omdat het een veilige manier biedt om de PD terug naar de kamer te leiden.
 -  De Beacon biedt multi-sensorische prikkels (licht, geluid) die kunnen helpen bij het reguleren van het dag-nachtritme, en kan gepersonaliseerd worden in functie van de behoeftes.
 -  Het product moet interventiearm werken en makkelijk te integreren zijn in een thuisomgeving.
@@ -273,26 +289,31 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 
 <img src="img/Storyboard locaties.png">
 
+`TODO❗️voeg vlinderlamp uit in beeld en uitleg`
+
 ## Develop
 
 ### Doelstellingen
-#### 5 varianten van vlinderlamp
-- Uitbreidbaarheid van de doelgroep onderzoeken
- - ouders met jonge kinderen
- - personen rond de pensioenleeftijd
- - ouderen 75+ (met & zonder dementie)
-- Usability & UX
-- Cognitieve & sensoriele aspecten
-- Emotionele impact van CMF
+
+Wave 3: Impressies over look & feel bij verschillende doelgroepen in kaart brengen.
+- Ouders met jonge kinderen
+- Personen rond de pensioenleeftijd
+- Ouderen 75+ (met & zonder dementie)
+
+Wave 4: Functionaliteit testen bij een ruimer doelpubliek, o.a. ouders met jonge kinderen, m.b.v. een volledig autonome test.
+
+Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 ### Materialen en methoden
-- BERT-testing
-- Semi-structured interviews
-- Think aloud protocol
 
 <img src="img/Prototypes wave 3 CMF.png">
 
-#### Prototypes
+#### 🌊 Prototypes wave 3 – look & feel
+
+- 5 varianten van vlinderlamp
+- BERT-testing
+- Semi-structured interviews
+- Think aloud protocol
 
 | | <div style="width:200px;"> </div> | Metafoor | Symboliek | C | M | F | Typologie | Affordance | Signifier |
 | - | - | - | - | - | - | - | - | - | - |
@@ -302,12 +323,35 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 | 4 | <img src="img/Prototypes schelp.png"> | Schelp | Veiligheid <br> Clinisch | Monochroom | Metaal en plastic | Glad <br> Clean | Organisch <br> Vloeiende overgangen <br> Afgerond | Openen/sluiten om licht te activeren | Omgeplooide rand toont sluiting en gebruiksrichting |
 | 5 | <img src="img/Prototypes pacman.png"> | Pacman | Retro <br> Herkenbaar | Natuurlijk <br> Houtkleurig | Hout | Natuurlijk <br> Vernist | Samengesteld uit cirkels <br> Compact | Schuiven om licht aan/uit te zetten | Spleet/gleuf als subtiele richtinggever |
 
+#### 🌊 Prototypes wave 4 – long run
+
+- 3 (varianten van) breadcrumbs geconnecteerd over wifi
+
+`TODO❗️welke data kunnen/willen/mogen we verzamelen?`
+
+`TODO❗️technieken en prototypes toevoegen`
+
+`TODO❗️update schema`
+
+<img src="img/Prototypes wave 4 System Architecture.png" width="700">
+
+#### 🌊 Prototypes wave 5 – UI & UX
+
+`TODO❗️technieken en prototypes toevoegen`
+
 ### Resultaten
 
-#### Bert-testing
+`TODO❗️interpretatie van de resultaten > cfr titels theorie in rapport`
+
+#### Bert-testing (N=)
+
 <img src="img/Prototypes wave 3 bert.svg" width="350">
 
+#### 
+
 ## Design requirements
+
+`TODO❗️requirements herschrijven en hierboven doorvoeren`
 
 | ID | Design Requirement | * | Source | Date |
 | - | - | - | - | - |
@@ -367,6 +411,35 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 `*` MoSCoW priorisatie
 
 ## Bill of materials
+
+`TODO❗️update ifv wave 4`
+
+### Electronica
+Lichtarmatuur (x3)
+- [Arduino Nano IoT](https://www.gotron.be/arduino-nano-33-iot-zonder-headers.html)
+- Led-ring ([NeoPixel 24 led ring](https://www.otronic.nl/nl/24-bit-rgb-leds-ws2812b-cirkel-rond-neopixel.html?source=googlebase&gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1GCSt1FU_-lqwhs-2C0fQgxupHfj0l1B38h1cv5iahTJv1isrumIbcaAt71EALw_wcB#gad_source_1))
+- [PIR sensor](https://www.gotron.be/pir-motion-sensor.html)
+- [Potentiometer](https://www.gotron.be/potentiometer-mono-10-kohm-logaritmisch.html)
+- AA [batterijhouders](https://www.gotron.be/energie/batterijen/batterijhouder/batterijhouder-voor-1-x-aa-cel-met-draden.html) (x3)
+- AA batterijen (x3)
+- [Schakelaar](https://www.gotron.be/enkelpolige-schakelaar-rond-on-off-10a-250vac-spst.html)
+
+Luidspreker (x1)
+- MP3-module ([DFPlayer Pro](https://www.gotron.be/dfplayer-pro-een-mini-mp3-speler-met-128mb-geheugen-onboard.html))
+- Luidspreker ([Minituur 4cm 8 ohm](https://www.gotron.be/4-0cm-miniatuur-luidsprelker-8-ohm.html))
+
+Circuit (kabels, connectoren, weerstanden, etc.)
+
+### Hardware
+- Lichtarmatuur (x3)
+- Diffuser (x3)
+- Behuizing luidspreker (x1) koppelbaar op lichtarmatuur
+- Wand- & deurmontage
+
+### Softwave
+- Arduino code voor timing en communicatie (licht en spraak)
+- Applicatie voor configuratie
+
 ### Breadcrumb (x2)
 - Processor (Arduino)
 - Aan/uit-klop
@@ -393,6 +466,9 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
 - Biosensors voor product evaluation testing
 
 ## Kritische reflectie
+
+`TODO❗️herschrijf/update na wave 5`
+
 Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeenkomen. MZ zijn kritische en PD op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er nog niet in geslaagd om een antwoord op hun werkelijke vragen te bieden. 
 - In de eerste plaats zou de status quo bias hierin een rol kunnen spelen, doch zijn er voldoende MZs die bestaande hulpmiddelen omarmen. 
 - Een tweede aspect is de ogenschijnlijke noodzaak om de ecologische validiteit van onze testen nog te verhogen om werkelijke feedback te krijgen. Hierbij is het van groot belang dat er zo min mogelijk verwarring bij de PD veroorzaakt wordt, aangezien dit in een potentiële emotionele nasleep kan resulteren. 
@@ -405,6 +481,9 @@ Er zijn 2 strategieën denkbaar om dit project verder te zetten.
 Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het interessanter om in het tweede semester op het eerste in te zetten. Dit zal het moeilijker maken om de geschikte testpersonen te verzamelen, maar zal tot concretere resultaten leiden. Het is nadien nog steeds mogelijk om in een latere fase op de tweede strategie terug te vallen. Maar dan is er wel de zekerheid dat het op zijn minst voor een klein deel een échte oplossing biedt.
 
 ## Bijlagen
+
+`TODO❗️links bijlagen aanvullen`
+
 ### Discover
 - Literature review
   - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EdiS3hkiKK1MplGdmVTWungBmxVn0FbBp6aX2gbiq4Yjcw?e=3pP9zS)
@@ -428,9 +507,19 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
   - [Arduino code Beacon](/tests/Beacon.ino)
   - [Arduino code Breadcrumb](tests/Breadcrumb.ino)
 - [User Flow](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUmTUIAKd8ZKhQMbT16yuzMBDt6p4VjeiizfwWYc89rwLw?e=mRQy1Y)
+### Develop
 - Prototypes wave 3
   - [Protocol]()
   - [Rapport]()
+- Prototypes wave 4
+  - [Protocol]()
+  - [Rapport]()
+- Prototypes wave 5
+  - [Protocol]()
+  - [Rapport]()
+
+### Deliver
+- [Explainer video]()
 
 [^1]: A New Era in Belgian Healthcare
 [^2]: [Expertisecentrum Dementie Vlaanderen](https://www.dementie.be/home/wat-is-dementie/prevalentie/#:~:text=Onze%20nieuwe%20schatting%20is%20dat,n%201.800%20een%20formele%20diagnose.&text=De%20kans%20is%201%20op,in%20zijn%20leven%20dementie%20krijgt.&text=Leeftijd%20is%20de%20belangrijkste%20risicofactor%20voor%20dementie.)
