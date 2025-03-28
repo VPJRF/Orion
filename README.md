@@ -339,7 +339,7 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 `TODO❗️update schema`
 
-<img src="img/Prototypes wave 4 System Architecture.png" width="700">
+<img src="img/Prototypes wave 4 System Architecture.jpg" width="700">
 
 #### 🌊 Prototypes wave 5 – UI & UX
 
@@ -442,34 +442,9 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 - Behuizing luidspreker (x1) koppelbaar op lichtarmatuur
 - Wand- & deurmontage
 
-### Softwave
+### Software
 - Arduino code voor timing en communicatie (licht en spraak)
 - Applicatie voor configuratie
-
-### Breadcrumb (x2)
-- Processor (Arduino)
-- Aan/uit-klop
-- Zigbee zender en ontvanger
-- Acceleratiemeter
-- RGB LEDs
-- Voeding (5V) & circuits
-- Behuizingscomponenten (te ontwerpen)
-### Beacon (x1)
-- Processoren (Arduino)
-- Aan/uit-knop
-- Zigbee zender en ontvanger
-- IR-camera module (AMG8833)
-- Klokmodule (RTC)
-- Lichtsensor
-- Ultrasone aroma verstuiver (x2)
-- RGB LEDs (x2)
-- Luidspreker (versterker, MP3-module, Micro-SD geheugenkaart)
-- Voeding (5V) & circuits
-- behuizingscomponenten (te ontwerpen)
-### Overige
-- Code voor sturing timing & communicatie
-- App voor instellen & personaliseren
-- Biosensors voor product evaluation testing
 
 ## Kritische reflectie
 
