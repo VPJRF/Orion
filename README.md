@@ -37,6 +37,7 @@ Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onru
 </p>
 
 ## Introductie
+`TODO❗️meer pakkende quote`
 > _Elke 4 seconden krijgt iemand ergens ter wereld dementie._
 
 Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) [^1]. De keerzijde van de medaille is dat hierdoor chronische ouderdomsziektes zoals Alzheimer's vaker voorkomen. Op vandaag krijgt ongeveer 1 op 5 in de loop van zijn of haar leven een vorm van dementie. Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen (Exptertisecentrum Dementie, 2021) [^2]. In het toekomstige value based healthcare (VBHC) model (PwC, 2024) [^1] wordt de zorgverlening verder richting de eerstelijns- en nuldelijnszorg verschoven. Dit moet onder andere een oplossing bieden aan het groeiende personeeltekort in de gezondheidssector. Deze evolutie onderstreept het belang van de informele zorgverlener en in het bijzonder de mantelzorger in het geval van zorg voor mensen met dementie.
@@ -47,7 +48,7 @@ Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van
 
 ## Methodologie
 
-`TODO❗️timeline aanvullen (aparte 2de helft)`
+`TODO❗️timeline aanvullen (aparte 2de helft) - visual verduidelijken - meer detail in toelichting, sample sizes etc`
 
 <img src="img/Timeline.svg">
 
@@ -62,6 +63,7 @@ Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase
 -  Het in kaart brengen van bestaande technologieën en oplossingen, en het identificeren van onderbelichte thema’s.
 
 ### Materiaal & methoden
+`TODO❗️meer detail: sample sizes, technieken, etc`
 1. Literatuurstudie: Hierin wordt gefocust op een onderbouwd begrip vormen van de ziekte, de problematieken die ermee gepaard gaan, de effecten op de persoon met dementie en zijn omgeving en de bestaande technologieën die hierin hulp trachten te bieden. Dit doos middel van analyse van wetenschappelijke artikelen, rapporten en andere relevante documenten over dementie, mantelzorg en technologische hulpmiddelen.
 2. Gebruikersinterviews: Door in gesprek te gaan met mantelzorgers trachten we pijnpunten en lichtpunten doorheen de dag bloot te leggen.
 3. Ethnografisch onderzoek: Dit in de vorm van A Day in the Life. We trachten de positieve en negatieve effecten van dagopvang in kaart te brengen en de doelgroep van dichtbij te observeren om ons begrip van de ziekte scherper te stellen. Dit waren observaties, field notes en contextual inquiries binnen een dagcentrum.
@@ -118,6 +120,7 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 ### Conclusies & implicaties
 
 `TODO❗️herschrijf, meer gebald en theoretisch onderbouwd`
+`TODO❗️De quotes in de resultaten zijn sterk. De implicaties kunnen echter sterker worden geformuleerd. Wat leren we bijvoorbeeld uit de 3 user interviews, en wat zijn daar de implicaties van? - Maak gebruik van woorden in het vet bij lange doorlopende teksten. - Licht nog beter toe aan de lezer wat we te zien krijgen (e.g. licht toe dat je bij de conclusies en implicaties onder ‘note’ design requirements formuleert)`
 
 Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfstandigheid van de PD te verbeteren gedurende de nacht. De drempel voor gebruik moet ook laag blijven, het moet zo intuïtief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geïmplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeerd worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit. Het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze ontwaakt.
 
@@ -357,7 +360,7 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 ## Design requirements
 
-`TODO❗️requirements herschrijven en hierboven doorvoeren`
+`TODO❗️requirements herschrijven en hierboven doorvoeren, strakker cfr les`
 
 | ID | Design Requirement | * | Source | Date |
 | - | - | - | - | - |
