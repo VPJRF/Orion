@@ -332,7 +332,7 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 | 4 | <img src="img/Prototypes schelp.png"> | Schelp | Veiligheid <br> Clinisch | Monochroom | Metaal en plastic | Glad <br> Clean | Organisch <br> Vloeiende overgangen <br> Afgerond | Openen/sluiten om licht te activeren | Omgeplooide rand toont sluiting en gebruiksrichting |
 | 5 | <img src="img/Prototypes pacman.png"> | Pacman | Retro <br> Herkenbaar | Natuurlijk <br> Houtkleurig | Hout | Natuurlijk <br> Vernist | Samengesteld uit cirkels <br> Compact | Schuiven om licht aan/uit te zetten | Spleet/gleuf als subtiele richtinggever |
 
-#### 🌊 Prototypes wave 4 – long run
+#### 🌊 Prototypes wave 4 – UI & UX
 
 - 3 (varianten van) breadcrumbs geconnecteerd over wifi
 
@@ -344,7 +344,7 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 <img src="img/Prototypes wave 4 System Architecture.jpg" width="700">
 
-#### 🌊 Prototypes wave 5 – UI & UX
+#### 🌊 Prototypes wave 5 – proof of concept
 
 `TODO❗️technieken en prototypes toevoegen`
 
@@ -494,10 +494,10 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
 - [User Flow](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUmTUIAKd8ZKhQMbT16yuzMBDt6p4VjeiizfwWYc89rwLw?e=mRQy1Y)
 ### Develop
 - Prototypes wave 3
-  - [Protocol]()
-  - [Rapport]()
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EQc9bVL98C1Bg9wy_j9wrJwBJp-GJjBEg8ULPVaeS8YLjg?e=RuK1Z6)
+  - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EZvJdp2McdxAnRVUZE21PdMB0frdUHorjLVcXtSo-ZZe9w?e=HnJsfv)
 - Prototypes wave 4
-  - [Protocol]()
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbpEEQu65s1MsOD6PxRYUmsBMa9nkP9GNjpH73FM9u82Bg?e=3dqR0F)
   - [Rapport]()
 - Prototypes wave 5
   - [Protocol]()
