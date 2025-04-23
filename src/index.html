@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BLE Potentiometer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 400px; margin: auto; }
+    input, button { display: block; width: 100%; padding: 10px; margin-top: 10px; font-size: 16px; }
+    #status { margin-top: 20px; font-weight: bold; }
+    #potValue { margin-top: 20px; font-size: 18px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .grid button {
+      padding: 20px;
+      font-size: 16px;
+    }
+    .blink { animation: blink 1s infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+</head>
+<body>
+  <h2>BLE Potentiometer</h2>
+  <button onclick="connectBLE()">Connect to BLE Device</button>
+  <div id="status">Status: Not connected</div>
+  <div id="potValue">Potentiometer Value: N/A</div>
+
+  <div class="grid">
+    <button onclick="buttonClick(1)">A1</button>
+    <button onclick="buttonClick(2)">A2</button>
+    <button onclick="buttonClick(3)">A3</button>
+    <button onclick="buttonClick(4)">B1</button>
+    <button onclick="buttonClick(5)">B2</button>
+    <button onclick="buttonClick(6)">B3</button>
+    <button onclick="buttonClick(7)">C1</button>
+    <button onclick="buttonClick(8)">C2</button>
+    <button onclick="buttonClick(9)">C3</button>
+  </div>
+
+  <script>
+    const SERVICE_UUID = '0000180c-0000-1000-8000-00805f9b34fb'; // Custom service UUID
+    const POT_CHAR_UUID = '00002a56-0000-1000-8000-00805f9b34fb'; // Potentiometer characteristic UUID
+    let buttonCharacteristic;
+
+    async function connectBLE() {
+      const status = document.getElementById('status');
+      const potValue = document.getElementById('potValue');
+      try {
+        status.textContent = 'Requesting Bluetooth device...';
+        const device = await navigator.bluetooth.requestDevice({
+          filters: [{ namePrefix: 'Nano33-Test' }],
+          optionalServices: [SERVICE_UUID]
+        });
+
+        status.textContent = 'Connecting...';
+        const server = await device.gatt.connect();
+        const service = await server.getPrimaryService(SERVICE_UUID);
+        characteristic = await service.getCharacteristic(POT_CHAR_UUID);
+        buttonCharacteristic = await service.getCharacteristic('00002a57-0000-1000-8000-00805f9b34fb'); // Button characteristic
+
+        status.textContent = 'Connected to device!';
+        status.classList.add('blink'); // Blink status when connected
+
+        // Read potentiometer value periodically
+        setInterval(async () => {
+          try {
+            const value = await characteristic.readValue();
+            const potValueInt = value.getUint16(0, true); // Read as 16-bit unsigned integer
+            console.log('Raw Potentiometer Value:', potValueInt); // Log raw value
+            potValue.textContent = `Potentiometer Value: ${potValueInt}`;
+          } catch (error) {
+            console.error('Error reading potentiometer value:', error);
+          }
+        }, 500);
+
+        device.addEventListener('gattserverdisconnected', () => {
+          status.textContent = 'Disconnected from device';
+          status.classList.remove('blink');
+          potValue.textContent = 'Potentiometer Value: N/A';
+        });
+      } catch (error) {
+        console.error('Error:', error);
+        status.textContent = 'Error: ' + error.message;
+      }
+    }
+
+    function buttonClick(buttonNumber) {
+      console.log(`Button ${buttonNumber} clicked`);
+      if (buttonCharacteristic) {
+        const value = new Uint8Array([buttonNumber]);
+        buttonCharacteristic.writeValue(value).then(() => {
+          console.log(`Button ${buttonNumber} sent to Arduino`);
+        }).catch(error => {
+          console.error('Error sending button press:', error);
+        });
+      } else {
+        console.error('Button characteristic not available');
+      }
+    }
+  </script>
+</body>
+</html>
