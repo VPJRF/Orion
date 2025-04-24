@@ -1,5 +1,8 @@
 #include <ArduinoBLE.h>
 #include <Adafruit_NeoPixel.h>
+#include "light.h"
+#include "sound.h"
+#include "scenario.h"
 
 #define LED_RING_PIN 6
 #define NUM_LEDS 24

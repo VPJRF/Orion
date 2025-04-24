@@ -5,10 +5,38 @@
   <title>BLE Potentiometer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: sans-serif; padding: 20px; max-width: 400px; margin: auto; }
-    input, button { display: block; width: 100%; padding: 10px; margin-top: 10px; font-size: 16px; }
-    #status { margin-top: 20px; font-weight: bold; }
-    #potValue { margin-top: 20px; font-size: 18px; }
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+      background-color: black; /* Dark background */
+      color: white; /* White text for contrast */
+    }
+    input, button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+      background-color: #333; /* Dark gray buttons */
+      color: white; /* White text */
+      border: 1px solid #555; /* Subtle border */
+      border-radius: 5px; /* Rounded corners */
+    }
+    input:focus, button:focus {
+      outline: none;
+      border-color: #777; /* Highlighted border on focus */
+    }
+    #status {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #00ff00; /* Green text for status */
+    }
+    #potValue {
+      margin-top: 20px;
+      font-size: 18px;
+    }
     .grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -18,9 +46,20 @@
     .grid button {
       padding: 20px;
       font-size: 16px;
+      background-color: #444; /* Slightly lighter gray for buttons */
+      color: white;
+      border: 1px solid #666;
+      border-radius: 5px;
     }
-    .blink { animation: blink 1s infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
+    .grid button:hover {
+      background-color: #555; /* Highlight on hover */
+    }
+    .blink {
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
   </style>
 </head>
 <body>
