@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+input, button {
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  border: 1px solid #444;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+input, text {
+  grid-column: span 2;
+  margin: 0;
+}
+button:hover {
+  background-color: #333;
+}
+input:focus, button:focus {
+  border-color: white;
+}
+button.light {
+  color: #fc3;
+}
+button.light:focus {
+  border-color: #fc3;
+}
+button.sound {
+  color: #39f;
+}
+button.sound:focus {
+  border-color: #39f;
+}
+button.scene {
+  color: #d5f;
+}
+button.scene:focus {
+  border-color: #d5f;
+}
+#status{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#arduino-ip-display {
+  margin-top: 20px;
+}
+.success {
+  color: #0f9;
+}
+.error {
+  color: #d55;
+}
+.warning {
+  color: #fc3;
+}
+#potValue {
+  margin-top: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.grid button {
+  padding: 10px;
+  margin: 0;
+}
+.wifi-container, .BLE-container {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+.wifi-container label {
+  display: block;
+  margin-bottom: 20px;
+}
+.blink {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
+button.active {
+  background-color: #444;
+}

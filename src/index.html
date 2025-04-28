@@ -2,144 +2,62 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>BLE Potentiometer</title>
+  <title>BLE Remote</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 20px;
-      max-width: 400px;
-      margin: auto;
-      background-color: black; /* Dark background */
-      color: white; /* White text for contrast */
-    }
-    input, button {
-      display: block;
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      font-size: 16px;
-      background-color: #333; /* Dark gray buttons */
-      color: white; /* White text */
-      border: 1px solid #555; /* Subtle border */
-      border-radius: 5px; /* Rounded corners */
-    }
-    input:focus, button:focus {
-      outline: none;
-      border-color: #777; /* Highlighted border on focus */
-    }
-    #status {
-      margin-top: 20px;
-      font-weight: bold;
-      color: #00ff00; /* Green text for status */
-    }
-    #potValue {
-      margin-top: 20px;
-      font-size: 18px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      margin-top: 20px;
-    }
-    .grid button {
-      padding: 20px;
-      font-size: 16px;
-      background-color: #444; /* Slightly lighter gray for buttons */
-      color: white;
-      border: 1px solid #666;
-      border-radius: 5px;
-    }
-    .grid button:hover {
-      background-color: #555; /* Highlight on hover */
-    }
-    .blink {
-      animation: blink 1s infinite;
-    }
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h2>BLE Potentiometer</h2>
-  <button onclick="connectBLE()">Connect to BLE Device</button>
-  <div id="status">Status: Not connected</div>
-  <div id="potValue">Potentiometer Value: N/A</div>
 
-  <div class="grid">
-    <button onclick="buttonClick(1)">A1</button>
-    <button onclick="buttonClick(2)">A2</button>
-    <button onclick="buttonClick(3)">A3</button>
-    <button onclick="buttonClick(4)">B1</button>
-    <button onclick="buttonClick(5)">B2</button>
-    <button onclick="buttonClick(6)">B3</button>
-    <button onclick="buttonClick(7)">C1</button>
-    <button onclick="buttonClick(8)">C2</button>
-    <button onclick="buttonClick(9)">C3</button>
+  <div class="BLE-container" id="BLE-container">
+    <button onclick="connectBLE()">Connect to BLE Device</button>
+
+    <div class="grid">
+      <button class="light" id="btn-A1" onclick="buttonClick('A1')">Intensity</button>
+      <button class="light" id="btn-A2" onclick="buttonClick('A2')">Color</button>
+      <button class="light" id="btn-A3" onclick="buttonClick('A3')">Focus</button>
+      <button class="light" id="btn-A4" onclick="buttonClick('A4')">Time</button>
+      <button class="light" id="btn-A5" onclick="buttonClick('A5')">Alarm</button>
+    </div>
+    <div class="grid">
+      <button class="sound" id="btn-B1" onclick="buttonClick('B1')">Volume</button>
+      <button class="sound" id="btn-B2" onclick="buttonClick('B2')">Speed</button>
+      <button class="sound" id="btn-B3" onclick="buttonClick('B3')">Voice</button>
+      <button class="sound" id="btn-B4" onclick="buttonClick('B4')">Message</button>
+    </div>
+    <div class="grid">
+      <button onclick="buttonClick('cycle')">Cycle</button>
+      <button onclick="buttonClick('pick')">Pick</button>
+    </div>
+    <button onclick="toggleWiFi()">Continue over Wi-Fi</button>
   </div>
 
-  <script>
-    const SERVICE_UUID = '0000180c-0000-1000-8000-00805f9b34fb'; // Custom service UUID
-    const POT_CHAR_UUID = '00002a56-0000-1000-8000-00805f9b34fb'; // Potentiometer characteristic UUID
-    let buttonCharacteristic;
+  <div class="wifi-container" id="wifi-container" style="display: none;">
 
-    async function connectBLE() {
-      const status = document.getElementById('status');
-      const potValue = document.getElementById('potValue');
-      try {
-        status.textContent = 'Requesting Bluetooth device...';
-        const device = await navigator.bluetooth.requestDevice({
-          filters: [{ namePrefix: 'Nano33-Test' }],
-          optionalServices: [SERVICE_UUID]
-        });
+    <div class="grid">
+      <input style="grid-column: span 3;" type="text" id="ssid" placeholder="Enter Wi-Fi SSID">
+      <input style="grid-column: span 3;" type="password" id="password" placeholder="Enter Wi-Fi Password">
+      <button onclick="saveWiFiCredentials()">Save</button>
+      <button style="grid-column: span 2;" onclick="connectWiFi()">Switch to Wi-Fi</button>
+    </div>
+    
+    <div class="grid">
+      <button onclick="changeScene()">Orion 1</button>
+      <input style="grid-column: span 2;" type="text" id="arduino-ip" placeholder="Enter Arduino IP" value="192.168.0.233">
+    </div>
 
-        status.textContent = 'Connecting...';
-        const server = await device.gatt.connect();
-        const service = await server.getPrimaryService(SERVICE_UUID);
-        characteristic = await service.getCharacteristic(POT_CHAR_UUID);
-        buttonCharacteristic = await service.getCharacteristic('00002a57-0000-1000-8000-00805f9b34fb'); // Button characteristic
+    <div class="grid">
+      <button class="scene" id="btn-C1" onclick="changeScene('C1')">Bed</button>
+      <button class="scene" id="btn-C2" onclick="changeScene('C2')">Kamer</button>
+      <button class="scene" id="btn-C3" onclick="changeScene('C3')">Gang</button>
+      <button class="scene" id="btn-C4" onclick="changeScene('C4')">Toilet</button>
+    </div>
 
-        status.textContent = 'Connected to device!';
-        status.classList.add('blink'); // Blink status when connected
+    <button onclick="disconnectWiFiAndReconnectBLE()">Back to BLE</button>
+  </div>
 
-        // Read potentiometer value periodically
-        setInterval(async () => {
-          try {
-            const value = await characteristic.readValue();
-            const potValueInt = value.getUint16(0, true); // Read as 16-bit unsigned integer
-            console.log('Raw Potentiometer Value:', potValueInt); // Log raw value
-            potValue.textContent = `Potentiometer Value: ${potValueInt}`;
-          } catch (error) {
-            console.error('Error reading potentiometer value:', error);
-          }
-        }, 500);
+  <div id="status" class="error">Status: Not connected</div>
 
-        device.addEventListener('gattserverdisconnected', () => {
-          status.textContent = 'Disconnected from device';
-          status.classList.remove('blink');
-          potValue.textContent = 'Potentiometer Value: N/A';
-        });
-      } catch (error) {
-        console.error('Error:', error);
-        status.textContent = 'Error: ' + error.message;
-      }
-    }
-
-    function buttonClick(buttonNumber) {
-      console.log(`Button ${buttonNumber} clicked`);
-      if (buttonCharacteristic) {
-        const value = new Uint8Array([buttonNumber]);
-        buttonCharacteristic.writeValue(value).then(() => {
-          console.log(`Button ${buttonNumber} sent to Arduino`);
-        }).catch(error => {
-          console.error('Error sending button press:', error);
-        });
-      } else {
-        console.error('Button characteristic not available');
-      }
-    }
-  </script>
+  <pre id="logDisplay"></pre>
 </body>
 </html>
