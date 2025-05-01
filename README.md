@@ -370,122 +370,31 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 `TODO❗️check voor tegenstrijdigheden en rangschik op belangrijkheid en check of er geen essentiele zijn weggevallen`
 
 `TODO❗️vul aan op basis van laatste waves`
-
-<table>
-  <tr><th colspan=2>ID</th><th>Requirement</th><th>Source</th></tr>
-  <tr>
-    <tr>
-      <td rowspan="5" valign="top"><b>1</b></td>
-      <td colspan="3" valign="top"><b>Vermindert belasting voor mantel- en zorgverleners</b></td>
-    </tr>
-    <tr>
-      <td>1.1</td>
-      <td>Stuurt automatisch een melding uit als PD langer dan [x] minuten afwezig is uit slaapkamer (22u–6u).</td>
-      <td>Expert review</td>
-    </tr>
-    <tr>
-      <td>1.2</td>
-      <td>Registreert tijdstip, duur en route van nachtelijke verplaatsing met nauwkeurigheid van ±[x] meter.</td>
-      <td>Expert review</td>
-    </tr>
-    <tr>
-      <td>1.3</td>
-      <td>Synchroniseert meldingen via smartphone-app en/of DECT; configureerbaar door zorgverlener.</td>
-      <td>Expert review</td>
-    </tr>
-    <tr>
-      <td>1.4</td>
-      <td>Laat de gevoeligheid van meldingen instellen via app; keuze tussen minimaal 3 gevoeligheidsniveaus.</td>
-      <td>Expert review</td>
-    </tr>
-    <tr>
-      <td rowspan="5" valign="top"><b>2</b></td>
-      <td colspan="3" valign="top"><b>Verhoogt zelfstandigheid en welzijn van PD</b></td>
-    </tr>
-    <tr>
-      <td>2.1</td>
-      <td>Activeert automatisch lichtpad en/of geluid binnen [x] seconden na detectie van beweging.</td>
-      <td>Interviews</td>
-    </tr>
-    <tr>
-      <td>2.2</td>
-      <td>Toont dag/nachtstatus via display of lichtkleur; status wordt elke [x] minuten geüpdatet.</td>
-      <td>Interviews</td>
-    </tr>
-    <tr>
-      <td>2.3</td>
-      <td>Verwerkt geen audio- of video-opnames en laat volledige bewegingsvrijheid toe.</td>
-      <td>Ethnografie</td>
-    </tr>
-    <tr>
-      <td>2.4</td>
-      <td>Is te begrijpen zonder handleiding door PD met MMSE-score ≥ [x].</td>
-      <td>Think aloud</td>
-    </tr>
-    <tr>
-      <td rowspan="5" valign="top"><b>3</b></td>
-      <td colspan="3" valign="top"><b>Minimaliseert emotionele, cognitieve en fysieke belasting</b></td>
-    </tr>
-    <tr>
-      <td>3.1</td>
-      <td>Vermijdt signalen tussen 22u en 6u tenzij functioneel noodzakelijk.</td>
-      <td>Think aloud</td>
-    </tr>
-    <tr>
-      <td>3.2</td>
-      <td>Vermijdt plots geluid of fel licht (&gt;300 lux) om PD niet te doen schrikken.</td>
-      <td>Think aloud</td>
-    </tr>
-    <tr>
-      <td>3.3</td>
-      <td>Laat de intensiteit van licht en geluid instellen op minimaal 3 niveaus.</td>
-      <td>Think aloud</td>
-    </tr>
-    <tr>
-      <td>3.4</td>
-      <td>Werkt minimaal 1 jaar op batterij óf is compatibel met standaard netstroomadapter.</td>
-      <td>Cognitive walkthrough</td>
-    </tr>
-    <tr>
-      <td rowspan="4" valign="top"><b>4</b></td>
-      <td colspan="3" valign="top"><b>Bevordert succesvolle adoptie</b></td>
-    </tr>
-    <tr>
-      <td>4.1</td>
-      <td>Heeft een consumentenprijs van maximaal €800 incl. btw.</td>
-      <td>State of the Art</td>
-    </tr>
-    <tr>
-      <td>4.2</td>
-      <td>Is binnen 10 minuten te installeren zonder technische hulp.</td>
-      <td>Cognitive walkthrough</td>
-    </tr>
-    <tr>
-      <td>4.3</td>
-      <td>Introduceert functionaliteiten stapsgewijs via onboarding-flow in app.</td>
-      <td>Think aloud</td>
-    </tr>
-        <tr>
-      <td rowspan="4" valign="top"><b>5</b></td>
-      <td colspan="3" valign="top"><b>Is fysiek, sensoriëel en cognitief ergonomisch</b></td>
-    </tr>
-    <tr>
-      <td>5.1</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <td>5.2</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <td>5.3</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-  </tr>
-</table>
+| **ID** | **Design Requirement** | **Bron** | **Datum** |
+|--------|-------------------------|----------|----------|
+| **1** | **Vermindert de belasting van zorgverleners** | | |
+| **1.1** | Stuurt automatische meldingen als de PD langer dan [x] minuten afwezig is uit de slaapkamer (22:00–06:00). | Expert review | 13/12/2024 |
+| **1.2** | Registreert tijd, duur en route van nachtelijke verplaatsingen met een nauwkeurigheid van ±[x] meter. | Expert review | 13/12/2024 |
+| **1.3** | Synchroniseert meldingen via smartphone-app en/of DECT; configureerbaar door de zorgverlener. | Expert review | 13/12/2024 |
+| **1.4** | Laat de gevoeligheid van meldingen aanpassen via de app; biedt minstens 3 gevoeligheidsniveaus. | Expert review | 13/12/2024 |
+| **2** | **Verhoogt de zelfstandigheid en het welzijn van de PD** | | |
+| **2.1** | Activeert automatisch lichtpad en/of geluid binnen [x] seconden na detectie van beweging. | Interviews | 13/10/2024 |
+| **2.2** | Toont dag/nachtstatus via scherm of lichtkleur; update elke [x] minuten. | Interviews | 13/10/2024 |
+| **2.3** | Verwerkt geen audio- of video-opnames en laat volledige bewegingsvrijheid toe. | Ethnography | 15/10/2024 |
+| **2.4** | Is begrijpelijk zonder handleiding voor PD met MMSE-score ≥ [x]. | Think aloud | 13/12/2024 |
+| **3** | **Minimaliseert emotionele, cognitieve en fysieke belasting** | | |
+| **3.1** | Vermijdt signalen tussen 22:00 en 06:00 tenzij functioneel noodzakelijk. | Think aloud | 13/12/2024 |
+| **3.2** | Voorkomt plotselinge geluiden of fel licht (>300 lux) om schrikreacties te vermijden. | Think aloud | 13/12/2024 |
+| **3.3** | Laat licht- en geluidsintensiteit aanpassen tot minstens 3 niveaus. | Think aloud | 13/12/2024 |
+| **3.4** | Werkt minstens 1 jaar op batterij of is compatibel met standaard stroomadapters. | Cognitive walkthrough | 25/11/2024 |
+| **4** | **Bevordert succesvolle adoptie** | | |
+| **4.1** | Heeft een consumentenprijs van maximaal €800 inclusief btw. | State of the Art | 16/12/2024 |
+| **4.2** | Kan binnen 10 minuten worden geïnstalleerd zonder technische hulp. | Cognitive walkthrough | 25/11/2024 |
+| **4.3** | Introduceert functies geleidelijk via een onboarding flow in de app. | Think aloud | 13/12/2024 |
+| **5** | **Is fysiek, sensorisch en cognitief ergonomisch** | | |
+| **5.1** | ... | ... | ... |
+| **5.2** | ... | ... | ... |
+| **5.3** | ... | ... | ... |
 
 | ID | Design Requirement | * | Source | Date |
 | - | - | - | - | - |
