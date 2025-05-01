@@ -111,10 +111,10 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 
 > _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes. Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
-<p align="left">
-  <img src="img/Ethnography ochtend.png" width="45%">
-  <img src="img/Ethnography de boeren.png" width="24%">
-  <img src="img/Ethnography creme au beurre.png" width="25.5%">
+<p align="center  ">
+  <img src="img/Ethnography ochtend.png" width="45.05%">
+  <img src="img/Ethnography de boeren.png" width="23.95%">
+  <img src="img/Ethnography creme au beurre.png" width="25.35%">
 </p>
 
 ### Conclusies & implicaties
@@ -125,6 +125,7 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfstandigheid van de PD te verbeteren gedurende de nacht. De drempel voor gebruik moet ook laag blijven, het moet zo intuïtief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geïmplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeerd worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit. Het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze ontwaakt.
 
 > [!NOTE]
+> **_Design Requirements_**
 > - 1.1 Ontlast de mantelzorger door een minder verstoorde nachtrust
 > - 2.1 Geeft PD meer zelfstandigheid en eigenwaarde en werkt geruststellend en ondersteunend
 > - 2.1.2 Oriënteert de PD bij een nachtelijk toiletbezoek
@@ -214,6 +215,7 @@ De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat 
 </p>
 
 > [!NOTE]
+> **_Design Requirements_**
 > - 1.1 … en biedt geruststelling, ook wanneer de DP niet in de onmiddellijke nabijheid is
 > - 2.1.4 Respecteert de privacy van de DP en de MZ
 > - 3.1.3 Trekt enkel de aandacht wanneer functioneel relevant
@@ -232,6 +234,7 @@ Uit onze gesprekken kwam naar voor dat het nachtelijk opstaan veelal omwille van
 In de literatuur lezen we dat onrust, angst, waanbeelden, denken te moeten gaan werken mee aan de oorzaak liggen. Deze verklaren beter het gedrag dat laten in de woonzorgcentra wordt waargenomen. Deze symptomen verergeren 's avonds en is gekend als _sundowning_. Behalve opdrijven van medicatie en het opsluiten of plaatsen in ernstige gevallen, kunnen rustgevende therapieën tegen de avond dit fenomeen verminderen.
 
 > [!NOTE]
+> **_Design Requirements_**
 > - 2.2 Biedt een meerwaarde voor minimaal 50% van de varianten en gradaties van de ziekte
 > - 2.3 Bevordert het circadiaans ritme van de PD
 > - 2.3.2 Multi-sensoriële snoezelfuncties bevorderen het inslapen
@@ -250,6 +253,7 @@ Beacon: In de nieuwe prototypes wordt geluid beperkt tot 's avonds en 's ochtend
 Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP uit bed, uit de kamer, in de toilet komt, gecombineerd met een tijdgebonden waarschuwing, zou beter werken dan een courant gebruikt IR-detectiesystemen (Mintt). Het biedt meerdere checkpoints waardoor de noodzaak voor een interventie beter kan worden ingeschat. Tegenwoordig hebben zo goed als alle mantelzorgers een smartphone, dus een dergelijk systeem zou ook via deze weg een melding kunnen geven aan de mee-slapende of familieleden.
 
 > [!NOTE]
+> **_Design Requirements_**
 > - 1.1.1 Detectie van de route van de PD met bijhorende tijdsindicatie
 > - 1.1.2 Geeft hierover feedback aan de MZ, IZ, PZ
 > - 1.1.4 Communiceert met een smartphone app (inwonende) MZ & familie
@@ -266,12 +270,13 @@ Tijdens het opzetten van de tests waren weinig problemen ondervonden. De moeilij
 Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scenario, kregen we toch een hoop feedback.
 
 <p align="left">
-  <img src="img/Wizard of Oz bed.png" width="25%">
-  <img src="img/Wizard of Oz toilet.png" width="44.5%">
+  <img src="img/Wizard of Oz bed.png" width="25.1%">
+  <img src="img/Wizard of Oz toilet.png" width="44.6%">
   <img src="img/Wizard of Oz gang.png" width="25%">
 </p>
 
 > [!NOTE]
+> **_Design Requirements_**
 > - 2.1.5 De interacties zijn intuïtief
 > - 2.4.2 Kan eenvoudig geïnstalleerd worden ongeacht de omgeving
 > - 3.1.1 Veroorzaak geen gevoel van schaamte of confrontatie
@@ -362,6 +367,126 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 `TODO❗️requirements herschrijven en hierboven doorvoeren, strakker cfr les`
 
+`TODO❗️check voor tegenstrijdigheden en rangschik op belangrijkheid en check of er geen essentiele zijn weggevallen`
+
+`TODO❗️vul aan op basis van laatste waves`
+
+<table>
+  <tr><th colspan=2>ID</th><th>Requirement</th><th>Source</th></tr>
+  <tr>
+    <tr>
+      <td rowspan="5" valign="top"><b>1</b></td>
+      <td colspan="3" valign="top"><b>Vermindert belasting voor mantel- en zorgverleners</b></td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>Stuurt automatisch een melding uit als PD langer dan [x] minuten afwezig is uit slaapkamer (22u–6u).</td>
+      <td>Expert review</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Registreert tijdstip, duur en route van nachtelijke verplaatsing met nauwkeurigheid van ±[x] meter.</td>
+      <td>Expert review</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>Synchroniseert meldingen via smartphone-app en/of DECT; configureerbaar door zorgverlener.</td>
+      <td>Expert review</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>Laat de gevoeligheid van meldingen instellen via app; keuze tussen minimaal 3 gevoeligheidsniveaus.</td>
+      <td>Expert review</td>
+    </tr>
+    <tr>
+      <td rowspan="5" valign="top"><b>2</b></td>
+      <td colspan="3" valign="top"><b>Verhoogt zelfstandigheid en welzijn van PD</b></td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Activeert automatisch lichtpad en/of geluid binnen [x] seconden na detectie van beweging.</td>
+      <td>Interviews</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Toont dag/nachtstatus via display of lichtkleur; status wordt elke [x] minuten geüpdatet.</td>
+      <td>Interviews</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>Verwerkt geen audio- of video-opnames en laat volledige bewegingsvrijheid toe.</td>
+      <td>Ethnografie</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>Is te begrijpen zonder handleiding door PD met MMSE-score ≥ [x].</td>
+      <td>Think aloud</td>
+    </tr>
+    <tr>
+      <td rowspan="5" valign="top"><b>3</b></td>
+      <td colspan="3" valign="top"><b>Minimaliseert emotionele, cognitieve en fysieke belasting</b></td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>Vermijdt signalen tussen 22u en 6u tenzij functioneel noodzakelijk.</td>
+      <td>Think aloud</td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>Vermijdt plots geluid of fel licht (&gt;300 lux) om PD niet te doen schrikken.</td>
+      <td>Think aloud</td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>Laat de intensiteit van licht en geluid instellen op minimaal 3 niveaus.</td>
+      <td>Think aloud</td>
+    </tr>
+    <tr>
+      <td>3.4</td>
+      <td>Werkt minimaal 1 jaar op batterij óf is compatibel met standaard netstroomadapter.</td>
+      <td>Cognitive walkthrough</td>
+    </tr>
+    <tr>
+      <td rowspan="4" valign="top"><b>4</b></td>
+      <td colspan="3" valign="top"><b>Bevordert succesvolle adoptie</b></td>
+    </tr>
+    <tr>
+      <td>4.1</td>
+      <td>Heeft een consumentenprijs van maximaal €800 incl. btw.</td>
+      <td>State of the Art</td>
+    </tr>
+    <tr>
+      <td>4.2</td>
+      <td>Is binnen 10 minuten te installeren zonder technische hulp.</td>
+      <td>Cognitive walkthrough</td>
+    </tr>
+    <tr>
+      <td>4.3</td>
+      <td>Introduceert functionaliteiten stapsgewijs via onboarding-flow in app.</td>
+      <td>Think aloud</td>
+    </tr>
+        <tr>
+      <td rowspan="4" valign="top"><b>5</b></td>
+      <td colspan="3" valign="top"><b>Is fysiek, sensoriëel en cognitief ergonomisch</b></td>
+    </tr>
+    <tr>
+      <td>5.1</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>5.2</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>5.3</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+  </tr>
+</table>
+
 | ID | Design Requirement | * | Source | Date |
 | - | - | - | - | - |
 | **1** | **Zorgt voor minder belasting bij nabije zorgverleners** | M | User interview | 13/10/2024 |
@@ -427,7 +552,7 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 Lichtarmatuur (x3)
 - [Arduino Nano IoT](https://www.gotron.be/arduino-nano-33-iot-zonder-headers.html)
 - [Led-ring](https://www.otronic.nl/nl/24-bit-rgb-leds-ws2812b-cirkel-rond-neopixel.html?source=googlebase&gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1GCSt1FU_-lqwhs-2C0fQgxupHfj0l1B38h1cv5iahTJv1isrumIbcaAt71EALw_wcB#gad_source_1)
-- [PIR sensor](https://www.gotron.be/pir-motion-sensor.html)
+- [PIR sensor](https://www.gotron.be/pir-motion-sensor.html) (x2)
 - [Potentiometer](https://www.gotron.be/potentiometer-mono-10-kohm-logaritmisch.html)
 - [AA batterijhouders](https://www.gotron.be/energie/batterijen/batterijhouder/batterijhouder-voor-1-x-aa-cel-met-draden.html) (x3)
 - AA batterijen (x3)
@@ -435,7 +560,6 @@ Lichtarmatuur (x3)
 
 Luidspreker (x1)
 - [MP3-module](https://www.gotron.be/dfplayer-pro-een-mini-mp3-speler-met-128mb-geheugen-onboard.html)
-- [Versterker](https://www.gotron.be/projects/projects/velleman/shields/zeer-kleine-digitale-versterker-board.html)
 - [Luidspreker](https://www.gotron.be/miniatuurluidspreker-66mm-2w-8ohm.html)
 
 Circuit (kabels, connectoren, weerstanden, etc.)
@@ -505,7 +629,10 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
 
 ### Deliver
 - [Explainer video]()
+  - [Script](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EcioSIA9y9ZAlRPYxw0DY-EBSUCkpOe41N7b1oHjZXvO0w?e=Y3X2C9)
 
 [^1]: A New Era in Belgian Healthcare
+
 [^2]: [Expertisecentrum Dementie Vlaanderen](https://www.dementie.be/home/wat-is-dementie/prevalentie/#:~:text=Onze%20nieuwe%20schatting%20is%20dat,n%201.800%20een%20formele%20diagnose.&text=De%20kans%20is%201%20op,in%20zijn%20leven%20dementie%20krijgt.&text=Leeftijd%20is%20de%20belangrijkste%20risicofactor%20voor%20dementie.)
+
 [^3]: Wandering Sundowning
