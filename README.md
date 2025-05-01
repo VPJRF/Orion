@@ -367,31 +367,31 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 `TODO❗️requirements herschrijven en hierboven doorvoeren, strakker cfr les`
 
-| ID | Design Requirement | Bron |
-|-|-|-|
-| **1** | **Vermindert de belasting van zorgverleners** |
-| 1.1 | Stuurt automatische meldingen als de PD langer dan [x] minuten afwezig is uit de slaapkamer (22:00–06:00). | Expert review 13/12/2024 |
-| 1.2 | Registreert tijd, duur en route van nachtelijke verplaatsingen met een nauwkeurigheid van ±[x] meter. | Expert review 13/12/2024 |
-| 1.3 | Synchroniseert meldingen via smartphone-app en/of DECT; configureerbaar door de zorgverlener. | Expert review 13/12/2024 |
-| 1.4 | Laat de gevoeligheid van meldingen aanpassen via de app; biedt minstens 3 gevoeligheidsniveaus. | Expert review 13/12/2024 |
-| **2** | **Verhoogt de zelfstandigheid en het welzijn van de PD** |
-| 2.1 | Activeert automatisch lichtpad en/of geluid binnen [x] seconden na detectie van beweging. | Interviews 13/10/2024 |
-| 2.2 | Toont dag/nachtstatus via scherm of lichtkleur; update elke [x] minuten. | Interviews 13/10/2024 |
-| 2.3 | Verwerkt geen audio- of video-opnames en laat volledige bewegingsvrijheid toe. | Ethnography 15/10/2024 |
-| 2.4 | Is begrijpelijk zonder handleiding voor PD met MMSE-score ≥ [x]. | Think aloud 13/12/2024 |
-| **3** | **Minimaliseert emotionele, cognitieve en fysieke belasting** |
-| 3.1 | Vermijdt signalen tussen 22:00 en 06:00 tenzij functioneel noodzakelijk. | Think aloud 13/12/2024 |
-| 3.2 | Voorkomt plotselinge geluiden of fel licht (>300 lux) om schrikreacties te vermijden. | Think aloud 13/12/2024 |
-| 3.3 | Laat licht- en geluidsintensiteit aanpassen tot minstens 3 niveaus. | Think aloud 13/12/2024 |
-| 3.4 | Werkt minstens 1 jaar op batterij of is compatibel met standaard stroomadapters. | Cognitive walkthrough 25/11/2024 |
-| **4** | **Bevordert succesvolle adoptie** |
-| 4.1 | Heeft een consumentenprijs van maximaal €800 inclusief btw. | State of the Art 16/12/2024 |
-| 4.2 | Kan binnen 10 minuten worden geïnstalleerd zonder technische hulp. | Cognitive walkthrough 25/11/2024 |
-| 4.3 | Introduceert functies geleidelijk via een onboarding flow in de app. | Think aloud 13/12/2024 |
-| **5** | **Is fysiek, sensorisch en cognitief ergonomisch** |
-| 5.1 | ... | ... |
-| 5.2 | ... | ... |
-| 5.3 | ... | ... |
+| ID | Design Requirement | Bron | Datum |
+|-|-|-|-|
+| **1** | **Vermindert de belasting van zorgverleners** | | |
+| 1.1 | Stuurt automatische meldingen als de PD langer dan [x] minuten afwezig is uit de slaapkamer (22:00–06:00). | Expert review | 13/12/2024 |
+| 1.2 | Registreert tijd, duur en route van nachtelijke verplaatsingen met een nauwkeurigheid van ±[x] meter. | Expert review | 13/12/2024 |
+| 1.3 | Synchroniseert meldingen via smartphone-app en/of DECT; configureerbaar door de zorgverlener. | Expert review | 13/12/2024 |
+| 1.4 | Laat de gevoeligheid van meldingen aanpassen via de app; biedt minstens 3 gevoeligheidsniveaus. | Expert review | 13/12/2024 |
+| **2** | **Verhoogt de zelfstandigheid en het welzijn van de PD** | | |
+| 2.1 | Activeert automatisch lichtpad en/of geluid binnen [x] seconden na detectie van beweging. | Interviews | 13/10/2024 |
+| 2.2 | Toont dag/nachtstatus via scherm of lichtkleur; update elke [x] minuten. | Interviews | 13/10/2024 |
+| 2.3 | Verwerkt geen audio- of video-opnames en laat volledige bewegingsvrijheid toe. | Ethnography | 15/10/2024 |
+| 2.4 | Is begrijpelijk zonder handleiding voor PD met MMSE-score ≥ [x]. | Think aloud | 13/12/2024 |
+| **3** | **Minimaliseert emotionele, cognitieve en fysieke belasting** | | |
+| 3.1 | Vermijdt signalen tussen 22:00 en 06:00 tenzij functioneel noodzakelijk. | Think aloud | 13/12/2024 |
+| 3.2 | Voorkomt plotselinge geluiden of fel licht (>300 lux) om schrikreacties te vermijden. | Think aloud | 13/12/2024 |
+| 3.3 | Laat licht- en geluidsintensiteit aanpassen tot minstens 3 niveaus. | Think aloud | 13/12/2024 |
+| 3.4 | Werkt minstens 1 jaar op batterij of is compatibel met standaard stroomadapters. | Cognitive walkthrough | 25/11/2024 |
+| **4** | **Bevordert succesvolle adoptie** | | |
+| 4.1 | Heeft een consumentenprijs van maximaal €800 inclusief btw. | State of the Art | 16/12/2024 |
+| 4.2 | Kan binnen 10 minuten worden geïnstalleerd zonder technische hulp. | Cognitive walkthrough | 25/11/2024 |
+| 4.3 | Introduceert functies geleidelijk via een onboarding flow in de app. | Think aloud | 13/12/2024 |
+| **5** | **Is fysiek, sensorisch en cognitief ergonomisch** | | |
+| 5.1 | ... | ... | ... |
+| 5.2 | ... | ... | ... |
+| 5.3 | ... | ... | ... |
 
 | ID | Design Requirement | * | Source | Date |
 | - | - | - | - | - |
