@@ -527,7 +527,7 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
   - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EQc9bVL98C1Bg9wy_j9wrJwBJp-GJjBEg8ULPVaeS8YLjg?e=RuK1Z6)
   - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EZvJdp2McdxAnRVUZE21PdMB0frdUHorjLVcXtSo-ZZe9w?e=HnJsfv)
 - Prototypes wave 4
-  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbpEEQu65s1MsOD6PxRYUmsBMa9nkP9GNjpH73FM9u82Bg?e=3dqR0F)
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbpEEQu65s1MsOD6PxRYUmsBMa9nkP9GNjpH73FM9u82Bg?e=3dqR0F) - [Testing WebUI](https://eaverdeg.github.io/)
   - [Rapport]()
 - Prototypes wave 5
   - [Protocol]()
