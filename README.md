@@ -367,8 +367,8 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 `TODO❗️requirements herschrijven en hierboven doorvoeren, strakker cfr les`
 
-| ID | Design Requirement | Bron | Datum |
-|--------|---------------------|----------|----------|
+| ID | Design Requirement | Bron |
+|-|-|-|
 | **1** | **Vermindert de belasting van zorgverleners** |
 | 1.1 | Stuurt automatische meldingen als de PD langer dan [x] minuten afwezig is uit de slaapkamer (22:00–06:00). | Expert review<br>13/12/2024 |
 | 1.2 | Registreert tijd, duur en route van nachtelijke verplaatsingen met een nauwkeurigheid van ±[x] meter. | Expert review<br>13/12/2024 |
