@@ -1,5 +1,5 @@
 # Orion
-*Een multi-sensorieel hulpmiddel dat de nachtrust en de nachtelijke gemoedsrust van de mantelzorger van een persoon met dementie bevordert, door het circadiaans ritme, de nachtelijke oriëntatie in ruimte en tijd en bijgevolg de slaapkwaliteit van de persoon met dementie te ondersteunen.*
+*Een hulpmiddel dat de nachtrust en gemoedsrust van een mantelzorger van een persoon met dementie verbetert, door de nachtelijke oriëntatie in ruimte en tijd en de slaapkwaliteit van de persoon met dementie te ondersteunen.*
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
@@ -12,19 +12,20 @@
 
 ## Samenvatting
 
-`TODO❗️updaten na wave 5`
+Dit project richt zich op het probleem van **verstoorde dag-nachtritmes bij mensen met dementie**, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort.
 
-Dit project richt zich op het probleem van verstoorde dag-nachtritmes bij mensen met dementie, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort.
+Het probleem werd geanalyseerd door middel van **bevragingen en observaties**, waarbij de verschillende aspecten en gradaties werden geïdentificeerd. Vervolgens werd met behulp van **vijf iteraties aan prototypes** onderzocht hoe het zintuiglijke spectrum optimaal benut kan worden om de PD in zijn zelfstandigheid te ondersteunen.
 
-Aan de hand van een _literature review_ (N=16), _user interviews_ (N=4), _ethnography_ (N=1) en _concept prototype testing_ (N=10) en _usability prototype testing_ (N=3) gingen we op zoek naar het werkelijke probleem – in al zijn varianten en gradaties – en in welke mate het zintuigelijke spectrum maximaal kan worden ingezet om met de juiste prikkel op het juiste moment en op de juiste positie de nachtelijke onrust bij zowel de MZ als de PD te verminderen.
+Een combinatie van **visuele en auditieve prikkels** op strategische plaatsen doorheen de nachthal **begeleidt de PD bij een nachtelijk toiletbezoek** en **voorkomt het mogelijks daarop volgende nachtelijke dolen**.
 
-De oplossing is tweedelig.
+🌟 *Slimme lampjes verlichten de route en vormen oriëntatiepunten.*<br>
+🗣️ *Een geruststellende herkenbare stem herinnert aan tijd en nachtrust.*<br>
+⚠️ *Bij afwijking wordt de MZ meteen visueel gewaarschuwd.*
 
-**_Beacon_**, een multi-sensoriele nachtlamp naast het bed die rust, veiligheid creëert en het primaire oriëntatiepunt vormt.
+Door de hulp kan de PD ’s nachts zijn plan trekken. De MZ kan met een gerust hart doorslapen.
 
-**_Breadcrumbs_**, een serie lichtjes met sensoren buiten de kamer die een pad vormen om de PD oriëntatie te bieden en zijn/haar positie met de mantelzorger te communiceren.
+**_Orion_** *belooft zo de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten en maakt zo thuiszorg aangenamer en duurzamer.*
 
-Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten en maakt zo thuiszorg aangenamer en duurzamer.
 
 `TODO❗️update hero image`
 
@@ -37,14 +38,14 @@ Orion belooft de zelfstandigheid van mensen met dementie te bevorderen, hun onru
 </p>
 
 ## Introductie
-`TODO❗️meer pakkende quote`
-> _Elke 4 seconden krijgt iemand ergens ter wereld dementie._
 
-Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) [^1]. De keerzijde van de medaille is dat hierdoor chronische ouderdomsziektes zoals Alzheimer's vaker voorkomen. Op vandaag krijgt ongeveer 1 op 5 in de loop van zijn of haar leven een vorm van dementie. Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen (Exptertisecentrum Dementie, 2021) [^2]. In het toekomstige value based healthcare (VBHC) model (PwC, 2024) [^1] wordt de zorgverlening verder richting de eerstelijns- en nuldelijnszorg verschoven. Dit moet onder andere een oplossing bieden aan het groeiende personeeltekort in de gezondheidssector. Deze evolutie onderstreept het belang van de informele zorgverlener en in het bijzonder de mantelzorger in het geval van zorg voor mensen met dementie.
+> _“Wanneer de nachten te zwaar worden, moeten mantelzorgers [hun partner] loslaten – niet omdat ze willen, maar omdat ze niet meer kunnen.” – zorgmedewerker WZC_
 
-Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt tot nachtelijke onrust en dwalen (Thomas & Ritter, 2022) [^3]. Dit verstoort niet alleen de nachtrust van de persoon met dementie zelf, maar ook die van hun mantelzorgers, vaak de partner. Deze aanhoudende belasting kan leiden tot fysieke en emotionele uitputting van de mantelzorger, wat de beslissing tot een vaste opname in een woonzorgcentrum kan bespoedigen.
+Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) [^1]. De keerzijde van de medaille is dat hierdoor chronische ouderdomsziektes zoals Alzheimer's vaker voorkomen. **Op vandaag krijgt ongeveer 1 op 5 in de loop van zijn of haar leven een vorm van dementie.** Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen (Exptertisecentrum Dementie, 2021) [^2]. In het toekomstige value based healthcare (VBHC) model (PwC, 2024) [^1] **wordt de zorgverlening verder richting de eerstelijns- en nuldelijnszorg verschoven**. Dit moet onder andere een oplossing bieden aan het groeiende personeeltekort in de gezondheidssector. **Deze evolutie onderstreept het belang van de informele zorgverlener en in het bijzonder de mantelzorger in het geval van zorg voor mensen met dementie.**
 
-Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van PD en hun MZ bevordert, zodat thuiszorg langer mogelijk blijft. Daarbij is het cruciaal om de autonomie van de zorgbehoevende te ondersteunen en de druk op MZ te verlagen. Dit vereist oplossingen die rekening houden met de uiteenlopende en veranderende cognitieve en zintuiglijke capaciteiten van PD. De focus ligt op het minimaliseren van nachtelijke interventies en het ondersteunen van een zelfstandig dag-nachtritme. De ontwikkelde oplossing moet bovendien flexibel zijn en ook in een woonzorgcentrum gebruikt kunnen worden om de professionele zorgverleners te ontlasten.
+**Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt tot nachtelijke onrust en dwalen** (Thomas & Ritter, 2022) [^3]. Dit verstoort niet alleen de nachtrust van de persoon met dementie zelf, maar ook die van hun mantelzorgers, vaak de partner. **Deze aanhoudende belasting kan leiden tot fysieke en emotionele uitputting van de mantelzorger**, wat de beslissing tot een vaste opname in een woonzorgcentrum kan bespoedigen.
+
+**Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van PD en hun MZ bevordert, zodat thuiszorg langer mogelijk blijft**. Daarbij is het cruciaal om de autonomie van de zorgbehoevende te ondersteunen en de druk op MZ te verlagen. Dit vereist oplossingen die rekening houden met de **uiteenlopende en veranderende cognitieve en zintuiglijke capaciteiten van PD**. De focus ligt op het minimaliseren van nachtelijke interventies en het ondersteunen van een zelfstandig dag-nachtritme. De ontwikkelde oplossing moet bovendien flexibel zijn en ook in een woonzorgcentrum gebruikt kunnen worden om de professionele zorgverleners te ontlasten.
 
 ## Methodologie
 
