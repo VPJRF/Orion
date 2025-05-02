@@ -52,69 +52,6 @@ Het doel van dit project is om een oplossing te ontwikkelen die de nachtrust van
 
 <img src="img/Timeline.svg">
 
-<!--test mermaid -->
-
-```mermaid
-graph LR
-
-%% === Timeline by Month ===
-OCT[October]
-NOV[November]
-DEC[December]
-JAN[January]
-
-OCT --> A1[Lit review N=16]
-OCT --> A2[User interviews N=4]
-OCT --> A3[Ethnography N=1]
-OCT --> A4[State of the Art]
-
-NOV --> B1[Lit review N=1]
-NOV --> B2[Concept prototypes]
-
-DEC --> C1[Usability prototypes]
-DEC --> C2[Wizard of Oz N=3]
-
-JAN --> D1[Expert review N=1]
-JAN --> D2[User reviews N=7]
-JAN --> D3[User reviews N=3]
-JAN --> D4[Evaluation matrix]
-
-%% === ORION 1.0 Features (grouped in parallel)
-subgraph ORION_1_0 [ORION 1.0]
-    E1[Mantelzorg]
-    E2[Praktische zaken]
-    E3[Dag-nachtritme]
-    E4[Klinkklok]
-    E5[Slaaphulp]
-end
-
-%% === ORION 2.0 Features (grouped in parallel)
-subgraph ORION_2_0 [ORION 2.0]
-    F1[Herinneren]
-    F2[Fysieke en mentale hulp]
-    F3[Waakzaamheid en supervisie]
-    F4[GPS tracking]
-    F5[Dagplanning]
-    F6[Breadcrumbs]
-    F7[Vloerlicht]
-    F8[Orientatiehulp]
-    F9[Monitoren]
-    F10[Orienteren]
-    F11[Wekken]
-    F12[Snoezelen]
-end
-
-%% Transition from ORION 1.0 to 2.0
-E1 --> F1
-E2 --> F2
-E3 --> F5
-E4 --> F7
-E5 --> F12
-
-```
-
-<!-- einde test mermaid -->
-
 Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase. De discovery fase omvatte een literatuurstudie om een breed en helder beeld te krijgen van dementie, de sociale context en de bestaande oplossingen. Daarnaast werden er etnografische observaties in een dagcentrum uitgevoerd om de problematiek in de praktijk te observeren. In deze fase werden ook interviews afgenomen met mantelzorgers en zorgprofessionals om hun ervaringen en noden te begrijpen. De definitiefase richt zich op het prototypen en testen van oplossingen. Deze fase bestond uit twee iteraties waarin verschillende prototypes ontwikkeld, getest en geëvalueerd werden om de meest effectieve oplossing te vinden. Hierbij wordt het 'Think Aloud Protocol' gehanteerd. De nadruk ligt op concept testing en in mindere mate usability testing.
 
 ## Discovery
@@ -414,7 +351,7 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
   <img src="img/Prototypes wiring.jpg" width="30.9%">
 </p>
 
-<img src="img/Prototypes UI options.png" width="700">
+<img src="img/Prototypes UI options.png">
 
 #### 🌊 Prototypes wave 5 – proof of concept
 
