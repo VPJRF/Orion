@@ -99,11 +99,11 @@ Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voo
 
 > “Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.” – professionele zorgverlener
 
-<img align="right" src="img/Fishbone.png" width=500px>
+<img align="right" src="img/Fishbone.png" width=400>
 
 Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. 
 
-De voornaamste factoren zijn weergegeven in onderstaande fishbone diagram.
+De voornaamste factoren zijn weergegeven in het fishbone diagram.
 
 <br clear="all">
 
@@ -200,26 +200,25 @@ De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop 
 > - Veroorzaakt geen agitatie?
 > - Is voldoende intuïtief?
 
-<img align="right" src="img/Prototypes mantelzorgers.jpg" width="500">
+<img align="right" src="img/Prototypes mantelzorgers.jpg" width="400">
 
 PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een versnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
-
 <br clear="all">
 
 > _“Een verstoorde nachtrust is vaak het duwtje van dagopvang naar vaste opvang.”_ – Jorick Cappon, centrumleider in Huize Ter Walle
 
 De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanneer je licht op de kamerdeur of onder het bed voorziet, zal dit net de aandacht trekken. Prikkel naar het hoofddoel, aan het bed. Op de geluiden wordt sterk wisselend gereageerd. De een vindt het storend, de andere ziet er potentieel in, cfr. het snoezelen.
 
-<img align="right" src="img/Prototypes radiochart.png" width=500px>
+<img align="right" src="img/Prototypes radiochart.png" width=400>
 
-De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de DP zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
+De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de  zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp PD voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
 
 <br clear="all">
 
 > [!NOTE]
 > **_Design Requirements_**
-> - 1.1 … en biedt geruststelling, ook wanneer de DP niet in de onmiddellijke nabijheid is
-> - 2.1.4 Respecteert de privacy van de DP en de MZ
+> - 1.1 … en biedt geruststelling, ook wanneer de PD niet in de onmiddellijke nabijheid is
+> - 2.1.4 Respecteert de privacy van de PD en de MZ
 > - 3.1.3 Trekt enkel de aandacht wanneer functioneel relevant
 > - 3.1 Voorkomt agitatie en verwarring van de PD
 > - 3.2.1 Verstoort niet de nachtrust van de mee-slapende
@@ -252,7 +251,7 @@ In de literatuur lezen we dat onrust, angst, waanbeelden, denken te moeten gaan 
 
 Beacon: In de nieuwe prototypes wordt geluid beperkt tot 's avonds en 's ochtends om de slaap van de MZ niet te verstoren. Er is echter onmiddellijk de opmerking dat een spraakbericht "Het is nog nacht", die een PD aanspoort zelfstandig terug in bed te kruipen, voor veel bewoners van het woonzorgcentrum een hulp zou kunnen betekenen. Meestal is de PD al op dool wanneer de PZ aan de kamer toekomt. Wat de geur betreft, kunnen ze bevestigen dat dit in de praktijk vaak en effectief gebruikt wordt bij het snoezelen.
 
-Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de DP uit bed, uit de kamer, in de toilet komt, gecombineerd met een tijdgebonden waarschuwing, zou beter werken dan een courant gebruikt IR-detectiesystemen (Mintt). Het biedt meerdere checkpoints waardoor de noodzaak voor een interventie beter kan worden ingeschat. Tegenwoordig hebben zo goed als alle mantelzorgers een smartphone, dus een dergelijk systeem zou ook via deze weg een melding kunnen geven aan de mee-slapende of familieleden.
+Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de PD uit bed, uit de kamer, in de toilet komt, gecombineerd met een tijdgebonden waarschuwing, zou beter werken dan een courant gebruikt IR-detectiesystemen (Mintt). Het biedt meerdere checkpoints waardoor de noodzaak voor een interventie beter kan worden ingeschat. Tegenwoordig hebben zo goed als alle mantelzorgers een smartphone, dus een dergelijk systeem zou ook via deze weg een melding kunnen geven aan de mee-slapende of familieleden.
 
 > [!NOTE]
 > **_Design Requirements_**
@@ -317,9 +316,9 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 ### Materialen en methoden
 
 #### Morfologische matrix
-<p>
-  <img src="img/Prototypes wave 3 CMF.png" width="63%">
+<p align="right">
   <img src="img/Prototypes morfologische matrix.png" width="34.1%">
+  <img src="img/Prototypes wave 3 CMF.png" width="63%">
 </p>
 
 #### 🌊 Prototypes wave 3 – look & feel
@@ -346,12 +345,16 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 `TODO❗️update schema`
 
-<p align="left">
-  <img src="img/Prototypes wiring.jpg" width="33.6%">
+<p align="right">
   <img src="img/Prototypes wave 4 System Architecture.jpg" width="63%">
+  <img src="img/Prototypes wiring.jpg" width="33.6%">
 </p>
 
-<img src="img/Prototypes UI options.png">
+<details>
+  <summary>Toon meer detail</summary>
+  <img src="img/Prototypes UI options.png">
+</details>
+
 
 #### 🌊 Prototypes wave 5 – proof of concept
 
@@ -524,7 +527,7 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeenkomen. MZ zijn kritische en PD op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er nog niet in geslaagd om een antwoord op hun werkelijke vragen te bieden. 
 - In de eerste plaats zou de status quo bias hierin een rol kunnen spelen, doch zijn er voldoende MZs die bestaande hulpmiddelen omarmen. 
 - Een tweede aspect is de ogenschijnlijke noodzaak om de ecologische validiteit van onze testen nog te verhogen om werkelijke feedback te krijgen. Hierbij is het van groot belang dat er zo min mogelijk verwarring bij de PD veroorzaakt wordt, aangezien dit in een potentiële emotionele nasleep kan resulteren. 
-- Een derde aspect is het enorme belang van het menselijke aspect. De nachtelijke interacties tussen MZ en DP dienen om zowel de PD als de MZ gerust te stellen. De achterliggende redenen zijn zo verschillend per individu en per voorval dat technologie onmogelijk hetzelfde kan bereiken dan een complex menselijk contact.
+- Een derde aspect is het enorme belang van het menselijke aspect. De nachtelijke interacties tussen MZ en PD dienen om zowel de PD als de MZ gerust te stellen. De achterliggende redenen zijn zo verschillend per individu en per voorval dat technologie onmogelijk hetzelfde kan bereiken dan een complex menselijk contact.
 
 Er zijn 2 strategieën denkbaar om dit project verder te zetten.
 1. We vernauwen opnieuw de doelgroep en spilten ons toe op een specifiek, doch vaak voorkomend probleem en werken toe naar een gespecialiseerde oplossing.
