@@ -99,7 +99,7 @@ Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voo
 
 > “Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.” – professionele zorgverlener
 
-<img align="right" src="img/Fishbone.png" width=400>
+<img align="right" src="img/Fishbone.png" width=450>
 
 Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. 
 
@@ -346,8 +346,15 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 `TODO❗️update schema`
 
 <p align="right">
-  <img src="img/Prototypes wave 4 System Architecture.jpg" width="63%">
+<figure align=right>
+<img src="img/Prototypes wave 4 System Architecture.jpg" width="63%">
+  <figcaption><strong>Figure 1.</strong> Diagram of the system</figcaption>
+</figure>
+  <figure>
   <img src="img/Prototypes wiring.jpg" width="33.6%">
+  <figcaption><strong>Figure 1.</strong> Diagram of the system</figcaption>
+</figure>
+
 </p>
 
 <img src="img/Prototypes UI options.png">
@@ -398,6 +405,8 @@ pieken of dalen.
 #### UI optie bevraging (N=)
 
 #### proof of concept
+
+### Conclusies en implicaties
 
 ## Design requirements
 
