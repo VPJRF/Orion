@@ -3,7 +3,7 @@
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
-28/03/2025 `TODO❗️update datum`
+02/05/2025 `TODO❗️update datum`
 
 `PD` persoon met dementie <br>
 `MZ` mantelzorger (bv. partner) <br>
@@ -327,7 +327,6 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 - 5 varianten van vlinderlamp
 - BERT-testing
 - Semi-structured interviews
-- Think aloud protocol
 
 | | Prototypethumbnail | Metafoor | Symboliek | Kleur | Materiaal | Afwerking | Typologie | Affordance | Signifier |
 | - | - | - | - | - | - | - | - | - | - |
@@ -347,7 +346,12 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 `TODO❗️update schema`
 
-<img src="img/Prototypes wave 4 System Architecture.jpg" width="700">
+<p align="left">
+  <img src="img/Prototypes wave 4 System Architecture.jpg" width="58%">
+  <img src="img/Prototypes wiring.jpg" width="30.9%">
+</p>
+
+<img src="img/Prototypes UI options.png" width="700">
 
 #### 🌊 Prototypes wave 5 – proof of concept
 
@@ -361,7 +365,9 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 <img src="img/Prototypes wave 3 bert.svg" width="350">
 
-#### 
+#### UI optie bevraging (N=)
+
+#### proof of concept
 
 ## Design requirements
 
@@ -509,6 +515,7 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
 - Ethnography
   - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbZtCITc4uJAq0ycfyGaPi8BeBhuUqo_bVPuqhUFXoU3WQ?e=zYbrPR)
   - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUZXoSR17MNIq53AvzIOdvEBZ89_BWPycliHvZ6ZHHcRLg?e=TfPVYO)
+
 ### Define
 - [Testimonials](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EWyvy-P7P6lCo79PSqwTZOcBr3zRq12eMHFV4EmILDvBsg?e=ta0Xfr)
 - [Literature review](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVuqMEwuGKBKsmLIZl0oRTYBc0NNRPol8vBCxzsqA2-cCg?e=Nf0qWs)
@@ -522,16 +529,17 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
   - [Arduino code Beacon](/tests/Beacon.ino)
   - [Arduino code Breadcrumb](tests/Breadcrumb.ino)
 - [User Flow](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUmTUIAKd8ZKhQMbT16yuzMBDt6p4VjeiizfwWYc89rwLw?e=mRQy1Y)
+
 ### Develop
 - Prototypes wave 3
   - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EQc9bVL98C1Bg9wy_j9wrJwBJp-GJjBEg8ULPVaeS8YLjg?e=RuK1Z6)
   - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EZvJdp2McdxAnRVUZE21PdMB0frdUHorjLVcXtSo-ZZe9w?e=HnJsfv)
 - Prototypes wave 4
   - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbpEEQu65s1MsOD6PxRYUmsBMa9nkP9GNjpH73FM9u82Bg?e=3dqR0F) - [Testing WebUI](https://eaverdeg.github.io/)
-  - [Rapport]()
+  - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EaTvNlM5hxRDjElFE4yJdeABiT8zmxKg7SMp7_JgvvWh1Q?e=RHhe7Z)
 - Prototypes wave 5
-  - [Protocol]()
-  - [Rapport]()
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Eba2SJnz_qJLk0D3Vfa5ZnQBhl0F5f7rrHB8iqlQefb_Kw?e=W9rya8)
+  - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYsSF-ocI9BGpibg7Vrg9c0BDqhcAzFuGdlTmi8KfnNLWw?e=21pjaG)
 
 ### Deliver
 - [Explainer video]()
