@@ -350,11 +350,7 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
   <img src="img/Prototypes wiring.jpg" width="33.6%">
 </p>
 
-<details>
-  <summary>Toon meer detail</summary>
-  <img src="img/Prototypes UI options.png">
-</details>
-
+<img src="img/Prototypes UI options.png">
 
 #### 🌊 Prototypes wave 5 – proof of concept
 
@@ -433,6 +429,9 @@ pieken of dalen.
 | 5.2 | ... | ... | ... |
 | 5.3 | ... | ... | ... |
 
+<details>
+  <summary>Originele lijst</summary>
+  
 | ID | Design Requirement | * | Source | Date |
 | - | - | - | - | - |
 | **1** | **Zorgt voor minder belasting bij nabije zorgverleners** | M | User interview | 13/10/2024 |
@@ -489,6 +488,7 @@ pieken of dalen.
 | 5.4 | Het systeem is gemakkelijk mee te nemen op verplaatsing. | C | User interview | 13/10/2024 |
 
 `*` MoSCoW priorisatie
+</details>
 
 ## Bill of materials
 
