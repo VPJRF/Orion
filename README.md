@@ -99,11 +99,13 @@ Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voo
 
 > “Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.” – professionele zorgverlener
 
+<img align="right" src="img/Fishbone.png" width=500px>
+
 Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. 
 
 De voornaamste factoren zijn weergegeven in onderstaande fishbone diagram.
 
-<img src="https://github.com/user-attachments/assets/f7cf4470-464d-4ac2-993c-3a9524c696bc" width=500px>
+<br clear="all">
 
 Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 
@@ -198,11 +200,11 @@ De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop 
 > - Veroorzaakt geen agitatie?
 > - Is voldoende intuïtief?
 
-<p align="left">
-  <img src="img/Prototypes mantelzorgers.jpg" width=700px>
-</p>
+<img align="right" src="img/Prototypes mantelzorgers.jpg" width="500">
 
 PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een versnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
+
+<br clear="all">
 
 > _“Een verstoorde nachtrust is vaak het duwtje van dagopvang naar vaste opvang.”_ – Jorick Cappon, centrumleider in Huize Ter Walle
 
@@ -316,10 +318,9 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 #### Morfologische matrix
 <p>
-  <img align="left" src="img/Prototypes wave 3 CMF.png" width="64%">
-  <img align="right" src="img/Prototypes morfologische matrix.png" width="34.7%">
+  <img src="img/Prototypes wave 3 CMF.png" width="63%">
+  <img src="img/Prototypes morfologische matrix.png" width="34.1%">
 </p>
-<br clear="all">
 
 #### 🌊 Prototypes wave 3 – look & feel
 
