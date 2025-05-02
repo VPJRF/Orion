@@ -111,8 +111,8 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
 
 > _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes. Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
-<p align="center  ">
-  <img src="img/Ethnography ochtend.png" width="45.05%">
+<p align="left">
+  <img src="img/Ethnography ochtend.png" width="45%">
   <img src="img/Ethnography de boeren.png" width="23.95%">
   <img src="img/Ethnography creme au beurre.png" width="25.35%">
 </p>
@@ -208,11 +208,11 @@ PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker
 
 De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanneer je licht op de kamerdeur of onder het bed voorziet, zal dit net de aandacht trekken. Prikkel naar het hoofddoel, aan het bed. Op de geluiden wordt sterk wisselend gereageerd. De een vindt het storend, de andere ziet er potentieel in, cfr. het snoezelen.
 
+<img align="right" src="img/Prototypes radiochart.png" width=500px>
+
 De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de DP zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
 
-<p align="left">
-  <img src="img/Prototypes radiochart.png" width=500px>
-</p>
+<br clear="all">
 
 > [!NOTE]
 > **_Design Requirements_**
@@ -315,12 +315,11 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 ### Materialen en methoden
 
 #### Morfologische matrix
-
-<img src="img/Prototypes morfologische matrix.png" width="500">
-
-#### Moodboard
-
-<img src="img/Prototypes wave 3 CMF.png">
+<p>
+  <img align="left" src="img/Prototypes wave 3 CMF.png" width="64%">
+  <img align="right" src="img/Prototypes morfologische matrix.png" width="34.7%">
+</p>
+<br clear="all">
 
 #### 🌊 Prototypes wave 3 – look & feel
 
@@ -347,8 +346,8 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 `TODO❗️update schema`
 
 <p align="left">
-  <img src="img/Prototypes wave 4 System Architecture.jpg" width="64%">
-  <img src="img/Prototypes wiring.jpg" width="34.11%">
+  <img src="img/Prototypes wiring.jpg" width="33.6%">
+  <img src="img/Prototypes wave 4 System Architecture.jpg" width="63%">
 </p>
 
 <img src="img/Prototypes UI options.png">
@@ -363,7 +362,38 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 #### Bert-testing (N=)
 
-<img src="img/Prototypes wave 3 bert.svg" width="350">
+<img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
+
+<u>Discobal (groen, 3)</u><br>
+scoort het meest expressief, energiek en speels, maar ook 
+dominant en minder subtiel. Deze eigenschappen sluiten 
+aan bij de voorkeur van kinderen, maar zijn minder geschikt 
+voor volwassen of oudere gebruikers die rust en subtiliteit 
+verkiezen. 
+
+<u>Boek (rood, 1)</u> en <u>Vlinder (geel, 2)</u><br>
+worden als meer klassevol, subtiel en stijlvol ervaren, met 
+de Boek-variant als de meest stevige en de Vlinder als het 
+meest minimalistisch. Deze scores passen goed bij de 
+voorkeuren van volwassenen en ouderen die op zoek zijn 
+naar rustige, niet-opdringerige objecten. 
+
+<u>Pacman (paars, 5)</u><br>
+combineert bescheidenheid, kalmte en stijlvolheid met 
+een zekere tactiele aantrekkelijkheid. Deze balans verklaart 
+waarom deze variant geliefd was bij de 
+pensioenleeftijdsgroep. De herkenbaarheid en rustige 
+uitstraling zorgen voor een gevoel van comfort zonder te 
+overweldigen. 
+
+<u>Schelp (blauw, 4)</u><br>
+scoort opvallend hoog op klassevol en speelsheid, wat een 
+interessante mix vormt, maar heeft een minder 
+uitgesproken profiel op andere assen. Dit wijst op een 
+neutrale tot positieve algemene indruk, zonder sterke 
+pieken of dalen. 
+
+<br clear="all">
 
 #### UI optie bevraging (N=)
 
