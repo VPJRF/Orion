@@ -18,9 +18,9 @@ Het probleem werd geanalyseerd door middel van **bevragingen en observaties**, w
 
 Een combinatie van **visuele en auditieve prikkels** op strategische plaatsen doorheen de nachthal **begeleidt de PD bij een nachtelijk toiletbezoek** en **voorkomt het mogelijks daarop volgende nachtelijke dolen**.
 
-🌟 *Slimme lampjes verlichten de route en vormen oriëntatiepunten.*<br>
-🗣️ *Een geruststellende herkenbare stem herinnert aan tijd en nachtrust.*<br>
-⚠️ *Bij afwijking wordt de MZ meteen visueel gewaarschuwd.*
+✨ *Slimme lampjes verlichten de route en vormen oriëntatiepunten.*<br>
+⌛ *Een geruststellende herkenbare stem herinnert aan tijd en nachtrust.*<br>
+❗ *Bij afwijking wordt de MZ meteen visueel gewaarschuwd.*
 
 Door de hulp kan de PD ’s nachts zijn plan trekken. De MZ kan met een gerust hart doorslapen.
 
