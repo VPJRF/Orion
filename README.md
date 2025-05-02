@@ -345,17 +345,10 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 `TODO❗️update schema`
 
-<figure align=right>
-  <figcaption><strong>Figure 1.</strong> Diagram of the system</figcaption>
-<img src="img/Prototypes wave 4 System Architecture.jpg" width="63%">
-
-</figure>
-  <figure>
-    <figcaption><strong>Figure 1.</strong> Diagram of the system</figcaption>
+<p align="right">
+  <img src="img/Prototypes wave 4 System Architecture.jpg" width="63%">
   <img src="img/Prototypes wiring.jpg" width="33.6%">
-
-</figure>
-
+</p>
 
 <img src="img/Prototypes UI options.png">
 
