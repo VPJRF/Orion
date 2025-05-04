@@ -12,7 +12,7 @@
 
 ## Samenvatting
 
-Dit project richt zich op het probleem van **verstoorde dag-nachtritmes bij mensen met dementie**, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort.
+_Dit project richt zich op het probleem van **verstoorde dag-nachtritmes bij mensen met dementie**, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort._
 
 Het probleem werd geanalyseerd door middel van **bevragingen en observaties**, waarbij de verschillende aspecten en gradaties werden geïdentificeerd. Vervolgens werd met behulp van **vijf iteraties aan prototypes** onderzocht hoe het zintuiglijke spectrum optimaal benut kan worden om de PD in zijn zelfstandigheid te ondersteunen.
 
@@ -49,11 +49,19 @@ Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) 
 
 ## Methodologie
 
-`TODO❗️timeline aanvullen (aparte 2de helft) - visual verduidelijken - meer detail in toelichting, sample sizes etc`
+`TODO❗️timeline aanvullen (aparte 2de helft) - visual verduidelijken`
 
 <img src="img/Timeline.svg">
 
-Het onderzoek is opgedeeld in twee fasen: de discovery fase en de definitie fase. De discovery fase omvatte een literatuurstudie om een breed en helder beeld te krijgen van dementie, de sociale context en de bestaande oplossingen. Daarnaast werden er etnografische observaties in een dagcentrum uitgevoerd om de problematiek in de praktijk te observeren. In deze fase werden ook interviews afgenomen met mantelzorgers en zorgprofessionals om hun ervaringen en noden te begrijpen. De definitiefase richt zich op het prototypen en testen van oplossingen. Deze fase bestond uit twee iteraties waarin verschillende prototypes ontwikkeld, getest en geëvalueerd werden om de meest effectieve oplossing te vinden. Hierbij wordt het 'Think Aloud Protocol' gehanteerd. De nadruk ligt op concept testing en in mindere mate usability testing.
+De methodologie volgt het **Double diamond** ontwerpmodel, bestaande uit vier fasen: **Discover**, **Define**, **Develop** en **Deliver**.
+
+In de fase **Discover** wordt via een **Literature review (N=16)** onderzoek gedaan naar uitdagingen in de zorg voor personen met dementie. Vervolgens vinden **User interviews (N=4)** plaats met mantelzorgers, familieleden en zorgverleners, waarbij gebruik wordt gemaakt van **empathy mapping**. Daarnaast wordt via **Ethnography (N=1)** de dagelijkse praktijk geobserveerd in dagverblijf DVC Robijn, afdeling dementie, binnen WZC Sint Eligius. De verzamelde inzichten worden gestructureerd weergegeven in een **fishbone diagram**, waarbij vooral het verstoorde dag-nachtritme en de daarmee samenhangende belasting voor mantelzorgers naar voren komen als prioritair probleem. Een aanvullend **state of the art**-onderzoek leidt tot het initiële concept van de klinkklok als vertrekpunt voor verdere testen.
+
+Tijdens de **Define**-fase worden prototypes iteratief ontwikkeld en geëvalueerd in testwaves, met elk een specifieke focus. In **Wave 1** worden **conceptuele prototypes** (klinkklok, vloerlicht, breadcrumbs) onderzocht via **User feedback sessions (N=7)** met mantelzorgers en professionele zorgverleners in Huize Ter Walle, en via **User feedback sessions (N=3)** in DVC Robijn. Daarnaast vindt een gerichte **Literature review (N=1)** plaats naar de problematiek van dwalen en sundowning. In **Wave 2** richten **Feature prototypes** (beacon, breadcrumb, kussen, knuffel) zich op het vaststellen van de featureset via een **Evaluation matrix**, met **Wizard of Oz testing (N=3)** bij ouderen met en zonder dementie, voorafgegaan door een **User evaluation (N=1)** door een expert in fixatie en valpreventie. De resultaten worden geprioriteerd volgens de **MoSCoW-methode**, wat resulteert in een productconcept bestaande uit licht en geluid nabij het bed, de slaapkamerdeur en het sanitair, inclusief een feedbacksysteem voor mantelzorgers. Uitdagingen liggen in acceptatie, adaptatie en tijdige implementatie. Opties voor uitbreiding naar andere doelgroepen worden onderzocht om het product reeds in een vroeg stadium van de ziekte te introduceren.
+
+In de fase **Develop** wordt via **CMF prototypes** (vlinderlampjes) de uiteindelijke look & feel bepaald, met behulp van een **Interactive survey (N=12)** bij ouderen en ouders van jonge kinderen via **BERT-testing**. In **Wave 4** worden de **UI & UX prototypes** geëvalueerd via **Wizard of Oz testing (N=5)** met het **Think aloud protocol**.
+
+De laatste fase **Deliver** omvat de evaluatie van volledig autonome prototypes (**Wave 5**) als **proof of concept** via een **Validation session (N=3)**.
 
 ## Discovery
 
