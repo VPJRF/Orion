@@ -49,8 +49,6 @@ Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) 
 
 ## Methodologie
 
-`TODO❗️timeline aanvullen (aparte 2de helft) - visual verduidelijken`
-
 <img src="img/Timeline.svg">
 
 De methodologie volgt het **Double diamond** ontwerpmodel, bestaande uit vier fasen: **Discover**, **Define**, **Develop** en **Deliver**.
@@ -364,6 +362,26 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 #### 🌊 Prototypes wave 5 – proof of concept
 
 `TODO❗️technieken en prototypes toevoegen`
+
+<details>
+  <summary>Reminders</summary>
+`TODO❗️conclusie 3 lampjes`<br>
+`TODO❗️conclusie 2 scenario's`<br>
+`TODO❗️update flow`<br>
+</details>
+<br>
+
+|state|/orion/bed|/orion/kamer|/orion/toilet|
+|-|-|-|-|
+|bed_uit|PIR=1<br>LED=1<br>BOX=1 (if=s1)|-|-|
+|kamer_uit|-|PIR=1|LED=1|
+|toilet_in|-|LED=1 (delay=2s)|IMU=1<br>LED=0|
+|toilet_uit|-|LED=1|IME=1+PIR=1<br>BOX=1 (if=s1\|\|s2)
+|kamer_in|LED=1|IMU=1<br>LED=0|-|
+|bed_in|PIR=1<br>LED=0|-|-|
+
+`s1` scanario 1: PD staat vaak verward op.<br>
+`s2` scenario 2: PD raakt verward bij een toiletbezoek.
 
 ### Resultaten
 
