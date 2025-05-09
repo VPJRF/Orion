@@ -59,7 +59,7 @@ Tijdens de **Define**-fase worden prototypes iteratief ontwikkeld en geëvalueer
 
 In de fase **Develop** wordt via **CMF prototypes** (vlinderlampjes) de uiteindelijke look & feel bepaald, met behulp van een **Interactive survey (N=12)** bij ouderen en ouders van jonge kinderen via **BERT-testing**. In **Wave 4** worden de **UI & UX prototypes** geëvalueerd via **Wizard of Oz testing (N=5)** met het **Think aloud protocol**.
 
-De laatste fase **Deliver** omvat de evaluatie van volledig autonome prototypes (**Wave 5**) als **proof of concept** via een **Validation session (N=3)**.
+De laatste fase **Deliver** omvat de evaluatie van volledig autonome prototypes (**Wave 5**) als **pilot testing** via een **Validation session (N=3)**.
 
 ## Discovery
 
@@ -359,7 +359,7 @@ Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
 
 <img src="img/Prototypes UI options.png">
 
-#### 🌊 Prototypes wave 5 – proof of concept
+#### 🌊 Prototypes wave 5 – pilot testing
 
 `TODO❗️technieken en prototypes toevoegen`
 
@@ -424,7 +424,7 @@ pieken of dalen.
 
 #### UI optie bevraging (N=)
 
-#### proof of concept
+#### Pilot testing
 
 ### Conclusies en implicaties
 
@@ -531,19 +531,20 @@ Lichtarmatuur (x3)
 - [Potentiometer](https://www.gotron.be/potentiometer-mono-10-kohm-logaritmisch.html)
 - [AA batterijhouders](https://www.gotron.be/energie/batterijen/batterijhouder/batterijhouder-voor-1-x-aa-cel-met-draden.html) (x3)
 - AA batterijen (x3)
+- [Step-up converter](https://www.otronic.nl/nl/mt3608-2a-max-dc-dc-step-up-power-module-booster-p.html)
 - [Schakelaar](https://www.gotron.be/enkelpolige-schakelaar-rond-on-off-10a-250vac-spst.html)
+- Raspberry Pi
 
-Luidspreker (x1)
+Luidspreker add-on (x1)
 - [MP3-module](https://www.gotron.be/dfplayer-pro-een-mini-mp3-speler-met-128mb-geheugen-onboard.html)
 - [Luidspreker](https://www.gotron.be/miniatuurluidspreker-66mm-2w-8ohm.html)
 
 Circuit (kabels, connectoren, weerstanden, etc.)
 
 ### Hardware
-- Lichtarmatuur (x3)
+- Behuizing (x3)
 - Diffuser (x3)
-- Behuizing luidspreker (x1) koppelbaar op lichtarmatuur
-- Wand- & deurmontage
+- Wand- & deurmontage (x3)
 
 ### Software
 - Arduino code voor timing en communicatie (licht en spraak)
