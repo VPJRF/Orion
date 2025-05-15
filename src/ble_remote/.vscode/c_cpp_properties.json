@@ -1,0 +1,83 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/elias/OneDrive - UGent/03 Werkmap/04 GitHub/UCD/src/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated-avr-comp",
+                "C:/Users/elias/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "C:/Users/elias/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/cores/arduino",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/variants/nano_33_iot",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/HID",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SBU/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SFU/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SNU/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SSU/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/elias/OneDrive - UGent/03 Werkmap/04 GitHub/UCD/src/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated-avr-comp",
+                    "C:/Users/elias/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "C:/Users/elias/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/cores/arduino",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/variants/nano_33_iot",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/HID",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SBU/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SFU/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SNU/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/SSU/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                    "C:/Users/elias/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "ARDUINO_SAMD_NANO_33_IOT",
+                "CRYSTALLESS",
+                "__SAMD21G18A__",
+                "ARDUINO=10805",
+                "F_CPU=48000000L",
+                "USBCON",
+                "USB_VID=0x2341",
+                "USB_PID=0x8057",
+                "USB_PRODUCT=\"Arduino NANO 33 IoT\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "ARDUINO_ARCH_SAMD",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "C:/Users/elias/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

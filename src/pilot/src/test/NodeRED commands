@@ -1,0 +1,60 @@
+const state = msg.payload.state;
+const prevState = flow.get("prevCommandState") || null;
+let commands = [];
+
+// Only act on state change
+if (state !== prevState) {
+    // Helper to create MQTT command
+    function mqttCmd(device, payload) {
+        return { topic: `/commands/${device}`, payload: JSON.stringify(payload) };
+    }
+
+    switch (state) {
+        case "kamer_uit":
+            // bed-FBK=1, toilet-LED=1
+            commands.push(mqttCmd("bed", { FBK: 1 }));
+            commands.push(mqttCmd("toilet", { LED: 1 }));
+            break;
+        case "toilet_in":
+            // toilet-LED=0
+            commands.push(mqttCmd("toilet", { LED: 0 }));
+            break;
+        case "toilet_uit":
+            // kamer-LED=1, toilet-LED=0, toilet-BOX=1 (after 5s delay)
+            commands.push(mqttCmd("kamer", { LED: 1 }));
+            commands.push(mqttCmd("toilet", { LED: 0 }));
+            setTimeout(() => {
+                node.send({
+                    topic: "/commands/toilet",
+                    payload: JSON.stringify({ BOX: 1 })
+                });
+            }, 5000);
+            break;
+        case "kamer_in":
+            // bed-FBK=0, bed-LED=1, kamer-LED=0, toilet-BOX=0
+            commands.push(mqttCmd("kamer", { LED: 0 }));
+            commands.push(mqttCmd("bed", { FBK: 0, LED: 1 }));
+            commands.push(mqttCmd("toilet", { BOX: 0 }));
+            break;
+        case "bed_in":
+            // bed-LED=0 (after 5s delay), kamer-LED=0, toilet-LED=0
+            commands.push(mqttCmd("kamer", { LED: 0 }));
+            commands.push(mqttCmd("toilet", { LED: 0 }));
+            setTimeout(() => {
+                node.send({
+                    topic: "/commands/bed",
+                    payload: JSON.stringify({ LED: 0 })
+                });
+            }, 5000);
+            break;
+        // "bed_uit" and "toilet_in": nothing to send
+    }
+
+    flow.set("prevCommandState", state);
+}
+
+// Send all commands (except delayed one) one by one
+if (commands.length > 0) {
+    commands.forEach(cmd => node.send(cmd));
+}
+return null;

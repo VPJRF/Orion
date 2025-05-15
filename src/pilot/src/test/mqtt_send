@@ -1,0 +1,116 @@
+#include <Arduino.h>
+#include <WiFiNINA.h>
+#include <PubSubClient.h>
+#include <Arduino_LSM6DS3.h>
+#include <ArduinoJson.h>
+
+//--POSITIE--(bed/kamer/toilet)--
+const char* deviceName = "kamer";
+//-------------------------------
+
+const char* ssid = "Dikke Linde";
+const char* password = "Lindes_safespac3";
+
+const char* mqtt_server = "192.168.0.115";
+const int mqtt_port = 1883;
+const char* mqtt_topic = "/orion/sensors";
+
+const int PIR_PIN = 2;
+const float gyroThreshold = 1.0;
+
+WiFiClient wifiClient;
+PubSubClient client(wifiClient);
+
+float last_gx = 0, last_gy = 0, last_gz = 0;
+bool lastPir = false;
+bool lastImu = false;
+
+void connectToWiFi() {
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("WiFi connected.");
+}
+
+void connectToMQTT() {
+  while (!client.connected()) {
+    Serial.print("Connecting to MQTT...");
+    if (client.connect("arduinoClient")) {
+      Serial.println(" connected.");
+    } else {
+      Serial.print(" failed, rc=");
+      Serial.print(client.state());
+      delay(1000);
+    }
+  }
+}
+
+void sendMQTT(bool pir, bool imu) {
+  StaticJsonDocument<256> doc;
+  doc["device"] = deviceName;
+  doc["PIR"] = pir;
+  doc["IMU"] = imu;
+
+  char buffer[256];
+  size_t n = serializeJson(doc, buffer);
+  client.publish(mqtt_topic, buffer, n);
+}
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(PIR_PIN, INPUT);
+
+  connectToWiFi();
+  client.setServer(mqtt_server, mqtt_port);
+
+  if (!IMU.begin()) {
+    Serial.println("IMU init failed!");
+    while (1);
+  }
+
+  Serial.println("Setup complete.");
+}
+
+void loop() {
+  if (!client.connected()) {
+    connectToMQTT();
+  }
+  client.loop();
+
+  bool pirState = digitalRead(PIR_PIN);
+  float gx = 0, gy = 0, gz = 0;
+  bool imuTriggered = false;
+
+  if (IMU.gyroscopeAvailable()) {
+    IMU.readGyroscope(gx, gy, gz);
+    if (abs(gx - last_gx) > gyroThreshold ||
+        abs(gy - last_gy) > gyroThreshold ||
+        abs(gz - last_gz) > gyroThreshold) {
+      imuTriggered = true;
+    }
+
+    last_gx = gx;
+    last_gy = gy;
+    last_gz = gz;
+  }
+
+  bool pirChangeToOne = (pirState == true && lastPir == false);
+  bool imuChangeToOne = (imuTriggered == true && lastImu == false);
+
+  if (pirChangeToOne || imuChangeToOne) {
+    Serial.print(deviceName);
+    Serial.print(" → PIR = ");
+    Serial.print(pirState);
+    Serial.print(" | IMU = ");
+    Serial.println(imuTriggered);
+
+    sendMQTT(pirState, imuTriggered);
+  }
+
+  lastPir = pirState;
+  lastImu = imuTriggered;
+
+  delay(100);
+}
