@@ -145,13 +145,17 @@ Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfst
 > - 1.1 test
 > - 1.1 test
 
-> 💡 **_Design Requirements_**
+> ❗ **_Design Requirements_**
 > - 1.1 test
 > - 1.1 test
 
 > ❓ **_Kunnen we?_**
 > - d
 > - d
+
+> 💡 **_Design Requirements_**
+> - 1.1 test
+> - 1.1 test
 
 > 🔍 **_Kunnen we?_**
 > - d
