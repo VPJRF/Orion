@@ -222,7 +222,8 @@ De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat 
 
 <br clear="all">
 
-> 📌 **_Design Requirements_**
+> [!NOTE]
+> **_Design Requirements_**
 > - 1.1 … en biedt geruststelling, ook wanneer de PD niet in de onmiddellijke nabijheid is
 > - 2.1.4 Respecteert de privacy van de PD en de MZ
 > - 3.1.3 Trekt enkel de aandacht wanneer functioneel relevant
@@ -234,7 +235,8 @@ De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat 
 Op basis van onze eerste testen merken we op dat we slechts een deel beperkt deel van het probleem aanpakken. Veel van de mantelzorgers lijken het product wel aan te raden aan anderen, maar stellen vast dat het voor hen geen oplossing zou bieden. We kwamen intussen in aanraking met de term _sundowning_ en duiken opnieuw even in de literatuur om ons begrip over het probleem nog verder bij te schaven.
 
 
-> ❓ **_Kunnen we de achterliggende oorzaak aanpakken?_**
+> [!IMPORTANT]
+> **_Kunnen we de achterliggende oorzaak aanpakken?_**
 > - Wat houdt de MZ nu precies wakker?
 > - Waarom is de nachtrust van de PD zo slecht?
 
