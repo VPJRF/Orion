@@ -141,38 +141,6 @@ Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfst
 > - 2.1.2 Oriënteert de PD in de tijd (dag-nacht-onderscheid)
 > - 2.4.1 Reist mee met de PD doorheen het verloop van de ziekte als vertrouwd element
 
-> 📌 **_Design Requirements_**
-> - 1.1 test
-> - 1.1 test
-
-> ❗ **_Design Requirements_**
-> - 1.1 test
-> - 1.1 test
-
-> ❓ **_Kunnen we?_**
-> - d
-> - d
-
-> 💡 **_Design Requirements_**
-> - 1.1 test
-> - 1.1 test
-
-> 🔍 **_Kunnen we?_**
-> - d
-> - d
-
-❗ **_Design Requirements_**<br>
-`1.1 test`<br>
-`1.1 test`
-
-
-
-```
-❗ **_Design Requirements_**
-- 1.1 test
-- 1.1 test
-```
-
 De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
 
 <p align="left">
@@ -254,19 +222,19 @@ De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat 
 
 <br clear="all">
 
-> [!NOTE]
-> **_Design Requirements_**
+> 📌 **_Design Requirements_**
 > - 1.1 … en biedt geruststelling, ook wanneer de PD niet in de onmiddellijke nabijheid is
 > - 2.1.4 Respecteert de privacy van de PD en de MZ
 > - 3.1.3 Trekt enkel de aandacht wanneer functioneel relevant
 > - 3.1 Voorkomt agitatie en verwarring van de PD
 > - 3.2.1 Verstoort niet de nachtrust van de mee-slapende
 
+
 #### Literature review (N=1)
 Op basis van onze eerste testen merken we op dat we slechts een deel beperkt deel van het probleem aanpakken. Veel van de mantelzorgers lijken het product wel aan te raden aan anderen, maar stellen vast dat het voor hen geen oplossing zou bieden. We kwamen intussen in aanraking met de term _sundowning_ en duiken opnieuw even in de literatuur om ons begrip over het probleem nog verder bij te schaven.
 
-> [!IMPORTANT]
-> **_Kunnen we de achterliggende oorzaak aanpakken?_**
+
+> ❓ **_Kunnen we de achterliggende oorzaak aanpakken?_**
 > - Wat houdt de MZ nu precies wakker?
 > - Waarom is de nachtrust van de PD zo slecht?
 
