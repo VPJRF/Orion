@@ -141,12 +141,21 @@ Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfst
 > - 2.1.2 Oriënteert de PD in de tijd (dag-nacht-onderscheid)
 > - 2.4.1 Reist mee met de PD doorheen het verloop van de ziekte als vertrouwd element
 
-> <span style="color:red">📌 **_Design Requirements_**
+> 📌 **_Design Requirements_**
 > - 1.1 test
-> - test
 > - 1.1 test
-> - test
-</span>
+
+> 💡 **_Design Requirements_**
+> - 1.1 test
+> - 1.1 test
+
+> ❓ **_Kunnen we?_**
+> - d
+> - d
+
+> 🔍 **_Kunnen we?_**
+> - d
+> - d
 
 De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
 
