@@ -161,6 +161,18 @@ Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfst
 > - d
 > - d
 
+❗ **_Design Requirements_**<br>
+`1.1 test`<br>
+`1.1 test`
+
+
+
+```
+❗ **_Design Requirements_**
+- 1.1 test
+- 1.1 test
+```
+
 De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
 
 <p align="left">
