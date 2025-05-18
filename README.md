@@ -125,7 +125,7 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 
 <img align="right" src="img/Fishbone.png" width=450>
 
-Ondanks het personeelstekort wijzen de professionele zorgverleners voornamelijk in de richting van de **mantelzorgers* wanneer het over overbelasting gaat. Ze spelen een cruciale rol doorheen de evolutie van de ziekte. Ze krijgen te kampen met **fysieke**, **emotionele**, ** financiële ** en **praktische** problemen. Een gebrek aan **tijd** en **middelen** vormt veelal de onderliggende oorzaak.
+Ondanks het personeelstekort wijzen de professionele zorgverleners voornamelijk in de richting van de **mantelzorgers** wanneer het over overbelasting gaat. Ze spelen een cruciale rol doorheen de evolutie van de ziekte. Ze krijgen te kampen met **fysieke**, **emotionele**, ** financiële ** en **praktische** problemen. Een gebrek aan **tijd** en **middelen** vormt veelal de onderliggende oorzaak.
 
 > _“Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.”_ – zorgverlener
 
