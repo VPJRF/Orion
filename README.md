@@ -61,38 +61,43 @@ In de fase **Develop** wordt via **CMF prototypes** (vlinderlampjes) de uiteinde
 
 De laatste fase **Deliver** omvat de evaluatie van volledig autonome prototypes (**Wave 5**) als **pilot testing** via een **Validation session (N=3)**.
 
-## Discovery
-
 ### Doelstellingen
--  Een begrip krijgen van wat de ziekte inhoudt.
--  Een diepgaand begrip krijgen van de problematiek rond dementie en de impact op mantelzorgers.
--  Het identificeren van de belangrijkste noden en behoeften van mantelzorgers en personen met dementie.
--  Het in kaart brengen van bestaande technologieën en oplossingen, en het identificeren van onderbelichte thema’s.
+
+Een goed beeld vormen van wat de ziekte inhoud en de impact op de omgeving.
+Hoe draag je bij aan het mentaal welzijn van mantelzorgers door hun tijd besteed aan zorg te optimaliseren?
+-	Welke lasten hebben de grootste impact op de mantelzorgers?
+-	Welke ontlasting heeft de grootste potentiële impact?
+-	Welke technologieën bestaan er?
 
 ### Materiaal & methoden
-`TODO❗️meer detail: sample sizes, technieken, etc`
-1. Literatuurstudie: Hierin wordt gefocust op een onderbouwd begrip vormen van de ziekte, de problematieken die ermee gepaard gaan, de effecten op de persoon met dementie en zijn omgeving en de bestaande technologieën die hierin hulp trachten te bieden. Dit doos middel van analyse van wetenschappelijke artikelen, rapporten en andere relevante documenten over dementie, mantelzorg en technologische hulpmiddelen.
-2. Gebruikersinterviews: Door in gesprek te gaan met mantelzorgers trachten we pijnpunten en lichtpunten doorheen de dag bloot te leggen.
-3. Ethnografisch onderzoek: Dit in de vorm van A Day in the Life. We trachten de positieve en negatieve effecten van dagopvang in kaart te brengen en de doelgroep van dichtbij te observeren om ons begrip van de ziekte scherper te stellen. Dit waren observaties, field notes en contextual inquiries binnen een dagcentrum.
+
+Het onderzoek vat aan met een **Literature review (N=16)**. Artikels over het ziektebeeld en technologische vorderingen vormen het referentiekader. In een **technology scan** wordt bestaande technologie verzameld tot een beeld over de “state of the art”. Later in het onderzoek doen ze dienst als **benchmarks** voor de productideeën.
+
+De literatuurstudie wordt gevolgd door **Ethnographic fieldwork (N=1)** in de dagopvang in WZC St-Eligius. Het volgen van **a day in the life** van professionele zorgverleners en de gasten verrijkt met **contextual inquiries** worden in **field notes** verzamend. In een **cause-and-effect diagram** diagram worden de conclusies gestructureerd.
+
+Een dieper inzicht in de dagelijkse impact van de ziekte op de naasten in thuissituaties worden bekomen door **user interviews (N=4)** met eerste- en tweedelijns mantelzorgers. **Habit analysis** van frequente scenario’s en **empathy mapping** van de emotionele impact worden gehanteerd om kerngedachten te capteren.
+
+Om te achterhalen voor welk probleem een oplossing binnen handbereik is, worden de bevindingen in een **feasability-desireability diagram** geordend. Het meest valabele probleem wordt in een _how might we_ geformuleerd. **Personas** doen dienst als toetsing tijdens _defenition_ fase.
+
 
 ### Resultaten
+
 #### Literature review (N=16)
-Dementie is een complexe ziekte met uiteenlopende symptomen, dewelke uiteenlopende lasten met zich meebrengen voor zowel de persoon zelf, als de (informele) zorgverleners. Er is veel onderzoek en innovatie gaande en vernieuwingen spitsen zich toe op uiteenlopende problematieken.
--  Communicatie en sociale interactie
--  Fysieke veiligheid en bewegingsvrijheid
--  Cognitieve stimulatie en geheugenondersteuning
--  Ondersteuning voor dagelijkse zorgactiviteiten en zelfredzaamheid
 
-Hoewel de meeste technologieën zijn gericht op de patiënt, zijn er weinig toepassingen specifiek gericht op de emotionele ondersteuning en stressreductie voor mantelzorgers zelf. Artificiële intelligentie is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe technologieën enkele belangrijke complexiteiten met zich mee.
+Dementie is een complexe ziekte met uiteenlopende symptomen.
+-	**Geheugen** en **cognitie** (woordvinding, planning en organisatie, oriëntatie in tijd)
+-	**Gedrag** en **karakter** (apathie, agressie, angst, verdriet, kwaadheid)
+-	**Functionele tekorten** in het dagelijkse leven (basale activiteiten, complexe activiteiten)
 
-#### User interviews (N=3)
-Wat in de literatuurstudie nog onderbelicht was, maar in de praktrijk sterk naar voor komt, zijn de moeilijke nachten.
+Er is een groeiende erkenning van de waardevolle rol van technologie in de ondersteuning van personen met dementie en hun zorgverleners. De meeste technologieën richten zich op de patiënt zelf.
+-	Communicatie en sociale interactie
+-	Fysieke veiligheid en bewegingsvrijheid
+-	Cognitieve stimulatie en geheugenondersteuning
+-	Ondersteuning voor dagelijkse zorgactiviteiten en zelfredzaamheid
 
-> _“Zit hij daar midden in de nacht aan de keukentafel, volledig gekleed, z’n krant aan ‘t lezen.”_ – mantelzorger en partner
+Artificiële intelligentie is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe technologieën enkele belangrijke complexiteiten met zich mee.
 
-Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang mogelijk uitstellen. Uit schrik om gescheiden te zijn, maar ook uit schaamte om te moeten toegeven dat ze het niet meer aankunnen.
-
-> _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
+#### User interviews (N=4)
 
 <p align="left">
   <img src="img/User interviews Andre.png" width="32%">
@@ -100,25 +105,15 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
   <img src="img/User interviews empathy mapping.png" width="32%">
 </p>
 
+Wat in de literatuurstudie nog onderbelicht lijkt, maar in de praktrijk sterk naar voor komt, zijn de moeilijke nachten.
+
+> _“Zit hij daar midden in de nacht aan de keukentafel, volledig gekleed, z’n krant aan ‘t lezen.”_ – mantelzorger en partner
+
+Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang mogelijk uitstellen. Uit schrik om gescheiden te zijn, maar ook uit schaamte om te moeten toegeven dat ze het niet meer aankunnen.
+
+> _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
+
 #### Ethnography (N=1)
-
-Mantelzorgers zijn zwaar, slechts periodiek onderbroken, belast door de zorg voor personen met dementie.
-
-> “Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.” – professionele zorgverlener
-
-<img align="right" src="img/Fishbone.png" width=450>
-
-Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden een moment van decompressie. Ze zijn een in de tijd afgebakende oplossing voor mensen in een vroeg stadium van dementie. Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt en tegelijkertijd de druk op mantelzorgers verlaagt, zou de mentale en fysieke last kunnen verlichten en mogelijk de kwaliteit van leven voor beide partijen verbeteren. De aard en de progressie van dementie heeft een grote invloed op de benodigde zorg en ondersteuning alsook de fysieke en cognitieve capaciteiten van de zorgbehoevende. 
-
-De voornaamste factoren zijn weergegeven in het fishbone diagram.
-
-<br clear="all">
-
-Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
-
-> _“Soms kruipen ze bij een ander in bed.”_ – professionele zorgverlener
-
-> _“Ons gebouw is vierkant. Ze lopen hele nacht in rondjes. Alle deuren zien er hier hetzelfde uit.”_ – professionele zorgverlener
 
 <p align="left">
   <img src="img/Ethnography ochtend.png" width="45%">
@@ -126,20 +121,48 @@ Ook in deze gesprekken kwam de problematiek van het nachtelijk dolen naar boven.
   <img src="img/Ethnography creme au beurre.png" width="25.35%">
 </p>
 
+<img align="right" src="img/Fishbone.png" width=450>
+
+Ondanks het personeelstekort wijzen de professionele zorgverleners voornamelijk in de richting van de **mantelzorgers* wanneer het over overbelasting gaat. Ze spelen een cruciale rol doorheen de evolutie van de ziekte. Ze krijgen te kampen met **fysieke**, **emotionele**, ** financiële ** en **praktische** problemen. Een gebrek aan **tijd** en **middelen** vormt veelal de onderliggende oorzaak.
+
+> _“Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.”_ – zorgverlener
+
+Mantelzorgers wijden hun leven vaak volledig aan hun partner met de ziekte toe, ten koste van zichzelf. Liefde ruimt plaats voor gemist, frustratie en schaamte.
+Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden ademruimte. Mantelzorgers hebben deze tijd nodig om van de vaak **korte nachten** en **zware zorgdagen** te recupereren en **sociaal isolement** te vermijden.
+
+> _"[…] haar mantelzorger komt haar 's ochtends soms met tranen in de ogen afzetten." ... "Na 16u staat de mantelzorger er opnieuw alleen voor, net wanneer de gasten net heel overprikkeld zijn."_ – zorgverlener
+
+Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt zou de mentale en fysieke last kunnen verlichten en zou thuiszorg langer mogelijk maken.
+Zowel in de vaste opvang als in thuissituaties zijn het **nachtelijke** problemen die het fysiek bijzonder uitputtend maken door de permanente **waakzaamheid**. **Incontinentie**, **slapeloosheid**, **doolgedrag** en het bijhorende **valrisico** liggen hierbij aan de bron. 
+
+> _"Sommigen zijn het dag-nachtritme volledig kwijt, wat leidt tot doolgedrag. Dan geef je ze slaapmedicatie, maar vergroot hun valneiging."_ – zorgverlener
+
+"De zorgbehoevende verhuist vaak stapsgewijs (via **dagverblijf**, **kortverblijf**, **aanleunflat**) van **thuis** naar **vast verblijf**." Dit valt de mantelzorger heel zwaar en introduceert nieuwe verwarring door een nieuwe onherkenbare omgeving.
+
+> _”[…] Sociale Dienst merkt dan op dat de mantelzorger het niet meer aankan. […] Ze hebben het gevoel dat ze hun partner dumpen." [...] "Vanaf dan ben je gescheiden.”_ – zorgverlener
+
+<br clear="all">
+
 ### Conclusies & implicaties
 
-`TODO❗️herschrijf, meer gebald en theoretisch onderbouwd`
-`TODO❗️De quotes in de resultaten zijn sterk. De implicaties kunnen echter sterker worden geformuleerd. Wat leren we bijvoorbeeld uit de 3 user interviews, en wat zijn daar de implicaties van? - Maak gebruik van woorden in het vet bij lange doorlopende teksten. - Licht nog beter toe aan de lezer wat we te zien krijgen (e.g. licht toe dat je bij de conclusies en implicaties onder ‘note’ design requirements formuleert)`
+<img align="right" src="img/Feasability Desireability.png" width=450>
 
-Om de nachtrust van de MZ te verbeteren moeten op zoek naar een manier om zelfstandigheid van de PD te verbeteren gedurende de nacht. De drempel voor gebruik moet ook laag blijven, het moet zo intuïtief mogelijk gebruikt kunnen worden. Optie om de mantelzorger te alarmeren indien nodig moet ook zeker geïmplementeerd worden, dit zal zorgen voor meer vertrouwen in het product van de mantelzorger zelf. Vaak zijn huidige producten duur in aankoop of lastig in gebruik, dit moet ook geprobeerd worden te doorbreken. De ziekte is voor iedereen anders, en evolueert ook met de tijd. Een op maat oplossing voor elke persoon is noodzakelijk. Het doel is om de nachtrust van de mantelzorger ook weldegelijk prioriteit. Het mag niet het geval zijn dat het product de mantelzorger zou wekken. Als de persoon met dementie buiten de kamer is, is het ook noodzakelijk dat het product dit meedeelt aan de mantelzorger, als deze ontwaakt.
+MZ van PD dragen een zware, vaak onzichtbare last. Vooral de **nachtelijke zorg** blijkt in de praktijk een cruciale maar onderbelichte bron van uitputting. Het **doolgedrag**, **valgevaar**, en het verlies van **dag-nachtritme** vereisen **permanente waakzaamheid**.
 
-> [!NOTE]
-> **_Design Requirements_**
-> - 1.1 Ontlast de mantelzorger door een minder verstoorde nachtrust
-> - 2.1 Geeft PD meer zelfstandigheid en eigenwaarde en werkt geruststellend en ondersteunend
-> - 2.1.2 Oriënteert de PD bij een nachtelijk toiletbezoek
-> - 2.1.2 Oriënteert de PD in de tijd (dag-nacht-onderscheid)
-> - 2.4.1 Reist mee met de PD doorheen het verloop van de ziekte als vertrouwd element
+Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **grootste potentiële impact** in oplossingen die de MZ ademruimte gunnen wanneer ze er alleen voor staan. Technologieën die de **autonomie ’s nachts** verhogen en onrust detecteren of vermijden, kunnen niet alleen de draaglast verlichten, maar ook het verblijf thuis aanzienlijk verlengen.
+
+<br clear="all">
+
+>🎯**_How might we?_**
+> **Hoe kunnen we ’s nachts de autonomie van personen met dementie ondersteunen en nachtelijke interventies minimaliseren om zo de fysieke en mentale belasting van mantelzorgers te verlichten?**
+
+> 📌 **_Design Requirements_**
+> **Neemt waakzaamheid gedeeltelijk over** en reduceert het aantal nachtelijke interventies om de MZ te ontlasten
+> **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
+> **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
+
+---
 
 De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
 
