@@ -157,7 +157,7 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 <br clear="all">
 
 >🎯 **_How might we?_**<br>
-> Hoe kunnen we ’s nachts de autonomie van personen met dementie ondersteunen en nachtelijke interventies minimaliseren om zo de fysieke en mentale belasting van mantelzorgers te verlichten?
+> - **_Hoe kunnen we ’s nachts de autonomie van personen met dementie ondersteunen en nachtelijke interventies minimaliseren om zo de fysieke en mentale belasting van mantelzorgers te verlichten?_**
 
 > 📌 **_Design Requirements_**<br>
 > - **Neemt waakzaamheid gedeeltelijk over** en reduceert het aantal nachtelijke interventies om de MZ te ontlasten
