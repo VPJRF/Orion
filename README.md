@@ -61,6 +61,8 @@ In de fase **Develop** wordt via **CMF prototypes** (vlinderlampjes) de uiteinde
 
 De laatste fase **Deliver** omvat de evaluatie van volledig autonome prototypes (**Wave 5**) als **pilot testing** via een **Validation session (N=3)**.
 
+## Discovery
+
 ### Doelstellingen
 
 Een goed beeld vormen van wat de ziekte inhoud en de impact op de omgeving.
