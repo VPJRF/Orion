@@ -90,10 +90,10 @@ Dementie is een complexe ziekte met uiteenlopende symptomen.
 -	**Functionele tekorten** in het dagelijkse leven (basale activiteiten, complexe activiteiten)
 
 Er is een groeiende erkenning van de waardevolle rol van technologie in de ondersteuning van personen met dementie en hun zorgverleners. De meeste technologieën richten zich op de patiënt zelf.
--	Communicatie en sociale interactie
--	Fysieke veiligheid en bewegingsvrijheid
--	Cognitieve stimulatie en geheugenondersteuning
--	Ondersteuning voor dagelijkse zorgactiviteiten en zelfredzaamheid
+-	**Communicatie** en **sociale interactie**
+-	Fysieke **veiligheid** en **bewegingsvrijheid**
+-	**Cognitieve stimulatie** en **geheugenondersteuning**
+-	Ondersteuning voor dagelijkse zorgactiviteiten en **zelfredzaamheid**
 
 Artificiële intelligentie is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe technologieën enkele belangrijke complexiteiten met zich mee.
 
@@ -133,7 +133,7 @@ Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden
 > _"[…] haar mantelzorger komt haar 's ochtends soms met tranen in de ogen afzetten." ... "Na 16u staat de mantelzorger er opnieuw alleen voor, net wanneer de gasten net heel overprikkeld zijn."_ – zorgverlener
 
 Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt zou de mentale en fysieke last kunnen verlichten en zou thuiszorg langer mogelijk maken.
-Zowel in de vaste opvang als in thuissituaties zijn het **nachtelijke** problemen die het fysiek bijzonder uitputtend maken door de permanente **waakzaamheid**. **Incontinentie**, **slapeloosheid**, **doolgedrag** en het bijhorende **valrisico** liggen hierbij aan de bron. 
+Zowel in de vaste opvang als in thuissituaties zijn het **nachtelijke problemen** die het fysiek bijzonder uitputtend maken door de permanente **waakzaamheid**. **Incontinentie**, **slapeloosheid**, **doolgedrag** en het bijhorende **valrisico** liggen hierbij aan de bron. 
 
 > _"Sommigen zijn het dag-nachtritme volledig kwijt, wat leidt tot doolgedrag. Dan geef je ze slaapmedicatie, maar vergroot hun valneiging."_ – zorgverlener
 
@@ -153,14 +153,14 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 
 <br clear="all">
 
->🎯**_How might we?_**
-> **Hoe kunnen we ’s nachts de autonomie van personen met dementie ondersteunen en nachtelijke interventies minimaliseren om zo de fysieke en mentale belasting van mantelzorgers te verlichten?**
+>🎯 **_How might we?_**<br>
+> Hoe kunnen we ’s nachts de autonomie van personen met dementie ondersteunen en nachtelijke interventies minimaliseren om zo de fysieke en mentale belasting van mantelzorgers te verlichten?
 
-> 📌 **_Design Requirements_**
-> **Neemt waakzaamheid gedeeltelijk over** en reduceert het aantal nachtelijke interventies om de MZ te ontlasten
-> **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
-> **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
-> **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
+> 📌 **_Design Requirements_**<br>
+> - **Neemt waakzaamheid gedeeltelijk over** en reduceert het aantal nachtelijke interventies om de MZ te ontlasten
+> - **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> - **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
+> - **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
 
 ---
 
