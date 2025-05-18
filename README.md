@@ -18,9 +18,9 @@ Het probleem werd geanalyseerd door middel van **bevragingen en observaties**, w
 
 Een combinatie van **visuele en auditieve prikkels** op strategische plaatsen doorheen de nachthal **begeleidt de PD bij een nachtelijk toiletbezoek** en **voorkomt het mogelijks daarop volgende nachtelijke dolen**.
 
-✨ **_Slimme lampjes verlichten de route en vormen oriëntatiepunten._**<br>
-⌛ **_Een geruststellende herkenbare stem herinnert aan tijd en nachtrust._**<br>
-❗ **_Bij afwijking wordt de MZ meteen visueel gewaarschuwd._**
+> ✨ **_Slimme lampjes verlichten de route en vormen oriëntatiepunten._**<br>
+> ⌛ **_Een geruststellende herkenbare stem herinnert aan tijd en nachtrust._**<br>
+> ❗ **_Bij afwijking wordt de MZ meteen visueel gewaarschuwd._**
 
 Door de hulp kan de PD ’s nachts zijn plan trekken. De MZ kan met een gerust hart doorslapen.
 
@@ -39,7 +39,7 @@ Door de hulp kan de PD ’s nachts zijn plan trekken. De MZ kan met een gerust h
 
 ## Introductie
 
-> _“Wanneer de nachten te zwaar worden, moeten mantelzorgers [hun partner] loslaten – niet omdat ze willen, maar omdat ze niet meer kunnen.” – zorgmedewerker WZC_
+> _“Wanneer de nachten te zwaar worden, moeten mantelzorgers [hun partner] loslaten – niet omdat ze willen, maar omdat ze niet meer kunnen.”_ – zorgverlener
 
 Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) [^1]. De keerzijde van de medaille is dat hierdoor chronische ouderdomsziektes zoals Alzheimer's vaker voorkomen. **Op vandaag krijgt ongeveer 1 op 5 in de loop van zijn of haar leven een vorm van dementie.** Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen (Exptertisecentrum Dementie, 2021) [^2]. In het toekomstige value based healthcare (VBHC) model (PwC, 2024) [^1] **wordt de zorgverlening verder richting de eerstelijns- en nuldelijnszorg verschoven**. Dit moet onder andere een oplossing bieden aan het groeiende personeeltekort in de gezondheidssector. **Deze evolutie onderstreept het belang van de informele zorgverlener en in het bijzonder de mantelzorger in het geval van zorg voor mensen met dementie.**
 
@@ -59,17 +59,18 @@ Tijdens de **Define**-fase worden prototypes iteratief ontwikkeld en geëvalueer
 
 In de fase **Develop** wordt via **CMF prototypes** (vlinderlampjes) de uiteindelijke look & feel bepaald, met behulp van een **Interactive survey (N=12)** bij ouderen en ouders van jonge kinderen via **BERT-testing**. In **Wave 4** worden de **UI & UX prototypes** geëvalueerd via **Wizard of Oz testing (N=5)** met het **Think aloud protocol**.
 
-De laatste fase **Deliver** omvat de evaluatie van volledig autonome prototypes (**Wave 5**) als **pilot testing** via een **Validation session (N=3)**.
+De laatste fase **Deliver** omvat de evaluatie van volledig autonome prototypes (**Wave 5**) als **pilot testing** via een **Validation session (N=2)**.
 
 ## Discovery
 
 ### Doelstellingen
 
 Een goed beeld vormen van wat de ziekte inhoud en de impact op de omgeving.
-Hoe draag je bij aan het mentaal welzijn van mantelzorgers door hun tijd besteed aan zorg te optimaliseren?
--	Welke lasten hebben de grootste impact op de mantelzorgers?
--	Welke ontlasting heeft de grootste potentiële impact?
--	Welke technologieën bestaan er?
+
+> ❓Hoe draag je bij aan het mentaal welzijn van mantelzorgers door hun tijd besteed aan zorg te optimaliseren?
+> -	Welke lasten hebben de grootste impact op de mantelzorgers?
+> -	Welke ontlasting heeft de grootste potentiële impact?
+> -	Welke technologieën bestaan er?
 
 ### Materiaal & methoden
 
@@ -156,11 +157,13 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 
 <br clear="all">
 
->🎯 **_How might we?_**<br>
+>🎯 **_How Might We?_**
 > - **_Hoe kunnen we ’s nachts de autonomie van personen met dementie ondersteunen en nachtelijke interventies minimaliseren om zo de fysieke en mentale belasting van mantelzorgers te verlichten?_**
 
-> 📌 **_Design Requirements_**<br>
-> - **Neemt waakzaamheid gedeeltelijk over** en reduceert het aantal nachtelijke interventies om de MZ te ontlasten
+<br>
+
+> 📌 **_Design Requirements_**
+> - **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
 > - **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
 > - **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
 > - **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
