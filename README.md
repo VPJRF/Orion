@@ -123,12 +123,12 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
   <img src="img/Ethnography creme au beurre.png" width="25.35%">
 </p>
 
-<img align="right" src="img/Fishbone.png" width=450>
-
 Ondanks het personeelstekort wijzen de professionele zorgverleners voornamelijk in de richting van de **mantelzorgers** wanneer het over overbelasting gaat. Ze spelen een cruciale rol doorheen de evolutie van de ziekte. Ze krijgen te kampen met **fysieke**, **emotionele**, **financiële** en **praktische** problemen.
 Een gebrek aan **tijd** en **middelen** vormt veelal de onderliggende oorzaak.
 
 > _“Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.”_ – zorgverlener
+
+<img align="right" src="img/Fishbone.png" width=450>
 
 Mantelzorgers wijden hun leven vaak volledig aan hun partner met de ziekte toe, ten koste van zichzelf. Liefde ruimt plaats voor gemist, frustratie en schaamte.
 Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden ademruimte. Mantelzorgers hebben deze tijd nodig om van de vaak **korte nachten** en **zware zorgdagen** te recupereren en **sociaal isolement** te vermijden.
