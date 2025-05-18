@@ -125,7 +125,8 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 
 <img align="right" src="img/Fishbone.png" width=450>
 
-Ondanks het personeelstekort wijzen de professionele zorgverleners voornamelijk in de richting van de **mantelzorgers** wanneer het over overbelasting gaat. Ze spelen een cruciale rol doorheen de evolutie van de ziekte. Ze krijgen te kampen met **fysieke**, **emotionele**, **financiële** en **praktische** problemen. Een gebrek aan **tijd** en **middelen** vormt veelal de onderliggende oorzaak.
+Ondanks het personeelstekort wijzen de professionele zorgverleners voornamelijk in de richting van de **mantelzorgers** wanneer het over overbelasting gaat. Ze spelen een cruciale rol doorheen de evolutie van de ziekte. Ze krijgen te kampen met **fysieke**, **emotionele**, **financiële** en **praktische** problemen.
+Een gebrek aan **tijd** en **middelen** vormt veelal de onderliggende oorzaak.
 
 > _“Wanneer we dan vragen hoe het met ze gaat, barsten ze in tranen uit.”_ – zorgverlener
 
@@ -147,7 +148,7 @@ Zowel in de vaste opvang als in thuissituaties zijn het **nachtelijke problemen*
 
 ### Conclusies & implicaties
 
-<img align="right" src="img/Feasability Desireability.png" width=450>
+<img align="right" src="img/Feasability Desireability.png" width=350>
 
 MZ van PD dragen een zware, vaak onzichtbare last. Vooral de **nachtelijke zorg** blijkt in de praktijk een cruciale maar onderbelichte bron van uitputting. Het **doolgedrag**, **valgevaar**, en het verlies van **dag-nachtritme** vereisen **permanente waakzaamheid**.
 
