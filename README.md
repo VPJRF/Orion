@@ -163,10 +163,10 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 <br>
 
 > 📌 **_Design Requirements_**
-> - 1. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
-> - 2. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
-> - 3. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
-> - 4. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
+> \1. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
+> \2. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> \3. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
+> \4. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
 
 ## Definition I
 
@@ -178,14 +178,14 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 
 ### Materiaal & methoden
 
-<img align=”right” src="img/Design sprint innovatrix.png" width=450px>
 De definition fase wordt gestart met een **design sprint** waarin de **how might we** wordt vertaalt in een **innovatrix** en **storyboards**.
-<br clear="all">
 
 Op vandaag gebeurt het dat de PD gaat dolen na op te staan voor een toiletbezoek. De waakzame MZ zal ’s nachts telkens opstaan om de PD opnieuw te slapen te helpen.
+
 <img src="img/Storyboard huidige situatie.png">
 
 De eerste productiteratie is een lichtgevende klink op de slaapkamerdeur. Op basis van kleur wordt onderscheid gemaakt tussen dag en nacht. Een stem biedt tijdgebonden duiding. De klink onderscheidt de kamerdeur van de andere deuren.
+
 <img src="img/Storyboard dag-nacht.png">
 <img src="img/Storyboard orientatie.png">
 
@@ -196,9 +196,7 @@ De eerste productiteratie is een lichtgevende klink op de slaapkamerdeur. Op bas
 
 <img src="img/Prototypes wave 1.png">
 
-<img align="right" src="img/Prototypes mantelzorgers.jpg" width="400">
 De prototypes worden in een **user feedback sessions (N=10)** in Huize Ter Walle (N=7) en in DVC Robijn (N=3) aan MZs en PZs gedemonstreerd. De deelnemers worden in groep **geïnterviewd** en geven individuele feedback via een **enquëte**.
-<br clear="all">
 
 ### Resultaten
 
@@ -217,6 +215,7 @@ Snoezelgeluiden zijn voor de een **storend**, voor de ander een **slaaphulp**. L
 <br clear="all">
 
 <img align="right" src="img/Prototypes radiochart.png" width=400>
+
 De _breadcrumbs_ komen als winnaar uit zowel de gesprekken, als de enquête. Dit kan worden toegeschreven aan de **intuïtiviteit** (basale aantrekking van licht in ‘t donker), de **autonome werking** (geen complexe interactie en leercurve), de **herkenbaarheid** (domotica), eenvoudige **integreerbaarheid** en het **beperken van storende prikkels in de kamer**.
 <br clear="all">
 
@@ -225,11 +224,11 @@ De _breadcrumbs_ komen als winnaar uit zowel de gesprekken, als de enquête. Dit
 Een **verlichte nachthal** en een hulp bij het oriënteren door een **slimme aansturing** verlaagt het risico op dolen en vallen. Volledige autonomie van de PD veroorzaak teveel ongerustheid bij de meeste MZs. Een adequate **feedback** is dus noodzakelijk.
 
 > 📌 **_Design Requirements_**
-> - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
-> - 2.1. **Helpt bij oriëntatie naar badkamer/toilet en terug naar bed**
-> - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
-> - 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**
-> - 3.3. Gedurende de nacht zijn er **geen storende prikkels in de kamer** (geen geluid, max. 1-5 lux)
+> 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap<br>
+> 2.1. **Helpt bij oriëntatie naar badkamer of toilet en terug naar bed**<br>
+> 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)<br>
+> 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**<br>
+> 3.3. Gedurende de nacht zijn er **geen storende prikkels in de kamer** (geen geluid, max. 1-5 lux)
 
 ## Definition II
 
@@ -261,7 +260,7 @@ Een **MoSCoW Evaluation** helpt de essentie te destilleren.
 
 #### Literature review (N=1)
 
-Het artikel **Wandering and Sundowning  in Dementia** [^4] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden ** verergeren de neuropsychiatrische symptomen. Preventieve maatregelen zijn **meer beweging en zonlicht overdag**. Acute maatregelen zijn het voorzien van een **rustige, goed verlichte omgeving** en **aroma- en muziektherapie**.
+Het artikel **Wandering and Sundowning  in Dementia** [^3] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden ** verergeren de neuropsychiatrische symptomen. Preventieve maatregelen zijn **meer beweging en zonlicht overdag**. Acute maatregelen zijn het voorzien van een **rustige, goed verlichte omgeving** en **aroma- en muziektherapie**.
 
 > 🌊 Aroma en muziek worden als rustgevende toegevoegd aan de Wave 2 prototypes. De geur van eucalyptus, rustgevende [geluiden]( https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b) en lichtprojecties creëren een snoezelervaring voor ’t slapen. De geur van koffie vergezeld de lichtwekker.
 
@@ -291,13 +290,13 @@ Bij het testen bij PD wordt duidelijk dat de **dementiespecifieke _featuritis_ s
 
 ### Conclusies & implicaties
 
-Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpmiddelen, die stigmatiserend kunnen werken, de acceptatie van het basisproduct in de weg staan en de kostprijs onnodig opdrijven. **Spraak, licht en detectie omschrijven het _minimum viable product_.** Bij de PD zou het product en _mental model_ van nachtverlichting met een aangename, subtiele geheugensteun moeten evoceren. Volgens de _fluency heuristic_ zou een geleidelijke introductie van de hulpfuncties de acceptatie ten goede komen.
+Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpmiddelen, die stigmatiserend kunnen werken, de acceptatie van het basisproduct in de weg staan en de kostprijs onnodig opdrijven. **Spraak, licht en detectie definiëren het _minimum viable product_.** Bij de PD zou het product en _mental model_ van nachtverlichting met een aangename, subtiele geheugensteun moeten evoceren. Volgens de _fluency heuristic_ zou een geleidelijke introductie van de hulpfuncties de acceptatie ten goede komen.
 
 > 📌 **_Design Requirements_**
-> - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
-> - 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
-> - 5. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
-> - 6. Een installatie heeft een **maximale consumentenkostprijs van € 800*
+> 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
+> 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
+> \5. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
+> \6. Een installatie heeft een **maximale consumentenkostprijs van € 800*
 
 <img src="img/Storyboard locaties.png">
 
