@@ -304,8 +304,9 @@ Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpm
 > - 5\. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
 > - 6\. Een installatie heeft een **maximale consumentenkostprijs van € 800*
 
-<img src="img/Storyboard locaties.png">
-
+<p align="center">
+  <img src="img/Storyboard locaties.png" width=700>
+</p>
 ---
 
 `TODO❗️voeg vlinderlamp uit in beeld en uitleg`
