@@ -168,7 +168,7 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 > - 3. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
 > - 4. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
 
-## Definition I (500)
+## Definition I
 
 ### Doelstellingen
 
@@ -231,7 +231,7 @@ Een **verlichte nachthal** en een hulp bij het oriënteren door een **slimme aan
 > - 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**
 > - 3.3. Gedurende de nacht zijn er **geen storende prikkels in de kamer** (geen geluid, max. 1-5 lux)
 
-## Definition II (500)
+## Definition II
 
 ### Doelstellingen
 
