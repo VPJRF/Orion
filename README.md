@@ -16,7 +16,7 @@ _Dit project richt zich op het probleem van **verstoorde dag-nachtritmes bij men
 
 Het probleem werd geanalyseerd door middel van **bevragingen en observaties**, waarbij de verschillende aspecten en gradaties werden geïdentificeerd. Vervolgens werd met behulp van **vijf iteraties aan prototypes** onderzocht hoe het zintuiglijke spectrum optimaal benut kan worden om de PD in zijn zelfstandigheid te ondersteunen.
 
-Een combinatie van **visuele en auditieve prikkels** op strategische plaatsen doorheen de nachthal **begeleidt de PD bij een nachtelijk toiletbezoek** en **voorkomt het mogelijks daarop volgende nachtelijke dolen**.
+Een combinatie van **visuele en auditieve prikkels** op strategische plaatsen doorheen de nachthal **begeleidt de PD bij een nachtelijk toiletbezoek** en **voorkomt het mogelijks daarop volgende nachtelijke dwalen**.
 
 > ✨ **_Slimme lampjes verlichten de route en vormen oriëntatiepunten._**<br>
 > ⌛ **_Een geruststellende herkenbare stem herinnert aan tijd en nachtrust._**<br>
@@ -51,15 +51,15 @@ Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) 
 
 <img src="img/Timeline.svg">
 
-De methodologie volgt het **Triple diamond** ontwerpmodel, bestaande uit vier fasen: **Discover**, **Define**, **Develop** en **Deliver**.
+De methodologie volgt het **triple diamond** ontwerpmodel, bestaande uit vier fasen: **discover**, **define**, **develop** en **deliver**.
 
-In de fase **Discover** wordt via een **Literature review (N=16)** onderzoek gedaan naar uitdagingen in de zorg voor personen met dementie. Vervolgens vinden **User interviews (N=4)** plaats met mantelzorgers, familieleden en zorgverleners, waarbij gebruik wordt gemaakt van **empathy mapping**. Daarnaast wordt via **Ethnography (N=1)** de dagelijkse praktijk geobserveerd in dagverblijf DVC Robijn, afdeling dementie, binnen WZC Sint Eligius. De verzamelde inzichten worden gestructureerd weergegeven in een **fishbone diagram**, waarbij vooral het verstoorde dag-nachtritme en de daarmee samenhangende belasting voor mantelzorgers naar voren komen als prioritair probleem. Een aanvullend **state of the art**-onderzoek leidt tot het initiële concept van de klinkklok als vertrekpunt voor verdere testen.
+In de fase **discover** wordt via een **literature review (N=16)** onderzoek gedaan naar uitdagingen in de zorg voor personen met dementie. Vervolgens vinden **user interviews (N=4)** plaats met mantelzorgers, familieleden en zorgverleners, waarbij gebruik wordt gemaakt van **empathy mapping**. Daarnaast wordt via **ethnography (N=1)** de dagelijkse praktijk geobserveerd in dagverblijf DVC Robijn, afdeling dementie, binnen WZC Sint Eligius. De verzamelde inzichten worden gestructureerd weergegeven in een **fishbone diagram**, waarbij vooral het verstoorde dag-nachtritme en de daarmee samenhangende belasting voor mantelzorgers naar voren komen als prioritair probleem. Een aanvullend **state of the art**-onderzoek leidt tot het initiële concept van de klinkklok als vertrekpunt voor verdere testen.
 
-Tijdens de **Define**-fase worden prototypes iteratief ontwikkeld en geëvalueerd in testwaves, met elk een specifieke focus. In **Wave 1** worden **conceptuele prototypes** (klinkklok, vloerlicht, breadcrumbs) onderzocht via **User feedback sessions (N=7)** met mantelzorgers en professionele zorgverleners in Huize Ter Walle, en via **User feedback sessions (N=3)** in DVC Robijn. Nadien wordt een stap teruggenomen met een gerichte **Literature review (N=1)** over de problematiek van dwalen en sundowning. In **Wave 2** worden de bevindingen toegepast als **Feature prototypes** (beacon, breadcrumb, kussen, knuffel) die zich richten op het vaststellen van de featureset via een **Evaluation matrix**, met **Wizard of Oz testing (N=3)** bij ouderen met en zonder dementie. Voorafgaand vindt er een ongeplande **User evaluation (N=1)** plaats met een expert in fixatie en valpreventie. De resultaten worden geprioriteerd volgens de **MoSCoW-methode**, wat resulteert in een productconcept bestaande uit licht en geluid nabij het bed, de slaapkamerdeur en het sanitair, inclusief een feedbacksysteem voor mantelzorgers. Uitdagingen liggen in acceptatie, adaptatie en tijdige implementatie. Opties voor uitbreiding naar andere doelgroepen worden onderzocht om het product reeds in een vroeg stadium van de ziekte te introduceren.
+Tijdens de **define**-fase worden prototypes iteratief ontwikkeld en geëvalueerd in testwaves, met elk een specifieke focus. In **wave 1** worden **conceptuele prototypes** (klinkklok, vloerlicht, breadcrumbs) onderzocht via **user feedback sessions (N=7)** met mantelzorgers en professionele zorgverleners in Huize Ter Walle, en via **user feedback sessions (N=3)** in DVC Robijn. Nadien wordt een stap teruggenomen met een gerichte **literature review (N=1)** over de problematiek van dwalen en sundowning. In **wave 2** worden de bevindingen toegepast als **feature prototypes** (beacon, breadcrumb, kussen, knuffel) die zich richten op het vaststellen van de featureset via een **evaluation matrix**, met **Wizard of Oz testing (N=3)** bij ouderen met en zonder dementie. Voorafgaand vindt er een ongeplande **user evaluation (N=1)** plaats met een expert in fixatie en valpreventie. De resultaten worden geprioriteerd volgens de **MoSCoW-methode**, wat resulteert in een productconcept bestaande uit licht en geluid nabij het bed, de slaapkamerdeur en het sanitair, inclusief een feedbacksysteem voor mantelzorgers. Uitdagingen liggen in acceptatie, adaptatie en tijdige implementatie. Opties voor uitbreiding naar andere doelgroepen worden onderzocht om het product reeds in een vroeg stadium van de ziekte te introduceren.
 
-In de fase **Develop** wordt via **CMF prototypes** (vlinderlampjes) de uiteindelijke look & feel bepaald, met behulp van een **Interactive survey (N=12)** bij ouderen en ouders van jonge kinderen via **BERT-testing**. In **Wave 4** worden de **UI & UX prototypes** geëvalueerd via **Wizard of Oz testing (N=5)** met het **Think aloud protocol**.
+In de fase **develop** wordt via **CMF prototypes** (vlinderlampjes) de uiteindelijke look & feel bepaald, met behulp van een **interactive survey (N=12)** bij ouderen en ouders van jonge kinderen via **BERT-testing**. In **wave 4** worden de **UI & UX prototypes** geëvalueerd via **Wizard of Oz testing (N=5)** met het **think aloud protocol**.
 
-De laatste fase **Deliver** omvat de evaluatie van volledig autonome prototypes (**Wave 5**) als **pilot testing** via een **Validation session (N=2)**.
+De laatste fase **deliver** omvat de evaluatie van volledig autonome prototypes (**wave 5**) als **pilot testing** via een **validation session (N=2)**.
 
 ## Discovery
 
@@ -74,9 +74,9 @@ Een goed beeld vormen van wat de ziekte inhoud en de impact op de omgeving.
 
 ### Materiaal & methoden
 
-Het onderzoek vat aan met een **Literature review (N=16)**. Artikels over het ziektebeeld en technologische vorderingen vormen het referentiekader. In een **technology scan** wordt bestaande technologie verzameld tot een beeld over de “state of the art”. Later in het onderzoek doen ze dienst als **benchmarks** voor de productideeën.
+Het onderzoek vat aan met een **literature review (N=16)**. Artikels over het ziektebeeld en technologische vorderingen vormen het referentiekader. In een **technology scan** wordt bestaande technologie verzameld tot een beeld over de “state of the art”. Later in het onderzoek doen ze dienst als **benchmarks** voor de productideeën.
 
-De literatuurstudie wordt gevolgd door **Ethnographic fieldwork (N=1)** in de dagopvang in WZC St-Eligius. Het volgen van **a day in the life** van professionele zorgverleners en de gasten verrijkt met **contextual inquiries** worden in **field notes** verzamend. In een **cause-and-effect diagram** diagram worden de conclusies gestructureerd.
+De literatuurstudie wordt gevolgd door **ethnographic fieldwork (N=1)** in de dagopvang in WZC St-Eligius. Het volgen van **a day in the life** van professionele zorgverleners en de gasten verrijkt met **contextual inquiries** worden in **field notes** verzamend. In een **cause-and-effect diagram** diagram worden de conclusies gestructureerd.
 
 Een dieper inzicht in de dagelijkse impact van de ziekte op de naasten in thuissituaties worden bekomen door **user interviews (N=4)** met eerste- en tweedelijns mantelzorgers. **Habit analysis** van frequente scenario’s en **empathy mapping** van de emotionele impact worden gehanteerd om kerngedachten te capteren.
 
@@ -180,7 +180,7 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 
 De definition fase wordt gestart met een **design sprint** waarin de **how might we** wordt vertaalt in een **innovatrix** en **storyboards**.
 
-Op vandaag gebeurt het dat de PD gaat dolen na op te staan voor een toiletbezoek. De waakzame MZ zal ’s nachts telkens opstaan om de PD opnieuw te slapen te helpen.
+Op vandaag gebeurt het dat de PD gaat dwalen na op te staan voor een toiletbezoek. De waakzame MZ zal ’s nachts telkens opstaan om de PD opnieuw te slapen te helpen.
 
 <img src="img/Storyboard huidige situatie.png">
 
@@ -221,7 +221,7 @@ De _breadcrumbs_ komen als winnaar uit zowel de gesprekken, als de enquête. Dit
 
 ### Conclusies & implicaties
 
-Een **verlichte nachthal** en een hulp bij het oriënteren door een **slimme aansturing** verlaagt het risico op dolen en vallen. Volledige autonomie van de PD veroorzaak teveel ongerustheid bij de meeste MZs. Een adequate **feedback** is dus noodzakelijk.
+Een **verlichte nachthal** en een hulp bij het oriënteren door een **slimme aansturing** verlaagt het risico op dwalen en vallen. Volledige autonomie van de PD veroorzaak teveel ongerustheid bij de meeste MZs. Een adequate **feedback** is dus noodzakelijk.
 
 > 📌 **_Design Requirements_**
 > - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
