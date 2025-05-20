@@ -215,10 +215,9 @@ De cognitieve capaciteit van de PD in thuiszorg is sterk uiteenlopend. Het **typ
 <img align="right" src="img/Prototypes radiochart.png" width=400>
 
 Snoezelgeluiden zijn voor de een **storend**, voor de ander een **slaaphulp**. Licht op de deur of onder bed werkt net uitnodigend om op te staan. De prikkel moet zich aan het hoofddoel (het bed) bevinden.
-<br clear="all">
 
 De _breadcrumbs_ komen als winnaar uit zowel de gesprekken, als de enquête. Dit kan worden toegeschreven aan de **intuïtiviteit** (basale aantrekking van licht in ‘t donker), de **autonome werking** (geen complexe interactie en leercurve), de **herkenbaarheid** (domotica), eenvoudige **integreerbaarheid** en het **beperken van storende prikkels in de kamer**.
-
+<br clear="all">
 
 ### Conclusies & implicaties
 
