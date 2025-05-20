@@ -67,7 +67,7 @@ De laatste fase **Deliver** omvat de evaluatie van volledig autonome prototypes 
 
 Een goed beeld vormen van wat de ziekte inhoud en de impact op de omgeving.
 
-> ❓Hoe draag je bij aan het mentaal welzijn van mantelzorgers door hun tijd besteed aan zorg te optimaliseren?
+> ❓**Hoe draag je bij aan het mentaal welzijn van mantelzorgers** door hun tijd besteed aan zorg te optimaliseren?
 > -	Welke lasten hebben de grootste impact op de mantelzorgers?
 > -	Welke ontlasting heeft de grootste potentiële impact?
 > -	Welke technologieën bestaan er?
@@ -98,7 +98,7 @@ Er is een groeiende erkenning van de waardevolle rol van technologie in de onder
 -	**Cognitieve stimulatie** en **geheugenondersteuning**
 -	Ondersteuning voor dagelijkse zorgactiviteiten en **zelfredzaamheid**
 
-Artificiële intelligentie is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe technologieën enkele belangrijke complexiteiten met zich mee.
+**Artificiële intelligentie** is een belangrijke trend die hierin nieuwe mogelijkheden biedt. Omwille van de leeftijd en de achteruitgaande cognitieve capaciteiten van het doelpubliek brengt de introductie van nieuwe technologieën enkele belangrijke complexiteiten met zich mee.
 
 #### User interviews (N=4)
 
@@ -131,17 +131,17 @@ Een gebrek aan **tijd** en **middelen** vormt veelal de onderliggende oorzaak.
 
 <img align="right" src="img/Fishbone.png" width=450>
 
-Mantelzorgers wijden hun leven vaak volledig aan hun partner met de ziekte toe, ten koste van zichzelf. Liefde ruimt plaats voor gemist, frustratie en schaamte.
+Mantelzorgers wijden hun leven vaak volledig aan hun partner met de ziekte toe, ten koste van zichzelf. Liefde ruimt plaats voor gemis, frustratie en schaamte.
 Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden ademruimte. Mantelzorgers hebben deze tijd nodig om van de vaak **korte nachten** en **zware zorgdagen** te recupereren en **sociaal isolement** te vermijden.
 
 > _"[…] haar mantelzorger komt haar 's ochtends soms met tranen in de ogen afzetten." ... "Na 16u staat de mantelzorger er opnieuw alleen voor, net wanneer de gasten net heel overprikkeld zijn."_ – zorgverlener
 
-Een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt zou de mentale en fysieke last kunnen verlichten en zou thuiszorg langer mogelijk maken.
-Zowel in de vaste opvang als in thuissituaties zijn het **nachtelijke problemen** die het fysiek bijzonder uitputtend maken door de permanente **waakzaamheid**. **Incontinentie**, **slapeloosheid**, **doolgedrag** en het bijhorende **valrisico** liggen hierbij aan de bron. 
+Er is nood aan een oplossing die ook in de overige uren van de dag de autonomie van de zorgbehoevende ondersteunt.
+Zowel in woonzorgcentra als in thuissituaties zijn **nachtelijke problemen** zeer uitputtend door de noodzaak voor permanente **waakzaamheid**. **Incontinentie**, **slapeloosheid**, **doolgedrag** en het bijhorende **valrisico** liggen hierbij aan de bron. 
 
 > _"Sommigen zijn het dag-nachtritme volledig kwijt, wat leidt tot doolgedrag. Dan geef je ze slaapmedicatie, maar vergroot hun valneiging."_ – zorgverlener
 
-"De zorgbehoevende verhuist vaak stapsgewijs (via **dagverblijf**, **kortverblijf**, **aanleunflat**) van **thuis** naar **vast verblijf**." Dit valt de mantelzorger heel zwaar en introduceert nieuwe verwarring door een nieuwe onherkenbare omgeving.
+De zorgbehoevende verhuist vaak stapsgewijs (via **dagverblijf**, **kortverblijf**, **aanleunflat**) van **thuis** naar **vast verblijf**." Dit valt de MZ heel zwaar en introduceert nieuwe verwarring bij de PD door een nieuwe onherkenbare omgeving.
 
 > _”[…] Sociale Dienst merkt dan op dat de mantelzorger het niet meer aankan. […] Ze hebben het gevoel dat ze hun partner dumpen." [...] "Vanaf dan ben je gescheiden.”_ – zorgverlener
 
@@ -151,162 +151,137 @@ Zowel in de vaste opvang als in thuissituaties zijn het **nachtelijke problemen*
 
 <img align="right" src="img/Feasability Desireability.png" width=350>
 
-MZ van PD dragen een zware, vaak onzichtbare last. Vooral de **nachtelijke zorg** blijkt in de praktijk een cruciale maar onderbelichte bron van uitputting. Het **doolgedrag**, **valgevaar**, en het verlies van **dag-nachtritme** vereisen **permanente waakzaamheid**.
+MZ van PD dragen een zware, vaak onzichtbare last. Vooral de **nachtelijke zorg** blijkt in de praktijk een cruciale maar onderbelichte bron van uitputting. Het doolgedrag, valgevaar, en het verlies van dag-nachtritme vereisen **permanente waakzaamheid**.
 
 Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **grootste potentiële impact** in oplossingen die de MZ ademruimte gunnen wanneer ze er alleen voor staan. Technologieën die de **autonomie ’s nachts** verhogen en onrust detecteren of vermijden, kunnen niet alleen de draaglast verlichten, maar ook het verblijf thuis aanzienlijk verlengen.
 
 <br clear="all">
 
 >🎯 **_How Might We?_**
-> - **_Hoe kunnen we ’s nachts de autonomie van personen met dementie ondersteunen en nachtelijke interventies minimaliseren om zo de fysieke en mentale belasting van mantelzorgers te verlichten?_**
+> **_Hoe kunnen we ’s nachts de autonomie van personen met dementie ondersteunen en nachtelijke interventies minimaliseren om zo de fysieke en mentale belasting van mantelzorgers te verlichten?_**
 
 <br>
 
 > 📌 **_Design Requirements_**
-> - **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
-> - **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
-> - **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
-> - **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
+> - 1. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
+> - 2. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> - 3. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
+> - 4. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
 
----
+## Definition I (500)
 
-De bevindingen worden in een design sprint verzameld en verwerkt tot een concreet product.
+### Doelstellingen
 
-<p align="left">
-  <img src="img/Design sprint innovatrix.png" width=700px>
-</p>
-
-Als houvast voor de volgende fase vertalen we het probleem en de mogelijke oplossing in storyboards.
-
-Huidige situatie
-
-<p align="left">
-  <img src="img/Storyboard huidige situatie.png" width=100%>
-</p>
-
-Oriëntatie in tijd (dag-nacht-onderscheid)
-
-<p align="left">
-  <img src="img/Storyboard dag-nacht.png" width=100%>
-</p>
-
-Oriëntatie in ruimte (nachtelijke wayfinding)
-
-<p align="left">
-  <img src="img/Storyboard orientatie.png" width=100%>
-</p>
-
-En een mockup van hoe dit product er uit zou kunnen zien.
-<p align="left">
-  <img src="img/Klinkklok dag-nacht.png" width="45%">
-  <img src="img/Klinkklok orientatie.png" width="45%">
-</p>
-
-## Definition
-
-### Doestellingen
-- Meer gedetailleerd definiëren welk technologisch hulpmiddel op welke manier en in welke contexten een verschil maken t.o.v. de huidige situatie m.b.t. het geïdentificeerde probleem.
-- De doeltreffendeheid en acceptie van deze technologie nagaan bij de doelgroep in uiteenlopende, realistische contexten.
--  Het opstellen van een volledige en specifieke PRD.
+> ❓ _Hoe draag je bij aan de **nachtelijke zelfstandigheid** van een persoon met dementie?_
+> - **Welke situaties** komen het vaakste voor?
+> - **Welke interacties** (soort, timing, locatie) zijn intuïtief en behulpzaam?
 
 ### Materiaal & methoden
-1. User reviews: Dit waren semigestructureerde groepsgesprekken met mantelzorgers en dagverzorgingsmedewerkers in twee woonzorgcentra om ervaringen. Deze groepen werden gebruikt om behoeften, noden, ideëen en meningen over het project te verkrijgen. We lieten hen een enquête invullen om hun oordeel de kunnen kwantificeren.
-2. Literature review: Een beter begrip vormen over de achterliggende oorzaak van het doolgedrag.
-3. Expert review: Vooraf aan de user testen doorlopen we hypothetisch de scenario's om eventuele risico's vooraf uit te sluiten.
-4. User testing (Wizard of Oz): Uitvoeren van gebruikerstesten met mantelzorgers en zorgprofessionals, waarbij de prototypes in realistische scenario's worden uitgeprobeerd. Er wordt gelet op zowel verbaal als non-verbaal gedrag (grime) bij het gebruik van de prototypes.
 
-Er werd een verder uitgewerkte versie van de Breadcrumbs (lichtjes die een pad vormen) en de Beacon (een multi-sensorieel kussen/lamp) gemaakt om de validiteit van de testen te optimaliseren.
+<img align=”right” src="img/Design sprint innovatrix.png" width=450px>
+De definition fase wordt gestart met een **design sprint** waarin de **how might we** wordt vertaalt in een **innovatrix** en **storyboards**.
+<br clear="all">
 
-#### 🌊 Prototypes wave 1 – stimuli
-De lichten worden handmatig bediend. Geluiden worden via bluetooth van op afstand bediend.
+Op vandaag gebeurt het dat de PD gaat dolen na op te staan voor een toiletbezoek. De waakzame MZ zal ’s nachts telkens opstaan om de PD opnieuw te slapen te helpen.
+<img src="img/Storyboard huidige situatie.png">
+
+De eerste productiteratie is een lichtgevende klink op de slaapkamerdeur. Op basis van kleur wordt onderscheid gemaakt tussen dag en nacht. Een stem biedt tijdgebonden duiding. De klink onderscheidt de kamerdeur van de andere deuren.
+<img src="img/Storyboard dag-nacht.png">
+<img src="img/Storyboard orientatie.png">
+
+> 🌊 Wave 1 – **Conceptuele prototypes** – stimuli
+> - **klinkklok**: zoals hierboven beschreven
+> - **breadcrumbs**: slimme lichtbronnen die helpen bij veilig en zelfstandig nachtelijk navigeren
+> - **vloerlicht**: een vloerdetector die nachtelijk opstaan detecteert en met licht dag-nacht onderscheid maakt en met rustgevend geluid helpt om opnieuw in slaap te vallen
 
 <img src="img/Prototypes wave 1.png">
 
-#### 🌊 Prototypes wave 2 – feature set
-De prototypes worden d.m.v. Arduino Nano's m.b.v. een IR-afstandbediening vanop afstand bedienbaar gemaakt. Er worden geluiden afgespeeld op een bluetooth speaker ([Spotify playlist](https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b)) en er worden geuren van Eucapyptus verspreid door het verhitten van etherische olie.
-
-<img src="img/Prototypes wave 2.png">
+<img align="right" src="img/Prototypes mantelzorgers.jpg" width="400">
+De prototypes worden in een **user feedback sessions (N=10)** in Huize Ter Walle (N=7) en in DVC Robijn (N=3) aan MZs en PZs gedemonstreerd. De deelnemers worden in groep **geïnterviewd** en geven individuele feedback via een **enquëte**.
+<br clear="all">
 
 ### Resultaten
-#### User review prototypes (N=10)
 
-> [!IMPORTANT]
-> **_Welke prikkels, op welk moment, op welke positie?_**
-> - Verstoort niet de nachtrust?
-> - Veroorzaakt geen agitatie?
-> - Is voldoende intuïtief?
+#### User feedback sessions (N=10)
 
 <img align="right" src="img/Prototypes mantelzorgers.jpg" width="400">
 
-PD hebben vaak last met een standaard slaappatroon, ze worden ‘s nachts wakker, gedesoriënteerd en beginnen te dwalen. Als de persoon met dementie naar het toilet moet is het vaak aangewezen zo min mogelijk extra prikkels te hebben, en als er prikkels zijn deze hen te sturen naar, of van het toilet. Zo kan dwalen beperkt worden. Vaak worden de MZs dan ook wakker, dit wederzijds om de PD te helpen, maar ook voor hun eigen gemoedstrust. Er werd vermeld dat zowel de MZ als PD pas gerust zijn wanneer deze weten dat de PD terug in bed ligt. Vaak wanneer de nachten té zwaar worden gaan MZs vaste opname gaan overwegen. Deze beslissing valt hen vaak zwaar. Dat zien ze in het woonzorgcentrum ook. De angst voor een nieuwe woonomgeving van de PD geeft angst voor een versnellende ziekte. Maar een MZ zonder slaap gaat er hoe dan ook aan onderdoor.
+De meeste PDs kunnen nog wel kloklezen, maar staan geregeld op voor een **toiletbezoek**, een **glas water** of uit **verwardheid** (_”Ik moet gaan werken in de bakkerij.”, “Ik zoek mijn broer.”_. De MZs beschouwen hun nachtelijk hulp als een noodzaak en een evidentie, met het valrisico als hoofdreden.
+> _”Ik ben niet gerust als ik niet mee ga als hij uit de kamer gaat.”_ – mantelzorger en partner
+
+Er lijkt een _status quo bias_ te heersen. Doch bij het voorstellen van de productideeën blijkt dat MZs zelf creatief zijn in het zoeken naar oplossingen. Nachtelijke oriëntatie wordt ondersteund door **automatische verlichting** en geïmproviseerde **lichtlijnen**. Bij een verminderd tijdsbesef doet een **wake-up lampwekker** met **audioboodschap bij aanraking** dienst.
+
+De cognitieve capaciteit van de PD in thuiszorg is sterk uiteenlopend. Het **type prikkel** is **sterk individueel** te bepalen. De prikkel moet intuïtief zijn zoals **een licht of een herkenbare stem**. Kleurcodes zijn te complex.
+
+Snoezelgeluiden zijn voor de een **storend**, voor de ander een **slaaphulp**. Licht op de deur of onder bed werkt net uitnodigend om op te staan. De prikkel moet zich aan het hoofddoel (het bed) bevinden.
 <br clear="all">
-
-> _“Een verstoorde nachtrust is vaak het duwtje van dagopvang naar vaste opvang.”_ – Jorick Cappon, centrumleider in Huize Ter Walle
-
-De prikkels mogen niet te abstract zijn, tenzij ze heel intuïtief werken. Wanneer je licht op de kamerdeur of onder het bed voorziet, zal dit net de aandacht trekken. Prikkel naar het hoofddoel, aan het bed. Op de geluiden wordt sterk wisselend gereageerd. De een vindt het storend, de andere ziet er potentieel in, cfr. het snoezelen.
 
 <img align="right" src="img/Prototypes radiochart.png" width=400>
-
-De resultaten van de enquête bevestigen de algemene indruk uit het gesprek dat voornamelijk de breadcrumbs een hulp voor zowel de MZ als voor de  zou kunnen bieden. Wat opvalt is dat de de deurklink het meest wordt aangeraden aan anderen, doch de hulp PD voor de MZ het laagste scoort. Dit heeft er vooral mee te maken dat het licht en geluid in de kamer de mee-slapende zal storen.
-
+De _breadcrumbs_ komen als winnaar uit zowel de gesprekken, als de enquête. Dit kan worden toegeschreven aan de **intuïtiviteit** (basale aantrekking van licht in ‘t donker), de **autonome werking** (geen complexe interactie en leercurve), de **herkenbaarheid** (domotica), eenvoudige **integreerbaarheid** en het **beperken van storende prikkels in de kamer**.
 <br clear="all">
 
-> [!NOTE]
-> **_Design Requirements_**
-> - 1.1 … en biedt geruststelling, ook wanneer de PD niet in de onmiddellijke nabijheid is
-> - 2.1.4 Respecteert de privacy van de PD en de MZ
-> - 3.1.3 Trekt enkel de aandacht wanneer functioneel relevant
-> - 3.1 Voorkomt agitatie en verwarring van de PD
-> - 3.2.1 Verstoort niet de nachtrust van de mee-slapende
+### Conclusies & implicaties
 
+Een **verlichte nachthal** en een hulp bij het oriënteren door een **slimme aansturing** verlaagt het risico op dolen en vallen. Volledige autonomie van de PD veroorzaak teveel ongerustheid bij de meeste MZs. Een adequate **feedback** is dus noodzakelijk.
+
+> 📌 **_Design Requirements_**
+> - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
+> - 2.1. **Helpt bij oriëntatie naar badkamer/toilet en terug naar bed**
+> - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
+> - 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**
+> - 3.3. Gedurende de nacht zijn er **geen storende prikkels in de kamer** (geen geluid, max. 1-5 lux)
+
+## Definition II (500)
+
+### Doelstellingen
+
+>❓ _Kunnen we het probleem **aan de bron aanpakken**?_
+> - Wat veroorzaakt het verstoorde dag-nacht-ritme?
+> - Welke doeltreffende oplossingen worden in de praktijk toegepast?
+
+### Materiaal & methoden
+
+Uit de eerste feedback blijkt dat de verstoorde nachtrust uiteenlopende oorzaken heeft, maar de mantelzorgers er vaak zelf de vinger niet op kunnen leggen. Een diepergaande **literature review (N=1)** over **doolgedrag en _sundowning_** verscherpt het referentiekader.
+
+De bevindingen worden getest in verder uitgewerkte prototypes. De _breadcrumbs_ worden uitgebreid met de _beacon_. Een variant specifiek voor aan bed, met snoezelfuncties en een gerichte led die niet storend is voor de mee-slapende.
+
+> 🌊 Wave 2 – **Multisensory prototypes** – features
+> - **Beacon**: multisensorieel toestel bij het bed (IR-afstandsbediening)
+> - **Breadcrumb**: bewegingsgestuurde lampjes – (IR-afstandsbediening)
+> - **Kussen** en **knuffel**: ademhaling simulerende comfortobjecten
+
+<img src="img/Prototypes wave 2.png">
+
+Uit **Benchmarks** kan worden geconcludeerd dat er betere varianten van het kussen (Somnox) en de knuffel (Moonie) op de markt zijn. De geïntegreerde functies worden met **Wizard of Oz testing (N=3)** bij de doelgroep getest. Voorafgaand wordt de werking uitvoerig besproken in een ongeplande **User Evaluation (N=1)** met een experte fixatie en valpreventie.
+Een **MoSCoW Evaluation** helpt de essentie te destilleren.
+
+### Resultaten
+
+> _“Doordat veel ouderen overdag te weinig rust krijgen, zijn ze aan het eind van de dag uitgeteld. […] Ze worden rustelozer, willen naar huis of naar hun ouders, gaan rondlopen, zijn moeilijk gerust te stellen, verwarder en onsamenhangender. […] Het zogenaamde ‘Sundowning’.”_ – Facebookpagina Dementie Anders Beleven
 
 #### Literature review (N=1)
-Op basis van onze eerste testen merken we op dat we slechts een deel beperkt deel van het probleem aanpakken. Veel van de mantelzorgers lijken het product wel aan te raden aan anderen, maar stellen vast dat het voor hen geen oplossing zou bieden. We kwamen intussen in aanraking met de term _sundowning_ en duiken opnieuw even in de literatuur om ons begrip over het probleem nog verder bij te schaven.
 
+Het artikel **Wandering and Sundowning  in Dementia** [^4] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden ** verergeren de neuropsychiatrische symptomen. Preventieve maatregelen zijn **meer beweging en zonlicht overdag**. Acute maatregelen zijn het voorzien van een **rustige, goed verlichte omgeving** en **aroma- en muziektherapie**.
 
-> [!IMPORTANT]
-> **_Kunnen we de achterliggende oorzaak aanpakken?_**
-> - Wat houdt de MZ nu precies wakker?
-> - Waarom is de nachtrust van de PD zo slecht?
-
-Uit onze gesprekken kwam naar voor dat het nachtelijk opstaan veelal omwille van een toiletbezoek plaatsvindt en dit vervolgens de aanleiding kan zijn voor dolen.
-In de literatuur lezen we dat onrust, angst, waanbeelden, denken te moeten gaan werken mee aan de oorzaak liggen. Deze verklaren beter het gedrag dat laten in de woonzorgcentra wordt waargenomen. Deze symptomen verergeren 's avonds en is gekend als _sundowning_. Behalve opdrijven van medicatie en het opsluiten of plaatsen in ernstige gevallen, kunnen rustgevende therapieën tegen de avond dit fenomeen verminderen.
-
-> [!NOTE]
-> **_Design Requirements_**
-> - 2.2 Biedt een meerwaarde voor minimaal 50% van de varianten en gradaties van de ziekte
-> - 2.3 Bevordert het circadiaans ritme van de PD
-> - 2.3.2 Multi-sensoriële snoezelfuncties bevorderen het inslapen
+> 🌊 Aroma en muziek worden als rustgevende toegevoegd aan de Wave 2 prototypes. De geur van eucalyptus, rustgevende [geluiden]( https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b) en lichtprojecties creëren een snoezelervaring voor ’t slapen. De geur van koffie vergezeld de lichtwekker.
 
 <p align="left">
   <img src="img/GIF Sky.gif" width="24%">
   <img src="img/GIF Breathing.gif" width="24%">
   <img src="img/GIF Sunrise.gif" width="24%">
   <img src="img/GIF Alarm.gif" width="24%">
-</p>
+</p> 	
 
-#### Expert review (N=2)
+#### User review (N=1)
 
-Beacon: In de nieuwe prototypes wordt geluid beperkt tot 's avonds en 's ochtends om de slaap van de MZ niet te verstoren. Er is echter onmiddellijk de opmerking dat een spraakbericht "Het is nog nacht", die een PD aanspoort zelfstandig terug in bed te kruipen, voor veel bewoners van het woonzorgcentrum een hulp zou kunnen betekenen. Meestal is de PD al op dool wanneer de PZ aan de kamer toekomt. Wat de geur betreft, kunnen ze bevestigen dat dit in de praktijk vaak en effectief gebruikt wordt bij het snoezelen.
+Een gesprek met de experte fixatie en valpreventie van WZC St-Eligius geeft inzicht in de waarde van het product in de context van een woonzorgcentrum.
+-	**Spraakberichten** zoals _”het is nog nacht” zou de nachtdienst veel werk kunnen besparen. Ook in aanleunflats of thuissituaties waar de PD alleen slaapt, hoeft geluid niet uit de kamer geweerd te worden.
+-	In WZC zou **feedback** via **DECT** moeten komen. Een instelbare gevoeligheid is wenselijk. MZs hebben tegenwoordig bijna allemaal een **smartphone**.
+-	In WZC kent **aromatherapie** een belangrijke plek. Geuren als **eucalyptus, yland-ylang, sinaasappel en citroen** worden gebruikt voor het bestrijden van nervositeit, angst, boosheid, verwarring, slapeloosheid, …
 
-Breadcrumbs: De waarschuwingsfunctie (via DECT) en de monitoring wanneer de PD uit bed, uit de kamer, in de toilet komt, gecombineerd met een tijdgebonden waarschuwing, zou beter werken dan een courant gebruikt IR-detectiesystemen (Mintt). Het biedt meerdere checkpoints waardoor de noodzaak voor een interventie beter kan worden ingeschat. Tegenwoordig hebben zo goed als alle mantelzorgers een smartphone, dus een dergelijk systeem zou ook via deze weg een melding kunnen geven aan de mee-slapende of familieleden.
+#### User testing prototypes
 
-> [!NOTE]
-> **_Design Requirements_**
-> - 1.1.1 Detectie van de route van de PD met bijhorende tijdsindicatie
-> - 1.1.2 Geeft hierover feedback aan de MZ, IZ, PZ
-> - 1.1.4 Communiceert met een smartphone app (inwonende) MZ & familie
-> - 1.2.2 Communiceert met DECT
-> - 1.2.1 Personaliseerbare spraakberichten minimaliseren interventies door PZ
-> - 1.2.3 Waarschuwingsgevoeligheid is instelbaar
-> - 2.3.1 Bevat enkel slaaphulp waarvan de doeltreffendheid in de praktijk werd aangetoond
-> - 4.1 Kost minder dan €800
-
-#### User testing prototypes (N=3)
-
-Tijdens het opzetten van de tests waren weinig problemen ondervonden. De moeilijkheid was wel dat sommige testpersonen de nood niet als hoog achten, of misschien wat opstandig konden overkomen. De producten werkten naar behoren, maar de ecologische validiteit kon niet altijd worden gewaarborgd. Er waren meer prikkels dan in een ideaal testscenario. We merken nogmaals op dat de ziekte bij elke testpersoon zeer verschillend is. Ieder heeft zijn eigen gangen en gewoonten, zeker in de nacht.
-
-Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scenario, kregen we toch een hoop feedback.
+Bij het testen bij PD wordt duidelijk dat de **dementiespecifieke _featuritis_ schaamte en confrontatie veroorzaakt**, wat een vlotte **acceptatie in de weg staat**. Een MoSCoW evaluation brengt de functies terug tot licht en spraak.
 
 <p align="left">
   <img src="img/Wizard of Oz bed.png" width="25.1%">
@@ -314,27 +289,19 @@ Hoewel de omgeving tijdens de test meer prikkels bevatte dan bij een reëel scen
   <img src="img/Wizard of Oz gang.png" width="25%">
 </p>
 
-> [!NOTE]
-> **_Design Requirements_**
-> - 2.1.5 De interacties zijn intuïtief
-> - 2.4.2 Kan eenvoudig geïnstalleerd worden ongeacht de omgeving
-> - 3.1.1 Veroorzaak geen gevoel van schaamte of confrontatie
-> - 3.1.2 Doet de omgeving vertrouwelijk, herkenbaar en veilig aanvoelen voor de PD
-> - 3.1.3 Dringt geen onnodige of ongewenste hulp op
-> - 4.2 Hulpmiddelen worden gradueel geïntroduceerd op tempo van de PD en o.b.v. context
-
 ### Conclusies & implicaties
 
-`TODO❗️herschrijf, meer gebald en theoretisch onderbouwd en volgend uit doelstelling`
+Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpmiddelen, die stigmatiserend kunnen werken, de acceptatie van het basisproduct in de weg staan en de kostprijs onnodig opdrijven. **Spraak, licht en detectie omschrijven het _minimum viable product_.** Bij de PD zou het product en _mental model_ van nachtverlichting met een aangename, subtiele geheugensteun moeten evoceren. Volgens de _fluency heuristic_ zou een geleidelijke introductie van de hulpfuncties de acceptatie ten goede komen.
 
--  De Breadcrumb (lichtjes doorheen het huis, met monitoringfunctie) werd positief ontvangen door mantelzorgers, omdat het een veilige manier biedt om de PD terug naar de kamer te leiden.
--  De Beacon biedt multi-sensorische prikkels (licht, geluid) die kunnen helpen bij het reguleren van het dag-nachtritme, en kan gepersonaliseerd worden in functie van de behoeftes.
--  Het product moet interventiearm werken en makkelijk te integreren zijn in een thuisomgeving.
--  Een lange batterijduur of aansluiting op het net is een vereiste.
--  De functionaliteiten van de prototypes moeten worden afgestemd op de context (thuiszorg vs. woonzorgcentrum).
--  De doelgroep bestaat (hoofdzakelijk) uit ouderen wiens mentaal model van gelijkaardige producten beperkt is, waardoor de interactie intuïtief moet zijn.
+> 📌 **_Design Requirements_**
+> - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
+> - 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
+> - 5. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
+> - 6. Een installatie heeft een **maximale consumentenkostprijs van € 800*
 
 <img src="img/Storyboard locaties.png">
+
+---
 
 `TODO❗️voeg vlinderlamp uit in beeld en uitleg`
 
@@ -637,11 +604,12 @@ Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het 
   - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYsSF-ocI9BGpibg7Vrg9c0BDqhcAzFuGdlTmi8KfnNLWw?e=21pjaG)
 
 ### Deliver
+- [Design requirements]()
 - [Explainer video]()
   - [Script](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EcioSIA9y9ZAlRPYxw0DY-EBSUCkpOe41N7b1oHjZXvO0w?e=Y3X2C9)
 
-[^1]: A New Era in Belgian Healthcare
+[^1]: Vriens, K., Sage, C., d’Otreppe, P., Koster, F., & Christiaens, E. (2024, december). _A new era in Belgian healthcare: Key findings and collaborative insights towards implementation of value-based healthcare_. PwC Enterprise Advisory BV. In opdracht van de Belgian Association of Hospital Managers.
 
-[^2]: [Expertisecentrum Dementie Vlaanderen](https://www.dementie.be/home/wat-is-dementie/prevalentie/#:~:text=Onze%20nieuwe%20schatting%20is%20dat,n%201.800%20een%20formele%20diagnose.&text=De%20kans%20is%201%20op,in%20zijn%20leven%20dementie%20krijgt.&text=Leeftijd%20is%20de%20belangrijkste%20risicofactor%20voor%20dementie.)
+[^2]: Alzheimer Liga Vlaanderen. (2020). _Prevalentie van dementie_. Dementie.be. https://www.dementie.be/home/wat-is-dementie/prevalentie/
 
-[^3]: Wandering Sundowning
+[^3]: Thomas, T., & Ritter, A. (2022, juni). _Wandering & sundowning in dementia_. Practical Neurology, 21(3), 36–39, 44.
