@@ -163,10 +163,10 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 <br>
 
 > 📌 **_Design Requirements_**
-> - 1. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
-> - 2. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
-> - 3. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
-> - 4. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
+> - 1\. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
+> - 2\. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> - 3\. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
+> - 4\. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
 
 ## Definition I
 
@@ -295,8 +295,8 @@ Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpm
 > 📌 **_Design Requirements_**
 > - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
 > - 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
-> - 5. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
-> - 6. Een installatie heeft een **maximale consumentenkostprijs van € 800*
+> - 5\. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
+> - 6\. Een installatie heeft een **maximale consumentenkostprijs van € 800*
 
 <img src="img/Storyboard locaties.png">
 
