@@ -210,14 +210,15 @@ De meeste PDs kunnen nog wel kloklezen, maar staan geregeld op voor een **toilet
 Er lijkt een _status quo bias_ te heersen. Doch bij het voorstellen van de productideeën blijkt dat MZs zelf creatief zijn in het zoeken naar oplossingen. Nachtelijke oriëntatie wordt ondersteund door **automatische verlichting** en geïmproviseerde **lichtlijnen**. Bij een verminderd tijdsbesef doet een **wake-up lampwekker** met **audioboodschap bij aanraking** dienst.
 
 De cognitieve capaciteit van de PD in thuiszorg is sterk uiteenlopend. Het **type prikkel** is **sterk individueel** te bepalen. De prikkel moet intuïtief zijn zoals **een licht of een herkenbare stem**. Kleurcodes zijn te complex.
-
-Snoezelgeluiden zijn voor de een **storend**, voor de ander een **slaaphulp**. Licht op de deur of onder bed werkt net uitnodigend om op te staan. De prikkel moet zich aan het hoofddoel (het bed) bevinden.
 <br clear="all">
 
 <img align="right" src="img/Prototypes radiochart.png" width=400>
 
-De _breadcrumbs_ komen als winnaar uit zowel de gesprekken, als de enquête. Dit kan worden toegeschreven aan de **intuïtiviteit** (basale aantrekking van licht in ‘t donker), de **autonome werking** (geen complexe interactie en leercurve), de **herkenbaarheid** (domotica), eenvoudige **integreerbaarheid** en het **beperken van storende prikkels in de kamer**.
+Snoezelgeluiden zijn voor de een **storend**, voor de ander een **slaaphulp**. Licht op de deur of onder bed werkt net uitnodigend om op te staan. De prikkel moet zich aan het hoofddoel (het bed) bevinden.
 <br clear="all">
+
+De _breadcrumbs_ komen als winnaar uit zowel de gesprekken, als de enquête. Dit kan worden toegeschreven aan de **intuïtiviteit** (basale aantrekking van licht in ‘t donker), de **autonome werking** (geen complexe interactie en leercurve), de **herkenbaarheid** (domotica), eenvoudige **integreerbaarheid** en het **beperken van storende prikkels in de kamer**.
+
 
 ### Conclusies & implicaties
 
