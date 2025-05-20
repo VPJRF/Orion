@@ -163,10 +163,10 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 <br>
 
 > 📌 **_Design Requirements_**
-> \1. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
-> \2. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
-> \3. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
-> \4. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
+> - 1. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
+> - 2. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> - 3. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
+> - 4. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
 
 ## Definition I
 
@@ -224,11 +224,11 @@ De _breadcrumbs_ komen als winnaar uit zowel de gesprekken, als de enquête. Dit
 Een **verlichte nachthal** en een hulp bij het oriënteren door een **slimme aansturing** verlaagt het risico op dolen en vallen. Volledige autonomie van de PD veroorzaak teveel ongerustheid bij de meeste MZs. Een adequate **feedback** is dus noodzakelijk.
 
 > 📌 **_Design Requirements_**
-> 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap<br>
-> 2.1. **Helpt bij oriëntatie naar badkamer of toilet en terug naar bed**<br>
-> 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)<br>
-> 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**<br>
-> 3.3. Gedurende de nacht zijn er **geen storende prikkels in de kamer** (geen geluid, max. 1-5 lux)
+> - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
+> - 2.1. **Helpt bij oriëntatie naar badkamer of toilet en terug naar bed**
+> - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
+> - 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**
+> - 3.3. Gedurende de nacht zijn er **geen storende prikkels in de kamer** (geen geluid, max. 1-5 lux)
 
 ## Definition II
 
@@ -293,10 +293,10 @@ Bij het testen bij PD wordt duidelijk dat de **dementiespecifieke _featuritis_ s
 Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpmiddelen, die stigmatiserend kunnen werken, de acceptatie van het basisproduct in de weg staan en de kostprijs onnodig opdrijven. **Spraak, licht en detectie definiëren het _minimum viable product_.** Bij de PD zou het product en _mental model_ van nachtverlichting met een aangename, subtiele geheugensteun moeten evoceren. Volgens de _fluency heuristic_ zou een geleidelijke introductie van de hulpfuncties de acceptatie ten goede komen.
 
 > 📌 **_Design Requirements_**
-> 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
-> 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
-> \5. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
-> \6. Een installatie heeft een **maximale consumentenkostprijs van € 800*
+> - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
+> - 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
+> - 5. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
+> - 6. Een installatie heeft een **maximale consumentenkostprijs van € 800*
 
 <img src="img/Storyboard locaties.png">
 
