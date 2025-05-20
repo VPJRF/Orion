@@ -182,12 +182,18 @@ De definition fase wordt gestart met een **design sprint** waarin de **how might
 
 Op vandaag gebeurt het dat de PD gaat dwalen na op te staan voor een toiletbezoek. De waakzame MZ zal ’s nachts telkens opstaan om de PD opnieuw te slapen te helpen.
 
-<img align="center" src="img/Storyboard huidige situatie.png" width=700>
+<p align="center">
+  <img src="img/Storyboard huidige situatie.png" width=700>
+</p>
 
 De eerste productiteratie is een lichtgevende klink op de slaapkamerdeur. Op basis van kleur wordt onderscheid gemaakt tussen dag en nacht. Een stem biedt tijdgebonden duiding. De klink onderscheidt de kamerdeur van de andere deuren.
 
-<img align="center" src="img/Storyboard dag-nacht.png" width=700>
-<img align="center" src="img/Storyboard orientatie.png" width=700>
+<p align="center">
+  <img src="img/Storyboard dag-nacht.png" width=700>
+</p>
+<p align="center">
+  <img src="img/Storyboard orientatie.png" width=700>
+</p>
 
 > 🌊 Wave 1 – **Conceptuele prototypes** – stimuli
 > - **klinkklok**: zoals hierboven beschreven
