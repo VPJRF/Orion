@@ -182,12 +182,12 @@ De definition fase wordt gestart met een **design sprint** waarin de **how might
 
 Op vandaag gebeurt het dat de PD gaat dwalen na op te staan voor een toiletbezoek. De waakzame MZ zal ’s nachts telkens opstaan om de PD opnieuw te slapen te helpen.
 
-<img src="img/Storyboard huidige situatie.png">
+<img align="center" src="img/Storyboard huidige situatie.png" width=700>
 
 De eerste productiteratie is een lichtgevende klink op de slaapkamerdeur. Op basis van kleur wordt onderscheid gemaakt tussen dag en nacht. Een stem biedt tijdgebonden duiding. De klink onderscheidt de kamerdeur van de andere deuren.
 
-<img src="img/Storyboard dag-nacht.png">
-<img src="img/Storyboard orientatie.png">
+<img align="center" src="img/Storyboard dag-nacht.png" width=700>
+<img align="center" src="img/Storyboard orientatie.png" width=700>
 
 > 🌊 Wave 1 – **Conceptuele prototypes** – stimuli
 > - **klinkklok**: zoals hierboven beschreven
@@ -260,7 +260,7 @@ Een **MoSCoW Evaluation** helpt de essentie te destilleren.
 
 #### Literature review (N=1)
 
-Het artikel **Wandering and Sundowning  in Dementia** [^3] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden ** verergeren de neuropsychiatrische symptomen. Preventieve maatregelen zijn **meer beweging en zonlicht overdag**. Acute maatregelen zijn het voorzien van een **rustige, goed verlichte omgeving** en **aroma- en muziektherapie**.
+Het artikel _Wandering and Sundowning  in Dementia_ [^3] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden** verergeren de neuropsychiatrische symptomen. Preventieve maatregelen zijn **meer beweging en zonlicht overdag**. Acute maatregelen zijn het voorzien van een **rustige, goed verlichte omgeving** en **aroma- en muziektherapie**.
 
 > 🌊 Aroma en muziek worden als rustgevende toegevoegd aan de Wave 2 prototypes. De geur van eucalyptus, rustgevende [geluiden]( https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b) en lichtprojecties creëren een snoezelervaring voor ’t slapen. De geur van koffie vergezeld de lichtwekker.
 
@@ -274,7 +274,7 @@ Het artikel **Wandering and Sundowning  in Dementia** [^3] onderscheidt drie dee
 #### User review (N=1)
 
 Een gesprek met de experte fixatie en valpreventie van WZC St-Eligius geeft inzicht in de waarde van het product in de context van een woonzorgcentrum.
--	**Spraakberichten** zoals _”het is nog nacht” zou de nachtdienst veel werk kunnen besparen. Ook in aanleunflats of thuissituaties waar de PD alleen slaapt, hoeft geluid niet uit de kamer geweerd te worden.
+-	**Spraakberichten** zoals _”het is nog nacht”_ zou de nachtdienst veel werk kunnen besparen. Ook in aanleunflats of thuissituaties waar de PD alleen slaapt, hoeft geluid niet uit de kamer geweerd te worden.
 -	In WZC zou **feedback** via **DECT** moeten komen. Een instelbare gevoeligheid is wenselijk. MZs hebben tegenwoordig bijna allemaal een **smartphone**.
 -	In WZC kent **aromatherapie** een belangrijke plek. Geuren als **eucalyptus, yland-ylang, sinaasappel en citroen** worden gebruikt voor het bestrijden van nervositeit, angst, boosheid, verwarring, slapeloosheid, …
 
