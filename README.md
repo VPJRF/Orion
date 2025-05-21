@@ -26,15 +26,11 @@ Door de hulp kan de PD ’s nachts zijn plan trekken. De MZ kan met een gerust h
 
 **_Orion_** *belooft zo de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten en maakt zo thuiszorg aangenamer en duurzamer.*
 
-
-`TODO❗️update hero image`
-
-`TODO❗️insert explainer video`
+> 🎥 [Ontdek hoe Orion werkt](https://www.youtube.com/watch?v=VIDEO_ID)
 
 <p align="left">
-  <img src="img/Hero%20beacon.png" width="32%">
-  <img src="img/Hero%20breadcrumb.png" width="32%">
-  <img src="img/Hero%20widget.png" width="33%">
+  <img src="img/Hero bed.png" width="49%">
+  <img src="img/Hero nachthal.png" width="49%">
 </p>
 
 ## Introductie
@@ -375,8 +371,7 @@ Voor elke gebruikscontext worden telkens bij vier personen een esthetische en em
 
 **Cognitie en emotie**
 -	Licht en geluid werken ook bij kinderen geruststellend en oriënterend.
--	Kinderen scannen hun volledige omgeving, waar bij **ouderen de blik naar beneden** is gericht.
-<br clear=”all”>
+-	Kinderen scannen hun volledige omgeving, waar bij **ouderen de blik naar beneden** is gericht.<br clear=”all”>
 
 ### Conclusies & implicaties
 
