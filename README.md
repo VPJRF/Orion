@@ -195,7 +195,7 @@ De eerste productiteratie is een lichtgevende klink op de slaapkamerdeur. Op bas
   <img src="img/Storyboard orientatie.png" width=700>
 </p>
 
-> 🌊 Wave 1 – **Conceptuele prototypes** – stimuli
+> 🌊 Wave 1 – **conceptuele prototypes** – stimuli
 > - **klinkklok**: zoals hierboven beschreven
 > - **breadcrumbs**: slimme lichtbronnen die helpen bij veilig en zelfstandig nachtelijk navigeren
 > - **vloerlicht**: een vloerdetector die nachtelijk opstaan detecteert en met licht dag-nacht onderscheid maakt en met rustgevend geluid helpt om opnieuw in slaap te vallen
@@ -250,15 +250,15 @@ Uit de eerste feedback blijkt dat de verstoorde nachtrust uiteenlopende oorzaken
 
 De bevindingen worden getest in verder uitgewerkte prototypes. De _breadcrumbs_ worden uitgebreid met de _beacon_. Een variant specifiek voor aan bed, met snoezelfuncties en een gerichte led die niet storend is voor de mee-slapende.
 
-> 🌊 Wave 2 – **Multisensory prototypes** – features
+> 🌊 Wave 2 – **multisensory prototypes** – features
 > - **Beacon**: multisensorieel toestel bij het bed (IR-afstandsbediening)
 > - **Breadcrumb**: bewegingsgestuurde lampjes – (IR-afstandsbediening)
 > - **Kussen** en **knuffel**: ademhaling simulerende comfortobjecten
 
 <img src="img/Prototypes wave 2.png">
 
-Uit **Benchmarks** kan worden geconcludeerd dat er betere varianten van het kussen (Somnox) en de knuffel (Moonie) op de markt zijn. De geïntegreerde functies worden met **Wizard of Oz testing (N=3)** bij de doelgroep getest. Voorafgaand wordt de werking uitvoerig besproken in een ongeplande **User Evaluation (N=1)** met een experte fixatie en valpreventie.
-Een **MoSCoW Evaluation** helpt de essentie te destilleren.
+Uit **benchmarks** kan worden geconcludeerd dat er betere varianten van het kussen (Somnox) en de knuffel (Moonie) op de markt zijn. De geïntegreerde functies worden met **Wizard of Oz testing (N=3)** bij de doelgroep getest. Voorafgaand wordt de werking uitvoerig besproken in een ongeplande **user evaluation (N=1)** met een experte fixatie en valpreventie.
+Een **MoSCoW evaluation** helpt de essentie te destilleren.
 
 ### Resultaten
 
@@ -268,14 +268,17 @@ Een **MoSCoW Evaluation** helpt de essentie te destilleren.
 
 Het artikel _Wandering and Sundowning  in Dementia_ [^3] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden** verergeren de neuropsychiatrische symptomen. Preventieve maatregelen zijn **meer beweging en zonlicht overdag**. Acute maatregelen zijn het voorzien van een **rustige, goed verlichte omgeving** en **aroma- en muziektherapie**.
 
-> 🌊 Aroma en muziek worden als rustgevende toegevoegd aan de Wave 2 prototypes. De geur van eucalyptus, rustgevende [geluiden]( https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b) en lichtprojecties creëren een snoezelervaring voor ’t slapen. De geur van koffie vergezeld de lichtwekker.
+> 🌊 Aroma en muziek worden als rustgevende toegevoegd aan de _wave 2 prototypes_. De geur van eucalyptus, rustgevende [geluiden]( https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b) en lichtprojecties creëren een snoezelervaring voor ’t slapen. De geur van koffie vergezeld de lichtwekker.
 
 <p align="left">
   <img src="img/GIF Sky.gif" width="24%">
   <img src="img/GIF Breathing.gif" width="24%">
   <img src="img/GIF Sunrise.gif" width="24%">
   <img src="img/GIF Alarm.gif" width="24%">
-</p> 	
+</p>
+
+Bij het _ethnographic fieldwork_ kwam aan bod dat een donkere dorpel door sommige PD als een drempel wordt ervaring. Ook deze paper vermeld _”taping a **2-foot black threshold** in 
+front of each door to serve as a visual barrier”_.
 
 #### User review (N=1)
 
@@ -288,6 +291,8 @@ Een gesprek met de experte fixatie en valpreventie van WZC St-Eligius geeft inzi
 
 Bij het testen bij PD wordt duidelijk dat de **dementiespecifieke _featuritis_ schaamte en confrontatie veroorzaakt**, wat een vlotte **acceptatie in de weg staat**. Een MoSCoW evaluation brengt de functies terug tot licht en spraak.
 
+Onvoorziene externe prikkels en afwijkingen van de normale dagroutine veroorzaken onrust en verwardheid bij PD wat de _ecologic validity_ danig beïnvloed.
+
 <p align="left">
   <img src="img/Wizard of Oz bed.png" width="25.1%">
   <img src="img/Wizard of Oz toilet.png" width="44.6%">
@@ -296,55 +301,98 @@ Bij het testen bij PD wordt duidelijk dat de **dementiespecifieke _featuritis_ s
 
 ### Conclusies & implicaties
 
-Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpmiddelen, die stigmatiserend kunnen werken, de acceptatie van het basisproduct in de weg staan en de kostprijs onnodig opdrijven. **Spraak, licht en detectie definiëren het _minimum viable product_.** Bij de PD zou het product en _mental model_ van nachtverlichting met een aangename, subtiele geheugensteun moeten evoceren. Volgens de _fluency heuristic_ zou een geleidelijke introductie van de hulpfuncties de acceptatie ten goede komen.
+Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpmiddelen, die stigmatiserend kunnen werken, de acceptatie van het basisproduct in de weg staan en de kostprijs onnodig opdrijven. **Spraak, licht en detectie definiëren het _minimum viable product_**, dat in deze vorm ook voor ouderen zonder dementie een hulp kan bieden.   Bij de PD zou het product en _mental model_ van nachtverlichting met een aangename, subtiele geheugensteun moeten evoceren. Volgens de _fluency heuristic_ zou een geleidelijke introductie van de hulpfuncties de acceptatie ten goede komen.
 
 > 📌 **_Design Requirements_**
 > - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
 > - 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
-> - 5\. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
-> - 6\. Een installatie heeft een **maximale consumentenkostprijs van € 800*
+> - 4.1\. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
+> - 5\. **Maximale consumentenkostprijs van € 150 per module*
 
 <p align="center">
   <img src="img/Storyboard locaties.png" width=700>
 </p>
----
 
-`TODO❗️voeg vlinderlamp uit in beeld en uitleg`
+Een lichtlijn wordt als variant op de dikke zwarte lijn als barrière geïntroduceerd, door de _breadcrumbs_ van twee vleugels te voorzien.
 
-## Develop
-
-### Doelstellingen
-
-Wave 3: Impressies over look & feel bij verschillende doelgroepen in kaart brengen.
-- Ouders met jonge kinderen
-- Personen rond de pensioenleeftijd
-- Ouderen 75+ (met & zonder dementie)
-
-Wave 4: Functionaliteit testen bij een ruimer doelpubliek, o.a. ouders met jonge kinderen, m.b.v. een volledig autonome test.
-
-Wave 5: Funcionaliteit en CMF integreren voor een finale usability en UX test.
-
-### Materialen en methoden
-
-#### Morfologische matrix
-<p align="right">
-  <img src="img/Prototypes morfologische matrix.png" width="34.1%">
-  <img src="img/Prototypes wave 3 CMF.png" width="63%">
+<p align="left">
+  <img src="img/Vlinder storyboard.png" width="41%">
+  <img src="img/Vlinder mockup open.png" width="19%">
+  <img src="img/Vlinder mockup half.png" width="19%">
+  <img src="img/Vlinder mockup lijn.png" width="19%">
 </p>
 
-#### 🌊 Prototypes wave 3 – look & feel
+## Develop I – look & feel
 
-- 5 varianten van vlinderlamp
-- BERT-testing
-- Semi-structured interviews
+ ### Doelstellingen
 
-| | Prototypethumbnail | Metafoor | Symboliek | Kleur | Materiaal | Afwerking | Typologie | Affordance | Signifier |
-| - | - | - | - | - | - | - | - | - | - |
-| 1 | <img src="img/Prototypes boek.png"> | Boek | Kennis <br> Rust | Aardetinten <br> Donker | Ruw | Mat <br> Onbehandeld | (Recht)hoekig | Draaien of richten | Vorm en massa suggereren handeling |
-| 2 | <img src="img/Prototypes vlinder.png"> | Vlinder | Lichtheid <br> Speelsheid <br> Zachtheid | Zachte grijstinten | Vilt | Lichtdoorlatend <br> Zacht | Ronde vorm <br> Verticale asymmetrie | Stekker inpluggen <br> Tuimelschakelaar | Rechte rand als oriëntatie boven/onder <br> Zichtbare stekker en schakelaar op kabel |
-| 3 | <img src="img/Prototypes discobal.png"> | Discobal | Futuristisch <br> Opvallend <br> Energiek | Felle kleuren <br> Color blocking | Textiel en metaal | Reflecterend | Samengesteld uit primaire volumes | Aandrukken van knop | Contrasterende drukknop direct zichtbaar |
-| 4 | <img src="img/Prototypes schelp.png"> | Schelp | Veiligheid <br> Clinisch | Monochroom | Metaal en plastic | Glad <br> Clean | Organisch <br> Vloeiende overgangen <br> Afgerond | Openen/sluiten om licht te activeren | Omgeplooide rand toont sluiting en gebruiksrichting |
-| 5 | <img src="img/Prototypes pacman.png"> | Pacman | Retro <br> Herkenbaar | Natuurlijk <br> Houtkleurig | Hout | Natuurlijk <br> Vernist | Samengesteld uit cirkels <br> Compact | Schuiven om licht aan/uit te zetten | Spleet/gleuf als subtiele richtinggever |
+Er wordt getracht het product **minder stigmatiserend** te maken, door de **doelgroep uit te breiden** en het beter in de omgeving te integreren. Het _MVP_ is ook voor ouderen zonder dementie een hulp. De oriëntatiehulp kan bovendien helpen bij kinderen die de babyfoon ontgroeid zijn.   
+>❓ _Hoe kunnen we de **acceptie en adaptatie optimaliseren?**_
+> - Welke **use-cases** komen in aanmerking?
+> - Hoe zijn **look & feel** en doelgroep gerelateerd?
+
+### Materiaal & methoden
+
+<img align="right" src="img/Prototypes wave 3 CMF.png" width=400>
+
+Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een verschillend referentiekader en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden de het kleur- en materiaalgebruik. Een **morphologische matrix** stuurt de ontwikkeling van de nieuwe prototype vatianten.
+
+<br clear=”all”>
+
+> 🌊 Wave 3 – **CMF prototypes** – look & feel
+> - **Boek**: kennis en rust – aardetinten, ruw
+> - **Vlinder**: licht, speels en zacht – grijstinten, textiel
+> - **Discobal**: futuristisch, opvallend, energiek – fluo color blocking, reflecterend
+> - **Schelp**: veilig, clinisch – monochroom, metallic
+> - **Pacman**: retro, herkenbaar – natuurlijk, hout
+
+<p align="left">
+  <img src=" img/Prototypes boek.png" width="19%">
+  <img src=" img/Prototypes vlinder.png" width="19%">
+  <img src=" img/Prototypes discobal.png" width="19%">
+  <img src=" img/Prototypes schelp.png" width="19%">
+  <img src=" img/Prototypes pacman.png" width="19%">
+</p>
+
+Voor elke gebruikscontext worden telkens bij vier personen een esthetische en emotionele evaluatie gevraagd via **Interactive BERT-survey (N=12)**. Tijdens de beoordeling worden vragen over gebruikssituaties en interacties gesteld.
+
+### Resultaten
+
+#### Interactive BERT-survey (N=12)
+
+<img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
+
+**CMF**
+-	_Pacman_ combineert bescheidenheid en kalmte en stijlvolheid met een zekere tactiele aantrekkelijkheid, wat het geliefd maakt bij zowel de ouderen als bij de jonge ouders. Het **hout en de ronde vorm** zijn herkenbaar als een eenvoudig te integreren **interieurobject**.
+-	Ouders hechten belang aan **stevigheid en reinigbaarheid**.
+-	**Kinderen verkiezen als enige felle kleuren**.
+**Context**
+-	**Mobiele of geïntegreerde toestellen** genieten de voorkeur aangezien er vaak geen geschikte stopcontacten beschikbaar zijn.
+-	Te fel licht in de gang kan tot **nachtblindheid** leiden.
+
+**Gebruiksgemak**
+-	Ouderen waarderen **eenvoudige besturing** (enkel aan/uit) met duidelijke _signifiers_ zoals **fysieke knoppen**.
+-	Ze hebben moeite met automatische of onduidelijke functies, wat wijst op **eenvoudige, voorspelbare interacties**.
+
+**Cognitie en emotie**
+-	Licht werkt geruststellend voor kinderen die bang zijn in het donker. Licht achter een deur werkt oriënterend. Een herkenbare stem helpt bij het inslapen.
+-	In tegenstelling tot ouderen met dementie, zijn kinderen gevoeliger voor subtiele prikkels, kunnen kleurcoderingen worden aangeleerd, maar verliezen sneller interesse. Ze scannen hun volledige omgeving, waar ouderen hun blik naar beneden is gericht.
+-	De cirkel met verticale lichtlijn werd geassocieerd met een schrikwekkend kattenoog.
+
+<br clear=”all”>
+
+### Conclusies & implicaties
+
+<img align="right" src="img/Prototypes morfologische matrix.png " width=400>
+
+De testresultaten tonen aan dat de **visuele subtiliteit, materialiteit en flexibiliteit** van het ontwerp essentieel zijn voor brede aanvaardbaarheid. Vooral bij ouderen is er een nood aan **intuïtieve, niet-opdringerige** oplossingen die rust uitstralen en passen binnen het bestaande interieur. Dit vraagt om een verschuiving van ‘functionele gadgets’ naar **vertrouwde, integreerbare objecten**. De volgende ontwikkelingsfase moet inzetten op **minimalistische vormgeving, zachte signalen en contextafhankelijke activatie**, met duidelijke **differentiatie per doelgroep**. Deze inzichten sturen het product richting een laagdrempelige, verplaatsbare en visueel aanvaardbare nachtelijke assistent, bruikbaar zowel thuis als in tijdelijke situaties zoals logeerpartijen of ziekenhuisopnames.
+
+<br clear=”all”>
+
+> 📌 **_Design Requirements_**
+> - Laat **plaatsing en configuratie** door ouderen 75+ toe
+> - Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
+> - Bestaat uit **metaal, hout en/of plastic** en komt in **3 esthetische varianten**
 
 #### 🌊 Prototypes wave 4 – UI & UX
 
