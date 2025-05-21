@@ -26,12 +26,12 @@ Door de hulp kan de PD ’s nachts zijn plan trekken. De MZ kan met een gerust h
 
 **_Orion_** *belooft zo de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten en maakt zo thuiszorg aangenamer en duurzamer.*
 
-> 🎥 [Ontdek hoe Orion werkt](https://www.youtube.com/watch?v=VIDEO_ID)
-
 <p align="left">
   <img src="img/Hero bed.png" width="49%">
   <img src="img/Hero nachthal.png" width="49%">
 </p>
+
+> 🎥 [Ontdek hoe Orion werkt](https://www.youtube.com/watch?v=VIDEO_ID)
 
 ## Introductie
 
@@ -501,14 +501,13 @@ Uitbreidbaar
 ### Electronica
 Lichtarmatuur (x3)
 - [Arduino Nano IoT](https://www.gotron.be/arduino-nano-33-iot-zonder-headers.html)
+- [Raspberry](https://www.raspberrypi.com/products/raspberry-pi-5/)
 - [Led-ring](https://www.otronic.nl/nl/24-bit-rgb-leds-ws2812b-cirkel-rond-neopixel.html?source=googlebase&gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1GCSt1FU_-lqwhs-2C0fQgxupHfj0l1B38h1cv5iahTJv1isrumIbcaAt71EALw_wcB#gad_source_1)
-- [PIR sensor](https://www.gotron.be/pir-motion-sensor.html) (x2)
-- [Potentiometer](https://www.gotron.be/potentiometer-mono-10-kohm-logaritmisch.html)
+- [PIR sensor](https://www.gotron.be/pir-motion-sensor.html) (x1)
 - [AA batterijhouders](https://www.gotron.be/energie/batterijen/batterijhouder/batterijhouder-voor-1-x-aa-cel-met-draden.html) (x3)
 - AA batterijen (x3)
 - [Step-up converter](https://www.otronic.nl/nl/mt3608-2a-max-dc-dc-step-up-power-module-booster-p.html)
-- [Schakelaar](https://www.gotron.be/enkelpolige-schakelaar-rond-on-off-10a-250vac-spst.html)
-- Raspberry Pi
+- [Schakelaar](https://www.gotron.be/componenten/schakelmat/schakelaars/toestel/toestelschakelaar-enkelpolig-on-off-spst-6a-250v-zwart.html)
 
 Luidspreker add-on (x1)
 - [MP3-module](https://www.gotron.be/dfplayer-pro-een-mini-mp3-speler-met-128mb-geheugen-onboard.html)
@@ -523,22 +522,16 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 
 ### Software
 - Arduino code voor timing en communicatie (licht en spraak)
+- Raspberry pi code voor state switching
 - Applicatie voor configuratie
 
 ## Kritische reflectie
 
-`TODO❗️herschrijf/update na wave 5`
+De _technological devide_ en de _status quo bias_ blijven een barrière, zowel voor diepgaand gebruikersonderzoek als de uiteindelijke acceptatie. Vooral professionele zorgverleners en af en toe een mantelzorger zien potentieel in het product, wat aangeeft dat Orion op de goede weg is.
 
-Op een aantal van onze vragen lijken we nog geen helder, breed gedragen antwoord te hebben. Bovendien merken we op dat er input van professionele zorgverleners en mantelzorgers niet altijd overeenkomen. MZ zijn kritische en PD op momenten zelf defensief. Hoewel het net hen is die we proberen te helpen, zijn we er nog niet in geslaagd om een antwoord op hun werkelijke vragen te bieden. 
-- In de eerste plaats zou de status quo bias hierin een rol kunnen spelen, doch zijn er voldoende MZs die bestaande hulpmiddelen omarmen. 
-- Een tweede aspect is de ogenschijnlijke noodzaak om de ecologische validiteit van onze testen nog te verhogen om werkelijke feedback te krijgen. Hierbij is het van groot belang dat er zo min mogelijk verwarring bij de PD veroorzaakt wordt, aangezien dit in een potentiële emotionele nasleep kan resulteren. 
-- Een derde aspect is het enorme belang van het menselijke aspect. De nachtelijke interacties tussen MZ en PD dienen om zowel de PD als de MZ gerust te stellen. De achterliggende redenen zijn zo verschillend per individu en per voorval dat technologie onmogelijk hetzelfde kan bereiken dan een complex menselijk contact.
+Het product ondersteunt momenteel een aantal specifieke situaties. Echter, er zijn nog diverse randgevallen die onderzocht moeten worden om de werking robuuster en breder toepasbaar te maken. De introductie van kunstmatige intelligentie om nachtelijke patronen te analyseren, is hierbij een mogelijke benadering.
 
-Er zijn 2 strategieën denkbaar om dit project verder te zetten.
-1. We vernauwen opnieuw de doelgroep en spilten ons toe op een specifiek, doch vaak voorkomend probleem en werken toe naar een gespecialiseerde oplossing.
-2. We maken een een product dat in zijn basis voor iedereen bruikbaar is, maar achterliggend een reeks aan opties heeft die op maat van de gebruiker geactiveerd kunnen worden.
-
-Momenteel zijn we dit semenster geeindigd met het tweede, maar misschien is het interessanter om in het tweede semester op het eerste in te zetten. Dit zal het moeilijker maken om de geschikte testpersonen te verzamelen, maar zal tot concretere resultaten leiden. Het is nadien nog steeds mogelijk om in een latere fase op de tweede strategie terug te vallen. Maar dan is er wel de zekerheid dat het op zijn minst voor een klein deel een échte oplossing biedt.
+Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij nader inzien niet nodig om deze doelgroep verder te behandelen. Het aanpassen van de vormgeving en het instelbaar maken van bepaalde (potentieel stigmatiserende) functies kunnen de adaptatiegraad verhogen. De intuïtieve werking voorkomt een leercurve, waardoor een vroege introductie geen noodzaak is.
 
 ## Bijlagen
 
