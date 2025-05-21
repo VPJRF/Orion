@@ -376,9 +376,7 @@ Voor elke gebruikscontext worden telkens bij vier personen een esthetische en em
 **Cognitie en emotie**
 -	Licht en geluid werken ook bij kinderen geruststellend en oriënterend.
 -	Kinderen scannen hun volledige omgeving, waar bij **ouderen de blik naar beneden** is gericht.
-
 <br clear=”all”>
-
 
 ### Conclusies & implicaties
 
@@ -394,7 +392,7 @@ Het **interieurobject** moet **robuust**, **hygiënisch**, **subtiel** en **pers
 
  ### Doelstellingen
 
-De fysieke, cognitieve en sensoriële ergonomie verfijnen en het bepalen van de _affordances_ en _signifiers_ met de focus op **gebruik** en **begrip**.
+De **fysieke, cognitieve en sensoriële ergonomie** verfijnen en het bepalen van de _affordances_ en _signifiers_ met de focus op gebruik en begrip.
 > ❓ **Wat maakt de interactie (UI) en ervaring (UX) aangenaam, doeltreffend en niet-intrusief?**
 
 ### Materiaal & methoden
