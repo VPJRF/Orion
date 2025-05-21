@@ -307,7 +307,7 @@ Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpm
 > - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
 > - 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
 > - 4.1\. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
-> - 5\. **Maximale consumentenkostprijs van € 150 per module*
+> - 5\. **Maximale consumentenkostprijs van € 150 per module**
 
 <p align="center">
   <img src="img/Storyboard locaties.png" width=700>
@@ -316,10 +316,10 @@ Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpm
 Een lichtlijn wordt als variant op de dikke zwarte lijn als barrière geïntroduceerd, door de _breadcrumbs_ van twee vleugels te voorzien.
 
 <p align="left">
-  <img src="img/Vlinder storyboard.png" width="41%">
   <img src="img/Vlinder mockup open.png" width="19%">
   <img src="img/Vlinder mockup half.png" width="19%">
   <img src="img/Vlinder mockup lijn.png" width="19%">
+  <img src="img/Vlinder storyboard.png" width="41%">
 </p>
 
 ## Develop I – look & feel
