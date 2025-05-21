@@ -360,216 +360,145 @@ Voor elke gebruikscontext worden telkens bij vier personen een esthetische en em
 
 #### Interactive BERT-survey (N=12)
 
-<img src="img/Prototypes wave 3 bert.svg" align="right" width="300">
+<img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
 
 **CMF**
--	_Pacman_ combineert bescheidenheid en kalmte en stijlvolheid met een zekere tactiele aantrekkelijkheid, wat het geliefd maakt bij zowel de ouderen als bij de jonge ouders. Het **hout en de ronde vorm** zijn herkenbaar als een eenvoudig te integreren **interieurobject**.
+-	De **houten, ronde vorm** van _pacman is het meest prototypische **interieurobject**.
 -	Ouders hechten belang aan **stevigheid en reinigbaarheid**.
--	**Kinderen verkiezen als enige felle kleuren**.
+-	Enkel **kinderen verkiezen felle kleuren**.
+
 **Context**
 -	**Mobiele of geïntegreerde toestellen** genieten de voorkeur aangezien er vaak geen geschikte stopcontacten beschikbaar zijn.
--	Te fel licht in de gang kan tot **nachtblindheid** leiden.
 
 **Gebruiksgemak**
--	Ouderen waarderen **eenvoudige besturing** (enkel aan/uit) met duidelijke _signifiers_ zoals **fysieke knoppen**.
--	Ze hebben moeite met automatische of onduidelijke functies, wat wijst op **eenvoudige, voorspelbare interacties**.
+-	Ouderen 75+ waarderen **eenvoudige aan/uit besturing** met duidelijke _signifiers_ zoals **fysieke knoppen**. Ze hebben moeite met onvoorspelbare automatische functies.
 
 **Cognitie en emotie**
--	Licht werkt geruststellend voor kinderen die bang zijn in het donker. Licht achter een deur werkt oriënterend. Een herkenbare stem helpt bij het inslapen.
--	In tegenstelling tot ouderen met dementie, zijn kinderen gevoeliger voor subtiele prikkels, kunnen kleurcoderingen worden aangeleerd, maar verliezen sneller interesse. Ze scannen hun volledige omgeving, waar ouderen hun blik naar beneden is gericht.
--	De cirkel met verticale lichtlijn werd geassocieerd met een schrikwekkend kattenoog.
+-	Licht en geluid werken ook bij kinderen geruststellend en oriënterend.
+-	Kinderen scannen hun volledige omgeving, waar bij **ouderen de blik naar beneden** is gericht.
 
 <br clear=”all”>
+
 
 ### Conclusies & implicaties
 
-<img align="right" src="img/Prototypes morfologische matrix.png " width=400>
-
-De testresultaten tonen aan dat de **visuele subtiliteit, materialiteit en flexibiliteit** van het ontwerp essentieel zijn voor brede aanvaardbaarheid. Vooral bij ouderen is er een nood aan **intuïtieve, niet-opdringerige** oplossingen die rust uitstralen en passen binnen het bestaande interieur. Dit vraagt om een verschuiving van ‘functionele gadgets’ naar **vertrouwde, integreerbare objecten**. De volgende ontwikkelingsfase moet inzetten op **minimalistische vormgeving, zachte signalen en contextafhankelijke activatie**, met duidelijke **differentiatie per doelgroep**. Deze inzichten sturen het product richting een laagdrempelige, verplaatsbare en visueel aanvaardbare nachtelijke assistent, bruikbaar zowel thuis als in tijdelijke situaties zoals logeerpartijen of ziekenhuisopnames.
-
-<br clear=”all”>
+Het **interieurobject** moet **robuust**, **hygiënisch**, **subtiel** en **personaliseerbaar** zijn. De **interactie intuïtief en eenvoudig** met een **fysieke aan/uit schakelaar**. Een module is **mobiel** en **onafhankelijk van stopcontacten**.
 
 > 📌 **_Design Requirements_**
-> - Laat **plaatsing en configuratie** door ouderen 75+ toe
-> - Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
-> - Bestaat uit **metaal, hout en/of plastic** en komt in **3 esthetische varianten**
+> - 4.2. Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
+> - 6\. Laat **plaatsing en configuratie** door ouderen 75+ toe
+> - 7\. Bestaat uit **metaal, hout en/of plastic**
+> - 7.1. Komt in **3 esthetische varianten**
 
-#### 🌊 Prototypes wave 4 – UI & UX
+## Develop II – UI & UX (300)
 
-- 3 (varianten van) breadcrumbs geconnecteerd over wifi
+ ### Doelstellingen
 
-`TODO❗️welke data kunnen/willen/mogen we verzamelen?`
+De fysieke, cognitieve en sensoriële ergonomie verfijnen en het bepalen van de _affordances en _signifiers_ met de focus op **gebruik** en **begrip**.
+> ❓ **Wat maakt de interactie (UI) en ervaring (UX) aangenaam, doeltreffend en niet-intrusief?**
 
-`TODO❗️technieken en prototypes toevoegen`
+### Materiaal & methoden
 
-`TODO❗️update schema`
+De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met een BLE bediend UX prototype. Voor de fysieke interacties wordt UI mockup gebruikt. De _ecological validity_ wordt gegarandeerd door de toestellen in een donkere omgeving op de deur of naast het bed te plaatsen. 
 
-<p align="right">
-  <img src="img/Prototypes wave 4 System Architecture.jpg" width="63%">
-  <img src="img/Prototypes wiring.jpg" width="33.6%">
+> 🌊 Wave 4 – **UI & UX prototypes** – comfort & gebruiksgemak
+> - **UI mockup**: aan/uit bediening
+> - **UX bluetooth remote**: licht- en geluidspecificaties
+
+<p align="left">
+  <img src=" img/Prototypes UX opaak.png" width="32%">
+  <img src=" img/Prototypes UX translucent.png" width="32%">
+  <img src=" img/Prototypes UI knoppen.png" width="32%">
 </p>
 
-<img src="img/Prototypes UI options.png">
-
-#### 🌊 Prototypes wave 5 – pilot testing
-
-`TODO❗️technieken en prototypes toevoegen`
-
-<details>
-  <summary>Reminders</summary>
-`TODO❗️conclusie 3 lampjes`<br>
-`TODO❗️conclusie 2 scenario's`<br>
-`TODO❗️update flow`<br>
-</details>
-<br>
-
-|state|/orion/bed|/orion/kamer|/orion/toilet|
-|-|-|-|-|
-|bed_uit|PIR=1<br>LED=1<br>BOX=1 (if=s1)|-|-|
-|kamer_uit|-|PIR=1|LED=1|
-|toilet_in|-|LED=1 (delay=2s)|IMU=1<br>LED=0|
-|toilet_uit|-|LED=1|IME=1+PIR=1<br>BOX=1 (if=s1\|\|s2)
-|kamer_in|LED=1|IMU=1<br>LED=0|-|
-|bed_in|PIR=1<br>LED=0|-|-|
-
-`s1` scanario 1: PD staat vaak verward op.<br>
-`s2` scenario 2: PD raakt verward bij een toiletbezoek.
+Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten worden in een **feature matrix** samengevat.
 
 ### Resultaten
 
-`TODO❗️interpretatie van de resultaten > cfr titels theorie in rapport`
+#### Wizard of Oz testing (N=3)
 
-#### Bert-testing (N=)
+**Visuele ergonomie**
+-	Een **translucente kap** maakt het toestel bij bed potentieel **geschikt als leeslamp**.
+-	Indirecte verlichting bij de **opake kap voorkomt verblinding** in de hal.
 
-<img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
+**Fysieke ergonomie**
+-	De trekschakelaar voldoet aan het _mental model_ van nachtverlichting bij ouderen, maar de PD kan het toestel onbedoeld uitschakelen.
+-	Een **voldoende grote**, voor de PD **verborgen wipschakelaar** geniet de voorkeur. 
 
-<u>Discobal (groen, 3)</u><br>
-scoort het meest expressief, energiek en speels, maar ook 
-dominant en minder subtiel. Deze eigenschappen sluiten 
-aan bij de voorkeur van kinderen, maar zijn minder geschikt 
-voor volwassen of oudere gebruikers die rust en subtiliteit 
-verkiezen. 
+**Auditieve ergonomie**
+-	**Duidelijkheid** en **herkenbaarheid** zijn cruciaal voor gehoorcomfort.
 
-<u>Boek (rood, 1)</u> en <u>Vlinder (geel, 2)</u><br>
-worden als meer klassevol, subtiel en stijlvol ervaren, met 
-de Boek-variant als de meest stevige en de Vlinder als het 
-meest minimalistisch. Deze scores passen goed bij de 
-voorkeuren van volwassenen en ouderen die op zoek zijn 
-naar rustige, niet-opdringerige objecten. 
+**Cognitieve ergonomie**
+-	De **rode** waarschuwingsanimaties evoceert het **brandalarm-metafoor** en werkt onrustwekkend.
+-	De **timer** animatie communiceert met de **klok-metafoor** helder en ganuanceerd.
 
-<u>Pacman (paars, 5)</u><br>
-combineert bescheidenheid, kalmte en stijlvolheid met 
-een zekere tactiele aantrekkelijkheid. Deze balans verklaart 
-waarom deze variant geliefd was bij de 
-pensioenleeftijdsgroep. De herkenbaarheid en rustige 
-uitstraling zorgen voor een gevoel van comfort zonder te 
-overweldigen. 
+<p align="left">
+  <img src=" img/Prototypes UX alarm.gif" width="200">
+  <img src=" img/Prototypes UX timer.gif" width="200">
+  <img src=" img/Prototypes UX wekker.gif" width="200">
+</p>
 
-<u>Schelp (blauw, 4)</u><br>
-scoort opvallend hoog op klassevol en speelsheid, wat een 
-interessante mix vormt, maar heeft een minder 
-uitgesproken profiel op andere assen. Dit wijst op een 
-neutrale tot positieve algemene indruk, zonder sterke 
-pieken of dalen. 
+### Conclusies & implicaties
 
-<br clear="all">
+Het type licht (direct of indirect) is afhankelijk van de positie. De aan/uit-bediening is eenvoudig voor de MZ maar verborgen voor de PD. Geluidsboodschappen hebben een grote invloed op de acceptatie en zijn sterk situatiegebonden. De feedback aan de MZ gebeurt op niet alarmerende wijze.
 
-#### UI optie bevraging (N=)
+> 📌 **_Design Requirements_**
+> - 1.3. Geeft feedback via een **klokanimatie**.
+> - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen
+> - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**
+> - 7.2. Afdekkap komt in een *opake en translucente* variant
 
-#### Pilot testing
+## Deliver – proof of concept (300)
 
-### Conclusies en implicaties
+ ### Doelstellingen
 
-## Design requirements
+Een _proof of concept_ door het verwerken van de producteisen in een volledig functioneel prototype om met de hoogst mogelijke _ecological validity_ te testen bij de werkelijke eindgebruiker.
 
-`TODO❗️requirements herschrijven en hierboven doorvoeren, strakker cfr les`
+> ❓**Vervult het product de vooropgestelde _How Might We_?**
+> - Wat zijn de limitaties van het product?
+> - Welk verder onderzoek is noodzakelijk?
 
-| ID | Design Requirement | Bron | Datum |
-|-|-|-|-|
-| **1** | **Vermindert de belasting van zorgverleners** | | |
-| 1.1 | Stuurt automatische meldingen als de PD langer dan [x] minuten afwezig is uit de slaapkamer (22:00–06:00). | Expert review | 13/12/2024 |
-| 1.2 | Registreert tijd, duur en route van nachtelijke verplaatsingen met een nauwkeurigheid van ±[x] meter. | Expert review | 13/12/2024 |
-| 1.3 | Synchroniseert meldingen via smartphone-app en/of DECT; configureerbaar door de zorgverlener. | Expert review | 13/12/2024 |
-| 1.4 | Laat de gevoeligheid van meldingen aanpassen via de app; biedt minstens 3 gevoeligheidsniveaus. | Expert review | 13/12/2024 |
-| **2** | **Verhoogt de zelfstandigheid en het welzijn van de PD** | | |
-| 2.1 | Activeert automatisch lichtpad en/of geluid binnen [x] seconden na detectie van beweging. | Interviews | 13/10/2024 |
-| 2.2 | Toont dag/nachtstatus via scherm of lichtkleur; update elke [x] minuten. | Interviews | 13/10/2024 |
-| 2.3 | Verwerkt geen audio- of video-opnames en laat volledige bewegingsvrijheid toe. | Ethnography | 15/10/2024 |
-| 2.4 | Is begrijpelijk zonder handleiding voor PD met MMSE-score ≥ [x]. | Think aloud | 13/12/2024 |
-| **3** | **Minimaliseert emotionele, cognitieve en fysieke belasting** | | |
-| 3.1 | Vermijdt signalen tussen 22:00 en 06:00 tenzij functioneel noodzakelijk. | Think aloud | 13/12/2024 |
-| 3.2 | Voorkomt plotselinge geluiden of fel licht (>300 lux) om schrikreacties te vermijden. | Think aloud | 13/12/2024 |
-| 3.3 | Laat licht- en geluidsintensiteit aanpassen tot minstens 3 niveaus. | Think aloud | 13/12/2024 |
-| 3.4 | Werkt minstens 1 jaar op batterij of is compatibel met standaard stroomadapters. | Cognitive walkthrough | 25/11/2024 |
-| **4** | **Bevordert succesvolle adoptie** | | |
-| 4.1 | Heeft een consumentenprijs van maximaal €800 inclusief btw. | State of the Art | 16/12/2024 |
-| 4.2 | Kan binnen 10 minuten worden geïnstalleerd zonder technische hulp. | Cognitive walkthrough | 25/11/2024 |
-| 4.3 | Introduceert functies geleidelijk via een onboarding flow in de app. | Think aloud | 13/12/2024 |
-| **5** | **Is fysiek, sensorisch en cognitief ergonomisch** | | |
-| 5.1 | ... | ... | ... |
-| 5.2 | ... | ... | ... |
-| 5.3 | ... | ... | ... |
+### Materiaal & methoden
+
+Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** opgemaakt als blueprint voor de **system architecture**. De installatie werkt autonoom via wifi-connectie met een _Raspberry Pi_ en wordt opgesteld bij een PD en MZ thuis. De werking wordt vooraf doorlopen en blijft vervolgens een volledige nacht in werking voor een **validation session (N=2)**. Na afloop wordt de MZ geïnterviewd over de bevindingen.
+
+> 🌊 Wave 5 – **proof of concept prototypes** – effectiviteit & intuïtiviteit
+> - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die de system state switching verwerkt en de leds en de speaker aanstuurt
+
+### Resultaten
+
+#### Validation sessions (N=2)
+
+…
+
+### Conclusies & implicaties
+
+Uitbreidbaar 
+
+> 📌 **_Design Requirements_**
+> - …
 
 <details>
-  <summary>Originele lijst</summary>
-  
-| ID | Design Requirement | * | Source | Date |
-| - | - | - | - | - |
-| **1** | **Zorgt voor minder belasting bij nabije zorgverleners** | M | User interview | 13/10/2024 |
-| **1.1** | Het systeem voorkomt dat de mantelzorger 's nachts onnodig gewekt wordt door dwaalgedrag van de PD. | M | User interview | 13/10/2024 |
-| 1.1.1 | Het systeem geeft een melding wanneer de PD langer dan een ingestelde tijd afwezig is uit de slaapkamer. | S | Expert review | 13/12/2024 |
-| 1.1.2 | Het systeem registreert de route en bijhorende tijdsduur van nachtelijke verplaatsingen van de PD. | M | Expert review | 13/12/2024 |
-| 1.1.3 | De detectie blijft betrouwbaar functioneren, ook bij openstaande deuren. | S | Cognitive walkthrough | 25/11/2024 |
-| 1.1.4 | Het systeem synchroniseert met een smartphone app voor MZ en familieleden. | S | Expert review | 13/12/2024 |
-| 1.1.5 | De gevoeligheid van meldingen kan worden ingesteld via de app. | S | Expert review | 13/12/2024 |
-| **1.2** | Het systeem voorkomt onnodige nachtelijke interventies door professionele zorgverleners. | S | Ethnography | 15/10/2024 |
-| 1.2.1 | Personaliseerbare spraakberichten worden automatisch afgespeeld bij detectie van nachtactiviteit. | S | Expert review | 13/12/2024 |
-| 1.2.2 | Het systeem stuurt meldingen via compatibele DECT-systemen. | C | Expert review | 13/12/2024 |
-| 1.2.3 | De gevoeligheid van meldingen kan worden afgestemd op de nachtroutine van de instelling. | M | Expert review | 13/12/2024 |
-| **2** | **Verhoogt de zelfstandigheid en het welzijn van personen met dementie** | M | Literature review | 20/11/2024 |
-| **2.1** | Het systeem ondersteunt de PD bij nachtelijke routines en biedt herkenbare structuur. | M | Think aloud | 13/12/2024 |
-| 2.1.1 | Het systeem begeleidt de PD automatisch tijdens nachtelijke toiletbezoeken via licht en/of geluid. | M | User interview | 13/10/2024 |
-| 2.1.2 | Het systeem toont visuele feedback over dag- of nachtstatus. | S | User interview | 13/10/2024 |
-| 2.1.3 | Het systeem beperkt de bewegingsvrijheid van de PD niet. | M | Ethnography | 15/10/2024 |
-| 2.1.4 | Het systeem verwerkt geen audio- of videobeelden en beschermt de privacy van de gebruiker. | M | State of the Art | 16/12/2024 |
-| 2.1.5 | Alle interacties met het systeem zijn intuïtief en begrijpelijk zonder instructie. | M | Think aloud | 13/12/2024 |
-| **2.2** | Het systeem is inzetbaar voor meer dan 50% van de PD-varianten en -gradaties. | M | Literature review | 12/10/2024 |
-| 2.2.1 | Het systeem biedt oriëntatieondersteuning bij tijdsverwarring. | M | Literature review | 12/10/2024 |
-| 2.2.2 | Het systeem ondersteunt herkenning van ruimtes binnen de woning. | C | Literature review | 12/10/2024 |
-| 2.2.3 | Het systeem reageert adequaat op doolgedrag zonder alarmerend over te komen. | S | Literature review | 12/10/2024 |
-| **2.3** | Het systeem bevordert een gezond slaap-waakritme bij de PD. | C | Literature review | 20/11/2024 |
-| 2.3.1 | Enkel functies met aantoonbare doeltreffendheid worden toegepast. | M | Expert review | 13/12/2024 |
-| 2.3.2 | Multisensoriële functies bevorderen het inslapen (bv. snoezellicht, geluid). | S | Expert review | 13/12/2024 |
-| 2.3.3 | Niet-functionele of afleidende functies zijn standaard uitgeschakeld. | M | Think aloud | 13/12/2024 |
-| 2.3.4 | Familieleden kunnen instellingen aanpassen aan de noden van de PD. | M | Think aloud | 13/12/2024 |
-| 2.3.4.1 | Indien mogelijk, configureert de PD mee tijdens vroege fasen van de aandoening. | C | Think aloud | 13/12/2024 |
-| **2.4** | Het systeem past zich aan aan de evolutie van de aandoening. | M | Ethnography | 15/10/2024 |
-| 2.4.1 | Het product reist mee met de PD als vertrouwd element doorheen de ziekte. | S | Ethnography | 15/10/2024 |
-| 2.4.2 | Het product is eenvoudig installeerbaar in verschillende woonomgevingen. | M | Think aloud | 13/12/2024 |
-| **3** | **Voorkomt extra emotionele, cognitieve of fysieke belasting** | M | Think aloud | 13/12/2024 |
-| **3.1** | Het systeem voorkomt agitatie en verwarring bij de PD. | M | Think aloud | 13/12/2024 |
-| 3.1.1 | Het systeem voorkomt situaties die schaamte of confrontatie kunnen oproepen. | M | Think aloud | 13/12/2024 |
-| 3.1.2 | De omgeving oogt herkenbaar en veilig, versterkt door het productdesign. | S | Think aloud | 12/12/2024 |
-| 3.1.3 | Het systeem geeft enkel prikkels wanneer functioneel nodig. | M | Think aloud | 13/12/2024 |
-| 3.1.4 | De bediening is beveiligd en voorkomt foutieve interacties. | M | Expert review | 13/12/2024 |
-| 3.1.5 | Lichtintensiteit is afgestemd om verblinding en agitatie te vermijden. | M | Think aloud | 13/12/2024 |
-| 3.1.6 | De intensiteit van prikkels is aanpasbaar aan context en situatie. | M | Think aloud | 13/12/2024 |
-| **3.2** | Het systeem voorkomt onnodige belasting bij zorgverleners. | M | Cognitive walkthrough | 25/11/2024 |
-| 3.2.1 | Er worden geen prikkels gegeven die de nachtrust van anderen in de kamer verstoren. | M | Cognitive walkthrough | 25/11/2024 |
-| 3.2.2 | Het systeem heeft ofwel een batterijlevensduur van min. 1 jaar, of werkt op netstroom. | M | Cognitive walkthrough | 13/12/2024 |
-| **4** | **Verhoogt de kans op succesvolle adoptie door gebruikers** | M | Think aloud | 13/12/2024 |
-| 4.1 | De verkoopprijs bedraagt maximaal €800. | M | State of the Art | 16/12/2024 |
-| 4.2 | Het product kan zelfstandig worden geïnstalleerd en geconfigureerd via een app. | S | Cognitive walkthrough | 25/11/2024 |
-| 4.3 | Functionaliteiten worden gradueel geïntroduceerd op het tempo van de gebruiker. | S | Think aloud | 13/12/2024 |
-| 4.4 | Het systeem biedt de mogelijkheid om persoonlijke/nostalgische elementen toe te voegen. | C | Think aloud | 13/12/2024 |
-| **5** | **Nice to haves** |   |   |   |
-| 5.1 | Optionele koppeling met wearables zoals hartslagmonitoren. | C | State of the Art | 16/12/2024 |
-| 5.2 | Optionele koppeling met geavanceerde detectiesystemen (bv. Mintt). | C | State of the Art | 16/12/2024 |
-| 5.3 | Activiteitenmonitoring voor langere termijninzichten. | C | State of the Art | 16/12/2024 |
-| 5.4 | Het systeem is gemakkelijk mee te nemen op verplaatsing. | C | User interview | 13/10/2024 |
-
-`*` MoSCoW priorisatie
-</details>
+ <summary>Toon een overzicht van alle Design Requirements.</summary>
+> 📌 **_Design Requirements_**
+> - 1. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
+> - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
+> - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
+> - 2. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> - 2.1. **Helpt bij oriëntatie naar badkamer/toilet en terug naar bed**
+> - 3. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
+> - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
+> - 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**
+> - 3.3. De mee-slapende wordt **gedurende de nacht niet gestoord** door geluiden of licht boven de 5 lux in de kamer
+> - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen
+> - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**
+> - 4. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
+> - 4.1. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
+> - 4.2. Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
+> - 5. **Maximale consumentenkostprijs van € 150 per module*
+> - 6\. Laat **plaatsing en configuratie** door ouderen 75+ toe
+> - 7\. Bestaat uit **metaal, hout en/of plastic**
+> - 7.1. Komt in **3 esthetische varianten**
 
 ## Bill of materials
 
