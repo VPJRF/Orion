@@ -390,11 +390,11 @@ Het **interieurobject** moet **robuust**, **hygiënisch**, **subtiel** en **pers
 > - 7\. Bestaat uit **metaal, hout en/of plastic**
 > - 7.1. Komt in **3 esthetische varianten**
 
-## Develop II – UI & UX (300)
+## Develop II – UI & UX
 
  ### Doelstellingen
 
-De fysieke, cognitieve en sensoriële ergonomie verfijnen en het bepalen van de _affordances en _signifiers_ met de focus op **gebruik** en **begrip**.
+De fysieke, cognitieve en sensoriële ergonomie verfijnen en het bepalen van de _affordances_ en _signifiers_ met de focus op **gebruik** en **begrip**.
 > ❓ **Wat maakt de interactie (UI) en ervaring (UX) aangenaam, doeltreffend en niet-intrusief?**
 
 ### Materiaal & methoden
@@ -433,9 +433,9 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 -	De **timer** animatie communiceert met de **klok-metafoor** helder en ganuanceerd.
 
 <p align="left">
-  <img src=" img/Prototypes UX alarm.gif" width="200">
-  <img src=" img/Prototypes UX timer.gif" width="200">
-  <img src=" img/Prototypes UX wekker.gif" width="200">
+  <img src=" img/Prototypes UX alarm.gif.png" width="200">
+  <img src=" img/Prototypes UX timer.gif.png" width="200">
+  <img src=" img/Prototypes UX wekker.gif.png" width="200">
 </p>
 
 ### Conclusies & implicaties
@@ -448,9 +448,9 @@ Het type licht (direct of indirect) is afhankelijk van de positie. De aan/uit-be
 > - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**
 > - 7.2. Afdekkap komt in een *opake en translucente* variant
 
-## Deliver – proof of concept (300)
+## Deliver – proof of concept
 
- ### Doelstellingen
+### Doelstellingen
 
 Een _proof of concept_ door het verwerken van de producteisen in een volledig functioneel prototype om met de hoogst mogelijke _ecological validity_ te testen bij de werkelijke eindgebruiker.
 
@@ -499,6 +499,7 @@ Uitbreidbaar
 > - 6\. Laat **plaatsing en configuratie** door ouderen 75+ toe
 > - 7\. Bestaat uit **metaal, hout en/of plastic**
 > - 7.1. Komt in **3 esthetische varianten**
+</details>
 
 ## Bill of materials
 
