@@ -347,11 +347,11 @@ Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebru
 > - **Pacman**: retro, herkenbaar – natuurlijk, hout
 
 <p align="left">
-  <img src=" img/Prototypes boek.png" width="19%">
-  <img src=" img/Prototypes vlinder.png" width="19%">
-  <img src=" img/Prototypes discobal.png" width="19%">
-  <img src=" img/Prototypes schelp.png" width="19%">
-  <img src=" img/Prototypes pacman.png" width="19%">
+  <img src="img/Prototypes boek.png" width="19%">
+  <img src="img/Prototypes vlinder.png" width="19%">
+  <img src="img/Prototypes discobal.png" width="19%">
+  <img src="img/Prototypes schelp.png" width="19%">
+  <img src="img/Prototypes pacman.png" width="19%">
 </p>
 
 Voor elke gebruikscontext worden telkens bij vier personen een esthetische en emotionele evaluatie gevraagd via **Interactive BERT-survey (N=12)**. Tijdens de beoordeling worden vragen over gebruikssituaties en interacties gesteld.
@@ -360,7 +360,7 @@ Voor elke gebruikscontext worden telkens bij vier personen een esthetische en em
 
 #### Interactive BERT-survey (N=12)
 
-<img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
+<img src="img/Prototypes wave 3 bert.svg" align="right" width="300">
 
 **CMF**
 -	_Pacman_ combineert bescheidenheid en kalmte en stijlvolheid met een zekere tactiele aantrekkelijkheid, wat het geliefd maakt bij zowel de ouderen als bij de jonge ouders. Het **hout en de ronde vorm** zijn herkenbaar als een eenvoudig te integreren **interieurobject**.
