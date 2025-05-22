@@ -101,6 +101,8 @@ Er is een groeiende erkenning van de waardevolle rol van technologie in de onder
 
 #### User interviews (N=4)
 
+📄 
+
 <p align="left">
   <img src="img/User interviews Andre.png" width="32%">
   <img src="img/User interviews Leana.png" width="32%">
@@ -116,6 +118,8 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 > _“Na een week in kortverblijf is hij sterk achteruit gegaan. Sindsdien komt hij er niet meer bij zitten wanneer er bezoek is.”_ – tweedelijn informele zorgverlener (zoon)
 
 #### Ethnography (N=1)
+
+📄 📄 
 
 <p align="left">
   <img src="img/Ethnography ochtend.png" width="45%">
@@ -206,6 +210,8 @@ De prototypes worden in een **user feedback sessions (N=10)** in Huize Ter Walle
 
 #### User feedback sessions (N=10)
 
+📄 📄 
+
 <img align="right" src="img/Prototypes mantelzorgers.jpg" width="400">
 
 De meeste PDs kunnen nog wel kloklezen, maar staan geregeld op voor een **toiletbezoek**, een **glas water** of uit **verwardheid** (_”Ik moet gaan werken in de bakkerij.”, “Ik zoek mijn broer.”_. De MZs beschouwen hun nachtelijk hulp als een noodzaak en een evidentie, met het valrisico als hoofdreden.
@@ -263,6 +269,8 @@ Een **MoSCoW evaluation** helpt de essentie te destilleren.
 > _“Doordat veel ouderen overdag te weinig rust krijgen, zijn ze aan het eind van de dag uitgeteld. […] Ze worden rustelozer, willen naar huis of naar hun ouders, gaan rondlopen, zijn moeilijk gerust te stellen, verwarder en onsamenhangender. […] Het zogenaamde ‘Sundowning’.”_ – Facebookpagina Dementie Anders Beleven
 
 #### Literature review (N=1)
+
+📄 
 
 Het artikel _Wandering and Sundowning  in Dementia_ [^3] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden** verergeren de neuropsychiatrische symptomen.
 - Preventieve maatregelen zijn **meer beweging en zonlicht overdag**.
@@ -363,6 +371,8 @@ Voor elke gebruikscontext wordt telkens bij vier personen de intuïtieve, emotio
 
 #### Interactive BERT-survey (N=12)
 
+📄 📄 
+
 <img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
 
 **CMF**
@@ -417,6 +427,8 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 
 #### Wizard of Oz testing (N=3)
 
+📄 📄 
+
 **Visuele ergonomie**
 -	Een **translucente kap** maakt het toestel bij bed potentieel **geschikt als leeslamp**.
 -	Indirecte verlichting bij de **opake kap voorkomt verblinding** in de hal.
@@ -468,6 +480,8 @@ Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** op
 ### Resultaten
 
 #### Validation sessions (N=2)
+
+📄 📄 
 
 …
 
