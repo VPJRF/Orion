@@ -83,6 +83,9 @@ Om te achterhalen voor welk probleem een oplossing binnen handbereik is, worden 
 
 #### Literature review (N=16)
 
+> 📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EdiS3hkiKK1MplGdmVTWungBmxVn0FbBp6aX2gbiq4Yjcw?e=3pP9zS)
+> 📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVpkX9X-c-hKqZcMqP5W1E4BfmoQJAslg8WdfgcqIlADtQ?e=OeRcE2)
+
 Dementie is een complexe ziekte met uiteenlopende symptomen.
 -	**Geheugen** en **cognitie** (woordvinding, planning en organisatie, oriëntatie in tijd)
 -	**Gedrag** en **karakter** (apathie, agressie, angst, verdriet, kwaadheid)
@@ -501,8 +504,8 @@ Uitbreidbaar
 
 ## Technische beschrijving
 
-Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3. 
-Op de Raspberry Pi 3 is een IoT stack geïnstalleerd. ([Instructies vind je hier.](https://github.com/basbaccarne/comon_expo))
+Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3.<br>
+Op de Pi is een IoT stack geïnstalleerd. ([Instructies vind je hier.](https://github.com/basbaccarne/comon_expo))<br>
 Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de led's en speaker in de modules aan.
 
 ### Electronica
@@ -524,12 +527,13 @@ Optioneel:
 Circuit (kabels, connectoren, weerstanden, etc.)
 
 ### Hardware
-- Behuizing (x3)
-- Diffuser (x3)
-[Download de stl-files]("cad/")
+- Behuizing (x3) [haak]("cad/haak.stl"), [ring]("cad/ring.stl"), [pasvorm 1]("cad/pasvorm 1.stl"), [pasvorm 2]("cad/pasvorm 2.stl")
+- Diffuser (x3) [schijf]("cad/schijf.stl")
 
 ### Software
-- [Arduino code]("src/") voor timing en communicatie (licht en spraak)
+- Arduino code voor timing en communicatie (licht en spraak)
+  - [main]("src/pilot/src/main.cpp")
+  - [actuatoren]("src/pilot/src/actuators.cpp")
 - Raspberry pi code voor state switching
   - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
   - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
