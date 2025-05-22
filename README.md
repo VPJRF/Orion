@@ -566,7 +566,7 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 <img align="right" src="img/Prototypes finale 3d print.png" width=300>
 
 - Behuizing (x3)
-  -[haak](cad/haak.stl)
+  - [haak](cad/haak.stl)
   - [ring](cad/ring.stl)
   - [pasvorm 1](cad/pasvorm%201.stl)
   - [pasvorm 2](cad/pasvorm%202.stl)
