@@ -3,7 +3,7 @@
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
-02/05/2025 `TODO❗️update datum`
+23/05/2025
 
 `PD` persoon met dementie <br>
 `MZ` mantelzorger (bv. partner) <br>
@@ -26,9 +26,8 @@ Door de hulp kan de PD ’s nachts zijn plan trekken. De MZ kan met een gerust h
 
 **_Orion_** *belooft zo de zelfstandigheid van mensen met dementie te bevorderen, hun onrust te verminderen en de belasting voor mantelzorgers te verlichten en maakt zo thuiszorg aangenamer en duurzamer.*
 
-<p align="left">
-  <img src="img/Hero bed.png" width="49%">
-  <img src="img/Hero nachthal.png" width="49%">
+<p align="center">
+  <img src="img/Hero.png" width="100%">
 </p>
 
 > 🎥 [Ontdek hoe Orion werkt](https://www.youtube.com/watch?v=VIDEO_ID)
@@ -598,8 +597,6 @@ Het product ondersteunt momenteel een aantal specifieke situaties. Echter, er zi
 Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij nader inzien niet nodig om deze doelgroep verder te behandelen. Het aanpassen van de vormgeving en het instelbaar maken van bepaalde (potentieel stigmatiserende) functies kunnen de adaptatiegraad verhogen. De intuïtieve werking voorkomt een leercurve, waardoor een vroege introductie geen noodzaak is.
 
 ## Bijlagen
-
-`TODO❗️links bijlagen aanvullen`
 
 ### Discover
 - Literature review
