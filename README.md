@@ -427,9 +427,9 @@ De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met ee
 > - **UX bluetooth remote**: licht- en geluidspecificaties
 
 <p align="left">
-  <img src=" img/Prototypes UX opaak.jpg" width="32%">
-  <img src=" img/Prototypes UX translucent.jpg" width="32%">
-  <img src=" img/Prototypes UI knoppen.png" width="32%">
+  <img src="img/Prototypes UX opaak.jpg" width="32%">
+  <img src="img/Prototypes UX translucent.jpg" width="32%">
+  <img src="img/Prototypes UI knoppen.png" width="32%">
 </p>
 
 Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten worden in een [**feature matrix**](img/Prototypes%20UI%20options.png) samengevat.
