@@ -513,6 +513,11 @@ Uitbreidbaar
 
 **_Orion_** is een nachtroutinetool die de zelfstandigheid van personen met dementie ondersteunt en mantelzorgers ’s nachts ontlast. Door visuele en auditieve prikkels strategisch in te zetten, helpt het systeem nachtelijk dwalen te voorkomen en de slaapkwaliteit te verbeteren. De oplossing is tot stand gekomen via diepgaand veldonderzoek, iteratieve prototyping en gebruikerstesten in realistische contexten. **Het eindresultaat is een flexibel, intuïtief en betaalbaar hulpmiddel dat in verschillende zorgomgevingen inzetbaar is**. _Orion_ toont zo aan hoe technologie empathisch kan bijdragen aan duurzame thuiszorg.
 
+<p align="left">
+  <img src="img/Render opaak.png" width="49%">
+  <img src="img/Render translucent.png" width="49%">
+</p>
+
 > 📌 **_Design Requirements_**
 > - 1\. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
 > - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
