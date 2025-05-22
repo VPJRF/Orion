@@ -355,7 +355,7 @@ Er wordt getracht het product **minder stigmatiserend** te maken, door de **doel
 
 <img align="right" src="img/Prototypes wave 3 CMF.png" width=400>
 
-Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een [**morphologische matrix**]("img/Prototypes morfologische matrix.png") stuurt de ontwikkeling van de nieuwe prototype vatianten.
+Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een [**morphologische matrix**](img/Prototypes%20morfologische%20matrix.png) stuurt de ontwikkeling van de nieuwe prototype vatianten.
 
 <br clear=”all”>
 
@@ -432,7 +432,7 @@ De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met ee
   <img src=" img/Prototypes UI knoppen.png" width="32%">
 </p>
 
-Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten worden in een [**feature matrix**]("img/Prototypes UI options.png") samengevat.
+Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten worden in een [**feature matrix**](img/Prototypes%20UI%20options.png) samengevat.
 
 ### Resultaten
 
@@ -563,12 +563,19 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 
 ### Hardware
 
-- Behuizing (x3) [haak](cad/haak.stl), [ring](cad/ring.stl), [pasvorm 1](cad/pasvorm%201.stl), [pasvorm 2](cad/pasvorm%202.stl)
-- Diffuser (x3) [schijf](cad/schijf.stl)
+<img align="right" src="img/Prototypes finale 3d print" width=300>
 
-<img align="right" src="img/Wireflow.png" width=300>
+- Behuizing (x3)
+  -[haak](cad/haak.stl)
+  - [ring](cad/ring.stl)
+  - [pasvorm 1](cad/pasvorm%201.stl)
+  - [pasvorm 2](cad/pasvorm%202.stl)
+- Diffuser (x3)
+  - [schijf](cad/schijf.stl)
 
 ### Software
+
+<img align="right" src="img/Wireflow.png" width=300>
 
 - Arduino code voor timing en communicatie (licht en spraak)
   - [main]("src/pilot/src/main.cpp")
