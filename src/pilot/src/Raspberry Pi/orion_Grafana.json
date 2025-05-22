@@ -1,0 +1,813 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 1,
+  "links": [],
+  "panels": [
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "fele5etuevx8gf"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "axisPlacement": "auto",
+            "fillOpacity": 70,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineWidth": 0,
+            "spanNulls": false
+          },
+          "mappings": [
+            {
+              "options": {
+                "bed_in": {
+                  "color": "green",
+                  "index": 6
+                },
+                "bed_uit": {
+                  "color": "yellow",
+                  "index": 1
+                },
+                "in_bed": {
+                  "color": "green",
+                  "index": 0
+                },
+                "kamer_in": {
+                  "color": "orange",
+                  "index": 5
+                },
+                "kamer_uit": {
+                  "color": "red",
+                  "index": 2
+                },
+                "toilet_in": {
+                  "color": "blue",
+                  "index": 3
+                },
+                "toilet_uit": {
+                  "color": "purple",
+                  "index": 4
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 5,
+      "options": {
+        "alignValue": "left",
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "mergeValues": true,
+        "rowHeight": 0.9,
+        "showValue": "auto",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.0.0",
+      "targets": [
+        {
+          "query": "SELECT last(\"state\") AS \"state\"\nFROM \"orion_data\"\nWHERE $timeFilter\nGROUP BY time($__interval) fill(null)\n",
+          "rawQuery": true,
+          "refId": "A",
+          "resultFormat": "time_series"
+        }
+      ],
+      "title": "Status historiek",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {},
+            "includeByName": {},
+            "indexByName": {},
+            "renameByName": {
+              "Time": "Tijdstip",
+              "orion_data.state": "Status"
+            }
+          }
+        }
+      ],
+      "type": "state-timeline"
+    },
+    {
+      "datasource": {
+        "uid": "influxdb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "continuous-GrYlRd"
+          },
+          "custom": {
+            "axisPlacement": "auto",
+            "fillOpacity": 80,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineWidth": 0,
+            "spanNulls": false
+          },
+          "fieldMinMax": false,
+          "mappings": [
+            {
+              "options": {
+                "false": {
+                  "color": "#808080",
+                  "index": 0,
+                  "text": "0"
+                },
+                "true": {
+                  "color": "green",
+                  "index": 1,
+                  "text": "1"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "orion_data.kamer.IMU"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "IMU"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "orion_data.kamer.PIR"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "PIR"
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 24,
+        "x": 0,
+        "y": 4
+      },
+      "id": 1,
+      "options": {
+        "alignValue": "left",
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "mergeValues": true,
+        "rowHeight": 0.9,
+        "showValue": "never",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.0.0",
+      "targets": [
+        {
+          "alias": "",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "orion_data",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT last(\"IMU\") AS \"kamer.IMU\"\nFROM \"orion_data\"\nWHERE \"device\" = 'kamer' AND $timeFilter\nGROUP BY time($__interval) fill(null)\n",
+          "rawQuery": true,
+          "refId": "IMU",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "device"
+                ],
+                "type": "field"
+              }
+            ],
+            [
+              {
+                "params": [
+                  "PIR"
+                ],
+                "type": "field"
+              }
+            ],
+            [
+              {
+                "params": [
+                  "IMU"
+                ],
+                "type": "field"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "fele5etuevx8gf"
+          },
+          "hide": false,
+          "query": "SELECT last(\"PIR\") AS \"kamer.PIR\"\nFROM \"orion_data\"\nWHERE \"device\" = 'kamer' AND $timeFilter\nGROUP BY time($__interval) fill(null)\n",
+          "rawQuery": true,
+          "refId": "PIR",
+          "resultFormat": "time_series"
+        }
+      ],
+      "title": "Kamer",
+      "type": "state-timeline"
+    },
+    {
+      "datasource": {
+        "uid": "influxdb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "continuous-GrYlRd"
+          },
+          "custom": {
+            "axisPlacement": "auto",
+            "fillOpacity": 80,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineWidth": 0,
+            "spanNulls": false
+          },
+          "fieldMinMax": false,
+          "mappings": [
+            {
+              "options": {
+                "false": {
+                  "color": "#808080",
+                  "index": 0,
+                  "text": "0"
+                },
+                "true": {
+                  "color": "green",
+                  "index": 1,
+                  "text": "1"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "orion_data.toilet.IMU"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "IMU"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "orion_data.toilet.PIR"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "PIR"
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 24,
+        "x": 0,
+        "y": 7
+      },
+      "id": 2,
+      "options": {
+        "alignValue": "left",
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "mergeValues": true,
+        "rowHeight": 0.9,
+        "showValue": "never",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.0.0",
+      "targets": [
+        {
+          "alias": "",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "orion_data",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT last(\"IMU\") AS \"toilet.IMU\"\nFROM \"orion_data\"\nWHERE \"device\" = 'toilet' AND $timeFilter\nGROUP BY time($__interval) fill(null)\n",
+          "rawQuery": true,
+          "refId": "IMU",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "device"
+                ],
+                "type": "field"
+              }
+            ],
+            [
+              {
+                "params": [
+                  "PIR"
+                ],
+                "type": "field"
+              }
+            ],
+            [
+              {
+                "params": [
+                  "IMU"
+                ],
+                "type": "field"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "fele5etuevx8gf"
+          },
+          "hide": false,
+          "query": "SELECT last(\"PIR\") AS \"toilet.PIR\"\nFROM \"orion_data\"\nWHERE \"device\" = 'toilet' AND $timeFilter\nGROUP BY time($__interval) fill(null)\n",
+          "rawQuery": true,
+          "refId": "PIR",
+          "resultFormat": "time_series"
+        }
+      ],
+      "title": "Toilet",
+      "type": "state-timeline"
+    },
+    {
+      "datasource": {
+        "uid": "influxdb"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "continuous-GrYlRd"
+          },
+          "custom": {
+            "axisPlacement": "auto",
+            "fillOpacity": 80,
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineWidth": 0,
+            "spanNulls": false
+          },
+          "fieldMinMax": false,
+          "mappings": [
+            {
+              "options": {
+                "false": {
+                  "color": "#808080",
+                  "index": 0,
+                  "text": "0"
+                },
+                "true": {
+                  "color": "green",
+                  "index": 1,
+                  "text": "1"
+                }
+              },
+              "type": "value"
+            }
+          ],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "orion_data.bed.IMU"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "IMU"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "orion_data.bed.PIR"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "PIR"
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "orion_data.bed.LED"
+            },
+            "properties": [
+              {
+                "id": "displayName",
+                "value": "LED"
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 24,
+        "x": 0,
+        "y": 11
+      },
+      "id": 3,
+      "options": {
+        "alignValue": "left",
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "mergeValues": true,
+        "rowHeight": 0.9,
+        "showValue": "never",
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.0.0",
+      "targets": [
+        {
+          "alias": "",
+          "groupBy": [
+            {
+              "params": [
+                "$__interval"
+              ],
+              "type": "time"
+            },
+            {
+              "params": [
+                "null"
+              ],
+              "type": "fill"
+            }
+          ],
+          "measurement": "orion_data",
+          "orderByTime": "ASC",
+          "policy": "default",
+          "query": "SELECT last(\"IMU\") AS \"bed.IMU\"\nFROM \"orion_data\"\nWHERE \"device\" = 'bed' AND $timeFilter\nGROUP BY time($__interval) fill(null)\n",
+          "rawQuery": true,
+          "refId": "IMU",
+          "resultFormat": "time_series",
+          "select": [
+            [
+              {
+                "params": [
+                  "device"
+                ],
+                "type": "field"
+              }
+            ],
+            [
+              {
+                "params": [
+                  "PIR"
+                ],
+                "type": "field"
+              }
+            ],
+            [
+              {
+                "params": [
+                  "IMU"
+                ],
+                "type": "field"
+              }
+            ]
+          ],
+          "tags": []
+        },
+        {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "fele5etuevx8gf"
+          },
+          "hide": false,
+          "query": "SELECT last(\"PIR\") AS \"bed.PIR\"\nFROM \"orion_data\"\nWHERE \"device\" = 'bed' AND $timeFilter\nGROUP BY time($__interval) fill(null)\n",
+          "rawQuery": true,
+          "refId": "PIR",
+          "resultFormat": "time_series"
+        },
+        {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "fele5etuevx8gf"
+          },
+          "hide": false,
+          "query": "SELECT last(\"LED\") AS \"bed.LED\"\nFROM \"orion_data\"\nWHERE \"device\" = 'bed' AND $timeFilter\nGROUP BY time($__interval) fill(null)\n",
+          "rawQuery": true,
+          "refId": "LED",
+          "resultFormat": "time_series"
+        }
+      ],
+      "title": "Bed",
+      "type": "state-timeline"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "fele5etuevx8gf"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Licht"
+            },
+            "properties": []
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 11,
+        "w": 24,
+        "x": 0,
+        "y": 15
+      },
+      "id": 4,
+      "options": {
+        "cellHeight": "sm",
+        "footer": {
+          "countRows": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "frameIndex": 0,
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Time"
+          }
+        ]
+      },
+      "pluginVersion": "12.0.0",
+      "targets": [
+        {
+          "query": "SELECT * FROM \"orion_data\"\nWHERE $timeFilter",
+          "rawQuery": true,
+          "refId": "A",
+          "resultFormat": "table"
+        }
+      ],
+      "title": "Raw data",
+      "transformations": [
+        {
+          "id": "sortBy",
+          "options": {
+            "fields": {},
+            "sort": [
+              {
+                "desc": true,
+                "field": "Time"
+              }
+            ]
+          }
+        },
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "state": false
+            },
+            "includeByName": {},
+            "indexByName": {
+              "BOX": 6,
+              "FBK": 7,
+              "IMU": 4,
+              "LED": 5,
+              "PIR": 3,
+              "Time": 0,
+              "device": 2,
+              "state": 1
+            },
+            "renameByName": {
+              "BOX": "Geluid",
+              "FBK": "Feedback",
+              "IMU": "Deur",
+              "LED": "Licht",
+              "PIR": "Persoon",
+              "Time": "Tijdstip",
+              "device": "Toestel",
+              "state": "Status"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    }
+  ],
+  "preload": false,
+  "refresh": "5s",
+  "schemaVersion": 41,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-5m",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Orion",
+  "uid": "316b6cc9-671a-4776-8e24-7297e844c33d",
+  "version": 28
+}

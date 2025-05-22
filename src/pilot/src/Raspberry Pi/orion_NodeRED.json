@@ -1,0 +1,377 @@
+[
+    {
+        "id": "40004cecd73bdea6",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dda061894a59a0ba",
+        "type": "influxdb out",
+        "z": "40004cecd73bdea6",
+        "influxdb": "ef24e3fca8ed907c",
+        "name": "",
+        "measurement": "",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 890,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "d72cfd470f5feff5",
+        "type": "mqtt in",
+        "z": "40004cecd73bdea6",
+        "name": "State Listener",
+        "topic": "/orion/states/#",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "e8a1b7cb7f957b2f",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "c3dea08d07606b41"
+            ]
+        ]
+    },
+    {
+        "id": "ce128c004c950b60",
+        "type": "debug",
+        "z": "40004cecd73bdea6",
+        "name": "Recieved",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "07e40507d3a7da85",
+        "type": "debug",
+        "z": "40004cecd73bdea6",
+        "name": "Recieved",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c3dea08d07606b41",
+        "type": "function",
+        "z": "40004cecd73bdea6",
+        "name": "State Evaluator",
+        "func": "let currentState = flow.get(\"currentState\") || \"bed_in\";\nlet data = msg.payload;\nlet nextState = currentState;\n\nconst now = Date.now();\nconst timeout = 5 * 60 * 1000; // 5 minutes in ms\nlet stateTimestamp = flow.get(\"stateTimestamp\") || now;\n\n// === Forced State Override ===\nif (data.forceState) {\n    let forced = data.forceState;\n    node.warn(`Forced state to: ${forced}`);\n    flow.set(\"currentState\", forced);\n    flow.set(\"stateTimestamp\", now);\n    flow.set(\"prevState\", forced);\n\n    // Compose dummy payload\n    data = {device: \"manual\", state: forced, PIR: 0, IMU: 0, LED: 0, BOX: 0, FBK: 0};\n\n    msg.payload = data;\n    msg.measurement = \"orion_data\";\n    return msg;\n}\n\n// Check if stuck in state for too long\nif (now - stateTimestamp > timeout) {\n    node.warn(`State \"${currentState}\" timed out. Resetting to bed_in.`);\n    nextState = \"bed_in\";\n    stateTimestamp = now;\n}\n\n// === Simple Sequential State Machine ===\n// 1) bed_in → bed_uit when bed-PIR=true AND at least 10s in bed_in\nif (currentState === \"bed_in\") {\n    let bedInTime = flow.get(\"bedInTime\");\n    if (bedInTime === undefined) {\n        bedInTime = now;\n        flow.set(\"bedInTime\", now);\n    }\n    let minDelay = 10000; // 10 seconds\n    if (\n        data.device === \"bed\" &&\n        data.PIR === true &&\n        (now - bedInTime > minDelay)\n    ) {\n        nextState = \"bed_uit\";\n    }\n}\n// 2) bed_uit → kamer_uit when kamer-IMU=true\nelse if (currentState === \"bed_uit\") {\n    let bedUitTime = flow.get(\"bedUitTime\");\n    if (bedUitTime === undefined) {\n        bedUitTime = now;\n        flow.set(\"bedUitTime\", now);\n    }\n    if (data.device === \"kamer\" && data.IMU === true) {\n        nextState = \"kamer_uit\";\n    }\n    // Revert to bed_in if stuck in bed_uit for 20s without bed-PIR\n    if (data.device === \"bed\" && data.PIR === true) {\n        flow.set(\"bedUitTime\", now); // reset timer if bed-PIR is triggered\n    }\n    if ((now - bedUitTime) > 20000) {\n        nextState = \"bed_in\";\n        node.warn(\"No bed-PIR for 20s in bed_uit: Resetting to bed_in\");\n        flow.set(\"bedUitTime\", now); // reset timer\n    }\n}\n// 3) kamer_uit → toilet_in when toilet-IMU=true\nelse if (currentState === \"kamer_uit\") {\n    let toiletInTime = flow.get(\"toiletInTime\");\n    if (toiletInTime === undefined) {\n        toiletInTime = now;\n        flow.set(\"toiletInTime\", now);\n    }\n    if (data.device === \"toilet\" && data.IMU === true) {\n        nextState = \"toilet_in\";\n        flow.set(\"toiletInTime\", now); // Mark entry time to toilet_in\n    }\n}\n// 4) toilet_in → toilet_uit when toilet-IMU=true AND at least 10s in toilet_in\nelse if (currentState === \"toilet_in\") {\n    let toiletInTime = flow.get(\"toiletInTime\");\n    if (toiletInTime === undefined) {\n        toiletInTime = now;\n        flow.set(\"toiletInTime\", now);\n    }\n    let minDelay = 10000; // 10 seconds\n    if (\n        data.device === \"toilet\" &&\n        data.IMU === true &&\n        (now - toiletInTime > minDelay)\n    ) {\n        nextState = \"toilet_uit\";\n    }\n}\n// 5) toilet_uit → kamer_in when kamer-IMU=true\nelse if (currentState === \"toilet_uit\") {\n    if (data.device === \"kamer\" && data.IMU === true) {\n        nextState = \"kamer_in\";\n    }\n}\n// 6) kamer_in → bed_in when bed-PIR=true\nelse if (currentState === \"kamer_in\") {\n    if (data.device === \"bed\" && data.PIR === true) {\n        nextState = \"bed_in\";\n        flow.set(\"bedInTime\", now); // Mark entry time to bed_in\n    }\n}\n\n// === State Change ===\nif (nextState !== currentState) {\n    node.warn(`State changed to: ${nextState}`);\n    flow.set(\"currentState\", nextState);\n    flow.set(\"stateTimestamp\", now);\n    flow.set(\"prevState\", nextState); // <-- Add this line\n    // Reset bedUitTime when leaving bed_uit state\n    if (currentState === \"bed_uit\") {\n        flow.set(\"bedUitTime\", undefined);\n    }\n} else {\n    flow.set(\"stateTimestamp\", stateTimestamp);\n}\n\n// Attach state to payload for logging or DB\ndata.state = nextState;\n\n// Convert boolean fields to integers for InfluxDB compatibility\n[\"BOX\", \"FBK\", \"IMU\", \"LED\", \"PIR\"].forEach(key => {\n    if (typeof data[key] === \"boolean\") {\n        data[key] = data[key] ? 1 : 0;\n    }\n});\n\nmsg.payload = data;\nmsg.measurement = \"orion_data\";\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 140,
+        "wires": [
+            [
+                "ce128c004c950b60",
+                "1a8f355defab16b3",
+                "e065114fac582cf8"
+            ]
+        ]
+    },
+    {
+        "id": "1a8f355defab16b3",
+        "type": "function",
+        "z": "40004cecd73bdea6",
+        "name": "Influx formatter",
+        "func": "msg.payload = {\n  device: msg.payload.device,\n  state: msg.payload.state,\n  PIR: Boolean(msg.payload.PIR),\n  IMU: Boolean(msg.payload.IMU),\n  LED: Boolean(msg.payload.LED),\n  BOX: Boolean(msg.payload.BOX),\n  FBK: Boolean(msg.payload.FBK)\n};\n\nmsg.measurement = \"orion_data\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 100,
+        "wires": [
+            [
+                "dda061894a59a0ba",
+                "07e40507d3a7da85"
+            ]
+        ]
+    },
+    {
+        "id": "e065114fac582cf8",
+        "type": "function",
+        "z": "40004cecd73bdea6",
+        "name": "State instructions",
+        "func": "const state = msg.payload.state;\nconst prevState = flow.get(\"prevCommandState\") || null;\nlet commands = [];\n\n// Only act on state change\nif (state !== prevState) {\n    // Helper to create MQTT command\n    function mqttCmd(device, payload) {\n        return { topic: `/commands/${device}`, payload: JSON.stringify(payload) };\n    }\n\n    switch (state) {\n        case \"kamer_uit\":\n            // bed-FBK=1, toilet-LED=1\n            commands.push(mqttCmd(\"bed\", { FBK: 1 }));\n            commands.push(mqttCmd(\"toilet\", { LED: 1 }));\n            break;\n        case \"toilet_in\":\n            // toilet-LED=0\n            commands.push(mqttCmd(\"toilet\", { LED: 0 }));\n            break;\n        case \"toilet_uit\":\n            // kamer-LED=1, toilet-LED=0, toilet-BOX=1 (after 5s delay)\n            commands.push(mqttCmd(\"kamer\", { LED: 1 }));\n            commands.push(mqttCmd(\"toilet\", { LED: 0 }));\n            setTimeout(() => {\n                node.send({\n                    topic: \"/commands/toilet\",\n                    payload: JSON.stringify({ BOX: 1 })\n                });\n            }, 5000);\n            break;\n        case \"kamer_in\":\n            // bed-FBK=0, bed-LED=1, kamer-LED=0, toilet-BOX=0\n            commands.push(mqttCmd(\"kamer\", { LED: 0 }));\n            commands.push(mqttCmd(\"bed\", { FBK: 0, LED: 1 }));\n            commands.push(mqttCmd(\"toilet\", { BOX: 0 }));\n            break;\n        case \"bed_in\":\n            // bed-LED=0, kamer-LED=0, toilet-LED=0\n            commands.push(mqttCmd(\"bed\", { LED: 0 }));\n            commands.push(mqttCmd(\"kamer\", { LED: 0 }));\n            commands.push(mqttCmd(\"toilet\", { LED: 0 }));\n            break;\n        // \"bed_uit\" and \"toilet_in\": nothing to send\n    }\n\n    flow.set(\"prevCommandState\", state);\n}\n\n// Send all commands (except delayed one) one by one\nif (commands.length > 0) {\n    commands.forEach(cmd => node.send(cmd));\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 180,
+        "wires": [
+            [
+                "8e52222d18df3567",
+                "359cd977f0de4a60"
+            ]
+        ]
+    },
+    {
+        "id": "359cd977f0de4a60",
+        "type": "debug",
+        "z": "40004cecd73bdea6",
+        "name": "Recieved",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8e52222d18df3567",
+        "type": "mqtt out",
+        "z": "40004cecd73bdea6",
+        "name": "",
+        "topic": "",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "e8a1b7cb7f957b2f",
+        "x": 790,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "inject_force_bed_in",
+        "type": "inject",
+        "z": "40004cecd73bdea6",
+        "name": "bed_in",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "{\"forceState\":\"bed_in\"}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "c3dea08d07606b41"
+            ]
+        ]
+    },
+    {
+        "id": "inject_force_bed_uit",
+        "type": "inject",
+        "z": "40004cecd73bdea6",
+        "name": "bed_uit",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "{\"forceState\":\"bed_uit\"}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "c3dea08d07606b41"
+            ]
+        ]
+    },
+    {
+        "id": "inject_force_kamer_uit",
+        "type": "inject",
+        "z": "40004cecd73bdea6",
+        "name": "kamer_uit",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "{\"forceState\":\"kamer_uit\"}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 280,
+        "wires": [
+            [
+                "c3dea08d07606b41"
+            ]
+        ]
+    },
+    {
+        "id": "inject_force_toilet_in",
+        "type": "inject",
+        "z": "40004cecd73bdea6",
+        "name": "toilet_in",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "{\"forceState\":\"toilet_in\"}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 320,
+        "wires": [
+            [
+                "c3dea08d07606b41"
+            ]
+        ]
+    },
+    {
+        "id": "inject_force_toilet_uit",
+        "type": "inject",
+        "z": "40004cecd73bdea6",
+        "name": "toilet_uit",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "{\"forceState\":\"toilet_uit\"}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 360,
+        "wires": [
+            [
+                "c3dea08d07606b41"
+            ]
+        ]
+    },
+    {
+        "id": "inject_force_kamer_in",
+        "type": "inject",
+        "z": "40004cecd73bdea6",
+        "name": "kamer_in",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "{\"forceState\":\"kamer_in\"}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 400,
+        "wires": [
+            [
+                "c3dea08d07606b41"
+            ]
+        ]
+    },
+    {
+        "id": "ef24e3fca8ed907c",
+        "type": "influxdb",
+        "hostname": "192.168.0.115",
+        "port": 8086,
+        "protocol": "http",
+        "database": "orion_data",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "e8a1b7cb7f957b2f",
+        "type": "mqtt-broker",
+        "name": "MQTT Docker",
+        "broker": "192.168.0.115",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]

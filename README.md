@@ -140,7 +140,6 @@ Zowel in woonzorgcentra als in thuissituaties zijn **nachtelijke problemen** zee
 De zorgbehoevende verhuist vaak stapsgewijs (via **dagverblijf**, **kortverblijf**, **aanleunflat**) van **thuis** naar **vast verblijf**." Dit valt de MZ heel zwaar en introduceert nieuwe verwarring bij de PD door een nieuwe onherkenbare omgeving.
 
 > _”[…] Sociale Dienst merkt dan op dat de mantelzorger het niet meer aankan. […] Ze hebben het gevoel dat ze hun partner dumpen." [...] "Vanaf dan ben je gescheiden.”_ – zorgverlener
-
 <br clear="all">
 
 ### Conclusies & implicaties
@@ -476,60 +475,64 @@ Uitbreidbaar
 > 📌 **_Design Requirements_**
 > - …
 
-<details>
- <summary>Toon een overzicht van alle Design Requirements.</summary>
+## Conclusie
+
+**_Orion_** is een nachtroutinetool die de zelfstandigheid van personen met dementie ondersteunt en mantelzorgers ’s nachts ontlast. Door visuele en auditieve prikkels strategisch in te zetten, helpt het systeem nachtelijk dwalen te voorkomen en de slaapkwaliteit te verbeteren. De oplossing is tot stand gekomen via diepgaand veldonderzoek, iteratieve prototyping en gebruikerstesten in realistische contexten. Het eindresultaat is een flexibel, intuïtief en betaalbaar hulpmiddel dat in verschillende zorgomgevingen inzetbaar is. Orion toont zo aan hoe technologie empathisch kan bijdragen aan duurzame thuiszorg.
 
 > 📌 **_Design Requirements_**
-> - 1. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
+> - 1\. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
 > - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
 > - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
-> - 2. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> - 2\. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
 > - 2.1. **Helpt bij oriëntatie naar badkamer/toilet en terug naar bed**
-> - 3. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
+> - 3\. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
 > - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
 > - 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**
 > - 3.3. De mee-slapende wordt **gedurende de nacht niet gestoord** door geluiden of licht boven de 5 lux in de kamer
 > - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen
 > - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**
-> - 4. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
+> - 4\. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
 > - 4.1. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
 > - 4.2. Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
-> - 5. **Maximale consumentenkostprijs van € 150 per module*
+> - 5\. **Maximale consumentenkostprijs van € 150 per module*
 > - 6\. Laat **plaatsing en configuratie** door ouderen 75+ toe
 > - 7\. Bestaat uit **metaal, hout en/of plastic**
 > - 7.1. Komt in **3 esthetische varianten**
 
-</details>
+## Technische beschrijving
 
-## Bill of materials
-
-`TODO❗️update ifv wave 4`
+Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3. 
+Op de Raspberry Pi 3 is een IoT stack geïnstalleerd. ([Instructies vind je hier.](https://github.com/basbaccarne/comon_expo))
+Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de led's en speaker in de modules aan.
 
 ### Electronica
 Lichtarmatuur (x3)
-- [Arduino Nano IoT](https://www.gotron.be/arduino-nano-33-iot-zonder-headers.html)
-- [Raspberry](https://www.raspberrypi.com/products/raspberry-pi-5/)
+- [Arduino Nano 33 IoT](https://www.gotron.be/arduino-nano-33-iot-zonder-headers.html)
+- [Raspberry Pi 3](https://www.raspberrypi.com/products/raspberry-pi-5/)
 - [Led-ring](https://www.otronic.nl/nl/24-bit-rgb-leds-ws2812b-cirkel-rond-neopixel.html?source=googlebase&gad_source=1&gclid=Cj0KCQjwkZm_BhDrARIsAAEbX1GCSt1FU_-lqwhs-2C0fQgxupHfj0l1B38h1cv5iahTJv1isrumIbcaAt71EALw_wcB#gad_source_1)
 - [PIR sensor](https://www.gotron.be/pir-motion-sensor.html) (x1)
-- [AA batterijhouders](https://www.gotron.be/energie/batterijen/batterijhouder/batterijhouder-voor-1-x-aa-cel-met-draden.html) (x3)
-- AA batterijen (x3)
-- [Step-up converter](https://www.otronic.nl/nl/mt3608-2a-max-dc-dc-step-up-power-module-booster-p.html)
 - [Schakelaar](https://www.gotron.be/componenten/schakelmat/schakelaars/toestel/toestelschakelaar-enkelpolig-on-off-spst-6a-250v-zwart.html)
 
 Luidspreker add-on (x1)
 - [MP3-module](https://www.gotron.be/dfplayer-pro-een-mini-mp3-speler-met-128mb-geheugen-onboard.html)
 - [Luidspreker](https://www.gotron.be/miniatuurluidspreker-66mm-2w-8ohm.html)
+Optioneel:
+- [AA batterijhouders](https://www.gotron.be/energie/batterijen/batterijhouder/batterijhouder-voor-1-x-aa-cel-met-draden.html) (x3)
+- AA batterijen (x3)
+- [Step-up converter](https://www.otronic.nl/nl/mt3608-2a-max-dc-dc-step-up-power-module-booster-p.html)
 
 Circuit (kabels, connectoren, weerstanden, etc.)
 
 ### Hardware
 - Behuizing (x3)
 - Diffuser (x3)
-- Wand- & deurmontage (x3)
+[Download de stl-files]("cad/")
 
 ### Software
-- Arduino code voor timing en communicatie (licht en spraak)
+- [Arduino code]("src/") voor timing en communicatie (licht en spraak)
 - Raspberry pi code voor state switching
+  - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
+  - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
 - Applicatie voor configuratie
 
 ## Kritische reflectie
