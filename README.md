@@ -539,6 +539,7 @@ Uitbreidbaar
 - Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3.
 - Op de Pi is een IoT stack geïnstalleerd. ([instructies](https://github.com/basbaccarne/comon_expo))
 - Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de led's en speaker in de modules aan.
+<br clear=”all”>
 
 ### Electronica
 
@@ -566,6 +567,9 @@ Circuit (kabels, connectoren, weerstanden, etc.)<br clear=”all”>
 - Diffuser (x3) [schijf]("cad/schijf.stl")
 
 ### Software
+
+<img align="right" src="img/Wireflow.png" width=300>
+
 - Arduino code voor timing en communicatie (licht en spraak)
   - [main]("src/pilot/src/main.cpp")
   - [actuatoren]("src/pilot/src/actuators.cpp")
@@ -573,6 +577,7 @@ Circuit (kabels, connectoren, weerstanden, etc.)<br clear=”all”>
   - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
   - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
 - Applicatie voor configuratie
+<br clear=”all”>
 
 ## Kritische reflectie
 
@@ -614,7 +619,7 @@ Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij na
 
 ### Develop
 - Prototypes wave 3
-  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EQc9bVL98C1Bg9wy_j9wrJwBJp-GJjBEg8ULPVaeS8YLjg?e=RuK1Z6) - [BERT-enquête]](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef-kFxQShQdNrK5ER4mzfosBrSAzOw-ppaQV2JV5mDE-QA?e=NEIaNG)
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EQc9bVL98C1Bg9wy_j9wrJwBJp-GJjBEg8ULPVaeS8YLjg?e=RuK1Z6) - [BERT-enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef-kFxQShQdNrK5ER4mzfosBrSAzOw-ppaQV2JV5mDE-QA?e=NEIaNG)
   - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EZvJdp2McdxAnRVUZE21PdMB0frdUHorjLVcXtSo-ZZe9w?e=HnJsfv)
 - Prototypes wave 4
   - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbpEEQu65s1MsOD6PxRYUmsBMa9nkP9GNjpH73FM9u82Bg?e=3dqR0F) - [Testing WebUI](https://eaverdeg.github.io/)
