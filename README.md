@@ -186,16 +186,16 @@ De definition fase wordt gestart met een **design sprint** waarin de **how might
 Op vandaag gebeurt het dat de PD gaat dwalen na op te staan voor een toiletbezoek. De waakzame MZ zal ’s nachts telkens opstaan om de PD opnieuw te slapen te helpen.
 
 <p align="center">
-  <img src="img/Storyboard huidige situatie.png" width=700>
+  <img src="img/Storyboard huidige situatie.png" width=650>
 </p>
 
 De eerste productiteratie is een lichtgevende klink op de slaapkamerdeur. Op basis van kleur wordt onderscheid gemaakt tussen dag en nacht. Een stem biedt tijdgebonden duiding. De klink onderscheidt de kamerdeur van de andere deuren.
 
 <p align="center">
-  <img src="img/Storyboard dag-nacht.png" width=700>
+  <img src="img/Storyboard dag-nacht.png" width=650>
 </p>
 <p align="center">
-  <img src="img/Storyboard orientatie.png" width=700>
+  <img src="img/Storyboard orientatie.png" width=650>
 </p>
 
 > 🌊 Wave 1 – **conceptuele prototypes** – stimuli
@@ -427,8 +427,8 @@ De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met ee
 > - **UX bluetooth remote**: licht- en geluidspecificaties
 
 <p align="left">
-  <img src=" img/Prototypes UX opaak.png" width="32%">
-  <img src=" img/Prototypes UX translucent.png" width="32%">
+  <img src=" img/Prototypes UX opaak.jpg" width="32%">
+  <img src=" img/Prototypes UX translucent.jpg" width="32%">
   <img src=" img/Prototypes UI knoppen.png" width="32%">
 </p>
 
@@ -458,9 +458,9 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 -	De **timer-animatie** communiceert met de **klok-metafoor** helder en ganuanceerd.
 
 <p align="left">
-  <img src=" img/Prototypes UX alarm.gif.png" width="32%">
-  <img src=" img/Prototypes UX timer.gif.png" width="32%">
-  <img src=" img/Prototypes UX wekker.gif.png" width="32%">
+  <img src="img/Prototypes UX alarm.gif" width="32%">
+  <img src="img/Prototypes UX timer.gif" width="32%">
+  <img src="img/Prototypes UX wekker.gif" width="32%">
 </p>
 
 ### Conclusies & implicaties
