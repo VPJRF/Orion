@@ -211,7 +211,7 @@ De prototypes worden in een **user feedback sessions (N=10)** in Huize Ter Walle
 
 #### User feedback sessions (N=10)
 
-📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUDGs_sZqw1Cu-SNZ_Z4MUYB4EUygZoMUpzzzmrSuLFlzA?e=GaHmqu
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUDGs_sZqw1Cu-SNZ_Z4MUYB4EUygZoMUpzzzmrSuLFlzA?e=GaHmqu)
 📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYPAxhtVcARDhyRcBSE5QyAB_7105NtN1UUdGcgKd0noVQ?e=lRj64M)
 📄 [Enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef0tJbKGW_dAtwJForc6fqsBGBC1jhmTAPsUzSV54qDXcQ?e=y3iexh)
 📄 [Resultaten](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/ETZRhIU3ZTpDvh90dmZtsAcBM5H1ob_vPhDzmzgHq2v9hA?e=dr1w6v)
@@ -382,7 +382,7 @@ Voor elke gebruikscontext wordt telkens bij vier personen de intuïtieve, emotio
 
 📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EQc9bVL98C1Bg9wy_j9wrJwBJp-GJjBEg8ULPVaeS8YLjg?e=RuK1Z6)
 📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EZvJdp2McdxAnRVUZE21PdMB0frdUHorjLVcXtSo-ZZe9w?e=HnJsfv)
-📄 [BERT-enquête]](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef-kFxQShQdNrK5ER4mzfosBrSAzOw-ppaQV2JV5mDE-QA?e=NEIaNG)
+📄 [BERT-enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef-kFxQShQdNrK5ER4mzfosBrSAzOw-ppaQV2JV5mDE-QA?e=NEIaNG)
 
 <img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
 
