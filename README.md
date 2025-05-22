@@ -532,15 +532,17 @@ Uitbreidbaar
 
 ## Technische beschrijving
 
-<img align="right" src="img/Prototypes wiring.jpg" width=400>
-
 ### Samenstelling
+
+<img align="right" src="img/Prototypes wave 4 System Architecture.jpg" width=300>
 
 - Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3.
 - Op de Pi is een IoT stack geïnstalleerd. ([instructies](https://github.com/basbaccarne/comon_expo))
 - Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de led's en speaker in de modules aan.
 
 ### Electronica
+
+<img align="right" src="img/Prototypes wiring.jpg" width=300>
 
 Lichtarmatuur (x3)
 - [Arduino Nano 33 IoT](https://www.gotron.be/arduino-nano-33-iot-zonder-headers.html)
@@ -559,6 +561,8 @@ Optioneel:
 
 Circuit (kabels, connectoren, weerstanden, etc.)
 
+<br clear=”all”>
+
 ### Hardware
 - Behuizing (x3) [haak]("cad/haak.stl"), [ring]("cad/ring.stl"), [pasvorm 1]("cad/pasvorm 1.stl"), [pasvorm 2]("cad/pasvorm 2.stl")
 - Diffuser (x3) [schijf]("cad/schijf.stl")
@@ -571,8 +575,6 @@ Circuit (kabels, connectoren, weerstanden, etc.)
   - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
   - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
 - Applicatie voor configuratie
-
-<br clear=”all”>
 
 ## Kritische reflectie
 
