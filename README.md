@@ -563,7 +563,7 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 
 ### Hardware
 
-<img align="right" src="img/Prototypes finale 3d print.jpg width=300>
+<img align="right" src="img/Prototypes finale 3d print.jpg" width=300>
 
 - Behuizing (x3)
   - [haak](cad/haak.stl)
