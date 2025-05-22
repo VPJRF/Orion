@@ -209,28 +209,28 @@ De prototypes worden in een **user feedback sessions (N=10)** in Huize Ter Walle
 De meeste PDs kunnen nog wel kloklezen, maar staan geregeld op voor een **toiletbezoek**, een **glas water** of uit **verwardheid** (_”Ik moet gaan werken in de bakkerij.”, “Ik zoek mijn broer.”_. De MZs beschouwen hun nachtelijk hulp als een noodzaak en een evidentie, met het valrisico als hoofdreden.
 > _”Ik ben niet gerust als ik niet mee ga als hij uit de kamer gaat.”_ – mantelzorger en partner
 
-Er lijkt een _status quo bias_ te heersen. Doch bij het voorstellen van de productideeën blijkt dat MZs zelf creatief zijn in het zoeken naar oplossingen. Nachtelijke oriëntatie wordt ondersteund door **automatische verlichting** en geïmproviseerde **lichtlijnen**. Bij een verminderd tijdsbesef doet een **wake-up lampwekker** met **audioboodschap bij aanraking** dienst.
+Bij sommigen overheerst de _status quo bias_. Doch blijken MZs zelf creatief in het zoeken naar oplossingen. Nachtelijke oriëntatie wordt ondersteund door **automatische verlichting** en geïmproviseerde **lichtlijnen**. Bij een verminderd tijdsbesef doet een **wake-up lampwekker** met **audioboodschap bij aanraking** dienst.
 
-De cognitieve capaciteit van de PD in thuiszorg is sterk uiteenlopend. Het **type prikkel** is **sterk individueel** te bepalen. De prikkel moet intuïtief zijn zoals **een licht of een herkenbare stem**. Kleurcodes zijn te complex.
+De cognitieve capaciteit van de PD in thuiszorg is sterk uiteenlopend. Het **type prikkel is sterk individueel** te bepalen. De prikkel moet intuïtief zijn zoals **een licht of een herkenbare stem**. Kleurcodes zijn te complex.
 <br clear="all">
 
 <img align="right" src="img/Prototypes radiochart.png" width=400>
 
-Snoezelgeluiden zijn voor de een **storend**, voor de ander een **slaaphulp**. Licht op de deur of onder bed werkt net uitnodigend om op te staan. De prikkel moet zich aan het hoofddoel (het bed) bevinden.
+Snoezelgeluiden zijn voor de een storend, voor de ander een slaaphulp. Licht op de deur of onder bed werkt net uitnodigend om op te staan. De prikkel moet zich aan het hoofddoel (het bed) bevinden.
 
 De _breadcrumbs_ komen als winnaar uit zowel de gesprekken, als de enquête. Dit kan worden toegeschreven aan de **intuïtiviteit** (basale aantrekking van licht in ‘t donker), de **autonome werking** (geen complexe interactie en leercurve), de **herkenbaarheid** (domotica), eenvoudige **integreerbaarheid** en het **beperken van storende prikkels in de kamer**.
 <br clear="all">
 
 ### Conclusies & implicaties
 
-Een **verlichte nachthal** en een hulp bij het oriënteren door een **slimme aansturing** verlaagt het risico op dwalen en vallen. Volledige autonomie van de PD veroorzaak teveel ongerustheid bij de meeste MZs. Een adequate **feedback** is dus noodzakelijk.
+Een **verlichte nachthal** en een hulp bij het oriënteren door een **slimme aansturing** verlaagt het risico op dwalen en vallen. Volledige autonomie van de PD wekt ongerustheid bij MZs. Een adequate **feedback** is dus noodzakelijk.
 
 > 📌 **_Design Requirements_**
 > - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
 > - 2.1. **Helpt bij oriëntatie naar badkamer of toilet en terug naar bed**
 > - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
 > - 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**
-> - 3.3. Gedurende de nacht zijn er **geen storende prikkels in de kamer** (geen geluid, max. 1-5 lux)
+>- 3.3. De mee-slapende wordt **gedurende de nacht niet gestoord** door geluiden of licht boven de 5 lux in de kamer
 
 ## Definition II
 
@@ -242,7 +242,7 @@ Een **verlichte nachthal** en een hulp bij het oriënteren door een **slimme aan
 
 ### Materiaal & methoden
 
-Uit de eerste feedback blijkt dat de verstoorde nachtrust uiteenlopende oorzaken heeft, maar de mantelzorgers er vaak zelf de vinger niet op kunnen leggen. Een diepergaande **literature review (N=1)** over **doolgedrag en _sundowning_** verscherpt het referentiekader.
+Uit de eerste feedback blijkt dat de verstoorde nachtrust uiteenlopende oorzaken heeft, maar de MZs er zelf vaak de vinger niet op kunnen leggen. Een diepergaande **literature review (N=1)** over **dwaalgedrag en _sundowning_** verscherpt het referentiekader.
 
 De bevindingen worden getest in verder uitgewerkte prototypes. De _breadcrumbs_ worden uitgebreid met de _beacon_. Een variant specifiek voor aan bed, met snoezelfuncties en een gerichte led die niet storend is voor de mee-slapende.
 
@@ -253,7 +253,7 @@ De bevindingen worden getest in verder uitgewerkte prototypes. De _breadcrumbs_ 
 
 <img src="img/Prototypes wave 2.png">
 
-Uit **benchmarks** kan worden geconcludeerd dat er betere varianten van het kussen (Somnox) en de knuffel (Moonie) op de markt zijn. De geïntegreerde functies worden met **Wizard of Oz testing (N=3)** bij de doelgroep getest. Voorafgaand wordt de werking uitvoerig besproken in een ongeplande **user evaluation (N=1)** met een experte fixatie en valpreventie.
+Uit **benchmarks** kan worden geconcludeerd dat er betere varianten van het kussen (_Somnox_) en de knuffel (_Moonie_) op de markt zijn. De geïntegreerde functies worden met **Wizard of Oz testing (N=3)** bij de doelgroep getest. Voorafgaand wordt de werking uitvoerig besproken in een ongeplande **user evaluation (N=1)** met een experte fixatie en valpreventie.
 Een **MoSCoW evaluation** helpt de essentie te destilleren.
 
 ### Resultaten
@@ -262,9 +262,16 @@ Een **MoSCoW evaluation** helpt de essentie te destilleren.
 
 #### Literature review (N=1)
 
-Het artikel _Wandering and Sundowning  in Dementia_ [^3] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden** verergeren de neuropsychiatrische symptomen. Preventieve maatregelen zijn **meer beweging en zonlicht overdag**. Acute maatregelen zijn het voorzien van een **rustige, goed verlichte omgeving** en **aroma- en muziektherapie**.
+Het artikel _Wandering and Sundowning  in Dementia_ [^3] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden** verergeren de neuropsychiatrische symptomen.
+- Preventieve maatregelen zijn **meer beweging en zonlicht overdag**.
+- Acute maatregelen zijn het voorzien van een **rustige, goed verlichte omgeving** en **aroma- en muziektherapie**.
 
-> 🌊 Aroma en muziek worden als rustgevende toegevoegd aan de _wave 2 prototypes_. De geur van eucalyptus, rustgevende [geluiden]( https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b) en lichtprojecties creëren een snoezelervaring voor ’t slapen. De geur van koffie vergezeld de lichtwekker.
+> 🌊 Aroma en geluid worden toegevoegd aan de _wave 2 prototypes_. De geur van eucalyptus, rustgevende [geluiden]( https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b) en lichtprojecties creëren een snoezelervaring voor ’t slapen. De geur van koffie vergezeld de lichtwekker.
+> Van link naar rechts:
+> - Zeebries (snoezel)
+> - Ademenhaling (snoezel)
+> - Zonsopgang (wekker)
+> - Alarm (feedback)
 
 <p align="left">
   <img src="img/GIF Sky.gif" width="24%">
@@ -278,16 +285,14 @@ front of each door to serve as a visual barrier”_.
 
 #### User review (N=1)
 
-Een gesprek met de experte fixatie en valpreventie van WZC St-Eligius geeft inzicht in de waarde van het product in de context van een woonzorgcentrum.
+Een gesprek met de experte fixatie en valpreventie van WZC St-Eligius geeft inzicht in de werking in een WZX-context.
 -	**Spraakberichten** zoals _”het is nog nacht”_ zou de nachtdienst veel werk kunnen besparen. Ook in aanleunflats of thuissituaties waar de PD alleen slaapt, hoeft geluid niet uit de kamer geweerd te worden.
 -	In WZC zou **feedback** via **DECT** moeten komen. Een instelbare gevoeligheid is wenselijk. MZs hebben tegenwoordig bijna allemaal een **smartphone**.
--	In WZC kent **aromatherapie** een belangrijke plek. Geuren als **eucalyptus, yland-ylang, sinaasappel en citroen** worden gebruikt voor het bestrijden van nervositeit, angst, boosheid, verwarring, slapeloosheid, …
+-	In WZC kent **aromatherapie** een belangrijke plek. Geuren als **eucalyptus, yland-ylang, sinaasappel en citroen** worden gebruikt voor het bestrijden van nervositeit, angst, boosheid, verwarring, slapeloosheid, etc.
 
-#### User testing prototypes
+#### Wizard of Oz testing (N=3)
 
-Bij het testen bij PD wordt duidelijk dat de **dementiespecifieke _featuritis_ schaamte en confrontatie veroorzaakt**, wat een vlotte **acceptatie in de weg staat**. Een MoSCoW evaluation brengt de functies terug tot licht en spraak.
-
-Onvoorziene externe prikkels en afwijkingen van de normale dagroutine veroorzaken onrust en verwardheid bij PD wat de _ecologic validity_ danig beïnvloed.
+Bij het testen bij PD wordt duidelijk dat de dementiespecifieke features **schaamte en confrontatie** veroorzaakt, wat een vlotte **acceptatie in de weg staat**. Een MoSCoW evaluation brengt de functies terug tot licht en spraak.
 
 <p align="left">
   <img src="img/Wizard of Oz bed.png" width="25.1%">
@@ -297,7 +302,7 @@ Onvoorziene externe prikkels en afwijkingen van de normale dagroutine veroorzake
 
 ### Conclusies & implicaties
 
-Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpmiddelen, die stigmatiserend kunnen werken, de acceptatie van het basisproduct in de weg staan en de kostprijs onnodig opdrijven. **Spraak, licht en detectie definiëren het _minimum viable product_**, dat in deze vorm ook voor ouderen zonder dementie een hulp kan bieden.   Bij de PD zou het product en _mental model_ van nachtverlichting met een aangename, subtiele geheugensteun moeten evoceren. Volgens de _fluency heuristic_ zou een geleidelijke introductie van de hulpfuncties de acceptatie ten goede komen.
+Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpmiddelen, die stigmatiserend kunnen werken, de acceptatie van het basisproduct in de weg staan en de kostprijs onnodig opdrijven. **Spraak, licht en detectie definiëren het _minimum viable product_**. Het beoogde _mental model_ is een routeverlichting en een aangename geheugensteun. De _fluency heuristic_ stelt dat een **geleidelijke introductie van de hulpfuncties** de acceptatie ten goede komt.
 
 > 📌 **_Design Requirements_**
 > - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
@@ -315,14 +320,14 @@ Een lichtlijn wordt als variant op de dikke zwarte lijn als barrière geïntrodu
   <img src="img/Vlinder mockup open.png" width="19%">
   <img src="img/Vlinder mockup half.png" width="19%">
   <img src="img/Vlinder mockup lijn.png" width="19%">
-  <img src="img/Vlinder storyboard.png" width="41%">
+  <img src="img/Vlinder storyboard.png" width="38%">
 </p>
 
 ## Develop I – look & feel
 
  ### Doelstellingen
 
-Er wordt getracht het product **minder stigmatiserend** te maken, door de **doelgroep uit te breiden** en het beter in de omgeving te integreren. Het _MVP_ is ook voor ouderen zonder dementie een hulp. De oriëntatiehulp kan bovendien helpen bij kinderen die de babyfoon ontgroeid zijn.   
+Er wordt getracht het product **minder stigmatiserend** te maken, door de **doelgroep uit te breiden** en het beter in de omgeving te integreren. Het _MVP_ kan ook voor **ouderen zonder dementie** een hulp zijn. De oriëntatiehulp kan bovendien helpen bij **kinderen (2-4j)** die de babyfoon ontgroeid zijn.   
 >❓ _Hoe kunnen we de **acceptie en adaptatie optimaliseren?**_
 > - Welke **use-cases** komen in aanmerking?
 > - Hoe zijn **look & feel** en doelgroep gerelateerd?
@@ -331,7 +336,7 @@ Er wordt getracht het product **minder stigmatiserend** te maken, door de **doel
 
 <img align="right" src="img/Prototypes wave 3 CMF.png" width=400>
 
-Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een verschillend referentiekader en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden de het kleur- en materiaalgebruik. Een **morphologische matrix** stuurt de ontwikkeling van de nieuwe prototype vatianten.
+Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een **morphologische matrix** stuurt de ontwikkeling van de nieuwe prototype vatianten.
 
 <br clear=”all”>
 
@@ -343,14 +348,14 @@ Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebru
 > - **Pacman**: retro, herkenbaar – natuurlijk, hout
 
 <p align="left">
-  <img src="img/Prototypes boek.png" width="19%">
-  <img src="img/Prototypes vlinder.png" width="19%">
-  <img src="img/Prototypes discobal.png" width="19%">
-  <img src="img/Prototypes schelp.png" width="19%">
-  <img src="img/Prototypes pacman.png" width="19%">
+  <img src="img/Prototypes boek.png" width="18.5%">
+  <img src="img/Prototypes vlinder.png" width="18.5%">
+  <img src="img/Prototypes discobal.png" width="18.5%">
+  <img src="img/Prototypes schelp.png" width="18.5%">
+  <img src="img/Prototypes pacman.png" width="18.5%">
 </p>
 
-Voor elke gebruikscontext worden telkens bij vier personen een esthetische en emotionele evaluatie gevraagd via **Interactive BERT-survey (N=12)**. Tijdens de beoordeling worden vragen over gebruikssituaties en interacties gesteld.
+Voor elke gebruikscontext wordt telkens bij vier personen de intuïtieve, emotionele reactie op de esthetische kwaliteit bevraagd via **interactive BERT-survey (N=12)**. Tijdens de beoordeling worden vragen over gebruikssituaties en interacties gesteld.
 
 ### Resultaten
 
@@ -415,7 +420,7 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 -	Indirecte verlichting bij de **opake kap voorkomt verblinding** in de hal.
 
 **Fysieke ergonomie**
--	De trekschakelaar voldoet aan het _mental model_ van nachtverlichting bij ouderen, maar de PD kan het toestel onbedoeld uitschakelen.
+-	De trekschakelaar voldoet aan het _mental framework_ van nachtverlichting bij ouderen, maar de PD kan het toestel onbedoeld uitschakelen.
 -	Een **voldoende grote**, voor de PD **verborgen wipschakelaar** geniet de voorkeur. 
 
 **Auditieve ergonomie**
@@ -423,12 +428,12 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 
 **Cognitieve ergonomie**
 -	De **rode** waarschuwingsanimaties evoceert het **brandalarm-metafoor** en werkt onrustwekkend.
--	De **timer** animatie communiceert met de **klok-metafoor** helder en ganuanceerd.
+-	De **timer-animatie** communiceert met de **klok-metafoor** helder en ganuanceerd.
 
 <p align="left">
-  <img src=" img/Prototypes UX alarm.gif.png" width="200">
-  <img src=" img/Prototypes UX timer.gif.png" width="200">
-  <img src=" img/Prototypes UX wekker.gif.png" width="200">
+  <img src=" img/Prototypes UX alarm.gif.png" width="32%">
+  <img src=" img/Prototypes UX timer.gif.png" width="32%">
+  <img src=" img/Prototypes UX wekker.gif.png" width="32%">
 </p>
 
 ### Conclusies & implicaties
@@ -448,15 +453,15 @@ Het type licht (direct of indirect) is afhankelijk van de positie. De aan/uit-be
 Een _proof of concept_ door het verwerken van de producteisen in een volledig functioneel prototype om met de hoogst mogelijke _ecological validity_ te testen bij de werkelijke eindgebruiker.
 
 > ❓**Vervult het product de vooropgestelde _How Might We_?**
-> - Wat zijn de limitaties van het product?
-> - Welk verder onderzoek is noodzakelijk?
+> - Wat zijn de **limitaties** van het product?
+> - Welk **verder onderzoek** is noodzakelijk?
 
 ### Materiaal & methoden
 
 Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** opgemaakt als blueprint voor de **system architecture**. De installatie werkt autonoom via wifi-connectie met een _Raspberry Pi_ en wordt opgesteld bij een PD en MZ thuis. De werking wordt vooraf doorlopen en blijft vervolgens een volledige nacht in werking voor een **validation session (N=2)**. Na afloop wordt de MZ geïnterviewd over de bevindingen.
 
 > 🌊 Wave 5 – **proof of concept prototypes** – effectiviteit & intuïtiviteit
-> - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die de system state switching verwerkt en de leds en de speaker aanstuurt
+> - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die de via state switching de leds en speaker aanstuurt.
 
 ### Resultaten
 
@@ -473,6 +478,7 @@ Uitbreidbaar
 
 <details>
  <summary>Toon een overzicht van alle Design Requirements.</summary>
+
 > 📌 **_Design Requirements_**
 > - 1. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
 > - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
@@ -492,6 +498,7 @@ Uitbreidbaar
 > - 6\. Laat **plaatsing en configuratie** door ouderen 75+ toe
 > - 7\. Bestaat uit **metaal, hout en/of plastic**
 > - 7.1. Komt in **3 esthetische varianten**
+
 </details>
 
 ## Bill of materials
