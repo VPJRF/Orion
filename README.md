@@ -422,7 +422,7 @@ De **fysieke, cognitieve en sensoriële ergonomie** verfijnen en het bepalen van
 
 De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met een BLE bediend UX prototype. Voor de fysieke interacties wordt UI mockup gebruikt. De _ecological validity_ wordt gegarandeerd door de toestellen in een donkere omgeving op de deur of naast het bed te plaatsen. Een **moodboard** dient als leidraad voor de look & feel.
 
-<img src="img/Moodboard.jpg" align="right" width=100%>
+<img src="img/Moodboard.jpg" align="right" width="650">
 
 > 🌊 Wave 4 – **UI & UX prototypes** – comfort & gebruiksgemak
 > - **UI mockup**: aan/uit bediening
