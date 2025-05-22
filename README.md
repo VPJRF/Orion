@@ -101,7 +101,7 @@ Er is een groeiende erkenning van de waardevolle rol van technologie in de onder
 
 #### User interviews (N=4)
 
-📄 
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EcmzMGjfi_pDri7_CiFLg6sBVcVGTVBcUN_csnUy3V1scA?e=q4lqXB)
 
 <p align="left">
   <img src="img/User interviews Andre.png" width="32%">
@@ -119,7 +119,8 @@ Mantelzorgers willen de overstap van thuiszorg naar een woonzorgcentrum zo lang 
 
 #### Ethnography (N=1)
 
-📄 📄 
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbZtCITc4uJAq0ycfyGaPi8BeBhuUqo_bVPuqhUFXoU3WQ?e=zYbrPR)
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUZXoSR17MNIq53AvzIOdvEBZ89_BWPycliHvZ6ZHHcRLg?e=TfPVYO)
 
 <p align="left">
   <img src="img/Ethnography ochtend.png" width="45%">
@@ -210,7 +211,10 @@ De prototypes worden in een **user feedback sessions (N=10)** in Huize Ter Walle
 
 #### User feedback sessions (N=10)
 
-📄 📄 
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EUDGs_sZqw1Cu-SNZ_Z4MUYB4EUygZoMUpzzzmrSuLFlzA?e=GaHmqu
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYPAxhtVcARDhyRcBSE5QyAB_7105NtN1UUdGcgKd0noVQ?e=lRj64M)
+📄 [Enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef0tJbKGW_dAtwJForc6fqsBGBC1jhmTAPsUzSV54qDXcQ?e=y3iexh)
+📄 [Resultaten](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/ETZRhIU3ZTpDvh90dmZtsAcBM5H1ob_vPhDzmzgHq2v9hA?e=dr1w6v)
 
 <img align="right" src="img/Prototypes mantelzorgers.jpg" width="400">
 
@@ -270,7 +274,7 @@ Een **MoSCoW evaluation** helpt de essentie te destilleren.
 
 #### Literature review (N=1)
 
-📄 
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVuqMEwuGKBKsmLIZl0oRTYBc0NNRPol8vBCxzsqA2-cCg?e=P4wvQc)
 
 Het artikel _Wandering and Sundowning  in Dementia_ [^3] onderscheidt drie deelgroepen o.b.v. cognitieve en fysieke capaciteiten. Een **lage cognitieve functie en hoge gedragsverstoringen** vormen het vaakst aanleiding tot dwalen. **Onrust, angst, en waanbeelden** verergeren de neuropsychiatrische symptomen.
 - Preventieve maatregelen zijn **meer beweging en zonlicht overdag**.
@@ -295,12 +299,17 @@ front of each door to serve as a visual barrier”_.
 
 #### User review (N=1)
 
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
+
 Een gesprek met de experte fixatie en valpreventie van WZC St-Eligius geeft inzicht in de werking in een WZX-context.
 -	**Spraakberichten** zoals _”het is nog nacht”_ zou de nachtdienst veel werk kunnen besparen. Ook in aanleunflats of thuissituaties waar de PD alleen slaapt, hoeft geluid niet uit de kamer geweerd te worden.
 -	In WZC zou **feedback** via **DECT** moeten komen. Een instelbare gevoeligheid is wenselijk. MZs hebben tegenwoordig bijna allemaal een **smartphone**.
 -	In WZC kent **aromatherapie** een belangrijke plek. Geuren als **eucalyptus, yland-ylang, sinaasappel en citroen** worden gebruikt voor het bestrijden van nervositeit, angst, boosheid, verwarring, slapeloosheid, etc.
 
 #### Wizard of Oz testing (N=3)
+
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVgxVO37P6NCvh-ebd2gSRIBjbLRaMpq6a8uFbEiW7BVhg?e=qOb3VR)
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
 
 Bij het testen bij PD wordt duidelijk dat de dementiespecifieke features **schaamte en confrontatie** veroorzaakt, wat een vlotte **acceptatie in de weg staat**. Een MoSCoW evaluation brengt de functies terug tot licht en spraak.
 
@@ -346,7 +355,7 @@ Er wordt getracht het product **minder stigmatiserend** te maken, door de **doel
 
 <img align="right" src="img/Prototypes wave 3 CMF.png" width=400>
 
-Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een **morphologische matrix** stuurt de ontwikkeling van de nieuwe prototype vatianten.
+Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een [**morphologische matrix**]("img/Prototypes morfologische matrix.png") stuurt de ontwikkeling van de nieuwe prototype vatianten.
 
 <br clear=”all”>
 
@@ -371,7 +380,9 @@ Voor elke gebruikscontext wordt telkens bij vier personen de intuïtieve, emotio
 
 #### Interactive BERT-survey (N=12)
 
-📄 📄 
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EQc9bVL98C1Bg9wy_j9wrJwBJp-GJjBEg8ULPVaeS8YLjg?e=RuK1Z6)
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EZvJdp2McdxAnRVUZE21PdMB0frdUHorjLVcXtSo-ZZe9w?e=HnJsfv)
+📄 [BERT-enquête]](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef-kFxQShQdNrK5ER4mzfosBrSAzOw-ppaQV2JV5mDE-QA?e=NEIaNG)
 
 <img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
 
@@ -421,13 +432,15 @@ De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met ee
   <img src=" img/Prototypes UI knoppen.png" width="32%">
 </p>
 
-Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten worden in een **feature matrix** samengevat.
+Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten worden in een [**feature matrix**]("img/Prototypes UI options.png") samengevat.
 
 ### Resultaten
 
 #### Wizard of Oz testing (N=3)
 
-📄 📄 
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbpEEQu65s1MsOD6PxRYUmsBMa9nkP9GNjpH73FM9u82Bg?e=3dqR0F)
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EaTvNlM5hxRDjElFE4yJdeABiT8zmxKg7SMp7_JgvvWh1Q?e=RHhe7Z)
+🔗 [Testing WebUI](https://eaverdeg.github.io/)
 
 **Visuele ergonomie**
 -	Een **translucente kap** maakt het toestel bij bed potentieel **geschikt als leeslamp**.
@@ -481,7 +494,8 @@ Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** op
 
 #### Validation sessions (N=2)
 
-📄 📄 
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Eba2SJnz_qJLk0D3Vfa5ZnQBhl0F5f7rrHB8iqlQefb_Kw?e=W9rya8)
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYsSF-ocI9BGpibg7Vrg9c0BDqhcAzFuGdlTmi8KfnNLWw?e=21pjaG)
 
 …
 
@@ -494,7 +508,7 @@ Uitbreidbaar
 
 ## Conclusie
 
-**_Orion_** is een nachtroutinetool die de zelfstandigheid van personen met dementie ondersteunt en mantelzorgers ’s nachts ontlast. Door visuele en auditieve prikkels strategisch in te zetten, helpt het systeem nachtelijk dwalen te voorkomen en de slaapkwaliteit te verbeteren. De oplossing is tot stand gekomen via diepgaand veldonderzoek, iteratieve prototyping en gebruikerstesten in realistische contexten. Het eindresultaat is een flexibel, intuïtief en betaalbaar hulpmiddel dat in verschillende zorgomgevingen inzetbaar is. Orion toont zo aan hoe technologie empathisch kan bijdragen aan duurzame thuiszorg.
+**_Orion_** is een nachtroutinetool die de zelfstandigheid van personen met dementie ondersteunt en mantelzorgers ’s nachts ontlast. Door visuele en auditieve prikkels strategisch in te zetten, helpt het systeem nachtelijk dwalen te voorkomen en de slaapkwaliteit te verbeteren. De oplossing is tot stand gekomen via diepgaand veldonderzoek, iteratieve prototyping en gebruikerstesten in realistische contexten. **Het eindresultaat is een flexibel, intuïtief en betaalbaar hulpmiddel dat in verschillende zorgomgevingen inzetbaar is**. _Orion_ toont zo aan hoe technologie empathisch kan bijdragen aan duurzame thuiszorg.
 
 > 📌 **_Design Requirements_**
 > - 1\. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
@@ -518,11 +532,16 @@ Uitbreidbaar
 
 ## Technische beschrijving
 
-Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3.<br>
-Op de Pi is een IoT stack geïnstalleerd. ([Instructies vind je hier.](https://github.com/basbaccarne/comon_expo))<br>
-Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de led's en speaker in de modules aan.
+<img align="right" src="img/Prototypes wiring.jpg" width=400>
+
+### Samenstelling
+
+- Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3.
+- Op de Pi is een IoT stack geïnstalleerd. ([instructies](https://github.com/basbaccarne/comon_expo))
+- Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de led's en speaker in de modules aan.
 
 ### Electronica
+
 Lichtarmatuur (x3)
 - [Arduino Nano 33 IoT](https://www.gotron.be/arduino-nano-33-iot-zonder-headers.html)
 - [Raspberry Pi 3](https://www.raspberrypi.com/products/raspberry-pi-5/)
@@ -552,6 +571,8 @@ Circuit (kabels, connectoren, weerstanden, etc.)
   - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
   - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
 - Applicatie voor configuratie
+
+<br clear=”all”>
 
 ## Kritische reflectie
 
@@ -584,6 +605,7 @@ Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij na
   - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYPAxhtVcARDhyRcBSE5QyAB_7105NtN1UUdGcgKd0noVQ?e=lRj64M) - [resultaten enquête](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/ETZRhIU3ZTpDvh90dmZtsAcBM5H1ob_vPhDzmzgHq2v9hA?e=dr1w6v)
 - [Matrix evaluation](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
 - Prototypes wave 2
+  - [Literature review](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVuqMEwuGKBKsmLIZl0oRTYBc0NNRPol8vBCxzsqA2-cCg?e=P4wvQc)
   - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVgxVO37P6NCvh-ebd2gSRIBjbLRaMpq6a8uFbEiW7BVhg?e=qOb3VR)
   - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
   - [Arduino code Beacon](/tests/Beacon.ino)
@@ -592,7 +614,7 @@ Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij na
 
 ### Develop
 - Prototypes wave 3
-  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EQc9bVL98C1Bg9wy_j9wrJwBJp-GJjBEg8ULPVaeS8YLjg?e=RuK1Z6)
+  - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EQc9bVL98C1Bg9wy_j9wrJwBJp-GJjBEg8ULPVaeS8YLjg?e=RuK1Z6) - [BERT-enquête]](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Ef-kFxQShQdNrK5ER4mzfosBrSAzOw-ppaQV2JV5mDE-QA?e=NEIaNG)
   - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EZvJdp2McdxAnRVUZE21PdMB0frdUHorjLVcXtSo-ZZe9w?e=HnJsfv)
 - Prototypes wave 4
   - [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EbpEEQu65s1MsOD6PxRYUmsBMa9nkP9GNjpH73FM9u82Bg?e=3dqR0F) - [Testing WebUI](https://eaverdeg.github.io/)
@@ -602,7 +624,6 @@ Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij na
   - [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYsSF-ocI9BGpibg7Vrg9c0BDqhcAzFuGdlTmi8KfnNLWw?e=21pjaG)
 
 ### Deliver
-- [Design requirements]()
 - [Explainer video]()
   - [Script](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EcioSIA9y9ZAlRPYxw0DY-EBSUCkpOe41N7b1oHjZXvO0w?e=Y3X2C9)
 
