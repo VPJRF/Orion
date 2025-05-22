@@ -539,7 +539,6 @@ Uitbreidbaar
 - Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3.
 - Op de Pi is een IoT stack geïnstalleerd. ([instructies](https://github.com/basbaccarne/comon_expo))
 - Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de led's en speaker in de modules aan.
-<br clear=”all”>
 
 ### Electronica
 
@@ -560,15 +559,16 @@ Optioneel:
 - AA batterijen (x3)
 - [Step-up converter](https://www.otronic.nl/nl/mt3608-2a-max-dc-dc-step-up-power-module-booster-p.html)
 
-Circuit (kabels, connectoren, weerstanden, etc.)<br clear=”all”>
+Circuit (kabels, connectoren, weerstanden, etc.)
 
 ### Hardware
+
+<img align="right" src="img/Wireflow.png" width=300>
+
 - Behuizing (x3) [haak]("cad/haak.stl"), [ring]("cad/ring.stl"), [pasvorm 1]("cad/pasvorm 1.stl"), [pasvorm 2]("cad/pasvorm 2.stl")
 - Diffuser (x3) [schijf]("cad/schijf.stl")
 
 ### Software
-
-<img align="right" src="img/Wireflow.png" width=300>
 
 - Arduino code voor timing en communicatie (licht en spraak)
   - [main]("src/pilot/src/main.cpp")
@@ -577,7 +577,6 @@ Circuit (kabels, connectoren, weerstanden, etc.)<br clear=”all”>
   - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
   - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
 - Applicatie voor configuratie
-<br clear=”all”>
 
 ## Kritische reflectie
 
