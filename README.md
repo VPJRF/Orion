@@ -137,6 +137,7 @@ Een gebrek aan **tijd** en **middelen** vormt veelal de onderliggende oorzaak.
 
 Mantelzorgers wijden hun leven vaak volledig aan hun partner met de ziekte toe, ten koste van zichzelf. Liefde ruimt plaats voor gemis, frustratie en schaamte.
 Dagcentra of een uitstap met een vrijwilliger of tweede lijn mantelzorger bieden ademruimte. Mantelzorgers hebben deze tijd nodig om van de vaak **korte nachten** en **zware zorgdagen** te recupereren en **sociaal isolement** te vermijden.
+<br clear="all">
 
 > _"[…] haar mantelzorger komt haar 's ochtends soms met tranen in de ogen afzetten." ... "Na 16u staat de mantelzorger er opnieuw alleen voor, net wanneer de gasten net heel overprikkeld zijn."_ – zorgverlener
 
@@ -147,7 +148,7 @@ Zowel in woonzorgcentra als in thuissituaties zijn **nachtelijke problemen** zee
 
 De zorgbehoevende verhuist vaak stapsgewijs (via **dagverblijf**, **kortverblijf**, **aanleunflat**) van **thuis** naar **vast verblijf**." Dit valt de MZ heel zwaar en introduceert nieuwe verwarring bij de PD door een nieuwe onherkenbare omgeving.
 
-> _”[…] Sociale Dienst merkt dan op dat de mantelzorger het niet meer aankan. […] Ze hebben het gevoel dat ze hun partner dumpen." [...] "Vanaf dan ben je gescheiden.”_ – zorgverlener<br clear="all">
+> _”[…] Sociale Dienst merkt dan op dat de mantelzorger het niet meer aankan. […] Ze hebben het gevoel dat ze hun partner dumpen." [...] "Vanaf dan ben je gescheiden.”_ – zorgverlener
 
 ### Conclusies & implicaties
 
