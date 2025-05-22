@@ -559,9 +559,7 @@ Optioneel:
 - AA batterijen (x3)
 - [Step-up converter](https://www.otronic.nl/nl/mt3608-2a-max-dc-dc-step-up-power-module-booster-p.html)
 
-Circuit (kabels, connectoren, weerstanden, etc.)
-
-<br clear=”all”>
+Circuit (kabels, connectoren, weerstanden, etc.)<br clear=”all”>
 
 ### Hardware
 - Behuizing (x3) [haak]("cad/haak.stl"), [ring]("cad/ring.stl"), [pasvorm 1]("cad/pasvorm 1.stl"), [pasvorm 2]("cad/pasvorm 2.stl")
