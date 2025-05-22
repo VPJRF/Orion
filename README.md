@@ -566,9 +566,9 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 - Behuizing (x3) [haak](cad/haak.stl), [ring](cad/ring.stl), [pasvorm 1](cad/pasvorm%201.stl), [pasvorm 2](cad/pasvorm%202.stl)
 - Diffuser (x3) [schijf](cad/schijf.stl)
 
-### Software
-
 <img align="right" src="img/Wireflow.png" width=300>
+
+### Software
 
 - Arduino code voor timing en communicatie (licht en spraak)
   - [main]("src/pilot/src/main.cpp")
