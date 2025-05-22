@@ -83,8 +83,8 @@ Om te achterhalen voor welk probleem een oplossing binnen handbereik is, worden 
 
 #### Literature review (N=16)
 
-> 📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EdiS3hkiKK1MplGdmVTWungBmxVn0FbBp6aX2gbiq4Yjcw?e=3pP9zS)
-> 📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVpkX9X-c-hKqZcMqP5W1E4BfmoQJAslg8WdfgcqIlADtQ?e=OeRcE2)
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EdiS3hkiKK1MplGdmVTWungBmxVn0FbBp6aX2gbiq4Yjcw?e=3pP9zS)
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVpkX9X-c-hKqZcMqP5W1E4BfmoQJAslg8WdfgcqIlADtQ?e=OeRcE2)
 
 Dementie is een complexe ziekte met uiteenlopende symptomen.
 -	**Geheugen** en **cognitie** (woordvinding, planning en organisatie, oriëntatie in tijd)
