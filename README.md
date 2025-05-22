@@ -147,8 +147,7 @@ Zowel in woonzorgcentra als in thuissituaties zijn **nachtelijke problemen** zee
 
 De zorgbehoevende verhuist vaak stapsgewijs (via **dagverblijf**, **kortverblijf**, **aanleunflat**) van **thuis** naar **vast verblijf**." Dit valt de MZ heel zwaar en introduceert nieuwe verwarring bij de PD door een nieuwe onherkenbare omgeving.
 
-> _”[…] Sociale Dienst merkt dan op dat de mantelzorger het niet meer aankan. […] Ze hebben het gevoel dat ze hun partner dumpen." [...] "Vanaf dan ben je gescheiden.”_ – zorgverlener
-<br clear="all">
+> _”[…] Sociale Dienst merkt dan op dat de mantelzorger het niet meer aankan. […] Ze hebben het gevoel dat ze hun partner dumpen." [...] "Vanaf dan ben je gescheiden.”_ – zorgverlener<br clear="all">
 
 ### Conclusies & implicaties
 
