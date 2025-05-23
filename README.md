@@ -496,9 +496,9 @@ Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** op
 
 ### Resultaten
 
-Validation sessions (N=2)
+**Validation sessions (N=2)**
 
-Testpersoon 1 – Zelftest (onderzoeker)
+*Testpersoon 1 – Zelftest (onderzoeker)*
 
 De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten werkten technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
 
@@ -507,7 +507,8 @@ De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componente
 </p>
 //Schets opstelling
 
-Testpersoon 2 – Persoon met dementie + mantelzorger
+*Testpersoon 2 – Persoon met dementie + mantelzorger*
+
 Overdag werkte het systeem correct. Bij de nachtelijke test volgde het systeem de verwachte volgorde niet, ondanks correcte detectie bij het opstaan. Vermoedelijk is een foutieve triggering of plaatsing van de kamerdeursensor de oorzaak. De MZ gaf aan positief te zijn over het systeem en het potentieel te zien, mits verdere aanpassing aan hun specifieke situatie:
 
 Toilet bevindt zich op een ander verdiep
