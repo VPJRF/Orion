@@ -166,7 +166,7 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 
 > 📌 **_Design Requirements_**
 > - 1\. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
-> - 2\. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> - 2\. **Begeleidt in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
 > - 3\. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
 > - 4\. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
 
@@ -491,7 +491,7 @@ Een _proof of concept_ door het verwerken van de producteisen in een volledig fu
 Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** opgemaakt als blueprint voor de **system architecture**. De installatie werkt autonoom via wifi-connectie met een _Raspberry Pi_ en is opgesteld bij een PD en MZ thuis. De werking is vooraf doorlopen en is vervolgens een volledige nacht actief gebleven voor een **validation session (N=2)**. Na afloop is de MZ geïnterviewd over de bevindingen.
 
 > 🌊 Wave 5 – **proof of concept prototypes** – effectiviteit & intuïtiviteit
-> - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die via state switching de leds en speaker aanstuurt. Zie technische beschrijving.
+> - **Drie geautomatiseerde lampen**: Arduino IoTs communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die via state switching de leds en speaker aanstuurt. Zie technische beschrijving.
 
 
 ### Resultaten
@@ -500,7 +500,7 @@ Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** op
 
 *Testpersoon 1 – Zelftest (onderzoeker)*
 
-De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten werkten technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
+De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten functioneerden technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
 
 <p align="center">
   <img src="img/Thuis_walkthrough (1)" width=650>
@@ -525,6 +525,7 @@ Overdag werkte het systeem correct. Bij de nachtelijke test volgde het systeem d
 </p>
 
 **Gedragsobservatie & nabespreking**
+
 Via het *think-aloud protocol* werd vastgesteld dat de interactie intuïtief verliep. Er was geen sprake van verwarring of overbelasting. De MZ waardeerde de autonomie die het systeem kan bieden, maar onderstreepte het belang van betrouwbaarheid en aanpasbaarheid. Er was geen negatieve reactie op licht of geluid.
 
 #### Validation sessions (N=2)
@@ -536,10 +537,19 @@ Via het *think-aloud protocol* werd vastgesteld dat de interactie intuïtief ver
 
 ### Conclusies & implicaties
 
+Het systeem is intuïtief, maar nachtelijke betrouwbaarheid moet beter. Modulair ontwerp en instelbare functies zijn cruciaal. MZ-waarschuwing is noodzakelijk.
 Er is een potentiële markt voor het product, mits verdere personalisatie naargelang specifieke situaties van mantelzorgers.
 
 > 📌 **_Design Requirements_**
-> - …
+> -  Modules per ruimte configureerbaar
+
+> -  Instelbare sensorgevoeligheid
+
+> -  Mantelzorgermelding bij activiteit
+
+> -  Extra breadcrumb-verlichting mogelijk
+
+> -  Scenario-templates voor eenvoudige setup
 
 ## Conclusie
 
@@ -554,7 +564,7 @@ Er is een potentiële markt voor het product, mits verdere personalisatie naarge
 > - 1\. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
 >   - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
 >   - 1.2. **Gevoeligheid van de feedback is instelbaar** via een applicatie
-> - 2\. **Begeleid in ruimte en tijd** met als doel aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> - 2\. **Begeleidt in ruimte en tijd** met als doel aan de zelfstandigheid en eigenwaarden van PD bij te dragen
 >   - 2.1. **Helpt bij oriëntatie naar badkamer/toilet en terug naar bed**
 > - 3\. **Intuïtieve, herkenbare interacties** voor personen met beperkte oriëntatie- of geheugenfunctie
 >   - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
