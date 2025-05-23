@@ -504,7 +504,7 @@ De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componente
 
 <p align="center">
   <img src="img/Thuis_walkthrough (1)" width=650>
-  <img src="img/Thuis.png" width=650>
+  <img src="img/Thuis.PNG" width=650>
 </p>
 
 *Testpersoon 2 – Persoon met dementie + mantelzorger*
