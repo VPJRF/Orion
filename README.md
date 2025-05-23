@@ -414,12 +414,12 @@ Het **interieurobject** moet **robuust**, **hygiënisch**, **subtiel** en **pers
 
  ### Doelstellingen
 
-De **fysieke, cognitieve en sensoriële ergonomie** verfijnen en het bepalen van de _affordances_ en _signifiers_ met de focus op gebruik en begrip.
+Het verfijnen van de **fysieke, cognitieve en sensoriële ergonomie** en het bepalen van de _affordances_ en _signifiers_ met de focus op gebruik en begrip.
 > ❓ **Wat maakt de interactie (UI) en ervaring (UX) aangenaam, doeltreffend en niet-intrusief?**
 
 ### Materiaal & methoden
 
-De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met een BLE-bediend UX prototype. Voor de fysieke interacties wordt UI mockup gebruikt. De _ecological validity_ wordt gegarandeerd door de toestellen in een donkere omgeving op de deur of naast het bed te plaatsen. Een **moodboard** dient als leidraad voor de look & feel.
+De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met een BLE-bediend UX prototype. Voor de fysieke interacties wordt een UI mockup gebruikt. De _ecological validity_ wordt gegarandeerd door de toestellen in een donkere omgeving op de deur of naast het bed te plaatsen. Een **moodboard** dient als leidraad voor de look & feel.
 
 <p align="center">
   <img src="img/Moodboard.jpg" width="650">
@@ -435,7 +435,7 @@ De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met ee
   <img src="img/Prototypes UI knoppen.png" width="32%">
 </p>
 
-Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten zijn samengevat in een [**feature matrix**](img/Prototypes%20UI%20options.png).
+Via het **think-aloud protocol** kunnen  _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten zijn samengevat in een [**feature matrix**](img/Prototypes%20UI%20options.png).
 
 ### Resultaten
 
@@ -446,8 +446,8 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 🔗 [Testing WebUI](https://eaverdeg.github.io/)
 
 **Visuele ergonomie**
--	Een **translucente kap** maakt het toestel bij bed potentieel **geschikt als leeslamp**.
--	Indirecte verlichting bij de **opake kap voorkomt verblinding** in de hal.
+-	Een **translucente kap** maakt het naast het bed gepositioneerde toestel potentieel **geschikt als leeslamp**.
+-	Indirecte verlichting bij de **matte kap voorkomt verblinding** in de hal.
 
 **Fysieke ergonomie**
 -	De trekschakelaar voldoet aan het _mental model_ van nachtverlichting bij ouderen, maar de PD kan het toestel onbedoeld uitschakelen.
@@ -458,7 +458,7 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 
 **Cognitieve ergonomie**
 -	De **rode** waarschuwingsanimaties evoceert het **brandalarm-metafoor** en werkt onrustwekkend.
--	De **timer-animatie** communiceert met de **klok-metafoor** helder en genuanceerd.
+-	De **timer-animatie** communiceert helder en genuanceerd met de **klok-metafoor**.
 
 <p align="left">
   <img src="img/Prototypes UX alarm.gif" width="32%">
@@ -468,13 +468,13 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 
 ### Conclusies & implicaties
 
-Het type licht (direct of indirect) is afhankelijk van de positie. De aan/uit-bediening is eenvoudig voor de MZ maar verborgen voor de PD. Geluidsboodschappen hebben een grote invloed op de acceptatie en zijn sterk situatiegebonden. De feedback aan de MZ is op niet-alarmerende wijze voorzien.
+Het type licht (direct of indirect) is afhankelijk van de positie. De aan-/uit-bediening is eenvoudig voor de MZ maar verborgen voor de PD. Geluidsboodschappen hebben een grote invloed op de acceptatie en zijn sterk situatiegebonden. De feedback aan de MZ is op niet-alarmerende wijze voorzien.
 
 > 📌 **_Design Requirements_**
 > - 1.3. Geeft feedback via een **klokanimatie**.
-> - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen
-> - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**
-> - 7.2. Afdekkap komt in een *opake en translucente* variant
+> - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen.
+> - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**.
+> - 7.2. Afdekkap komt in een **matte en translucente** variant.
 
 ## Deliver – proof of concept
 
@@ -491,16 +491,15 @@ Een _proof of concept_ door het verwerken van de producteisen in een volledig fu
 Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** opgemaakt als blueprint voor de **system architecture**. De installatie werkt autonoom via wifi-connectie met een _Raspberry Pi_ en is opgesteld bij een PD en MZ thuis. De werking is vooraf doorlopen en is vervolgens een volledige nacht actief gebleven voor een **validation session (N=2)**. Na afloop is de MZ geïnterviewd over de bevindingen.
 
 > 🌊 Wave 5 – **proof of concept prototypes** – effectiviteit & intuïtiviteit
-> - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die de via state switching de leds en speaker aanstuurt. Zie technische beschrijving
+> - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die via state switching de leds en speaker aanstuurt. Zie technische beschrijving.
 
-<p align="left">
-  <img src="img/Prototypes UX alarm.gif" width="32%">
-</p>
 
 ### Resultaten
 
 Validation sessions (N=2)
+
 Testpersoon 1 – Zelftest (onderzoeker)
+
 De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten werkten technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
 
 <p align="center">
