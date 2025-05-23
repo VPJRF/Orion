@@ -14,7 +14,7 @@
 
 _Dit project richt zich op het probleem van **verstoorde dag-nachtritmes bij mensen met dementie**, wat zowel hun slaap als de nachtrust van hun verzorgers verstoort._
 
-Het probleem werd geanalyseerd door middel van **bevragingen en observaties**, waarbij de verschillende aspecten en gradaties werden geïdentificeerd. Vervolgens werd met behulp van **vijf iteraties aan prototypes** onderzocht hoe het zintuiglijke spectrum optimaal benut kan worden om de PD in zijn zelfstandigheid te ondersteunen.
+Het probleem is geanalyseerd door middel van **bevragingen en observaties**, waarbij de verschillende aspecten en gradaties zijn geïdentificeerd. Vervolgens is met behulp van **vijf iteraties aan prototypes** onderzocht hoe het zintuiglijke spectrum optimaal benut kan worden om de PD in zijn zelfstandigheid te ondersteunen.
 
 Een combinatie van **visuele en auditieve prikkels** op strategische plaatsen doorheen de nachthal **begeleidt de PD bij een nachtelijk toiletbezoek** en **voorkomt het mogelijks daarop volgende nachtelijke dwalen**.
 
@@ -36,7 +36,7 @@ Door de hulp kan de PD ’s nachts zijn plan trekken. De MZ kan met een gerust h
 
 > _“Wanneer de nachten te zwaar worden, moeten mantelzorgers [hun partner] loslaten – niet omdat ze willen, maar omdat ze niet meer kunnen.”_ – zorgverlener
 
-Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) [^1]. De keerzijde van de medaille is dat hierdoor chronische ouderdomsziektes zoals Alzheimer's vaker voorkomen. **Op vandaag krijgt ongeveer 1 op 5 in de loop van zijn of haar leven een vorm van dementie.** Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen (Exptertisecentrum Dementie, 2021) [^2]. In het toekomstige value based healthcare (VBHC) model (PwC, 2024) [^1] **wordt de zorgverlening verder richting de eerstelijns- en nuldelijnszorg verschoven**. Dit moet onder andere een oplossing bieden aan het groeiende personeeltekort in de gezondheidssector. **Deze evolutie onderstreept het belang van de informele zorgverlener en in het bijzonder de mantelzorger in het geval van zorg voor mensen met dementie.**
+Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) [^1]. De keerzijde van de medaille is dat hierdoor chronische ouderdomsziektes zoals Alzheimer's vaker voorkomen. **Op vandaag krijgt ongeveer 1 op 5 in de loop van zijn of haar leven een vorm van dementie.** Dementie is een wereldwijd probleem dat 55 miljoen mensen treft en jaarlijks 10 miljoen nieuwe gevallen kent. In België lijden ongeveer 200.000 personen aan een vorm van dementie, en door de vergrijzing wordt verwacht dat dit aantal tegen 2070 zal verdubbelen (Expertisecentrum Dementie, 2021) [^2]. In het toekomstige value based healthcare (VBHC) model (PwC, 2024) [^1] **wordt de zorgverlening verder richting de eerstelijns- en nuldelijnszorg verschoven**. Dit moet onder andere een oplossing bieden aan het groeiende personeelstekort in de gezondheidssector. **Deze evolutie onderstreept het belang van de informele zorgverlener en in het bijzonder de mantelzorger in het geval van zorg voor mensen met dementie.**
 
 **Personen met dementie hebben moeite met een standaard slaappatroon, wat leidt tot nachtelijke onrust en dwalen** (Thomas & Ritter, 2022) [^3]. Dit verstoort niet alleen de nachtrust van de persoon met dementie zelf, maar ook die van hun mantelzorgers, vaak de partner. **Deze aanhoudende belasting kan leiden tot fysieke en emotionele uitputting van de mantelzorger**, wat de beslissing tot een vaste opname in een woonzorgcentrum kan bespoedigen.
 
@@ -48,11 +48,11 @@ Mensen worden steeds ouder. In 2023 in België gemiddeld 82,5 jaar  (PwC, 2024) 
 
 De methodologie volgt het **triple diamond** ontwerpmodel, bestaande uit vier fasen: **discover**, **define**, **develop** en **deliver**.
 
-In de fase **discover** wordt via een **literature review (N=16)** onderzoek gedaan naar uitdagingen in de zorg voor personen met dementie. Vervolgens vinden **user interviews (N=4)** plaats met mantelzorgers, familieleden en zorgverleners, waarbij gebruik wordt gemaakt van **empathy mapping**. Daarnaast wordt via **ethnography (N=1)** de dagelijkse praktijk geobserveerd in dagverblijf DVC Robijn, afdeling dementie, binnen WZC Sint Eligius. De verzamelde inzichten worden gestructureerd weergegeven in een **fishbone diagram**, waarbij vooral het verstoorde dag-nachtritme en de daarmee samenhangende belasting voor mantelzorgers naar voren komen als prioritair probleem. Een aanvullend **state of the art**-onderzoek leidt tot het initiële concept van de klinkklok als vertrekpunt voor verdere testen.
+In de fase **discover** wordt via een **literature review (N=16)** onderzoek gedaan naar uitdagingen in de zorg voor personen met dementie. Vervolgens vinden **user interviews (N=4)** plaats met mantelzorgers, familieleden en zorgverleners, waarbij gebruik wordt gemaakt van **empathy mapping**. Daarnaast wordt via **ethnography (N=1)** de dagelijkse praktijk geobserveerd in dagverblijf DVC Robijn, afdeling dementie, binnen WZC Sint Eligius. De verzamelde inzichten zijn gestructureerd weergegeven in een **fishbone diagram**, waarbij vooral het verstoorde dag-nachtritme en de daarmee samenhangende belasting voor mantelzorgers naar voren komen als prioritair probleem. Een aanvullend **state of the art**-onderzoek leidt tot het initiële concept van de klinkklok als vertrekpunt voor verdere testen.
 
-Tijdens de **define**-fase worden prototypes iteratief ontwikkeld en geëvalueerd in testwaves, met elk een specifieke focus. In **wave 1** worden **conceptuele prototypes** (klinkklok, vloerlicht, breadcrumbs) onderzocht via **user feedback sessions (N=7)** met mantelzorgers en professionele zorgverleners in Huize Ter Walle, en via **user feedback sessions (N=3)** in DVC Robijn. Nadien wordt een stap teruggenomen met een gerichte **literature review (N=1)** over de problematiek van dwalen en sundowning. In **wave 2** worden de bevindingen toegepast als **feature prototypes** (beacon, breadcrumb, kussen, knuffel) die zich richten op het vaststellen van de featureset via een **evaluation matrix**, met **Wizard of Oz testing (N=3)** bij ouderen met en zonder dementie. Voorafgaand vindt er een ongeplande **user evaluation (N=1)** plaats met een expert in fixatie en valpreventie. De resultaten worden geprioriteerd volgens de **MoSCoW-methode**, wat resulteert in een productconcept bestaande uit licht en geluid nabij het bed, de slaapkamerdeur en het sanitair, inclusief een feedbacksysteem voor mantelzorgers. Uitdagingen liggen in acceptatie, adaptatie en tijdige implementatie. Opties voor uitbreiding naar andere doelgroepen worden onderzocht om het product reeds in een vroeg stadium van de ziekte te introduceren.
+Tijdens de **define**-fase worden prototypes iteratief ontwikkeld en geëvalueerd in testwaves, met elk een specifieke focus. In **wave 1** worden **conceptuele prototypes** (klinkklok, vloerlicht, breadcrumbs) onderzocht via **user feedback sessions (N=7)** met mantelzorgers en professionele zorgverleners in Huize Ter Walle, en via **user feedback sessions (N=3)** in DVC Robijn. Nadien wordt een stap teruggenomen met een gerichte **literature review (N=1)** over de problematiek van dwalen en sundowning. In **wave 2** worden de bevindingen toegepast als **feature prototypes** (beacon, breadcrumb, kussen, knuffel) die zich richten op het vaststellen van de featureset via een **evaluation matrix**, met **Wizard of Oz testing (N=3)** bij ouderen met en zonder dementie. Voorafgaand vindt er een ongeplande **user evaluation (N=1)** plaats met een expert in fixatie en valpreventie. De resultaten zijn geprioriteerd volgens de **MoSCoW-methode**, wat resulteert in een productconcept bestaande uit licht en geluid nabij het bed, de slaapkamerdeur en het sanitair, inclusief een feedbacksysteem voor mantelzorgers. Uitdagingen liggen in acceptatie, adaptatie en tijdige implementatie. Opties voor uitbreiding naar andere doelgroepen zijn onderzocht om het product reeds in een vroeg stadium van de ziekte te introduceren.
 
-In de fase **develop** wordt via **CMF prototypes** (vlinderlampjes) de uiteindelijke look & feel bepaald, met behulp van een **interactive survey (N=12)** bij ouderen en ouders van jonge kinderen via **BERT-testing**. In **wave 4** worden de **UI & UX prototypes** geëvalueerd via **Wizard of Oz testing (N=5)** met het **think aloud protocol**.
+In de fase **develop** wordt via **CMF prototypes** (vlinderlampjes) de uiteindelijke look & feel bepaald, met behulp van een **interactive survey (N=12)** bij ouderen en ouders van jonge kinderen via **BERT-testing**. In **wave 4** zijn de **UI & UX prototypes** geëvalueerd via **Wizard of Oz testing (N=5)** met het **think aloud protocol**.
 
 De laatste fase **deliver** omvat de evaluatie van volledig autonome prototypes (**wave 5**) als **pilot testing** via een **validation session (N=2)**.
 
@@ -73,9 +73,9 @@ Het onderzoek vat aan met een **literature review (N=16)**. Artikels over het zi
 
 De literatuurstudie wordt gevolgd door **ethnographic fieldwork (N=1)** in de dagopvang in WZC St-Eligius. Het volgen van **a day in the life** van professionele zorgverleners en de gasten verrijkt met **contextual inquiries** worden in **field notes** verzamend. In een **cause-and-effect diagram** diagram worden de conclusies gestructureerd.
 
-Een dieper inzicht in de dagelijkse impact van de ziekte op de naasten in thuissituaties worden bekomen door **user interviews (N=4)** met eerste- en tweedelijns mantelzorgers. **Habit analysis** van frequente scenario’s en **empathy mapping** van de emotionele impact worden gehanteerd om kerngedachten te capteren.
+Een dieper inzicht in de dagelijkse impact van de ziekte op de naasten in thuissituaties zijn verkregen door **user interviews (N=4)** met eerste- en tweedelijns mantelzorgers. **Habit analysis** van frequente scenario’s en **empathy mapping** van de emotionele impact worden gehanteerd om kerngedachten te capteren.
 
-Om te achterhalen voor welk probleem een oplossing binnen handbereik is, worden de bevindingen in een **feasability-desireability diagram** geordend. Het meest valabele probleem wordt in een _how might we_ geformuleerd. **Personas** doen dienst als toetsing tijdens _defenition_ fase.
+Om te achterhalen voor welk probleem een oplossing binnen handbereik is, worden de bevindingen in een **feasability-desireabilitydiagram** geordend. Het meest zinvolle probleem wordt in een _how might we_ geformuleerd. **Personas** doen dienst als toetsing tijdens _definition_ fase.
 
 
 ### Resultaten
@@ -108,7 +108,7 @@ Er is een groeiende erkenning van de waardevolle rol van technologie in de onder
   <img src="img/User interviews empathy mapping.png" width="32%">
 </p>
 
-Wat in de literatuurstudie nog onderbelicht lijkt, maar in de praktrijk sterk naar voor komt, zijn de moeilijke nachten.
+Wat in de literatuurstudie nog onderbelicht lijkt, maar in de praktijk sterk naar voor komt, zijn de moeilijke nachten.
 
 > _“Zit hij daar midden in de nacht aan de keukentafel, volledig gekleed, z’n krant aan ‘t lezen.”_ – mantelzorger en partner
 
@@ -180,9 +180,9 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 
 ### Materiaal & methoden
 
-De definition fase wordt gestart met een **design sprint** waarin de **how might we** wordt vertaalt in een **innovatrix** en **storyboards**.
+De definition fase wordt gestart met een **design sprint** waarin de **how might we** wordt vertaald in een **innovatrix** en **storyboards**.
 
-Op vandaag gebeurt het dat de PD gaat dwalen na op te staan voor een toiletbezoek. De waakzame MZ zal ’s nachts telkens opstaan om de PD opnieuw te slapen te helpen.
+Momenteel gebeurt het dat de PD gaat dwalen na op te staan voor een toiletbezoek. De waakzame MZ zal ’s nachts telkens opstaan om de PD opnieuw in slaap te helpen.
 
 <p align="center">
   <img src="img/Storyboard huidige situatie.png" width=650>
@@ -204,7 +204,7 @@ De eerste productiteratie is een lichtgevende klink op de slaapkamerdeur. Op bas
 
 <img src="img/Prototypes wave 1.png">
 
-De prototypes worden in een **user feedback sessions (N=10)** in Huize Ter Walle (N=7) en in DVC Robijn (N=3) aan MZs en PZs gedemonstreerd. De deelnemers worden in groep **geïnterviewd** en geven individuele feedback via een **enquëte**.
+De prototypes worden in een **user feedback sessions (N=10)** in Huize Ter Walle (N=7) en in DVC Robijn (N=3) aan MZs en PZs gedemonstreerd. Er zijn **groepsinterviews** afgenomen en individuele feedback is via een **enquête** verzameld.
 
 ### Resultaten
 
@@ -222,7 +222,7 @@ De meeste PDs kunnen nog wel kloklezen, maar staan geregeld op voor een **toilet
 
 Bij sommigen overheerst de _status quo bias_. Doch blijken MZs zelf creatief in het zoeken naar oplossingen. Nachtelijke oriëntatie wordt ondersteund door **automatische verlichting** en geïmproviseerde **lichtlijnen**. Bij een verminderd tijdsbesef doet een **wake-up lampwekker** met **audioboodschap bij aanraking** dienst.
 
-De cognitieve capaciteit van de PD in thuiszorg is sterk uiteenlopend. Het **type prikkel is sterk individueel** te bepalen. De prikkel moet intuïtief zijn zoals **een licht of een herkenbare stem**. Kleurcodes zijn te complex.
+De cognitieve capaciteit van de PD in thuiszorg varieert sterk. Het **type prikkel is sterk individueel** te bepalen. De prikkel moet intuïtief zijn zoals **een licht of een herkenbare stem**. Kleurcodes zijn te complex.
 <br clear="all">
 
 <img align="right" src="img/Prototypes radiochart.png" width=400>
@@ -279,10 +279,10 @@ Het artikel _Wandering and Sundowning  in Dementia_ [^3] onderscheidt drie deelg
 - Preventieve maatregelen zijn **meer beweging en zonlicht overdag**.
 - Acute maatregelen zijn het voorzien van een **rustige, goed verlichte omgeving** en **aroma- en muziektherapie**.
 
-> 🌊 Aroma en geluid worden toegevoegd aan de _wave 2 prototypes_. De geur van eucalyptus, rustgevende [geluiden]( https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b) en lichtprojecties creëren een snoezelervaring voor ’t slapen. De geur van koffie vergezeld de lichtwekker.
+> 🌊 Aroma en geluid worden toegevoegd aan de _wave 2 prototypes_. De geur van eucalyptus, rustgevende [geluiden]( https://open.spotify.com/playlist/4VAuMb01iWAShef2yUGF71?si=1ebf38cc6ea94c5b) en lichtprojecties creëren een snoezelervaring voor ’t slapen. De geur van koffie vergezelt de lichtwekker.
 > Van link naar rechts:
 > - Zeebries (snoezel)
-> - Ademenhaling (snoezel)
+> - Ademhaling (snoezel)
 > - Zonsopgang (wekker)
 > - Alarm (feedback)
 
@@ -293,14 +293,14 @@ Het artikel _Wandering and Sundowning  in Dementia_ [^3] onderscheidt drie deelg
   <img src="img/GIF Alarm.gif" width="24%">
 </p>
 
-Bij het _ethnographic fieldwork_ kwam aan bod dat een donkere dorpel door sommige PD als een drempel wordt ervaring. Ook deze paper vermeld _”taping a **2-foot black threshold** in 
+Bij het _ethnographic fieldwork_ kwam aan bod dat een donkere dorpel door sommige PD als een drempel wordt ervaren. Ook deze paper vermeld _”taping a **2-foot black threshold** in 
 front of each door to serve as a visual barrier”_.
 
 #### User review (N=1)
 
 📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
 
-Een gesprek met de experte fixatie en valpreventie van WZC St-Eligius geeft inzicht in de werking in een WZX-context.
+Een gesprek met de experte fixatie en valpreventie van WZC St-Eligius geeft inzicht in de werking in een WZC-context.
 -	**Spraakberichten** zoals _”het is nog nacht”_ zou de nachtdienst veel werk kunnen besparen. Ook in aanleunflats of thuissituaties waar de PD alleen slaapt, hoeft geluid niet uit de kamer geweerd te worden.
 -	In WZC zou **feedback** via **DECT** moeten komen. Een instelbare gevoeligheid is wenselijk. MZs hebben tegenwoordig bijna allemaal een **smartphone**.
 -	In WZC kent **aromatherapie** een belangrijke plek. Geuren als **eucalyptus, yland-ylang, sinaasappel en citroen** worden gebruikt voor het bestrijden van nervositeit, angst, boosheid, verwarring, slapeloosheid, etc.
@@ -310,7 +310,7 @@ Een gesprek met de experte fixatie en valpreventie van WZC St-Eligius geeft inzi
 📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EVgxVO37P6NCvh-ebd2gSRIBjbLRaMpq6a8uFbEiW7BVhg?e=qOb3VR)
 📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EXnrC_QwjRpIjKC0r4nMURQBxLFSH6Xwk91S0IcJtIyq2Q?e=Yyvibq)
 
-Bij het testen bij PD wordt duidelijk dat de dementiespecifieke features **schaamte en confrontatie** veroorzaakt, wat een vlotte **acceptatie in de weg staat**. Een MoSCoW evaluation brengt de functies terug tot licht en spraak.
+Bij het testen bij PD wordt duidelijk dat de dementiespecifieke features **schaamte en confrontatie** veroorzaken, wat een vlotte **acceptatie in de weg staat**. Een MoSCoW evaluation brengt de functies terug tot licht en spraak.
 
 <p align="left">
   <img src="img/Wizard of Oz bed.png" width="25.1%">
@@ -325,7 +325,7 @@ Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpm
 > 📌 **_Design Requirements_**
 > - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
 > - 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
-> - 4.1\. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
+> - 4.1\. **De modules zijn inwisselbaar**, de positie van de geluidsboodschappen is aanpasbaar
 > - 5\. **Maximale consumentenkostprijs van € 150 per module**
 
 <p align="center">
@@ -354,7 +354,7 @@ Er wordt getracht het product **minder stigmatiserend** te maken, door de **doel
 
 <img align="right" src="img/Prototypes wave 3 CMF.png" width=400>
 
-Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een [**morphologische matrix**](img/Prototypes%20morfologische%20matrix.png) stuurt de ontwikkeling van de nieuwe prototype vatianten.
+Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een [**morphologische matrix**](img/Prototypes%20morfologische%20matrix.png) stuurt de ontwikkeling van de nieuwe prototypevatianten.
 
 <br clear=”all”>
 
@@ -419,7 +419,7 @@ De **fysieke, cognitieve en sensoriële ergonomie** verfijnen en het bepalen van
 
 ### Materiaal & methoden
 
-De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met een BLE bediend UX prototype. Voor de fysieke interacties wordt UI mockup gebruikt. De _ecological validity_ wordt gegarandeerd door de toestellen in een donkere omgeving op de deur of naast het bed te plaatsen. Een **moodboard** dient als leidraad voor de look & feel.
+De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met een BLE-bediend UX prototype. Voor de fysieke interacties wordt UI mockup gebruikt. De _ecological validity_ wordt gegarandeerd door de toestellen in een donkere omgeving op de deur of naast het bed te plaatsen. Een **moodboard** dient als leidraad voor de look & feel.
 
 <p align="center">
   <img src="img/Moodboard.jpg" width="650">
@@ -427,7 +427,7 @@ De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met ee
 
 > 🌊 Wave 4 – **UI & UX prototypes** – comfort & gebruiksgemak
 > - **UI mockup**: aan/uit bediening
-> - **UX bluetooth remote**: licht- en geluidspecificaties
+> - **UX bluetooth remote**: licht- en geluidsspecificaties
 
 <p align="left">
   <img src="img/Prototypes UX opaak.jpg" width="32%">
@@ -435,7 +435,7 @@ De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met ee
   <img src="img/Prototypes UI knoppen.png" width="32%">
 </p>
 
-Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten worden in een [**feature matrix**](img/Prototypes%20UI%20options.png) samengevat.
+Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten zijn samengevat in een [**feature matrix**](img/Prototypes%20UI%20options.png).
 
 ### Resultaten
 
@@ -450,7 +450,7 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 -	Indirecte verlichting bij de **opake kap voorkomt verblinding** in de hal.
 
 **Fysieke ergonomie**
--	De trekschakelaar voldoet aan het _mental framework_ van nachtverlichting bij ouderen, maar de PD kan het toestel onbedoeld uitschakelen.
+-	De trekschakelaar voldoet aan het _mental model_ van nachtverlichting bij ouderen, maar de PD kan het toestel onbedoeld uitschakelen.
 -	Een **voldoende grote**, voor de PD **verborgen wipschakelaar** geniet de voorkeur. 
 
 **Auditieve ergonomie**
@@ -458,7 +458,7 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 
 **Cognitieve ergonomie**
 -	De **rode** waarschuwingsanimaties evoceert het **brandalarm-metafoor** en werkt onrustwekkend.
--	De **timer-animatie** communiceert met de **klok-metafoor** helder en ganuanceerd.
+-	De **timer-animatie** communiceert met de **klok-metafoor** helder en genuanceerd.
 
 <p align="left">
   <img src="img/Prototypes UX alarm.gif" width="32%">
@@ -468,7 +468,7 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 
 ### Conclusies & implicaties
 
-Het type licht (direct of indirect) is afhankelijk van de positie. De aan/uit-bediening is eenvoudig voor de MZ maar verborgen voor de PD. Geluidsboodschappen hebben een grote invloed op de acceptatie en zijn sterk situatiegebonden. De feedback aan de MZ gebeurt op niet alarmerende wijze.
+Het type licht (direct of indirect) is afhankelijk van de positie. De aan/uit-bediening is eenvoudig voor de MZ maar verborgen voor de PD. Geluidsboodschappen hebben een grote invloed op de acceptatie en zijn sterk situatiegebonden. De feedback aan de MZ is op niet-alarmerende wijze voorzien.
 
 > 📌 **_Design Requirements_**
 > - 1.3. Geeft feedback via een **klokanimatie**.
@@ -488,7 +488,7 @@ Een _proof of concept_ door het verwerken van de producteisen in een volledig fu
 
 ### Materiaal & methoden
 
-Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** opgemaakt als blueprint voor de **system architecture**. De installatie werkt autonoom via wifi-connectie met een _Raspberry Pi_ en wordt opgesteld bij een PD en MZ thuis. De werking wordt vooraf doorlopen en blijft vervolgens een volledige nacht in werking voor een **validation session (N=2)**. Na afloop wordt de MZ geïnterviewd over de bevindingen.
+Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** opgemaakt als blueprint voor de **system architecture**. De installatie werkt autonoom via wifi-connectie met een _Raspberry Pi_ en is opgesteld bij een PD en MZ thuis. De werking is vooraf doorlopen en is vervolgens een volledige nacht actief gebleven voor een **validation session (N=2)**. Na afloop is de MZ geïnterviewd over de bevindingen.
 
 > 🌊 Wave 5 – **proof of concept prototypes** – effectiviteit & intuïtiviteit
 > - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die de via state switching de leds en speaker aanstuurt.
@@ -531,9 +531,9 @@ Uitbreidbaar
 > - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen
 > - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**
 > - 4\. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
-> - 4.1. **De modules zijn inwisselbaar** (de positie van de geluidsboodschappen is aanpasbaar)
+> - 4.1. **De modules zijn inwisselbaar**, de positie van de geluidsboodschappen is aanpasbaar
 > - 4.2. Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
-> - 5\. **Maximale consumentenkostprijs van € 150 per module*
+> - 5\. **Maximale consumentenkostprijs van € 150 per module**
 > - 6\. Laat **plaatsing en configuratie** door ouderen 75+ toe
 > - 7\. Bestaat uit **metaal, hout en/of plastic**
 > - 7.1. Komt in **3 esthetische varianten**
@@ -585,7 +585,7 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 
 <img align="right" src="img/Wireflow.png" width=350>
 
-- Arduino code voor timing en communicatie (licht en spraak)
+- Arduino code voor timing en communicatie (licht en geluid)
   - [main]("src/pilot/src/main.cpp")
   - [actuatoren]("src/pilot/src/actuators.cpp")
 - Raspberry pi code voor state switching
@@ -596,9 +596,9 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 
 ## Kritische reflectie
 
-De _technological devide_ en de _status quo bias_ blijven een barrière, zowel voor diepgaand gebruikersonderzoek als de uiteindelijke acceptatie. Vooral professionele zorgverleners en af en toe een mantelzorger zien potentieel in het product, wat aangeeft dat Orion op de goede weg is.
+De _technological divide_ en de _status quo bias_ blijven een barrière, zowel voor diepgaand gebruikersonderzoek als de uiteindelijke acceptatie. Vooral professionele zorgverleners en af en toe een mantelzorger zien potentieel in het product, wat aangeeft dat Orion op de goede weg is.
 
-Het product ondersteunt momenteel een aantal specifieke situaties. Echter, er zijn nog diverse randgevallen die onderzocht moeten worden om de werking robuuster en breder toepasbaar te maken. De introductie van kunstmatige intelligentie om nachtelijke patronen te analyseren, is hierbij een mogelijke benadering.
+Het product ondersteunt momenteel een aantal specifieke situaties. Echter, er zijn nog diverse randgevallen die onderzocht moeten worden om de werking robuuster en breder toepasbaar te maken. De introductie van kunstmatige intelligentie om nachtelijke patronen te analyseren, vormt hierbij een mogelijke benadering.
 
 Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij nader inzien niet nodig om deze doelgroep verder te behandelen. Het aanpassen van de vormgeving en het instelbaar maken van bepaalde (potentieel stigmatiserende) functies kunnen de adaptatiegraad verhogen. De intuïtieve werking voorkomt een leercurve, waardoor een vroege introductie geen noodzaak is.
 
