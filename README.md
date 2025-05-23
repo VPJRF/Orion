@@ -326,7 +326,7 @@ Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpm
 > - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
 > - 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
 > - 4.1\. **De modules zijn inwisselbaar**, de positie van de geluidsboodschappen is aanpasbaar
-> - 5\. **Maximale consumentenkostprijs van € 150 per module**
+> - 5\. Maximale consumentenkostprijs van **€ 150 per module**
 
 <p align="center">
   <img src="img/Storyboard locaties.png" width=700>
@@ -354,7 +354,7 @@ Er wordt getracht het product **minder stigmatiserend** te maken, door de **doel
 
 <img align="right" src="img/Prototypes wave 3 CMF.png" width=400>
 
-Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een [**morphologische matrix**](img/Prototypes%20morfologische%20matrix.png) stuurt de ontwikkeling van de nieuwe prototypevatianten.
+Bij **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een [**morfologische matrix**](img/Prototypes%20morfologische%20matrix.png) stuurt de ontwikkeling van de nieuwe prototypevatianten.
 
 <br clear=”all”>
 
@@ -386,7 +386,7 @@ Voor elke gebruikscontext wordt telkens bij vier personen de intuïtieve, emotio
 <img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
 
 **CMF**
--	De **houten, ronde vorm** van _pacman is het meest prototypische **interieurobject**.
+-	De **houten, ronde vorm** van _pacman_ is het meest prototypische **interieurobject**.
 -	Ouders hechten belang aan **stevigheid en reinigbaarheid**.
 -	Enkel **kinderen verkiezen felle kleuren**.
 
