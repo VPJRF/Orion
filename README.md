@@ -1,5 +1,5 @@
 # Orion
-*Een hulpmiddel dat de nachtrust en gemoedsrust van een mantelzorger van een persoon met dementie verbetert, door de nachtelijke oriëntatie in ruimte en tijd en de slaapkwaliteit van de persoon met dementie te ondersteunen.*
+*Een slim hulpmiddel dat de nachtrust en gemoedsrust van een mantelzorger van een persoon met dementie verbetert, door de nachtelijke oriëntatie in ruimte en tijd en de slaapkwaliteit van de persoon met dementie te ondersteunen.*
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
