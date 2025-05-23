@@ -458,7 +458,7 @@ Via het **think-aloud protocol** kunnen  _the gulfs of evaluation_ bij de gebrui
 
 **Cognitieve ergonomie**
 -	De **rode** waarschuwingsanimaties evoceert het **brandalarm-metafoor** en werkt onrustwekkend.
--	De **timer-animatie** communiceert helder en genuanceerd met de **klok-metafoor**.
+-	De **timer-animatie** communiceert helder en genuanceerd aan de hand van een **klok-metafoor**.
 
 <p align="left">
   <img src="img/Prototypes UX alarm.gif" width="32%">
@@ -572,7 +572,7 @@ Er is een potentiële markt voor het product, mits verdere personalisatie naarge
 >   - 4.1. **Modulair systeem** om aan de eisen van de gebruiker te voldoen
 >   - 4.2. Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
 > - 5\. **Maximale consumentenkostprijs van € 150 per module**
-> - 6\. Laat **plaatsing en configuratie** door ouderen 75+ toe
+> - 6\. Toelaten van **plaatsing en configuratie** door ouderen 75+ 
 > - 7\. Bestaat uit **metaal, hout en/of plastic**
 >   - 7.1. Komt in **3 esthetische varianten**
 
@@ -624,8 +624,8 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 <img align="right" src="img/Wireflow.png" width=350>
 
 - Arduino code voor timing en communicatie (licht en geluid)
-  - [main]("src/pilot/src/main.cpp")
-  - [actuatoren]("src/pilot/src/actuators.cpp")
+  - [Main]("src/pilot/src/main.cpp")
+  - [Actuatoren]("src/pilot/src/actuators.cpp")
 - Raspberry pi code voor state switching
   - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
   - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
@@ -634,11 +634,11 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 
 ## Kritische reflectie
 
-De _technological divide_ en de _status quo bias_ blijven een barrière, zowel voor diepgaand gebruikersonderzoek als de uiteindelijke acceptatie. Vooral professionele zorgverleners en af en toe een mantelzorger zien potentieel in het product, wat aangeeft dat Orion op de goede weg is.
+De _technological divide_ en de _status quo bias_ blijven een barrière, zowel voor diepgaand gebruikersonderzoek als de uiteindelijke acceptatie. Vooral professionele zorgverleners en daarnaast ook mantelzorgers zien potentieel in het product, wat aangeeft dat Orion op de goede weg is.
 
 Het product ondersteunt momenteel een aantal specifieke situaties. Echter, er zijn nog diverse randgevallen die onderzocht moeten worden om de werking robuuster en breder toepasbaar te maken. De introductie van kunstmatige intelligentie om nachtelijke patronen te analyseren, vormt hierbij een mogelijke benadering.
 
-Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij nader inzien niet nodig om deze doelgroep verder te behandelen. Het aanpassen van de vormgeving en het instelbaar maken van bepaalde (potentieel stigmatiserende) functies kunnen de adaptatiegraad verhogen. De intuïtieve werking voorkomt een leercurve, waardoor een vroege introductie geen noodzaak is.
+Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij nader inzien niet nodig om deze doelgroep verder te behandelen. Het aanpassen van de vormgeving en het instelbaar maken van bepaalde - potentieel stigmatiserende - functies kunnen de adaptatiegraad verhogen. De intuïtieve werking voorkomt een leercurve, waardoor een vroege introductie geen noodzaak is.
 
 ## Bijlagen
 
