@@ -542,13 +542,9 @@ Er is een potentiële markt voor het product, mits verdere personalisatie naarge
 
 > 📌 **_Design Requirements_**
 > -  Modules per ruimte configureerbaar
-
 > -  Instelbare sensorgevoeligheid
-
 > -  Mantelzorgermelding bij activiteit
-
 > -  Extra breadcrumb-verlichting mogelijk
-
 > -  Scenario-templates voor eenvoudige setup
 
 ## Conclusie
