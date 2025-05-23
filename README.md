@@ -542,7 +542,7 @@ Uitbreidbaar
 
 ### Samenstelling
 
-<img align="right" src="img/Prototypes wave 4 System Architecture.jpg" width=300>
+<img align="right" src="img/Prototypes wave 4 System Architecture.jpg" width=350>
 
 - Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3.
 - Op de Pi is een IoT stack geïnstalleerd. ([instructies](https://github.com/basbaccarne/comon_expo))
@@ -550,7 +550,7 @@ Uitbreidbaar
 
 ### Electronica
 
-<img align="right" src="img/Prototypes wiring.jpg" width=300>
+<img align="right" src="img/Prototypes wiring.jpg" width=350>
 
 Lichtarmatuur (x3)
 - [Arduino Nano 33 IoT](https://www.gotron.be/arduino-nano-33-iot-zonder-headers.html)
@@ -571,7 +571,7 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 
 ### Hardware
 
-<img align="right" src="img/Prototypes finale 3d print.jpg" width=300>
+<img align="right" src="img/Prototypes finale 3d print.jpg" width=350>
 
 - Behuizing (x3)
   - [haak](cad/haak.stl)
@@ -583,7 +583,7 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 
 ### Software
 
-<img align="right" src="img/Wireflow.png" width=300>
+<img align="right" src="img/Wireflow.png" width=350>
 
 - Arduino code voor timing en communicatie (licht en spraak)
   - [main]("src/pilot/src/main.cpp")
@@ -592,6 +592,7 @@ Circuit (kabels, connectoren, weerstanden, etc.)
   - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
   - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
 - Applicatie voor configuratie
+<br clear="all">
 
 ## Kritische reflectie
 
