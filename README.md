@@ -518,6 +518,9 @@ Overdag werkte het systeem correct. Bij de nachtelijke test volgde het systeem d
 - Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
 <p align="center">
   <img src="img/JP_Nachttest.jpeg" width=400>
+</p>
+
+<p align="center">
   <img src="img/JP.PNG" width=350>
 </p>
 
