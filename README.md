@@ -504,7 +504,7 @@ De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componente
 
 <p align="center">
   <img src="img/Thuis_walkthrough (1)" width=650>
-  <img src="img/Thuis.PNG" width=650>
+  <img src="img/Thuis.PNG" width=350>
 </p>
 
 *Testpersoon 2 – Persoon met dementie + mantelzorger*
@@ -517,8 +517,8 @@ Overdag werkte het systeem correct. Bij de nachtelijke test volgde het systeem d
 
 - Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
 <p align="center">
-  <img src="img/JP_Nachttest.jpeg" width=650>
-  <img src="img/JP.PNG" width=650>
+  <img src="img/JP_Nachttest.jpeg" width=400>
+  <img src="img/JP.PNG" width=350>
 </p>
 
 **Gedragsobservatie & nabespreking**
