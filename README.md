@@ -491,9 +491,34 @@ Een _proof of concept_ door het verwerken van de producteisen in een volledig fu
 Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** opgemaakt als blueprint voor de **system architecture**. De installatie werkt autonoom via wifi-connectie met een _Raspberry Pi_ en is opgesteld bij een PD en MZ thuis. De werking is vooraf doorlopen en is vervolgens een volledige nacht actief gebleven voor een **validation session (N=2)**. Na afloop is de MZ geïnterviewd over de bevindingen.
 
 > 🌊 Wave 5 – **proof of concept prototypes** – effectiviteit & intuïtiviteit
-> - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die de via state switching de leds en speaker aanstuurt.
+> - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die de via state switching de leds en speaker aanstuurt. Zie technische beschrijving
+
+<p align="left">
+  <img src="img/Prototypes UX alarm.gif" width="32%">
+</p>
 
 ### Resultaten
+
+Validation sessions (N=2)
+Testpersoon 1 – Zelftest (onderzoeker)
+De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten werkten technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
+
+//Gif walktrough
+//Schets opstelling
+
+Testpersoon 2 – Persoon met dementie + mantelzorger
+Overdag werkte het systeem correct. Bij de nachtelijke test volgde het systeem de verwachte volgorde niet, ondanks correcte detectie bij het opstaan. Vermoedelijk is een foutieve triggering of plaatsing van de kamerdeursensor de oorzaak. De MZ gaf aan positief te zijn over het systeem en het potentieel te zien, mits verdere aanpassing aan hun specifieke situatie:
+
+Toilet bevindt zich op een ander verdiep
+
+MZ wil altijd gewekt worden bij nachtelijke activiteit van de PD
+
+Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
+
+//Schets opstelling
+
+Gedragsobservatie & nabespreking
+Via het think aloud-protocol werd vastgesteld dat de interactie intuïtief verliep. Er was geen sprake van verwarring of overbelasting. De MZ waardeerde de autonomie die het systeem kan bieden, maar onderstreepte het belang van betrouwbaarheid en aanpasbaarheid. Er was geen negatieve reactie op licht of geluid.
 
 #### Validation sessions (N=2)
 
