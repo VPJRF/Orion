@@ -507,22 +507,24 @@ De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componente
 </p>
 //Schets opstelling
 
+
 *Testpersoon 2 – Persoon met dementie + mantelzorger*
 
 Overdag werkte het systeem correct. Bij de nachtelijke test volgde het systeem de verwachte volgorde niet, ondanks correcte detectie bij het opstaan. Vermoedelijk is een foutieve triggering of plaatsing van de kamerdeursensor de oorzaak. De MZ gaf aan positief te zijn over het systeem en het potentieel te zien, mits verdere aanpassing aan hun specifieke situatie:
 
-Toilet bevindt zich op een ander verdiep
+- Toilet bevindt zich op een ander verdiep
 
-MZ wil altijd gewekt worden bij nachtelijke activiteit van de PD
+- MZ wil altijd gewekt worden bij nachtelijke activiteit van de PD
 
-Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
+- Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
 <p align="center">
   <img src="img/JP_Nachttest.jpeg" width=650>
 </p>
 //Schets opstelling
 
-Gedragsobservatie & nabespreking
-Via het think aloud-protocol werd vastgesteld dat de interactie intuïtief verliep. Er was geen sprake van verwarring of overbelasting. De MZ waardeerde de autonomie die het systeem kan bieden, maar onderstreepte het belang van betrouwbaarheid en aanpasbaarheid. Er was geen negatieve reactie op licht of geluid.
+
+**Gedragsobservatie & nabespreking**
+Via het *think-aloud protocol* werd vastgesteld dat de interactie intuïtief verliep. Er was geen sprake van verwarring of overbelasting. De MZ waardeerde de autonomie die het systeem kan bieden, maar onderstreepte het belang van betrouwbaarheid en aanpasbaarheid. Er was geen negatieve reactie op licht of geluid.
 
 #### Validation sessions (N=2)
 
@@ -533,14 +535,14 @@ Via het think aloud-protocol werd vastgesteld dat de interactie intuïtief verli
 
 ### Conclusies & implicaties
 
-Uitbreidbaar 
+Er is een potentiële markt voor het product, mits verdere personalisatie naargelang specifieke situaties van mantelzorgers.
 
 > 📌 **_Design Requirements_**
 > - …
 
 ## Conclusie
 
-**_Orion_** is een nachtroutinetool die de zelfstandigheid van personen met dementie ondersteunt en mantelzorgers ’s nachts ontlast. Door visuele en auditieve prikkels strategisch in te zetten, helpt het systeem nachtelijk dwalen te voorkomen en de slaapkwaliteit te verbeteren. De oplossing is tot stand gekomen via diepgaand veldonderzoek, iteratieve prototyping en gebruikerstesten in realistische contexten. **Het eindresultaat is een flexibel, intuïtief en betaalbaar hulpmiddel dat in verschillende zorgomgevingen inzetbaar is**. _Orion_ toont zo aan hoe technologie empathisch kan bijdragen aan duurzame thuiszorg.
+**_Orion_** is een nachtroutinetool die de zelfstandigheid van personen met dementie ondersteunt en mantelzorgers ’s nachts ontlast. Door visuele en auditieve prikkels strategisch in te zetten, helpt het systeem nachtelijk dwalen te voorkomen en de slaapkwaliteit te verbeteren. De oplossing is tot stand gekomen via diepgaand veldonderzoek, iteratieve prototyping en gebruikerstesten in realistische contexten. **Het eindresultaat is een flexibel, intuïtief en minimalistisch hulpmiddel dat in verschillende zorgomgevingen inzetbaar is**. _Orion_ toont zo aan hoe technologie empathisch kan bijdragen aan duurzame thuiszorg.
 
 <p align="left">
   <img src="img/render opaak.png" width="49%">
@@ -549,23 +551,23 @@ Uitbreidbaar
 
 > 📌 **_Design Requirements_**
 > - 1\. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
-> - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
-> - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
-> - 2\. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
-> - 2.1. **Helpt bij oriëntatie naar badkamer/toilet en terug naar bed**
-> - 3\. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
-> - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
-> - 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**
-> - 3.3. De mee-slapende wordt **gedurende de nacht niet gestoord** door geluiden of licht boven de 5 lux in de kamer
-> - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen
-> - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**
+>   - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
+>   - 1.2. **Gevoeligheid van de feedback is instelbaar** via een applicatie
+> - 2\. **Begeleid in ruimte en tijd** met als doel aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+>   - 2.1. **Helpt bij oriëntatie naar badkamer/toilet en terug naar bed**
+> - 3\. **Intuïtieve, herkenbare interacties** voor personen met beperkte oriëntatie- of geheugenfunctie
+>   - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
+>   - 3.2. Prikkels in de vorm van **lichtpunten en een herkenbare stem**
+>   - 3.3. De mee-slapende wordt **gedurende de nacht niet gestoord** door geluiden of licht boven de 5 lux in de kamer
+>   - 3.4. **Regelbare lichtintensiteit** van 5 tot 50 lumen
+>   - 3.5. Wordt geleverd met **drie standaardgeluiden** en mogelijkheid tot een **eigen opname**
 > - 4\. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
-> - 4.1. **De modules zijn inwisselbaar**, de positie van de geluidsboodschappen is aanpasbaar
-> - 4.2. Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
+>   - 4.1. **Modulair systeem** om aan de eisen van de gebruiker te voldoen
+>   - 4.2. Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
 > - 5\. **Maximale consumentenkostprijs van € 150 per module**
 > - 6\. Laat **plaatsing en configuratie** door ouderen 75+ toe
 > - 7\. Bestaat uit **metaal, hout en/of plastic**
-> - 7.1. Komt in **3 esthetische varianten**
+>   - 7.1. Komt in **3 esthetische varianten**
 
 ## Technische beschrijving
 
@@ -575,7 +577,7 @@ Uitbreidbaar
 
 - Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3.
 - Op de Pi is een IoT stack geïnstalleerd. ([instructies](https://github.com/basbaccarne/comon_expo))
-- Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de led's en speaker in de modules aan.
+- Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de leds en speaker in de modules aan.
 
 ### Electronica
 
@@ -603,12 +605,12 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 <img align="right" src="img/Prototypes finale 3d print.jpg" width=350>
 
 - Behuizing (x3)
-  - [haak](cad/haak.stl)
-  - [ring](cad/ring.stl)
-  - [pasvorm 1](cad/pasvorm%201.stl)
-  - [pasvorm 2](cad/pasvorm%202.stl)
+  - [Haak](cad/haak.stl)
+  - [Ring](cad/ring.stl)
+  - [Pasvorm 1](cad/pasvorm%201.stl)
+  - [Pasvorm 2](cad/pasvorm%202.stl)
 - Diffuser (x3)
-  - [schijf](cad/schijf.stl)
+  - [Schijf](cad/schijf.stl)
 
 ### Software
 
