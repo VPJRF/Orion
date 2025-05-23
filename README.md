@@ -503,7 +503,9 @@ Validation sessions (N=2)
 Testpersoon 1 – Zelftest (onderzoeker)
 De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten werkten technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
 
-//Gif walktrough
+<p align="center">
+  <img src="img/Thuis_walkthrough (1)" width=650>
+</p>
 //Schets opstelling
 
 Testpersoon 2 – Persoon met dementie + mantelzorger
@@ -514,7 +516,9 @@ Toilet bevindt zich op een ander verdiep
 MZ wil altijd gewekt worden bij nachtelijke activiteit van de PD
 
 Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
-
+<p align="center">
+  <img src="img/JP_Nachttest.jpeg" width=650>
+</p>
 //Schets opstelling
 
 Gedragsobservatie & nabespreking
