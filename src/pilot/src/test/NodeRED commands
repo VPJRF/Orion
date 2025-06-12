@@ -20,7 +20,7 @@ if (state !== prevState) {
             commands.push(mqttCmd("toilet", { LED: 0 }));
             break;
         case "toilet_uit":
-            // kamer-LED=1, toilet-LED=0, toilet-BOX=1 (after 5s delay)
+            // kamer-LED=1, toilet-LED=0, toilet-BOX=1 (after 1s delay)
             commands.push(mqttCmd("kamer", { LED: 1 }));
             commands.push(mqttCmd("toilet", { LED: 0 }));
             setTimeout(() => {
@@ -28,7 +28,7 @@ if (state !== prevState) {
                     topic: "/commands/toilet",
                     payload: JSON.stringify({ BOX: 1 })
                 });
-            }, 5000);
+            }, 1000);
             break;
         case "kamer_in":
             // bed-FBK=0, bed-LED=1, kamer-LED=0, toilet-BOX=0

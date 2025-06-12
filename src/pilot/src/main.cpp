@@ -24,7 +24,7 @@ const int mqtt_port = 1883;
 const int PIR_PIN = 5;
 const int LED_RING_PIN = 6;
 const int LED_RING_COUNT = 24;
-const float gyroThreshold = 0.5; // Lower threshold for higher sensitivity
+const float gyroThreshold = 4.0; // Lower threshold for higher sensitivity
 
 float last_gx = 0, last_gy = 0, last_gz = 0;
 float last_ax = 0, last_ay = 0, last_az = 0;
@@ -148,6 +148,9 @@ void setup() {
   Serial.println("Setup complete.");
 }
 
+static float ref_gx = 0, ref_gy = 0, ref_gz = 0;
+static unsigned long lastRefUpdate = 0;
+
 void loop() {
   if (!client.connected()) {
     connectToMQTT();
@@ -164,25 +167,31 @@ void loop() {
   // Read PIR sensor
   bool pirState = digitalRead(PIR_PIN);
 
-  // Read gyroscope and check for significant movement (only gyro, any axis)
+  // Read gyroscope and check for significant movement over 500ms
   float gx = 0, gy = 0, gz = 0;
   bool imuTriggered = false;
   static bool firstGyroRead = true;
 
   if (IMU.gyroscopeAvailable()) {
     IMU.readGyroscope(gx, gy, gz);
+
+    // Update reference gyro values every 500 ms
+    if (firstGyroRead || millis() - lastRefUpdate >= 500) {
+      ref_gx = gx;
+      ref_gy = gy;
+      ref_gz = gz;
+      lastRefUpdate = millis();
+      firstGyroRead = false;
+    }
+
+    // Compare current reading to reference from 500ms ago
     if (!firstGyroRead) {
-      if (abs(gx - last_gx) > gyroThreshold ||
-          abs(gy - last_gy) > gyroThreshold ||
-          abs(gz - last_gz) > gyroThreshold) {
+      if (abs(gx - ref_gx) > gyroThreshold ||
+          abs(gy - ref_gy) > gyroThreshold ||
+          abs(gz - ref_gz) > gyroThreshold) {
         imuTriggered = true;
       }
-    } else {
-      firstGyroRead = false; // Skip trigger check on first read
     }
-    last_gx = gx;
-    last_gy = gy;
-    last_gz = gz;
   }
 
   // Only send MQTT and print every 2000 ms

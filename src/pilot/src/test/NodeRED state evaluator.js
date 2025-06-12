@@ -3,7 +3,7 @@ let data = msg.payload;
 let nextState = currentState;
 
 const now = Date.now();
-const timeout = 5 * 60 * 1000; // 5 minutes in ms
+const timeout = 20 * 60 * 1000; // 20 minutes in ms
 let stateTimestamp = flow.get("stateTimestamp") || now;
 
 // === Forced State Override ===
@@ -15,17 +15,11 @@ if (data.forceState) {
     flow.set("prevState", forced);
 
     // Compose dummy payload
-    data = {device: "manual", state: forced, PIR: 0, IMU: 0, LED: 0, BOX: 0, FBK: 0};
+    data = { device: "manual", state: forced, PIR: 0, IMU: 0, LED: 0, BOX: 0, FBK: 0 };
 
     msg.payload = data;
     msg.measurement = "orion_data";
     return msg;
-}
-
-// Manual reset
-if (msg.payload === "reset" || msg.topic === "reset") {
-    nextState = "bed_in";
-    data = {device: "bed", state: "bed_in", BOX: 0, FBK: 0, IMU: 0, LED: 0, PIR: 0};
 }
 
 // Check if stuck in state for too long
@@ -36,14 +30,14 @@ if (now - stateTimestamp > timeout) {
 }
 
 // === Simple Sequential State Machine ===
-// 1) bed_in → bed_uit when bed-PIR=true AND at least 10s in bed_in
+// 1) bed_in → bed_uit when bed-PIR=true AND at least 15s in bed_in
 if (currentState === "bed_in") {
     let bedInTime = flow.get("bedInTime");
     if (bedInTime === undefined) {
         bedInTime = now;
         flow.set("bedInTime", now);
     }
-    let minDelay = 10000; // 10 seconds
+    let minDelay = 0.25 * 60 * 1000; // 15 seconden
     if (
         data.device === "bed" &&
         data.PIR === true &&
@@ -62,13 +56,12 @@ else if (currentState === "bed_uit") {
     if (data.device === "kamer" && data.IMU === true) {
         nextState = "kamer_uit";
     }
-    // Revert to bed_in if stuck in bed_uit for 20s without bed-PIR
     if (data.device === "bed" && data.PIR === true) {
         flow.set("bedUitTime", now); // reset timer if bed-PIR is triggered
     }
-    if ((now - bedUitTime) > 20000) {
+    if ((now - bedUitTime) > 10 * 60 * 1000) { //10 minuten
         nextState = "bed_in";
-        node.warn("No bed-PIR for 20s in bed_uit: Resetting to bed_in");
+        node.warn("No bed-PIR for 10 minutes in bed_uit: Resetting to bed_in");
         flow.set("bedUitTime", now); // reset timer
     }
 }
@@ -83,7 +76,26 @@ else if (currentState === "kamer_uit") {
         nextState = "toilet_in";
         flow.set("toiletInTime", now); // Mark entry time to toilet_in
     }
+
+    // 3.1) kamer_uit → toilet_uit when toilet-PIR is detected 5 times within 10 minutes and IMU is not triggered
+    let toiletPIRHistory = flow.get("toiletPIRHistory") || [];
+    let nowMs = now; // ms timestamp
+
+    // Remove old entries (>10s ago)
+    toiletPIRHistory = toiletPIRHistory.filter(entry => nowMs - entry.ts <= 10 * 60 * 1000);
+
+    if (data.device === "toilet" && data.PIR === true) {
+        toiletPIRHistory.push({ ts: nowMs });
+    }
+    flow.set("toiletPIRHistory", toiletPIRHistory);
+
+    if (toiletPIRHistory.length >= 5) {
+        nextState = "toilet_uit";
+        node.warn("kamer_uit → toilet_uit: Toilet PIR detected 5 times within 10 minutes");
+        flow.set("toiletPIRHistory", []);
+    }
 }
+
 // 4) toilet_in → toilet_uit when toilet-IMU=true AND at least 10s in toilet_in
 else if (currentState === "toilet_in") {
     let toiletInTime = flow.get("toiletInTime");
@@ -119,8 +131,7 @@ if (nextState !== currentState) {
     node.warn(`State changed to: ${nextState}`);
     flow.set("currentState", nextState);
     flow.set("stateTimestamp", now);
-    flow.set("prevState", nextState); // <-- Add this line
-    // Reset bedUitTime when leaving bed_uit state
+    flow.set("prevState", nextState);
     if (currentState === "bed_uit") {
         flow.set("bedUitTime", undefined);
     }
@@ -128,10 +139,8 @@ if (nextState !== currentState) {
     flow.set("stateTimestamp", stateTimestamp);
 }
 
-// Attach state to payload for logging or DB
 data.state = nextState;
 
-// Convert boolean fields to integers for InfluxDB compatibility
 ["BOX", "FBK", "IMU", "LED", "PIR"].forEach(key => {
     if (typeof data[key] === "boolean") {
         data[key] = data[key] ? 1 : 0;

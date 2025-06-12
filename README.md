@@ -159,7 +159,7 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 
 <br clear="all">
 
->🎯 **_How Might We?_**
+>🎯 **_How Might We?_**<br>
 > **_Hoe kunnen we ’s nachts de autonomie van personen met dementie ondersteunen en nachtelijke interventies minimaliseren om zo de fysieke en mentale belasting van mantelzorgers te verlichten?_**
 
 <br>
