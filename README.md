@@ -1,5 +1,5 @@
 # Orion
-*Een hulpmiddel dat de nachtrust en gemoedsrust van een mantelzorger van een persoon met dementie verbetert, door de nachtelijke oriëntatie in ruimte en tijd en de slaapkwaliteit van de persoon met dementie te ondersteunen.*
+*Een slim hulpmiddel dat de nachtrust en gemoedsrust van een mantelzorger van een persoon met dementie verbetert, door de nachtelijke oriëntatie in ruimte en tijd en de slaapkwaliteit van de persoon met dementie te ondersteunen.*
 
 *Projectteam: Elias Verdegem; Viktor Fabry*
 
@@ -166,7 +166,7 @@ Hoewel bestaande technologieën zich hoofdzakelijk richten op de PD, ligt de **g
 
 > 📌 **_Design Requirements_**
 > - 1\. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
-> - 2\. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+> - 2\. **Begeleidt in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
 > - 3\. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
 > - 4\. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
 
@@ -326,7 +326,7 @@ Symptomen van _sundowning_ in het product integreren leidt tot suboptimale hulpm
 > - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
 > - 3.4. **Hulpfunctionaliteiten zijn instelbaar** via een app
 > - 4.1\. **De modules zijn inwisselbaar**, de positie van de geluidsboodschappen is aanpasbaar
-> - 5\. **Maximale consumentenkostprijs van € 150 per module**
+> - 5\. Maximale consumentenkostprijs van **€ 150 per module**
 
 <p align="center">
   <img src="img/Storyboard locaties.png" width=700>
@@ -354,7 +354,7 @@ Er wordt getracht het product **minder stigmatiserend** te maken, door de **doel
 
 <img align="right" src="img/Prototypes wave 3 CMF.png" width=400>
 
-Met **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een [**morphologische matrix**](img/Prototypes%20morfologische%20matrix.png) stuurt de ontwikkeling van de nieuwe prototypevatianten.
+Bij **scenario thinking** wordt het product denkbeeldig in de alternatieve gebruikscontexten geplaatst. Kinderen, jonge ouders, ouderen en personen met dementie hebben een **verschillend referentiekader** en zullen elk een andere _mental model_ vormen bij eenzelfde _system image_. **Variaties in fijne motoriek, cognitieve capaciteiten en het tweezijdig gebruik** (zorger versus verzorgontvanger) beïnvloeden de _affordances_ en _signifiers_. Variaties in praktische en esthetische voorkeuren beïnvloeden het kleur- en materiaalgebruik. Een [**morfologische matrix**](img/Prototypes%20morfologische%20matrix.png) stuurt de ontwikkeling van de nieuwe prototypevatianten.
 
 <br clear=”all”>
 
@@ -386,7 +386,7 @@ Voor elke gebruikscontext wordt telkens bij vier personen de intuïtieve, emotio
 <img src="img/Prototypes wave 3 bert.svg" align="right" width="350">
 
 **CMF**
--	De **houten, ronde vorm** van _pacman is het meest prototypische **interieurobject**.
+-	De **houten, ronde vorm** van _pacman_ is het meest prototypische **interieurobject**.
 -	Ouders hechten belang aan **stevigheid en reinigbaarheid**.
 -	Enkel **kinderen verkiezen felle kleuren**.
 
@@ -414,12 +414,12 @@ Het **interieurobject** moet **robuust**, **hygiënisch**, **subtiel** en **pers
 
  ### Doelstellingen
 
-De **fysieke, cognitieve en sensoriële ergonomie** verfijnen en het bepalen van de _affordances_ en _signifiers_ met de focus op gebruik en begrip.
+Het verfijnen van de **fysieke, cognitieve en sensoriële ergonomie** en het bepalen van de _affordances_ en _signifiers_ met de focus op gebruik en begrip.
 > ❓ **Wat maakt de interactie (UI) en ervaring (UX) aangenaam, doeltreffend en niet-intrusief?**
 
 ### Materiaal & methoden
 
-De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met een BLE-bediend UX prototype. Voor de fysieke interacties wordt UI mockup gebruikt. De _ecological validity_ wordt gegarandeerd door de toestellen in een donkere omgeving op de deur of naast het bed te plaatsen. Een **moodboard** dient als leidraad voor de look & feel.
+De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met een BLE-bediend UX prototype. Voor de fysieke interacties wordt een UI mockup gebruikt. De _ecological validity_ wordt gegarandeerd door de toestellen in een donkere omgeving op de deur of naast het bed te plaatsen. Een **moodboard** dient als leidraad voor de look & feel.
 
 <p align="center">
   <img src="img/Moodboard.jpg" width="650">
@@ -435,7 +435,7 @@ De visuele en auditieve ergonomie wordt met **Wizard of Oz (N=3)** getest met ee
   <img src="img/Prototypes UI knoppen.png" width="32%">
 </p>
 
-Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten zijn samengevat in een [**feature matrix**](img/Prototypes%20UI%20options.png).
+Via het **think-aloud protocol** kunnen  _the gulfs of evaluation_ bij de gebruiker met het beoogde effect worden vergeleken. De resultaten zijn samengevat in een [**feature matrix**](img/Prototypes%20UI%20options.png).
 
 ### Resultaten
 
@@ -446,8 +446,8 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 🔗 [Testing WebUI](https://eaverdeg.github.io/)
 
 **Visuele ergonomie**
--	Een **translucente kap** maakt het toestel bij bed potentieel **geschikt als leeslamp**.
--	Indirecte verlichting bij de **opake kap voorkomt verblinding** in de hal.
+-	Een **translucente kap** maakt het naast het bed gepositioneerde toestel potentieel **geschikt als leeslamp**.
+-	Indirecte verlichting bij de **matte kap voorkomt verblinding** in de hal.
 
 **Fysieke ergonomie**
 -	De trekschakelaar voldoet aan het _mental model_ van nachtverlichting bij ouderen, maar de PD kan het toestel onbedoeld uitschakelen.
@@ -458,7 +458,7 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 
 **Cognitieve ergonomie**
 -	De **rode** waarschuwingsanimaties evoceert het **brandalarm-metafoor** en werkt onrustwekkend.
--	De **timer-animatie** communiceert met de **klok-metafoor** helder en genuanceerd.
+-	De **timer-animatie** communiceert helder en genuanceerd aan de hand van een **klok-metafoor**.
 
 <p align="left">
   <img src="img/Prototypes UX alarm.gif" width="32%">
@@ -468,13 +468,13 @@ Via het **think aloud protocol** kunnen de _the gulfs of evaluation_ bij de gebr
 
 ### Conclusies & implicaties
 
-Het type licht (direct of indirect) is afhankelijk van de positie. De aan/uit-bediening is eenvoudig voor de MZ maar verborgen voor de PD. Geluidsboodschappen hebben een grote invloed op de acceptatie en zijn sterk situatiegebonden. De feedback aan de MZ is op niet-alarmerende wijze voorzien.
+Het type licht (direct of indirect) is afhankelijk van de positie. De aan-/uit-bediening is eenvoudig voor de MZ maar verborgen voor de PD. Geluidsboodschappen hebben een grote invloed op de acceptatie en zijn sterk situatiegebonden. De feedback aan de MZ is op niet-alarmerende wijze voorzien.
 
 > 📌 **_Design Requirements_**
 > - 1.3. Geeft feedback via een **klokanimatie**.
-> - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen
-> - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**
-> - 7.2. Afdekkap komt in een *opake en translucente* variant
+> - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen.
+> - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**.
+> - 7.2. Afdekkap komt in een **matte en translucente** variant.
 
 ## Deliver – proof of concept
 
@@ -491,38 +491,42 @@ Een _proof of concept_ door het verwerken van de producteisen in een volledig fu
 Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** opgemaakt als blueprint voor de **system architecture**. De installatie werkt autonoom via wifi-connectie met een _Raspberry Pi_ en is opgesteld bij een PD en MZ thuis. De werking is vooraf doorlopen en is vervolgens een volledige nacht actief gebleven voor een **validation session (N=2)**. Na afloop is de MZ geïnterviewd over de bevindingen.
 
 > 🌊 Wave 5 – **proof of concept prototypes** – effectiviteit & intuïtiviteit
-> - **Drie geautomatiseerde lampen**: Arduino IoT’s communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die de via state switching de leds en speaker aanstuurt. Zie technische beschrijving
+> - **Drie geautomatiseerde lampen**: Arduino IoTs communiceren PIR- en GYRO-detectie via het MQTT-protocol met een Raspberry Pi die via state switching de leds en speaker aanstuurt. Zie technische beschrijving.
 
-<p align="left">
-  <img src="img/Prototypes UX alarm.gif" width="32%">
-</p>
 
 ### Resultaten
 
-Validation sessions (N=2)
-Testpersoon 1 – Zelftest (onderzoeker)
-De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten werkten technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
+**Validation sessions (N=2)**
+
+*Testpersoon 1 – Zelftest (onderzoeker)*
+
+De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten functioneerden technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
 
 <p align="center">
   <img src="img/Thuis_walkthrough (1)" width=650>
+  <img src="img/Thuis.PNG" width=350>
 </p>
-//Schets opstelling
 
-Testpersoon 2 – Persoon met dementie + mantelzorger
+*Testpersoon 2 – Persoon met dementie + mantelzorger*
+
 Overdag werkte het systeem correct. Bij de nachtelijke test volgde het systeem de verwachte volgorde niet, ondanks correcte detectie bij het opstaan. Vermoedelijk is een foutieve triggering of plaatsing van de kamerdeursensor de oorzaak. De MZ gaf aan positief te zijn over het systeem en het potentieel te zien, mits verdere aanpassing aan hun specifieke situatie:
 
-Toilet bevindt zich op een ander verdiep
+- Toilet bevindt zich op een ander verdiep
 
-MZ wil altijd gewekt worden bij nachtelijke activiteit van de PD
+- MZ wil altijd gewekt worden bij nachtelijke activiteit van de PD
 
-Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
+- Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
 <p align="center">
   <img src="img/JP_Nachttest.jpeg" width=650>
 </p>
-//Schets opstelling
 
-Gedragsobservatie & nabespreking
-Via het think aloud-protocol werd vastgesteld dat de interactie intuïtief verliep. Er was geen sprake van verwarring of overbelasting. De MZ waardeerde de autonomie die het systeem kan bieden, maar onderstreepte het belang van betrouwbaarheid en aanpasbaarheid. Er was geen negatieve reactie op licht of geluid.
+<p align="center">
+  <img src="img/JP.PNG" width=350>
+</p>
+
+**Gedragsobservatie & nabespreking**
+
+Via het *think-aloud protocol* werd vastgesteld dat de interactie intuïtief verliep. Er was geen sprake van verwarring of overbelasting. De MZ waardeerde de autonomie die het systeem kan bieden, maar onderstreepte het belang van betrouwbaarheid en aanpasbaarheid. Er was geen negatieve reactie op licht of geluid.
 
 #### Validation sessions (N=2)
 
@@ -533,14 +537,19 @@ Via het think aloud-protocol werd vastgesteld dat de interactie intuïtief verli
 
 ### Conclusies & implicaties
 
-Uitbreidbaar 
+Het systeem is intuïtief, maar nachtelijke betrouwbaarheid moet beter. Modulair ontwerp en instelbare functies zijn cruciaal. MZ-waarschuwing is noodzakelijk.
+Er is een potentiële markt voor het product, mits verdere personalisatie naargelang specifieke situaties van mantelzorgers.
 
 > 📌 **_Design Requirements_**
-> - …
+> -  Modules per ruimte configureerbaar
+> -  Instelbare sensorgevoeligheid
+> -  Mantelzorgermelding bij activiteit
+> -  Extra breadcrumb-verlichting mogelijk
+> -  Scenario-templates voor eenvoudige setup
 
 ## Conclusie
 
-**_Orion_** is een nachtroutinetool die de zelfstandigheid van personen met dementie ondersteunt en mantelzorgers ’s nachts ontlast. Door visuele en auditieve prikkels strategisch in te zetten, helpt het systeem nachtelijk dwalen te voorkomen en de slaapkwaliteit te verbeteren. De oplossing is tot stand gekomen via diepgaand veldonderzoek, iteratieve prototyping en gebruikerstesten in realistische contexten. **Het eindresultaat is een flexibel, intuïtief en betaalbaar hulpmiddel dat in verschillende zorgomgevingen inzetbaar is**. _Orion_ toont zo aan hoe technologie empathisch kan bijdragen aan duurzame thuiszorg.
+**_Orion_** is een nachtroutinetool die de zelfstandigheid van personen met dementie ondersteunt en mantelzorgers ’s nachts ontlast. Door visuele en auditieve prikkels strategisch in te zetten, helpt het systeem nachtelijk dwalen te voorkomen en de slaapkwaliteit te verbeteren. De oplossing is tot stand gekomen via diepgaand veldonderzoek, iteratieve prototyping en gebruikerstesten in realistische contexten. **Het eindresultaat is een flexibel, intuïtief en minimalistisch hulpmiddel dat in verschillende zorgomgevingen inzetbaar is**. _Orion_ toont zo aan hoe technologie empathisch kan bijdragen aan duurzame thuiszorg.
 
 <p align="left">
   <img src="img/render opaak.png" width="49%">
@@ -549,23 +558,23 @@ Uitbreidbaar
 
 > 📌 **_Design Requirements_**
 > - 1\. **Reduceert de noodzaak tot waakzaamheid** en beperkt het aantal nachtelijke interventies van de MZ
-> - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
-> - 1.2. **Gevoeligheid van de feedback is instelbaar** via een app
-> - 2\. **Begeleid in ruimte en tijd** om aan de zelfstandigheid en eigenwaarden van PD bij te dragen
-> - 2.1. **Helpt bij oriëntatie naar badkamer/toilet en terug naar bed**
-> - 3\. **Interacties zijn intuïtief en herkenbaar** voor personen met beperkte oriëntatie- of geheugenfunctie
-> - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
-> - 3.2. Prikkelt in de vorm van **lichtpunten en een herkenbare stem**
-> - 3.3. De mee-slapende wordt **gedurende de nacht niet gestoord** door geluiden of licht boven de 5 lux in de kamer
-> - 3.4. **Lichtintensiteit is instelbaar** van 5 tot 50 lumen
-> - 3.5. Wordt geleverd met **drie standaardgeluiden** en de mogelijkheid tot een **eigen opname**
+>   - 1.1. Bezorgt de MZ **feedback over de plaats en duur** van de nachtelijke uitstap
+>   - 1.2. **Gevoeligheid van de feedback is instelbaar** via een applicatie
+> - 2\. **Begeleidt in ruimte en tijd** met als doel aan de zelfstandigheid en eigenwaarden van PD bij te dragen
+>   - 2.1. **Helpt bij oriëntatie naar badkamer/toilet en terug naar bed**
+> - 3\. **Intuïtieve, herkenbare interacties** voor personen met beperkte oriëntatie- of geheugenfunctie
+>   - 3.1. **Prikkelt gericht naar het hoofddoel** (toilet, kamer, bed)
+>   - 3.2. Prikkels in de vorm van **lichtpunten en een herkenbare stem**
+>   - 3.3. De mee-slapende wordt **gedurende de nacht niet gestoord** door geluiden of licht boven de 5 lux in de kamer
+>   - 3.4. **Regelbare lichtintensiteit** van 5 tot 50 lumen
+>   - 3.5. Wordt geleverd met **drie standaardgeluiden** en mogelijkheid tot een **eigen opname**
 > - 4\. **Reist mee als vertrouwd element** om verwarring bij PD door wijzigende context te verminderen
-> - 4.1. **De modules zijn inwisselbaar**, de positie van de geluidsboodschappen is aanpasbaar
-> - 4.2. Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
+>   - 4.1. **Modulair systeem** om aan de eisen van de gebruiker te voldoen
+>   - 4.2. Laat **verplaatsing zonder gereedschap** naar een nieuwe context toe
 > - 5\. **Maximale consumentenkostprijs van € 150 per module**
-> - 6\. Laat **plaatsing en configuratie** door ouderen 75+ toe
+> - 6\. Toelaten van **plaatsing en configuratie** door ouderen 75+ 
 > - 7\. Bestaat uit **metaal, hout en/of plastic**
-> - 7.1. Komt in **3 esthetische varianten**
+>   - 7.1. Komt in **3 esthetische varianten**
 
 ## Technische beschrijving
 
@@ -575,7 +584,7 @@ Uitbreidbaar
 
 - Drie modules, elk met een Arduino Nano 33 IoT en een PIR-sensor en één met een speaker, maken via wifi verbinding met een Raspberry Pi 3.
 - Op de Pi is een IoT stack geïnstalleerd. ([instructies](https://github.com/basbaccarne/comon_expo))
-- Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de led's en speaker in de modules aan.
+- Onderlinge communicaties over PIR- en GYRO-detectie (Arduino) en de _system state_ (Pi) gebeurt via het MQTT-protocol. De _system state_ stuurt de leds en speaker in de modules aan.
 
 ### Electronica
 
@@ -603,20 +612,20 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 <img align="right" src="img/Prototypes finale 3d print.jpg" width=350>
 
 - Behuizing (x3)
-  - [haak](cad/haak.stl)
-  - [ring](cad/ring.stl)
-  - [pasvorm 1](cad/pasvorm%201.stl)
-  - [pasvorm 2](cad/pasvorm%202.stl)
+  - [Haak](cad/haak.stl)
+  - [Ring](cad/ring.stl)
+  - [Pasvorm 1](cad/pasvorm%201.stl)
+  - [Pasvorm 2](cad/pasvorm%202.stl)
 - Diffuser (x3)
-  - [schijf](cad/schijf.stl)
+  - [Schijf](cad/schijf.stl)
 
 ### Software
 
 <img align="right" src="img/Wireflow.png" width=350>
 
 - Arduino code voor timing en communicatie (licht en geluid)
-  - [main]("src/pilot/src/main.cpp")
-  - [actuatoren]("src/pilot/src/actuators.cpp")
+  - [Main]("src/pilot/src/main.cpp")
+  - [Actuatoren]("src/pilot/src/actuators.cpp")
 - Raspberry pi code voor state switching
   - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
   - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
@@ -625,11 +634,11 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 
 ## Kritische reflectie
 
-De _technological divide_ en de _status quo bias_ blijven een barrière, zowel voor diepgaand gebruikersonderzoek als de uiteindelijke acceptatie. Vooral professionele zorgverleners en af en toe een mantelzorger zien potentieel in het product, wat aangeeft dat Orion op de goede weg is.
+De _technological divide_ en de _status quo bias_ blijven een barrière, zowel voor diepgaand gebruikersonderzoek als de uiteindelijke acceptatie. Vooral professionele zorgverleners en daarnaast ook mantelzorgers zien potentieel in het product, wat aangeeft dat Orion op de goede weg is.
 
 Het product ondersteunt momenteel een aantal specifieke situaties. Echter, er zijn nog diverse randgevallen die onderzocht moeten worden om de werking robuuster en breder toepasbaar te maken. De introductie van kunstmatige intelligentie om nachtelijke patronen te analyseren, vormt hierbij een mogelijke benadering.
 
-Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij nader inzien niet nodig om deze doelgroep verder te behandelen. Het aanpassen van de vormgeving en het instelbaar maken van bepaalde (potentieel stigmatiserende) functies kunnen de adaptatiegraad verhogen. De intuïtieve werking voorkomt een leercurve, waardoor een vroege introductie geen noodzaak is.
+Hoewel het gebruik bij kinderen enkele inzichten heeft opgeleverd, is het bij nader inzien niet nodig om deze doelgroep verder te behandelen. Het aanpassen van de vormgeving en het instelbaar maken van bepaalde - potentieel stigmatiserende - functies kunnen de adaptatiegraad verhogen. De intuïtieve werking voorkomt een leercurve, waardoor een vroege introductie geen noodzaak is.
 
 ## Bijlagen
 
