@@ -506,8 +506,8 @@ Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** op
 De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten functioneerden technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
 
 <p align="center">
-  <img src="img/Scenario 2 voor.PNG" width=49%>
-  <img src="img/Scenario 2 na.PNG" width=49%>
+  <img src="img/Scenario 2 voor.png" width="49%">
+  <img src="img/Scenario 2 na.png" width="49%">
 </p>
 
 *Testpersoon 2 – Persoon met dementie + mantelzorger*
@@ -521,12 +521,12 @@ Overdag werkte het systeem correct. Bij de nachtelijke test volgde het systeem d
 - Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
 
 <p align="center">
-  <img src="img/JP_Nachttest.jpeg" width=100%>
+  <img src="img/JP_Nachttest.jpeg" width="100%">
 </p>
 
 <p align="center">
-  <img src="img/Scenario 1 voor.PNG" width=49%>
-  <img src="img/Scenario 1 na.PNG" width=49%>
+  <img src="img/Scenario 1 voor.png" width="49%">
+  <img src="img/Scenario 1 na.png" width="49%">
 </p>
 
 **Gedragsobservatie & nabespreking**
