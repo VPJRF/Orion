@@ -496,15 +496,18 @@ Met behulp van enkele **cognitive walkthroughs** wordt een **behaviour flow** op
 
 ### Resultaten
 
-**Validation sessions (N=2)**
+#### Validation sessions (N=2)
+
+📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Eba2SJnz_qJLk0D3Vfa5ZnQBhl0F5f7rrHB8iqlQefb_Kw?e=W9rya8)
+📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYsSF-ocI9BGpibg7Vrg9c0BDqhcAzFuGdlTmi8KfnNLWw?e=21pjaG)
 
 *Testpersoon 1 – Zelftest (onderzoeker)*
 
 De test werd uitgevoerd bij daglicht in een verduisterde woning. Alle componenten functioneerden technisch correct en het systeem trok op gepaste wijze de aandacht via licht en geluid. De gyro op het toilet bleek echter overgevoelig, wat leidde tot voortijdige activatie van de geluidsboodschap. De routeverlichting werd als duidelijk en subtiel ervaren.
 
 <p align="center">
-  <img src="img/Thuis_walkthrough (1)" width=650>
-  <img src="img/Thuis.PNG" width=350>
+  <img src="img/Scenario 2 voor.PNG" width=49%>
+  <img src="img/Scenario 2 na.PNG" width=49%>
 </p>
 
 *Testpersoon 2 – Persoon met dementie + mantelzorger*
@@ -516,24 +519,19 @@ Overdag werkte het systeem correct. Bij de nachtelijke test volgde het systeem d
 - MZ wil altijd gewekt worden bij nachtelijke activiteit van de PD
 
 - Huis bevat reeds veel nachtverlichting – vraag naar extra breadcrumbs
+
 <p align="center">
-  <img src="img/JP_Nachttest.jpeg" width=650>
+  <img src="img/JP_Nachttest.jpeg" width=100%>
 </p>
 
 <p align="center">
-  <img src="img/JP.PNG" width=350>
+  <img src="img/Scenario 1 voor.PNG" width=49%>
+  <img src="img/Scenario 1 na.PNG" width=49%>
 </p>
 
 **Gedragsobservatie & nabespreking**
 
 Via het *think-aloud protocol* werd vastgesteld dat de interactie intuïtief verliep. Er was geen sprake van verwarring of overbelasting. De MZ waardeerde de autonomie die het systeem kan bieden, maar onderstreepte het belang van betrouwbaarheid en aanpasbaarheid. Er was geen negatieve reactie op licht of geluid.
-
-#### Validation sessions (N=2)
-
-📄 [Protocol](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/Eba2SJnz_qJLk0D3Vfa5ZnQBhl0F5f7rrHB8iqlQefb_Kw?e=W9rya8)
-📄 [Rapport](https://ugentbe-my.sharepoint.com/:b:/g/personal/elias_verdegem_ugent_be/EYsSF-ocI9BGpibg7Vrg9c0BDqhcAzFuGdlTmi8KfnNLWw?e=21pjaG)
-
-…
 
 ### Conclusies & implicaties
 
