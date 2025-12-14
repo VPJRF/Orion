@@ -622,11 +622,11 @@ Circuit (kabels, connectoren, weerstanden, etc.)
 <img align="right" src="img/Wireflow.png" width=350>
 
 - Arduino code voor timing en communicatie (licht en geluid)
-  - [Main]("src/pilot/src/main.cpp")
-  - [Actuatoren]("src/pilot/src/actuators.cpp")
+  - [Main](src/pilot/src/main.cpp)
+  - [Actuatoren](src/pilot/src/actuators.cpp)
 - Raspberry pi code voor state switching
-  - NodeRED [json export]("src/pilot/src/Raspberry Pi/orion_NodeRED.json")
-  - Grafana dashboard [json export]("src/pilot/src/Raspberry Pi/orion_Grafana.json")
+  - NodeRED [json export](src/pilot/src/Raspberry%20Pi/orion_NodeRED.json)
+  - Grafana dashboard [json export](src/pilot/src/Raspberry%20Pi/orion_Grafana.json)
 - Applicatie voor configuratie
 <br clear="all">
 
